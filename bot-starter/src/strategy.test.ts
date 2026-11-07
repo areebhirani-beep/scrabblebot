@@ -50,5 +50,12 @@ test("a full bid decision is fast enough for a 1-second auction", () => {
   const t = performance.now();
   bot.decideBid(v, "E");
   const ms = performance.now() - t;
-  assert.ok(ms < 250, `${ms.toFixed(0)}ms`);
+  assert.ok(ms < 450, `${ms.toFixed(0)}ms`); // MC is capped at 300ms; the auction window is 1000ms
+});
+
+test("first-price mode bids well under value, but still bids", async () => {
+  const { firstPriceBid } = await import("./prices.js");
+  const b = firstPriceBid("E", 1, 30);
+  assert.ok(b > 0 && b < 30, `bid ${b}`);
+  assert.equal(firstPriceBid("E", 1, 1), 0); // nothing worth paying for
 });

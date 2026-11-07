@@ -15,8 +15,22 @@ export interface Brain {
 
 // Tuned in the simulator (see TUNING.md). Update after each grid run.
 export const TUNED_V1: Params = { ...DEFAULT_PARAMS, minCashLen: 7, moneyFactor: 4, maxBidShare: 0.6, futureWeight: 1.2 };
-// Grid 1 (Nov 7): place 1.02, 98% wins vs a field with two tuned v1 bots.
-export const TUNED_ADV: AdvParams = { ...ADV_DEFAULTS, samples: 24, bidGain: 1.5, cashLen: 7, paceEarly: 0.8, paceLate: 2.5 };
+// 6 seats: gain 1.5 / pace 0.8->2.5 / cash 7+ is the peak of the live-market
+// search (market.ts, 144 configs). Heads-up and 9+ seat values from the
+// bot-vs-bot search (grid 3): heads-up 83% vs 49% wins, big tables 2.48 vs 3.15.
+export const TUNED_ADV: AdvParams = {
+  ...ADV_DEFAULTS,
+  samples: 24,
+  bidGain: 1.5,
+  cashLen: 7,
+  paceEarly: 0.8,
+  paceLate: 2.5,
+  huGain: 2,
+  huPaceEarly: 1.1,
+  huHorizon: 10,
+  bigSeats: 8,
+  bigPaceLate: 3.5,
+};
 
 export function wordlistPath(): string {
   return path.join(path.dirname(new URL(import.meta.url).pathname), "..", "..", "spacetimedb", "wordlist.txt");

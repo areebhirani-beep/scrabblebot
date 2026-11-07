@@ -113,6 +113,8 @@ function viewFor(conn: DbConnection, matchId: bigint): AdvView | null {
     bagStart: FULL_BAG_SIZE - startRack * seats,
     unseen,
     seatCount: seats,
+    firstPrice: m.auctionType.tag === "FirstPrice",
+    auctionMs: Number(m.auctionDurationMs ?? 1000n),
   };
 }
 
@@ -231,6 +233,24 @@ function dropMatch(matchId: bigint) {
   }
 }
 
+// Register for every tournament the moment it opens. Only the bot's own
+// process can register, so doing it here means nobody has to restart the bot
+// with the right TOURNAMENT_ID on the night.
+const registered = new Set<string>();
+function maybeRegister(conn: DbConnection, t: { id: bigint; status: { tag: string } }) {
+  const key = String(t.id);
+  if (t.status.tag !== "Registration" || registered.has(key)) return;
+  if (process.env.NO_AUTO_REGISTER && String(t.id) !== TOURNAMENT_ID) return;
+  registered.add(key);
+  conn.reducers
+    .registerForTournament({ tournamentId: t.id })
+    .then(() => log(`REGISTERED for tournament ${t.id}`))
+    .catch((e) => {
+      registered.delete(key);
+      logFailure(`registering for tournament ${t.id}`)(e);
+    });
+}
+
 function startPhase1(conn: DbConnection) {
   const bot = conn.db.bot.id.find(myBotId!);
   log(`acting as bot '${bot?.name ?? "?"}' (id ${myBotId})`);
@@ -251,6 +271,24 @@ function startPhase1(conn: DbConnection) {
       setTimeout(() => joinLobby(conn), 1500);
     })
     .subscribe([`SELECT * FROM match_participant WHERE bot_id = ${myBotId}`]);
+
+  conn
+    .subscriptionBuilder()
+    .onApplied(() => {
+      for (const t of conn.db.tournament.iter()) {
+        if (t.status.tag !== "Ended" && t.status.tag !== "ForceEnded") log(`tournament ${t.id}: ${t.status.tag}, ${t.auctionType.tag}, tables of ${t.matchSize}`);
+        maybeRegister(conn, t);
+      }
+    })
+    .subscribe(["SELECT * FROM tournament"]);
+  conn.db.tournament.onInsert((_ctx, t) => {
+    log(`tournament ${t.id} created: ${t.status.tag}, ${t.auctionType.tag}, tables of ${t.matchSize}`);
+    maybeRegister(conn, t);
+  });
+  conn.db.tournament.onUpdate((_ctx, _old, t) => {
+    log(`tournament ${t.id} is now ${t.status.tag}`);
+    maybeRegister(conn, t);
+  });
 }
 
 function onConnect(conn: DbConnection, identity: Identity, token: string) {

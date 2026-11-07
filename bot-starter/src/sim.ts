@@ -92,6 +92,7 @@ function ours(name: string, params: Params): Player {
 // public AuctionResult + WordPlay tables: how many tiles are revealed, the
 // seat count, the starting bag size.
 interface MatchCtx { revealed: number[]; seatCount: number; bagStart: number }
+const MARKET = { paid: 0, tiles: 0, topScore: 0, matches: 0, myLeft: 0, myTiles: 0 };
 let MATCH: MatchCtx = { revealed: new Array(26).fill(0), seatCount: 6, bagStart: 68 };
 
 function advancedPlayer(name: string, params: AdvParams): Player {
@@ -162,6 +163,8 @@ function runMatch(players: Player[]) {
       const paid = bids[1] ? bids[1].amt : 1;
       if (w.balance >= paid) {
         w.balance -= paid;
+        MARKET.paid += paid; MARKET.tiles++;
+        if (w === players[0]) MARKET.myTiles++;
         w.rack.set(letter, (w.rack.get(letter) ?? 0) + 1);
         if (bag.length > 0) playWords(w, w.play(bag.length, true));
       }
@@ -274,10 +277,11 @@ if (process.env.ADVGRID) {
 //   ONE='{"bot":"adv","p":{...},"field":"gauntlet"}' npx tsx src/sim.ts 60
 // Prints one line: avgPlace avgScore winPct label
 if (ONE) {
-  const cfg = JSON.parse(ONE) as { bot: "adv" | "v1"; p: Record<string, number>; field: string; label?: string; seed?: number };
+  const cfg = JSON.parse(ONE) as { bot: "adv" | "v1"; p: Record<string, number>; field: string; label?: string; seed?: number; rival?: Record<string, number> };
   rng = cfg.seed ?? 777;
   const STRONG: Params = { ...DEFAULT_PARAMS, minCashLen: 7, moneyFactor: 3, maxBidShare: 0.6, futureWeight: 1.2 };
   const BEST_ADV: AdvParams = { ...ADV_DEFAULTS, samples: 8, bidGain: 1.5, cashLen: 7, paceEarly: 0.8, paceLate: 2.5 };
+  const RIVAL: AdvParams = { ...BEST_ADV, ...(cfg.rival ?? {}) };
   const me = () => cfg.bot === "adv" ? advancedPlayer("ME", { ...ADV_DEFAULTS, ...cfg.p } as AdvParams) : ours("ME", { ...DEFAULT_PARAMS, ...cfg.p } as Params);
   const fields: Record<string, () => Player[]> = {
     gauntlet: () => [me(), ours("tv1a", STRONG), ours("tv1b", STRONG), simBot("a", "aggr"), starter("s1"), simBot("v", "value")],
@@ -287,15 +291,19 @@ if (ONE) {
     // the realistic top table: two Monte Carlo rivals (our own best) + a tuned heuristic + weaker bots
     mc: () => [me(), advancedPlayer("mcA", BEST_ADV), advancedPlayer("mcB", BEST_ADV), ours("tv1", STRONG), simBot("a", "aggr"), starter("s1")],
     mchu: () => [me(), advancedPlayer("mcA", BEST_ADV)],
+    // live-calibrated 6-seat table: rivals bid like the real ladder (~11 coins/tile)
+    live: () => [me(), advancedPlayer("r1", RIVAL), advancedPlayer("r2", RIVAL), advancedPlayer("r3", RIVAL), ours("tv1", STRONG), advancedPlayer("r4", RIVAL)],
     mcbig: () => [me(), advancedPlayer("mcA", BEST_ADV), advancedPlayer("mcB", BEST_ADV), advancedPlayer("mcC", BEST_ADV), ours("tv1a", STRONG), ours("tv1b", STRONG), simBot("a", "aggr"), starter("s1"), starter("s2")],
   };
   let place = 0, score = 0, wins = 0;
   for (let m = 0; m < N; m++) {
     const ps = fields[cfg.field]!();
     runMatch(ps);
+    MARKET.matches++; MARKET.topScore += Math.max(...ps.map((x) => x.score)); MARKET.myLeft += ps[0]!.balance;
     const sorted = [...ps].sort((a, b) => b.score - a.score);
     const pl = sorted.findIndex((x) => x.score === ps[0]!.score) + 1;
     place += pl; score += ps[0]!.score; if (pl === 1) wins++;
   }
-  console.log(`${(place / N).toFixed(2)}\t${(score / N).toFixed(1)}\t${((100 * wins) / N).toFixed(0)}%\t${cfg.label ?? JSON.stringify(cfg.p)}`);
+  const mk = `$/tile ${(MARKET.paid / Math.max(1, MARKET.tiles)).toFixed(1)} top ${(MARKET.topScore / N).toFixed(0)} myTiles ${(MARKET.myTiles / N).toFixed(1)} myLeft ${(MARKET.myLeft / N).toFixed(0)}`;
+  console.log(`${(place / N).toFixed(2)}\t${(score / N).toFixed(1)}\t${((100 * wins) / N).toFixed(0)}%\t${cfg.label ?? JSON.stringify(cfg.p)}\t${mk}`);
 }
