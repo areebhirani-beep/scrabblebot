@@ -1,0 +1,14 @@
+{"bot": "adv", "field": "mc", "p": {"samples": 8, "bidGain": 1.5, "cashLen": 7, "paceEarly": 0.8, "paceLate": 2.5}, "label": "mc     baseline"}
+{"bot": "adv", "field": "mc", "p": {"samples": 8, "bidGain": 1.5, "cashLen": 7, "paceEarly": 0.8, "paceLate": 2.5, "huGain": 2, "huPaceEarly": 1.1, "huHorizon": 10, "bigPaceLate": 3.5}, "label": "mc     ADAPT"}
+{"bot": "adv", "field": "mcbig", "p": {"samples": 8, "bidGain": 1.5, "cashLen": 7, "paceEarly": 0.8, "paceLate": 2.5}, "label": "mcbig  baseline"}
+{"bot": "adv", "field": "mcbig", "p": {"samples": 8, "bidGain": 1.5, "cashLen": 7, "paceEarly": 0.8, "paceLate": 2.5, "huGain": 2, "huPaceEarly": 1.1, "huHorizon": 10, "bigPaceLate": 3.5}, "label": "mcbig  ADAPT"}
+{"bot": "adv", "field": "mchu", "p": {"samples": 8, "bidGain": 1.5, "cashLen": 7, "paceEarly": 0.8, "paceLate": 2.5}, "label": "mchu   baseline"}
+{"bot": "adv", "field": "mchu", "p": {"samples": 8, "bidGain": 1.5, "cashLen": 7, "paceEarly": 0.8, "paceLate": 2.5, "huGain": 2, "huPaceEarly": 1.1, "huHorizon": 10, "bigPaceLate": 3.5}, "label": "mchu   ADAPT"}
+{"bot": "adv", "field": "mchu", "p": {"samples": 8, "bidGain": 1.5, "cashLen": 7, "paceEarly": 0.8, "paceLate": 2.5, "huGain": 2.5, "huPaceEarly": 1.1, "huHorizon": 10, "bigPaceLate": 3.5}, "label": "mchu   ADAPT huGain2.5"}
+{"bot": "adv", "field": "mchu", "p": {"samples": 8, "bidGain": 1.5, "cashLen": 7, "paceEarly": 0.8, "paceLate": 2.5, "huGain": 3, "huPaceEarly": 1.1, "huHorizon": 10, "bigPaceLate": 3.5}, "label": "mchu   ADAPT huGain3"}
+{"bot": "adv", "field": "mchu", "p": {"samples": 8, "bidGain": 1.5, "cashLen": 7, "paceEarly": 0.8, "paceLate": 2.5, "huGain": 2.5, "huPaceEarly": 1.4, "huHorizon": 10, "bigPaceLate": 3.5}, "label": "mchu   ADAPT huGain2.5 pe1.4"}
+{"bot": "adv", "field": "mcbig", "p": {"samples": 8, "bidGain": 1.5, "cashLen": 7, "paceEarly": 0.8, "paceLate": 2.5, "huGain": 2, "huPaceEarly": 1.1, "huHorizon": 10, "bigPaceLate": 4.5}, "label": "mcbig  ADAPT bigPL4.5"}
+{"bot": "adv", "field": "mcbig", "p": {"samples": 8, "bidGain": 1.5, "cashLen": 7, "paceEarly": 0.8, "paceLate": 2.5, "huGain": 2, "huPaceEarly": 1.1, "huHorizon": 10, "bigPaceLate": 3.5, "bigGain": 2}, "label": "mcbig  ADAPT bigGain2 PL3.5"}
+{"bot": "adv", "field": "mc", "p": {"samples": 8, "bidGain": 1.5, "cashLen": 7, "paceEarly": 0.8, "paceLate": 2.5, "huGain": 2, "huPaceEarly": 1.1, "huHorizon": 10, "bigPaceLate": 3.5, "futureHorizon": 10}, "label": "mc     ADAPT horizon10"}
+{"bot": "adv", "field": "mc", "p": {"samples": 8, "bidGain": 1.5, "cashLen": 7, "paceEarly": 0.8, "paceLate": 2.5, "huGain": 2, "huPaceEarly": 1.1, "huHorizon": 10, "bigPaceLate": 3.5, "maxBidShare": 1.0}, "label": "mc     ADAPT share1.0"}
+{"bot": "adv", "field": "gauntlet", "p": {"samples": 8, "bidGain": 1.5, "cashLen": 7, "paceEarly": 0.8, "paceLate": 2.5, "huGain": 2, "huPaceEarly": 1.1, "huHorizon": 10, "bigPaceLate": 3.5}, "label": "gauntlet ADAPT"}

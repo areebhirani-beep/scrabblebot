@@ -1,0 +1,13 @@
+{"p": {"bidGain": 1.5, "paceEarly": 0.8, "paceLate": 2.5, "cashLen": 7}, "label": "BASE"}
+{"p": {"bidGain": 1.5, "paceEarly": 0.8, "paceLate": 2.5, "cashLen": 7, "starveCoins": 15, "starveMinBagLeft": 8}, "label": "cycle starve15"}
+{"p": {"bidGain": 1.5, "paceEarly": 0.8, "paceLate": 2.5, "cashLen": 7, "starveCoins": 25, "starveMinBagLeft": 8}, "label": "cycle starve25"}
+{"p": {"bidGain": 1.5, "paceEarly": 0.8, "paceLate": 2.5, "cashLen": 7, "starveCoins": 35, "starveMinBagLeft": 8}, "label": "cycle starve35"}
+{"p": {"bidGain": 1.5, "paceEarly": 0.8, "paceLate": 2.5, "cashLen": 7, "starveCoins": 50, "starveMinBagLeft": 8}, "label": "cycle starve50"}
+{"p": {"bidGain": 1.5, "paceEarly": 0.6, "paceLate": 3, "cashLen": 7}, "label": "ramp pe0.6 pl3"}
+{"p": {"bidGain": 1.5, "paceEarly": 0.6, "paceLate": 4, "cashLen": 7}, "label": "ramp pe0.6 pl4"}
+{"p": {"bidGain": 1.5, "paceEarly": 0.7, "paceLate": 3.5, "cashLen": 7}, "label": "ramp pe0.7 pl3.5"}
+{"p": {"bidGain": 1.5, "paceEarly": 0.5, "paceLate": 5, "cashLen": 7}, "label": "ramp pe0.5 pl5"}
+{"p": {"bidGain": 1.5, "paceEarly": 0.6, "paceLate": 3.5, "cashLen": 7, "starveCoins": 25, "starveMinBagLeft": 8}, "label": "cycle25 + ramp0.6/3.5"}
+{"p": {"bidGain": 1.5, "paceEarly": 0.6, "paceLate": 3.5, "cashLen": 7, "starveCoins": 35, "starveMinBagLeft": 8}, "label": "cycle35 + ramp0.6/3.5"}
+{"p": {"bidGain": 1.5, "paceEarly": 0.8, "paceLate": 2.5, "cashLen": 7, "maxBidShare": 1.0}, "label": "share1.0"}
+{"p": {"bidGain": 1.5, "paceEarly": 0.8, "paceLate": 2.5, "cashLen": 7, "starveCoins": 25, "starveMinBagLeft": 8, "maxBidShare": 1.0}, "label": "cycle25 share1.0"}
