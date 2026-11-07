@@ -21,7 +21,8 @@ export const TUNED_V1: Params = { ...DEFAULT_PARAMS, minCashLen: 7, moneyFactor:
 export const TUNED_ADV: AdvParams = {
   ...ADV_DEFAULTS,
   samples: 24,
-  bidGain: 1.5,
+  bidGain: 1.3,
+  facePremium: 2, // market sim: 27% vs 18% wins; we bought the fewest high-value tiles in the field
   cashLen: 7,
   paceEarly: 0.8,
   paceLate: 2.5,
