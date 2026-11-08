@@ -1,0 +1,11 @@
+{
+  "id": "completion-floor-trace-v2",
+  "family": "unfiltered-immediate-completion-floor",
+  "hypothesis": "A completion floor can overvalue a cheap early seven-letter word while ignoring a better reachable word, even when it helps later cash flow.",
+  "decision": "reject",
+  "evidence": "experiments/completion-floor-forensics/SUMMARY.json",
+  "observed": "All four BASE/FLOOR replays match seven recorded metrics exactly. World6 round5 AEILTU+N bids3 vs11: floor buys N for8 then ALUNITE21; baseline later plays LIQUATE48. Final102/first vs48/sixth. World9 round37 AEMOPTU+L bids6 vs12: floor buys L for9 then PLUMATE33, final101/second vs33/sixth.",
+  "reason": "Retain the rejection of an unfiltered floor. Value and remaining acquisition opportunities matter jointly; a universal minimum42 completion score would block both this harmful21-point opening and helpful33-point midgame play.",
+  "uncertainty": "Two selected, exactly reproduced synthetic trajectories; precise first divergence established but no general threshold, robust average improvement or live causal effect follows.",
+  "revisitWhen": "Use a mechanism incorporating rack-specific opportunity cost and phase, with fresh worlds, stronger opponents, and long-word quality plus both main metrics. Preserve the two contrasting replay cases as regressions."
+}

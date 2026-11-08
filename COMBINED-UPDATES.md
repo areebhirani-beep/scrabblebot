@@ -27,7 +27,7 @@ Priced cashout was rejected after a 192-game screen. Its saved failure world cha
 - [Experiment export manifest](bot-starter/docs/experiments/EXPORT-MANIFEST.json); reports and exact frozen sources preserve winners, losers and failed campaigns.
 - [Offline improvement loop](offline-lucent-lab/SELF-IMPROVEMENT.md).
 
-Combined verification after the completion-floor integration: 161 TypeScript tests, 62 Python evaluation tests, 8 lab workflow tests and TypeScript build passed. Tests use existing generated bindings; regenerate them on a fresh checkout as described by the bot starter documentation. No live match test was run by the integration session.
+Combined verification after the completion-floor integration: 161 TypeScript tests, 70 Python evaluation tests, 8 lab workflow tests and TypeScript build passed. Tests use existing generated bindings; regenerate them on a fresh checkout as described by the bot starter documentation. No live match test was run by the integration session.
 
 ## Follow-up acquisition screen
 
@@ -52,3 +52,5 @@ The screen candidate uses `completionFloorGain: 1` and `completionFloorMaxBid: 1
 The fresh 256-world, three-arm validation completed 768 simulated matches. WIN30 scored89.74points with25.39%wins; gain1.3 scored91.59/29.30%, with both paired uncertainty intervals including zero. Price weighting scored87.13/24.22%, failing to replicate its screening improvement; promotion is rejected. Gain1.3 also lowered seven-plus-letter points70.73→66.50 despite improving total-score point estimates, so it does not establish a fix for the observed long-word gap. All arms, manifests, frozen sources and append-only decisions are archived. This run used one execution per arm per world; it does not satisfy the lab's separate three-repeat final-validation gate.
 
 Public rating-history artifacts preserve the version transition separately from strategy effects. The retired first version had110matches,15wins and9174totalpoints. Attribution uses the game's version-at-match-creation rule; the identity of whoever initiated the version change is unknown. Do not describe the entire rating discontinuity as a strategy regression.
+
+The exact four-case completion-floor replay reproduces the cheap early ALUNITE21 versus later LIQUATE48 failure, and the beneficial midgame PLUMATE33 acquisition. See offline-lucent-lab/forensics/completion-floor for the patch and repeatable replay. The user-supplied Odysseus Test Brief is retained with provenance; its 209-match claims are distinct from independently audited cohorts. Read-only shared-worker health reporting and eight regression tests from the other session are also integrated.

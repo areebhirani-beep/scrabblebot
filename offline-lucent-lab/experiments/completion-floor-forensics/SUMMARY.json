@@ -1,0 +1,107 @@
+{
+  "status": "complete",
+  "at": "2026-11-08T00:41:51.332348+00:00",
+  "source": {
+    "parentSourceSha256": "f91ea7e615a872abb0713038a51636b73b0c518bef1518e9e42978c361856fd9",
+    "purpose": "Read-only offline replay trace; only sim.ts changed to retain per-auction bids, awards and words. Logs buffered until match ends. Timing-sensitive decisions must reproduce before causal attribution.",
+    "changedFiles": [
+      "bot-starter/src/sim.ts"
+    ],
+    "simSha256": "155c70b350a7a6f8499bbc14f9c3fb343da4694ba795a3c1f16333a5f687d434"
+  },
+  "replays": [
+    {
+      "world": 6,
+      "arm": "BASE",
+      "metrics": {
+        "score": 102,
+        "place": 1,
+        "points7Plus": 78,
+        "words7Plus": 2,
+        "balance": 29,
+        "tilesPurchased": 14,
+        "totalPaid": 173
+      },
+      "expected": {
+        "score": 102,
+        "place": 1,
+        "points7Plus": 78,
+        "words7Plus": 2,
+        "balance": 29,
+        "tilesPurchased": 14,
+        "totalPaid": 173
+      },
+      "reproduced": true
+    },
+    {
+      "world": 6,
+      "arm": "FLOOR1",
+      "metrics": {
+        "score": 48,
+        "place": 6,
+        "points7Plus": 48,
+        "words7Plus": 2,
+        "balance": 54,
+        "tilesPurchased": 9,
+        "totalPaid": 94
+      },
+      "expected": {
+        "score": 48,
+        "place": 6,
+        "points7Plus": 48,
+        "words7Plus": 2,
+        "balance": 54,
+        "tilesPurchased": 9,
+        "totalPaid": 94
+      },
+      "reproduced": true
+    },
+    {
+      "world": 9,
+      "arm": "BASE",
+      "metrics": {
+        "score": 33,
+        "place": 6,
+        "points7Plus": 33,
+        "words7Plus": 1,
+        "balance": 96,
+        "tilesPurchased": 3,
+        "totalPaid": 37
+      },
+      "expected": {
+        "score": 33,
+        "place": 6,
+        "points7Plus": 33,
+        "words7Plus": 1,
+        "balance": 96,
+        "tilesPurchased": 3,
+        "totalPaid": 37
+      },
+      "reproduced": true
+    },
+    {
+      "world": 9,
+      "arm": "FLOOR1",
+      "metrics": {
+        "score": 101,
+        "place": 2,
+        "points7Plus": 60,
+        "words7Plus": 2,
+        "balance": 45,
+        "tilesPurchased": 17,
+        "totalPaid": 156
+      },
+      "expected": {
+        "score": 101,
+        "place": 2,
+        "points7Plus": 60,
+        "words7Plus": 2,
+        "balance": 45,
+        "tilesPurchased": 17,
+        "totalPaid": 156
+      },
+      "reproduced": true
+    }
+  ],
+  "limitation": "Instrumentation and CPU timing can change policy decisions. Only use an exactly reproduced replay to attribute the saved failure."
+}

@@ -115,3 +115,17 @@ Decision: Implementation triggers, but this unfiltered floor does not improve ei
 Uncertainty: Small synthetic screen; score95CI[-6.90625,5.75078],winpp95CI[-9.375,0]. No proof of universal harm or causal identification of the world6 sequence.
 
 Revisit only when: Trace a retained failure and change acquisition quality or timing based on the actual missed opportunity. A longer-word count or a higher bid cap alone is not evidence of better total points or wins.
+
+## completion-floor-trace-v2 — unfiltered-immediate-completion-floor (reject)
+
+Hypothesis: A completion floor can overvalue a cheap early seven-letter word while ignoring a better reachable word, even when it helps later cash flow.
+
+Evidence: experiments/completion-floor-forensics/SUMMARY.json
+
+Observed: All four BASE/FLOOR replays match seven recorded metrics exactly. World6 round5 AEILTU+N bids3 vs11: floor buys N for8 then ALUNITE21; baseline later plays LIQUATE48. Final102/first vs48/sixth. World9 round37 AEMOPTU+L bids6 vs12: floor buys L for9 then PLUMATE33, final101/second vs33/sixth.
+
+Decision: Retain the rejection of an unfiltered floor. Value and remaining acquisition opportunities matter jointly; a universal minimum42 completion score would block both this harmful21-point opening and helpful33-point midgame play.
+
+Uncertainty: Two selected, exactly reproduced synthetic trajectories; precise first divergence established but no general threshold, robust average improvement or live causal effect follows.
+
+Revisit only when: Use a mechanism incorporating rack-specific opportunity cost and phase, with fresh worlds, stronger opponents, and long-word quality plus both main metrics. Preserve the two contrasting replay cases as regressions.
