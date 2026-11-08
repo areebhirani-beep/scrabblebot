@@ -155,11 +155,11 @@ function advancedPlayer(name: string, params: AdvParams): Player {
     name, style: "advanced-monte-carlo", rack: new Map(), balance: 100, score: 0,
     bid(letter, bagLeft) {
       return bot.decideBid({ rack: p.rack, balance: p.balance, score: p.score, bagLeft, bagStart: MATCH.bagStart, unseen: playerUnseen(p), seatCount: MATCH.seatCount,
-        firstPrice: MATCH.firstPrice, matchKey: MATCH.matchKey, terminalEligible: MATCH.terminalEligible }, letter);
+        firstPrice: MATCH.firstPrice, matchKey: MATCH.matchKey, terminalEligible: MATCH.terminalEligible, wordPending: false }, letter);
     },
     play(bagLeft) {
       return bot.chooseWords({ rack: p.rack, balance: p.balance, score: p.score, bagLeft, bagStart: MATCH.bagStart, unseen: playerUnseen(p), seatCount: MATCH.seatCount,
-        firstPrice: MATCH.firstPrice, matchKey: MATCH.matchKey, terminalEligible: MATCH.terminalEligible });
+        firstPrice: MATCH.firstPrice, matchKey: MATCH.matchKey, terminalEligible: MATCH.terminalEligible, wordPending: false });
     },
   };
   return p;

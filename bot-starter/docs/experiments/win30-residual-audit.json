@@ -1,0 +1,119 @@
+{
+  "source": "6e4c09a6ffc24cc771b10d2bae542173d94dcee3c440b0dcf88ec146ffc17a1d",
+  "asOf": "2026-11-08T00:25:04.130756+00:00",
+  "n": 22,
+  "matchesWithPlayableResidual": 0,
+  "rows": [
+    {
+      "match": 43169,
+      "residual": "",
+      "validWords": []
+    },
+    {
+      "match": 43175,
+      "residual": "",
+      "validWords": []
+    },
+    {
+      "match": 43181,
+      "residual": "I",
+      "validWords": []
+    },
+    {
+      "match": 43188,
+      "residual": "",
+      "validWords": []
+    },
+    {
+      "match": 43195,
+      "residual": "",
+      "validWords": []
+    },
+    {
+      "match": 43202,
+      "residual": "BU",
+      "validWords": []
+    },
+    {
+      "match": 43209,
+      "residual": "",
+      "validWords": []
+    },
+    {
+      "match": 43216,
+      "residual": "",
+      "validWords": []
+    },
+    {
+      "match": 43222,
+      "residual": "",
+      "validWords": []
+    },
+    {
+      "match": 43229,
+      "residual": "",
+      "validWords": []
+    },
+    {
+      "match": 43237,
+      "residual": "",
+      "validWords": []
+    },
+    {
+      "match": 43244,
+      "residual": "KY",
+      "validWords": []
+    },
+    {
+      "match": 43251,
+      "residual": "",
+      "validWords": []
+    },
+    {
+      "match": 43258,
+      "residual": "",
+      "validWords": []
+    },
+    {
+      "match": 43265,
+      "residual": "Y",
+      "validWords": []
+    },
+    {
+      "match": 43272,
+      "residual": "",
+      "validWords": []
+    },
+    {
+      "match": 43279,
+      "residual": "F",
+      "validWords": []
+    },
+    {
+      "match": 43286,
+      "residual": "",
+      "validWords": []
+    },
+    {
+      "match": 43293,
+      "residual": "",
+      "validWords": []
+    },
+    {
+      "match": 43300,
+      "residual": "",
+      "validWords": []
+    },
+    {
+      "match": 43307,
+      "residual": "GS",
+      "validWords": []
+    },
+    {
+      "match": 43314,
+      "residual": "UV",
+      "validWords": []
+    }
+  ],
+  "limitation": "Local final unplayed rack logs and exact supplied dictionary. Does not establish opportunities forgone earlier or server timing."
+}

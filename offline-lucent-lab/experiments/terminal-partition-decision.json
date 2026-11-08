@@ -1,0 +1,11 @@
+{
+  "id": "win30-terminal-exact20",
+  "family": "terminal-short-word-ban",
+  "hypothesis": "Banning short words at final auction open improves score by allowing a better remaining combination.",
+  "decision": "reject",
+  "evidence": "experiments/win30-terminal-partition-audit.json",
+  "observed": "20actualWIN30finalinventories:observed294points,exactbestallowing2+294;minimum3best265;minimum4best235;minimum7best78. No missedterminalpoints across20checkedracks.",
+  "reason": "Do not treat observed endgame two-letter plays as evidence of midgame waste. Prioritize earlier acquisition and long-word opportunities. A terminal short-word ban lowers the exact feasible total on these fixed inventories.",
+  "uncertainty": "Retrospective reconstruction of own20smallracks; earlier acquisitions fixed. Does not prove globaloptimalstrategy, allotherterminalracks, or transporttiming reliability.",
+  "revisitWhen": "A new reproducible case shows an invalid/nonoptimal terminal partition or a changed earlier acquisition policy; do not repeat blanket endgame short bans as an improvement claim."
+}

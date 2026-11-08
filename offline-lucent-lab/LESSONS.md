@@ -73,3 +73,17 @@ Decision: Screen nominates possibilities only. Review paired intervals, opponent
 Uncertainty: Synthetic opponent policies, CPU deadlines and instant actions. A screen is selection data; no real leaderboard or independent validation claim.
 
 Revisit only when: Freeze a candidate and run fresh worlds, an unseen opponent field and repeated-world stability checks.
+
+## win30-terminal-exact20 — terminal-short-word-ban (reject)
+
+Hypothesis: Banning short words at final auction open improves score by allowing a better remaining combination.
+
+Evidence: experiments/win30-terminal-partition-audit.json
+
+Observed: 20actualWIN30finalinventories:observed294points,exactbestallowing2+294;minimum3best265;minimum4best235;minimum7best78. No missedterminalpoints across20checkedracks.
+
+Decision: Do not treat observed endgame two-letter plays as evidence of midgame waste. Prioritize earlier acquisition and long-word opportunities. A terminal short-word ban lowers the exact feasible total on these fixed inventories.
+
+Uncertainty: Retrospective reconstruction of own20smallracks; earlier acquisitions fixed. Does not prove globaloptimalstrategy, allotherterminalracks, or transporttiming reliability.
+
+Revisit only when: A new reproducible case shows an invalid/nonoptimal terminal partition or a changed earlier acquisition policy; do not repeat blanket endgame short bans as an improvement claim.

@@ -13,6 +13,7 @@ import { pricedCashout } from "./cash-rollout.js";
 import { mixedScoreUtility } from "./win-utility.js";
 import winPrior from './win-prior.json';
 import { acquisitionWeights } from './acquisition-prior.js';
+import { immediateCompletion } from './completion-floor.js';
 
 export interface AdvParams {
   samples: number; // Monte Carlo samples per letter (speed vs. accuracy)
@@ -59,6 +60,9 @@ export interface AdvParams {
   winBandwidth?: number;
   /** Optional price-weighted future composition; absent/zero preserves sampling. */
   futurePricePower?: number;
+  /** Explicit immediate 7+ completion bid floor, disabled unless selected. */
+  completionFloorGain?: number;
+  completionFloorMaxBid?: number;
 }
 
 export const ADV_DEFAULTS: AdvParams = {
@@ -99,6 +103,7 @@ export function forTable(p: AdvParams, seats: number): AdvParams {
 }
 
 export interface AdvView {
+  wordPending?: boolean; // unknown/pending inventory cannot fund a completion floor
   rack: Rack;
   balance: number;
   score: number;
@@ -114,6 +119,7 @@ export interface AdvView {
 }
 
 export class AdvancedBot {
+  readonly completionFloorStats = { checks: 0, opportunities: 0, raisedBids: 0 };
   private mc: MonteCarlo;
   private seed = 0x9e3779b9;
   private terminalPlan?: {
@@ -174,6 +180,29 @@ export class AdvancedBot {
         }
       }
     }
+    let completionFloor = 0;
+    const floorGain = p.completionFloorGain ?? 0;
+    const floorCap = p.completionFloorMaxBid ?? 12;
+    // Leave final/penultimate policy paths unchanged. WIN30 cashes 7+ words;
+    // do not fund a completion a different cash policy would refuse to play.
+    if (v.bagLeft > 1 && v.wordPending === false && p.cashLen === 7 && Number.isFinite(floorGain) && floorGain > 0
+      && Number.isFinite(floorCap) && floorCap > 0 && v.balance >= 1) {
+      this.completionFloorStats.checks++;
+      const completion = immediateCompletion(this.engine, v.rack, letter, {
+        deadlineMs: deadline,
+        budgetMs: Math.max(0, Math.min(3, (deadline - performance.now()) / 10)),
+        maxOperations: 20_000,
+      });
+      if (completion) {
+        this.completionFloorStats.opportunities++;
+        // Absolute ceiling also bounds the first-price optimizer's integer loop.
+        completionFloor = Math.floor(Math.min(40, floorCap, floorGain * completion.gain));
+        if (v.firstPrice) {
+          const quarter = Math.min(3, Math.floor(((v.bagStart - 1 - v.bagLeft) * 4) / Math.max(1, v.bagStart)));
+          completionFloor = firstPriceBid(letter, Math.max(0, quarter), completionFloor);
+        }
+      }
+    }
     const value = this.mc.value(v.rack, letter, v.unseen, expWins, p.samples, (this.seed = (this.seed * 1103515245 + 12345) >>> 0), Math.max(0, deadline - performance.now()),
       () => performance.now(), (p.winBonus ?? 0) > 0
         ? score => mixedScoreUtility(v.score + score, p.winBonus!, winPrior.scores, p.winBandwidth ?? 12)
@@ -182,7 +211,14 @@ export class AdvancedBot {
       p.denyLast > 0 && v.bagLeft <= p.denyLast && v.seatCount > 2
         ? Math.floor((p.denyMult * v.balance) / (v.bagLeft + 1))
         : 0;
-    if (value <= 0) return Math.min(denyFloor, v.balance);
+    const cap = Math.floor(v.balance * p.maxBidShare);
+    if (value <= 0) {
+      const original = Math.min(denyFloor, v.balance);
+      if (completionFloor <= 0) return original;
+      const raised = Math.max(0, Math.min(Math.max(denyFloor, completionFloor), Math.max(cap, denyFloor), v.balance));
+      if (raised > original) this.completionFloorStats.raisedBids++;
+      return raised;
+    }
     // Pace: spend conservatively while the bag is full, aggressively as it
     // empties, since coins left at match end are worthless. frac 1 -> early,
     // frac 0 -> late.
@@ -204,8 +240,10 @@ export class AdvancedBot {
       const quarter = Math.min(3, Math.floor(((v.bagStart - 1 - v.bagLeft) * 4) / Math.max(1, v.bagStart)));
       bid = firstPriceBid(letter, Math.max(0, quarter), bid);
     }
-    const cap = Math.floor(v.balance * p.maxBidShare);
-    return Math.max(0, Math.min(Math.max(Math.round(bid), denyFloor), Math.max(cap, denyFloor), v.balance));
+    const original = Math.max(0, Math.min(Math.max(Math.round(bid), denyFloor), Math.max(cap, denyFloor), v.balance));
+    const raised = Math.max(0, Math.min(Math.max(Math.round(bid), denyFloor, completionFloor), Math.max(cap, denyFloor), v.balance));
+    if (raised > original) this.completionFloorStats.raisedBids++;
+    return raised;
   }
 
   chooseWords(v: AdvView): string[] {

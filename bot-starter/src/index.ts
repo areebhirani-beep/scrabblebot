@@ -24,6 +24,7 @@ import { makeBrain } from "./brain.js";
 import { buildUnseen } from "./tracker.js";
 import type { AdvView } from "./advanced.js";
 import { ActionState, type ActionSnapshot } from "./action-state.js";
+import { bidContextKey } from "./bid-context-key.js";
 import { pathToFileURL } from "node:url";
 
 const HOST = process.env.STDB_HOST ?? "https://maincloud.spacetimedb.com";
@@ -133,7 +134,6 @@ function viewFor(conn: DbConnection, matchId: bigint): AdvView | null {
 function createActions(conn: DbConnection, matchId: bigint): ActionState<AdvView> {
   let bidKey = '', bidValue = 0;
   let bidAuction: bigint | undefined;
-  const sortedRack = (rack: ReadonlyMap<string, number>) => [...rack].sort(([a], [b]) => a.localeCompare(b));
   return new ActionState<AdvView>({
     marginMs: 150, retryMs: 60,
     selectWords: s => brain.words({ ...s.view, decisionBudgetMs: Math.max(0, Math.min(30, s.remainingMs)) }),
@@ -143,11 +143,10 @@ function createActions(conn: DbConnection, matchId: bigint): ActionState<AdvView
       // Preserve an earlier bid when too little time remains to recompute it.
       if (s.remainingMs <= 50) return bidValue;
       const v = s.view;
-      const key = JSON.stringify([String(s.auction.id), s.auction.letter, sortedRack(s.rack), s.balance,
-        v.score, v.bagLeft, v.bagStart, v.seatCount, v.firstPrice, v.terminalEligible, s.wordPending, v.unseen.total,
-        Object.entries(v.unseen.counts).sort(([a], [b]) => a.localeCompare(b))]);
+      const key = bidContextKey({ auction: s.auction, rack: s.rack, balance: s.balance,
+        view: v, wordPending: s.wordPending, completionFloorEnabled: brain.completionFloorEnabled });
       if (key !== bidKey) {
-        bidValue = brain.bid({ ...v, terminalEligible: v.terminalEligible && !s.wordPending,
+        bidValue = brain.bid({ ...v, wordPending: s.wordPending, terminalEligible: v.terminalEligible && !s.wordPending,
           decisionBudgetMs: Math.max(0, Math.min(300, s.remainingMs - 50)) }, s.auction.letter);
         if (v.bagLeft === 1 && v.terminalEligible && !s.wordPending &&
             bidValue > 0 && bidValue === Math.floor(s.balance))

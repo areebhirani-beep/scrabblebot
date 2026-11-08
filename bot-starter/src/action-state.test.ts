@@ -50,6 +50,83 @@ function harness() {
   return { state, clock, words, bids };
 }
 
+test('dispatches a selected word before synchronous bid search without releasing pending inventory', async () => {
+  const clock = new Clock();
+  const order: { event: string; at: number; pending?: boolean }[] = [];
+  const call = deferred();
+  const state = new ActionState<View>({ clock, marginMs: 150,
+    selectWords: s => s.view.words,
+    selectBid: s => { order.push({ event: 'selectBid', at: clock.time, pending: s.wordPending }); clock.time += 300; return 0; },
+    isDefinitiveFailure: () => true,
+    transport: { word: () => { order.push({ event: 'word', at: clock.time }); return call.promise; }, bid: async () => {} },
+  });
+  state.update(snapshot()); clock.run();
+  assert.deepEqual(order, [{ event: 'word', at: 0 }, { event: 'selectBid', at: 0, pending: true }]);
+  await flush();
+  state.update(snapshot()); clock.run(); await flush();
+  assert.equal(order.filter(e => e.event === 'word').length, 1);
+  call.resolve(); await flush(); clock.run(); await flush();
+  assert.equal(order.filter(e => e.event === 'word').length, 1, 'acknowledgment alone must not duplicate a word');
+  assert.ok(order.filter(e => e.event === 'selectBid').every(e => e.pending));
+  state.stop();
+});
+
+test('synchronous definite transport throws use the same bounded retry path', async () => {
+  const clock = new Clock();
+  let calls = 0;
+  const logs: string[] = [];
+  const state = new ActionState<View>({ clock, retryMs: 60,
+    selectWords: s => s.view.words, selectBid: () => 0,
+    isDefinitiveFailure: error => error === 'rejected', log: message => logs.push(message),
+    transport: { word: () => { calls++; throw 'rejected'; }, bid: async () => {} },
+  });
+  state.update(snapshot()); clock.run(); await flush();
+  assert.equal(calls, 1);
+  assert.deepEqual(logs, ['Word submission failed']);
+  clock.advance(59); await flush(); assert.equal(calls, 1);
+  clock.advance(1); await flush(); assert.equal(calls, 2);
+  state.update(snapshot()); clock.run(); await flush();
+  clock.advance(60); await flush();
+  assert.equal(calls, 2);
+  assert.deepEqual(logs, ['Word submission failed', 'Word submission failed']);
+  state.stop();
+});
+
+test('synchronous ambiguous transport throws remain pending and cannot cause a duplicate', async () => {
+  const clock = new Clock();
+  let calls = 0;
+  const pending: boolean[] = [];
+  const state = new ActionState<View>({ clock,
+    selectWords: s => s.view.words, selectBid: s => { pending.push(s.wordPending); return 0; },
+    isDefinitiveFailure: () => false,
+    transport: { word: () => { calls++; throw new Error('unknown delivery'); }, bid: async () => {} },
+  });
+  state.update(snapshot()); clock.run(); await flush();
+  state.update(snapshot()); clock.advance(100); await flush();
+  assert.equal(calls, 1);
+  assert.ok(pending.every(Boolean));
+  state.stop();
+});
+
+test('a snapshot replaced during word selection invalidates that selection before immediate dispatch', async () => {
+  const clock = new Clock();
+  let replaced = false, sends = 0;
+  const state = new ActionState<View>({ clock,
+    selectWords: s => {
+      if (!replaced) {
+        replaced = true;
+        state.update(snapshot({ rack: new Map([['X', 1]]), view: { words: [], bid: 0 } }));
+      }
+      return s.view.words;
+    },
+    selectBid: () => 0, isDefinitiveFailure: () => true,
+    transport: { word: async () => { sends++; }, bid: async () => {} },
+  });
+  state.update(snapshot()); clock.run(); await flush();
+  assert.equal(sends, 0);
+  state.stop();
+});
+
 test('serializes words until own-play confirmation and replans from authoritative rack', async () => {
   const h = harness();
   h.state.update(snapshot()); h.clock.run(); await flush();

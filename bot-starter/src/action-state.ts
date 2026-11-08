@@ -144,14 +144,16 @@ export class ActionState<View> {
     this.wordAttempts.set(word, attempts + 1);
     const pending: WordFlight = { count: s.ownPlayCount, word, uncertain: false };
     this.word = pending;
-    Promise.resolve().then(() => {
+    // Begin transport before pump's synchronous bid search. An async wrapper
+    // still turns synchronous transport throws into the handled rejection path.
+    (async () => {
       if (this.word !== pending) return;
       const current = this.eligible();
       if (!current || current !== s || !this.fits(current.rack, word)) {
         this.word = undefined; this.request(); return;
       }
       return this.options.transport.word(word);
-    }).then(() => {
+    })().then(() => {
       // A successful call waits for the subscribed own-play receipt.
       if (this.word === pending) this.request();
     }).catch(error => {

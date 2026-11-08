@@ -1,0 +1,249 @@
+{
+  "source": "completed public watch plus own end-rack logs; only the actual final auction award is removed (prior close and next open can share timestamp)",
+  "sourceLiveRelease": "6e4c09a6ffc24cc771b10d2bae542173d94dcee3c440b0dcf88ec146ffc17a1d",
+  "matches": [
+    {
+      "matchId": 43293,
+      "rackAtFinalAuctionOpen": "INS",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "INS"
+      ],
+      "observedTerminalPoints": 3,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43169,
+      "rackAtFinalAuctionOpen": "HSY",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "SHY"
+      ],
+      "observedTerminalPoints": 9,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43175,
+      "rackAtFinalAuctionOpen": "AIMMWY",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "IMMY",
+        "AW"
+      ],
+      "observedTerminalPoints": 21,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43181,
+      "rackAtFinalAuctionOpen": "EHILP",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "HELP"
+      ],
+      "observedTerminalPoints": 13,
+      "unplayedAfterEnd": "I",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43188,
+      "rackAtFinalAuctionOpen": "EFLOPP",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "FLOP",
+        "PE"
+      ],
+      "observedTerminalPoints": 17,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43195,
+      "rackAtFinalAuctionOpen": "AHOT",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "OATH"
+      ],
+      "observedTerminalPoints": 10,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43202,
+      "rackAtFinalAuctionOpen": "BCDHIRUY",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "HYDRIC"
+      ],
+      "observedTerminalPoints": 37,
+      "unplayedAfterEnd": "BU",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43209,
+      "rackAtFinalAuctionOpen": "ACEIPU",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "PUCE",
+        "AI"
+      ],
+      "observedTerminalPoints": 14,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43216,
+      "rackAtFinalAuctionOpen": "EP",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "PE"
+      ],
+      "observedTerminalPoints": 4,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43222,
+      "rackAtFinalAuctionOpen": "EGMO",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "EM",
+        "GO"
+      ],
+      "observedTerminalPoints": 7,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43229,
+      "rackAtFinalAuctionOpen": "AEGHHIMNO",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "HOGMANE",
+        "HI"
+      ],
+      "observedTerminalPoints": 44,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43237,
+      "rackAtFinalAuctionOpen": "AIJOTW",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "WAIT",
+        "JO"
+      ],
+      "observedTerminalPoints": 19,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43279,
+      "rackAtFinalAuctionOpen": "AFWY",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "WAY"
+      ],
+      "observedTerminalPoints": 9,
+      "unplayedAfterEnd": "F",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43286,
+      "rackAtFinalAuctionOpen": "ABSTT",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "BATTS"
+      ],
+      "observedTerminalPoints": 14,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43244,
+      "rackAtFinalAuctionOpen": "KY",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [],
+      "observedTerminalPoints": 0,
+      "unplayedAfterEnd": "KY",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43251,
+      "rackAtFinalAuctionOpen": "AEFIR",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "AFIRE"
+      ],
+      "observedTerminalPoints": 16,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43258,
+      "rackAtFinalAuctionOpen": "EFHIIOSTW",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "WHITIES",
+        "OF"
+      ],
+      "observedTerminalPoints": 44,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43265,
+      "rackAtFinalAuctionOpen": "NRUY",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "RUN"
+      ],
+      "observedTerminalPoints": 3,
+      "unplayedAfterEnd": "Y",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43272,
+      "rackAtFinalAuctionOpen": "",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [],
+      "observedTerminalPoints": 0,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": []
+    },
+    {
+      "matchId": 43300,
+      "rackAtFinalAuctionOpen": "FOOT",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "FOOT"
+      ],
+      "observedTerminalPoints": 10,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": []
+    }
+  ]
+}

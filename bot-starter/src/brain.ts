@@ -10,6 +10,7 @@ import { DEFAULT_PARAMS, Strategy, type Params } from "./strategy.js";
 
 export interface Brain {
   name: string;
+  completionFloorEnabled?: boolean;
   bid(v: AdvView, letter: string): number;
   words(v: AdvView): string[];
 }
@@ -42,7 +43,7 @@ export function makeBrain(kind = process.env.BRAIN ?? "adv"): Brain {
   const engine = WordEngine.fromFile(wordlistPath());
   if (kind === "adv") {
     const bot = new AdvancedBot(FastEval.fromFile(wordlistPath()), engine, TUNED_ADV);
-    return { name: "adv", bid: (v, l) => bot.decideBid(v, l), words: (v) => bot.chooseWords(v) };
+    return { name: "adv", completionFloorEnabled: (bot.p.completionFloorGain ?? 0) > 0 && bot.p.cashLen === 7, bid: (v, l) => bot.decideBid(v, l), words: (v) => bot.chooseWords(v) };
   }
   const s = new Strategy(engine, TUNED_V1);
   const toView = (v: AdvView) => ({ rack: v.rack, balance: v.balance, score: v.score, bagLeft: v.bagLeft, unseen: v.unseen.counts });
