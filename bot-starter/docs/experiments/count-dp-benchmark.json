@@ -1,0 +1,499 @@
+{
+  "benchmark": "count-state DP versus exhaustive-beam WordEngine at max-three words",
+  "seed": 880203,
+  "maxWords": 3,
+  "budgetMs": 3,
+  "maxOperations": 20000,
+  "measuredRacks": 200,
+  "warmupEvaluations": 12,
+  "dictionaryWords": 172820,
+  "dictionarySha256": "b819e7b67f8f2c80640ae76f0edbe59a4a1befb6de0f348463642ad49bdd2ad3",
+  "constructionMs": 105.237,
+  "completionDefinition": "Exact at-most-three-word objective; WordEngine unrestricted exact flag is not used as that objective's completion flag.",
+  "invalidResults": 0,
+  "overall": {
+    "racks": 200,
+    "wordEngine": {
+      "p50Ms": 0.2243,
+      "p95Ms": 3.0009,
+      "maxMs": 3.0281,
+      "totalMs": 162.227,
+      "complete": 171,
+      "exhausted": 29,
+      "scoreTotal": 4867,
+      "operationsTotal": 1146788
+    },
+    "countDp": {
+      "p50Ms": 0.1151,
+      "p95Ms": 0.7399,
+      "maxMs": 1.0168,
+      "totalMs": 52.145,
+      "complete": 155,
+      "exhausted": 45,
+      "scoreTotal": 4867,
+      "operationsTotal": 1418841
+    },
+    "bothCompleted": {
+      "count": 154,
+      "wordEngineScoreTotal": 3089,
+      "countDpScoreTotal": 3089,
+      "scoreMismatches": 0
+    },
+    "incumbentComparisons": {
+      "countDpHigher": 0,
+      "wordEngineHigher": 0
+    }
+  },
+  "bySize": {
+    "5": {
+      "racks": 33,
+      "wordEngine": {
+        "p50Ms": 0.0238,
+        "p95Ms": 0.0482,
+        "maxMs": 0.0565,
+        "totalMs": 0.887,
+        "complete": 33,
+        "exhausted": 0,
+        "scoreTotal": 341,
+        "operationsTotal": 5284
+      },
+      "countDp": {
+        "p50Ms": 0.0199,
+        "p95Ms": 0.036,
+        "maxMs": 0.0488,
+        "totalMs": 0.731,
+        "complete": 33,
+        "exhausted": 0,
+        "scoreTotal": 341,
+        "operationsTotal": 7369
+      },
+      "bothCompleted": {
+        "count": 33,
+        "wordEngineScoreTotal": 341,
+        "countDpScoreTotal": 341,
+        "scoreMismatches": 0
+      },
+      "incumbentComparisons": {
+        "countDpHigher": 0,
+        "wordEngineHigher": 0
+      }
+    },
+    "6": {
+      "racks": 33,
+      "wordEngine": {
+        "p50Ms": 0.0656,
+        "p95Ms": 0.1667,
+        "maxMs": 0.2217,
+        "totalMs": 2.521,
+        "complete": 33,
+        "exhausted": 0,
+        "scoreTotal": 505,
+        "operationsTotal": 14254
+      },
+      "countDp": {
+        "p50Ms": 0.0228,
+        "p95Ms": 0.0813,
+        "maxMs": 0.0871,
+        "totalMs": 0.992,
+        "complete": 33,
+        "exhausted": 0,
+        "scoreTotal": 505,
+        "operationsTotal": 22575
+      },
+      "bothCompleted": {
+        "count": 33,
+        "wordEngineScoreTotal": 505,
+        "countDpScoreTotal": 505,
+        "scoreMismatches": 0
+      },
+      "incumbentComparisons": {
+        "countDpHigher": 0,
+        "wordEngineHigher": 0
+      }
+    },
+    "7": {
+      "racks": 37,
+      "wordEngine": {
+        "p50Ms": 0.196,
+        "p95Ms": 0.399,
+        "maxMs": 0.5237,
+        "totalMs": 7.723,
+        "complete": 37,
+        "exhausted": 0,
+        "scoreTotal": 821,
+        "operationsTotal": 53292
+      },
+      "countDp": {
+        "p50Ms": 0.1075,
+        "p95Ms": 0.2134,
+        "maxMs": 0.2908,
+        "totalMs": 4.262,
+        "complete": 37,
+        "exhausted": 0,
+        "scoreTotal": 821,
+        "operationsTotal": 89271
+      },
+      "bothCompleted": {
+        "count": 37,
+        "wordEngineScoreTotal": 821,
+        "countDpScoreTotal": 821,
+        "scoreMismatches": 0
+      },
+      "incumbentComparisons": {
+        "countDpHigher": 0,
+        "wordEngineHigher": 0
+      }
+    },
+    "8": {
+      "racks": 32,
+      "wordEngine": {
+        "p50Ms": 0.4965,
+        "p95Ms": 1.4898,
+        "maxMs": 1.7407,
+        "totalMs": 20.394,
+        "complete": 32,
+        "exhausted": 0,
+        "scoreTotal": 906,
+        "operationsTotal": 130204
+      },
+      "countDp": {
+        "p50Ms": 0.1884,
+        "p95Ms": 0.5841,
+        "maxMs": 0.6633,
+        "totalMs": 8.183,
+        "complete": 29,
+        "exhausted": 3,
+        "scoreTotal": 906,
+        "operationsTotal": 250187
+      },
+      "bothCompleted": {
+        "count": 29,
+        "wordEngineScoreTotal": 813,
+        "countDpScoreTotal": 813,
+        "scoreMismatches": 0
+      },
+      "incumbentComparisons": {
+        "countDpHigher": 0,
+        "wordEngineHigher": 0
+      }
+    },
+    "9": {
+      "racks": 33,
+      "wordEngine": {
+        "p50Ms": 1.4835,
+        "p95Ms": 2.9402,
+        "maxMs": 3.0026,
+        "totalMs": 50.295,
+        "complete": 30,
+        "exhausted": 3,
+        "scoreTotal": 1032,
+        "operationsTotal": 360206
+      },
+      "countDp": {
+        "p50Ms": 0.6371,
+        "p95Ms": 0.7872,
+        "maxMs": 1.0168,
+        "totalMs": 17.119,
+        "complete": 18,
+        "exhausted": 15,
+        "scoreTotal": 1032,
+        "operationsTotal": 436174
+      },
+      "bothCompleted": {
+        "count": 18,
+        "wordEngineScoreTotal": 488,
+        "countDpScoreTotal": 488,
+        "scoreMismatches": 0
+      },
+      "incumbentComparisons": {
+        "countDpHigher": 0,
+        "wordEngineHigher": 0
+      }
+    },
+    "10": {
+      "racks": 32,
+      "wordEngine": {
+        "p50Ms": 2.6699,
+        "p95Ms": 3.0115,
+        "maxMs": 3.0281,
+        "totalMs": 80.408,
+        "complete": 6,
+        "exhausted": 26,
+        "scoreTotal": 1262,
+        "operationsTotal": 583548
+      },
+      "countDp": {
+        "p50Ms": 0.6479,
+        "p95Ms": 0.7843,
+        "maxMs": 0.9247,
+        "totalMs": 20.858,
+        "complete": 5,
+        "exhausted": 27,
+        "scoreTotal": 1262,
+        "operationsTotal": 613265
+      },
+      "bothCompleted": {
+        "count": 4,
+        "wordEngineScoreTotal": 121,
+        "countDpScoreTotal": 121,
+        "scoreMismatches": 0
+      },
+      "incumbentComparisons": {
+        "countDpHigher": 0,
+        "wordEngineHigher": 0
+      }
+    }
+  },
+  "byKind": {
+    "cash-trap": {
+      "racks": 4,
+      "wordEngine": {
+        "p50Ms": 0.2816,
+        "p95Ms": 2.1492,
+        "maxMs": 2.4629,
+        "totalMs": 3.176,
+        "complete": 4,
+        "exhausted": 0,
+        "scoreTotal": 133,
+        "operationsTotal": 18509
+      },
+      "countDp": {
+        "p50Ms": 0.1773,
+        "p95Ms": 0.8958,
+        "maxMs": 1.0168,
+        "totalMs": 1.436,
+        "complete": 3,
+        "exhausted": 1,
+        "scoreTotal": 133,
+        "operationsTotal": 26885
+      },
+      "bothCompleted": {
+        "count": 3,
+        "wordEngineScoreTotal": 94,
+        "countDpScoreTotal": 94,
+        "scoreMismatches": 0
+      },
+      "incumbentComparisons": {
+        "countDpHigher": 0,
+        "wordEngineHigher": 0
+      }
+    },
+    "duplicate": {
+      "racks": 6,
+      "wordEngine": {
+        "p50Ms": 0.4836,
+        "p95Ms": 1.6534,
+        "maxMs": 1.7117,
+        "totalMs": 4.243,
+        "complete": 6,
+        "exhausted": 0,
+        "scoreTotal": 110,
+        "operationsTotal": 21360
+      },
+      "countDp": {
+        "p50Ms": 0.2041,
+        "p95Ms": 0.5552,
+        "maxMs": 0.5801,
+        "totalMs": 1.509,
+        "complete": 6,
+        "exhausted": 0,
+        "scoreTotal": 110,
+        "operationsTotal": 36594
+      },
+      "bothCompleted": {
+        "count": 6,
+        "wordEngineScoreTotal": 110,
+        "countDpScoreTotal": 110,
+        "scoreMismatches": 0
+      },
+      "incumbentComparisons": {
+        "countDpHigher": 0,
+        "wordEngineHigher": 0
+      }
+    },
+    "packing-trap": {
+      "racks": 1,
+      "wordEngine": {
+        "p50Ms": 0.2007,
+        "p95Ms": 0.2007,
+        "maxMs": 0.2007,
+        "totalMs": 0.201,
+        "complete": 1,
+        "exhausted": 0,
+        "scoreTotal": 24,
+        "operationsTotal": 1114
+      },
+      "countDp": {
+        "p50Ms": 0.1005,
+        "p95Ms": 0.1005,
+        "maxMs": 0.1005,
+        "totalMs": 0.1,
+        "complete": 1,
+        "exhausted": 0,
+        "scoreTotal": 24,
+        "operationsTotal": 1374
+      },
+      "bothCompleted": {
+        "count": 1,
+        "wordEngineScoreTotal": 24,
+        "countDpScoreTotal": 24,
+        "scoreMismatches": 0
+      },
+      "incumbentComparisons": {
+        "countDpHigher": 0,
+        "wordEngineHigher": 0
+      }
+    },
+    "random": {
+      "racks": 189,
+      "wordEngine": {
+        "p50Ms": 0.226,
+        "p95Ms": 3.001,
+        "maxMs": 3.0281,
+        "totalMs": 154.608,
+        "complete": 160,
+        "exhausted": 29,
+        "scoreTotal": 4600,
+        "operationsTotal": 1105805
+      },
+      "countDp": {
+        "p50Ms": 0.1137,
+        "p95Ms": 0.7396,
+        "maxMs": 0.9247,
+        "totalMs": 49.099,
+        "complete": 145,
+        "exhausted": 44,
+        "scoreTotal": 4600,
+        "operationsTotal": 1353988
+      },
+      "bothCompleted": {
+        "count": 144,
+        "wordEngineScoreTotal": 2861,
+        "countDpScoreTotal": 2861,
+        "scoreMismatches": 0
+      },
+      "incumbentComparisons": {
+        "countDpHigher": 0,
+        "wordEngineHigher": 0
+      }
+    }
+  },
+  "observedFixtures": [
+    {
+      "fixture": {
+        "letters": "EEHLPPT",
+        "kind": "cash-trap",
+        "matchId": 42848
+      },
+      "old": {
+        "score": 18,
+        "words": [
+          "HELP",
+          "PET"
+        ],
+        "elapsedMs": 0.15016700000001038,
+        "operations": 889,
+        "complete": true,
+        "exhausted": false,
+        "unrestrictedExact": true
+      },
+      "next": {
+        "score": 18,
+        "words": [
+          "HELP",
+          "PET"
+        ],
+        "elapsedMs": 0.06504200000000537,
+        "operations": 1101,
+        "complete": true,
+        "exhausted": false
+      }
+    },
+    {
+      "fixture": {
+        "letters": "DEFOORV",
+        "kind": "cash-trap",
+        "matchId": 42845
+      },
+      "old": {
+        "score": 25,
+        "words": [
+          "OVERDO"
+        ],
+        "elapsedMs": 0.19154099999997243,
+        "operations": 1402,
+        "complete": true,
+        "exhausted": false,
+        "unrestrictedExact": true
+      },
+      "next": {
+        "score": 25,
+        "words": [
+          "OVERDO"
+        ],
+        "elapsedMs": 0.1446250000000191,
+        "operations": 2166,
+        "complete": true,
+        "exhausted": false
+      }
+    },
+    {
+      "fixture": {
+        "letters": "DEFHOOW",
+        "kind": "cash-trap",
+        "matchId": 42808
+      },
+      "old": {
+        "score": 51,
+        "words": [
+          "WHOOFED"
+        ],
+        "elapsedMs": 0.37158300000004374,
+        "operations": 1973,
+        "complete": true,
+        "exhausted": false,
+        "unrestrictedExact": true
+      },
+      "next": {
+        "score": 51,
+        "words": [
+          "WHOOFED"
+        ],
+        "elapsedMs": 0.20987500000001091,
+        "operations": 3618,
+        "complete": true,
+        "exhausted": false
+      }
+    },
+    {
+      "fixture": {
+        "letters": "ABEFGIKLL",
+        "kind": "cash-trap",
+        "matchId": 42893
+      },
+      "old": {
+        "score": 39,
+        "words": [
+          "LIKABLE"
+        ],
+        "elapsedMs": 2.462874999999997,
+        "operations": 14245,
+        "complete": true,
+        "exhausted": false,
+        "unrestrictedExact": false
+      },
+      "next": {
+        "score": 39,
+        "words": [
+          "LIKABLE"
+        ],
+        "elapsedMs": 1.016791000000012,
+        "operations": 20000,
+        "complete": false,
+        "exhausted": true
+      }
+    }
+  ],
+  "disagreementExamples": [],
+  "limitation": "Microbenchmark only. Timing is machine-dependent; equal operation counts do not imply equal primitive work. No match-strength or live-promotion conclusion."
+}

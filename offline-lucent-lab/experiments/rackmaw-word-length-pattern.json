@@ -1,0 +1,10390 @@
+{
+  "archive": "experiments/rackmaw-public-200-20261108.json",
+  "archiveSha256": "4bc5744bcf51bc80bdb6b4819e07a4d7b43a0f7ac663798ac7b7adced917d93d",
+  "collectedAt": "2026-11-08T00:14:01.344855+00:00",
+  "distinctMatches": 72,
+  "tiesCountAsWins": true,
+  "all": {
+    "playerMatches": 432,
+    "meanScore": 70.29861111111111,
+    "winPercent": 16.89814814814815,
+    "with7PlusPercent": 82.87037037037037,
+    "words7PlusPerMatch": 1.2407407407407407,
+    "points7PlusPerMatch": 50.333333333333336,
+    "scoreShare7PlusPercent": 71.59932826237281,
+    "mean7PlusReward": 40.56716417910448,
+    "withExactly7Percent": 71.29629629629629,
+    "wordsExactly7PerMatch": 0.9953703703703703,
+    "scoreShareExactly7Percent": 55.46774671540057,
+    "wordLengthCounts": {
+      "2": 182,
+      "3": 125,
+      "4": 111,
+      "5": 134,
+      "6": 117,
+      "7": 430,
+      "8": 89,
+      "9": 14,
+      "10": 3
+    },
+    "pointsByWordLength": {
+      "2": 593,
+      "3": 751,
+      "4": 1309,
+      "5": 2592,
+      "6": 3380,
+      "7": 16845,
+      "8": 4041,
+      "9": 708,
+      "10": 150
+    }
+  },
+  "winners": {
+    "playerMatches": 73,
+    "meanScore": 112.75342465753425,
+    "winPercent": 100.0,
+    "with7PlusPercent": 100.0,
+    "words7PlusPerMatch": 1.8630136986301369,
+    "points7PlusPerMatch": 89.21917808219177,
+    "scoreShare7PlusPercent": 79.12768800874741,
+    "mean7PlusReward": 47.88970588235294,
+    "withExactly7Percent": 84.93150684931507,
+    "wordsExactly7PerMatch": 1.2876712328767124,
+    "scoreShareExactly7Percent": 54.59846920179808,
+    "wordLengthCounts": {
+      "2": 23,
+      "3": 18,
+      "4": 19,
+      "5": 34,
+      "6": 19,
+      "7": 94,
+      "8": 40,
+      "9": 2
+    },
+    "pointsByWordLength": {
+      "2": 82,
+      "3": 119,
+      "4": 221,
+      "5": 690,
+      "6": 606,
+      "7": 4494,
+      "8": 1902,
+      "9": 117
+    }
+  },
+  "nonwinners": {
+    "playerMatches": 359,
+    "meanScore": 61.66573816155989,
+    "winPercent": 0.0,
+    "with7PlusPercent": 79.38718662952647,
+    "words7PlusPerMatch": 1.1142061281337048,
+    "points7PlusPerMatch": 42.42618384401114,
+    "scoreShare7PlusPercent": 68.80025295871353,
+    "mean7PlusReward": 38.0775,
+    "withExactly7Percent": 68.52367688022284,
+    "wordsExactly7PerMatch": 0.935933147632312,
+    "scoreShareExactly7Percent": 55.79094769175174,
+    "wordLengthCounts": {
+      "2": 159,
+      "3": 107,
+      "4": 92,
+      "5": 100,
+      "6": 98,
+      "7": 336,
+      "8": 49,
+      "9": 12,
+      "10": 3
+    },
+    "pointsByWordLength": {
+      "2": 511,
+      "3": 632,
+      "4": 1088,
+      "5": 1902,
+      "6": 2774,
+      "7": 12351,
+      "8": 2139,
+      "9": 591,
+      "10": 150
+    }
+  },
+  "with7Plus": {
+    "playerMatches": 358,
+    "meanScore": 80.3854748603352,
+    "winPercent": 20.391061452513966,
+    "with7PlusPercent": 100.0,
+    "words7PlusPerMatch": 1.4972067039106145,
+    "points7PlusPerMatch": 60.737430167597765,
+    "scoreShare7PlusPercent": 75.55771770102162,
+    "mean7PlusReward": 40.56716417910448,
+    "withExactly7Percent": 86.03351955307262,
+    "wordsExactly7PerMatch": 1.2011173184357542,
+    "scoreShareExactly7Percent": 58.53429703245535,
+    "wordLengthCounts": {
+      "2": 151,
+      "3": 103,
+      "4": 95,
+      "5": 109,
+      "6": 95,
+      "7": 430,
+      "8": 89,
+      "9": 14,
+      "10": 3
+    },
+    "pointsByWordLength": {
+      "2": 488,
+      "3": 618,
+      "4": 1081,
+      "5": 2118,
+      "6": 2729,
+      "7": 16845,
+      "8": 4041,
+      "9": 708,
+      "10": 150
+    }
+  },
+  "without7Plus": {
+    "playerMatches": 74,
+    "meanScore": 21.5,
+    "winPercent": 0.0,
+    "with7PlusPercent": 0.0,
+    "words7PlusPerMatch": 0.0,
+    "points7PlusPerMatch": 0.0,
+    "scoreShare7PlusPercent": 0.0,
+    "mean7PlusReward": null,
+    "withExactly7Percent": 0.0,
+    "wordsExactly7PerMatch": 0.0,
+    "scoreShareExactly7Percent": 0.0,
+    "wordLengthCounts": {
+      "2": 31,
+      "3": 22,
+      "4": 16,
+      "5": 25,
+      "6": 22
+    },
+    "pointsByWordLength": {
+      "2": 105,
+      "3": 133,
+      "4": 228,
+      "5": 474,
+      "6": 651
+    }
+  },
+  "ours": {
+    "playerMatches": 14,
+    "meanScore": 67.28571428571429,
+    "winPercent": 14.285714285714286,
+    "with7PlusPercent": 92.85714285714286,
+    "words7PlusPerMatch": 1.3571428571428572,
+    "points7PlusPerMatch": 50.57142857142857,
+    "scoreShare7PlusPercent": 75.1592356687898,
+    "mean7PlusReward": 37.26315789473684,
+    "withExactly7Percent": 92.85714285714286,
+    "wordsExactly7PerMatch": 1.3571428571428572,
+    "scoreShareExactly7Percent": 75.1592356687898,
+    "wordLengthCounts": {
+      "2": 4,
+      "3": 4,
+      "4": 5,
+      "5": 4,
+      "6": 1,
+      "7": 19
+    },
+    "pointsByWordLength": {
+      "2": 25,
+      "3": 23,
+      "4": 76,
+      "5": 88,
+      "6": 22,
+      "7": 708
+    }
+  },
+  "lucent": {
+    "playerMatches": 13,
+    "meanScore": 80.84615384615384,
+    "winPercent": 30.76923076923077,
+    "with7PlusPercent": 92.3076923076923,
+    "words7PlusPerMatch": 1.8461538461538463,
+    "points7PlusPerMatch": 73.84615384615384,
+    "scoreShare7PlusPercent": 91.34157944814463,
+    "mean7PlusReward": 40,
+    "withExactly7Percent": 84.61538461538461,
+    "wordsExactly7PerMatch": 1.3846153846153846,
+    "scoreShareExactly7Percent": 66.5080875356803,
+    "wordLengthCounts": {
+      "2": 3,
+      "3": 2,
+      "4": 2,
+      "5": 1,
+      "6": 2,
+      "7": 18,
+      "8": 5,
+      "9": 1
+    },
+    "pointsByWordLength": {
+      "2": 6,
+      "3": 8,
+      "4": 21,
+      "5": 12,
+      "6": 44,
+      "7": 699,
+      "8": 201,
+      "9": 60
+    }
+  },
+  "lucentWins": {
+    "playerMatches": 4,
+    "meanScore": 100.25,
+    "winPercent": 100.0,
+    "with7PlusPercent": 100.0,
+    "words7PlusPerMatch": 2.25,
+    "points7PlusPerMatch": 91.5,
+    "scoreShare7PlusPercent": 91.2718204488778,
+    "mean7PlusReward": 40.666666666666664,
+    "withExactly7Percent": 75.0,
+    "wordsExactly7PerMatch": 1.5,
+    "scoreShareExactly7Percent": 61.34663341645885,
+    "wordLengthCounts": {
+      "2": 1,
+      "4": 2,
+      "5": 1,
+      "7": 6,
+      "8": 3
+    },
+    "pointsByWordLength": {
+      "2": 2,
+      "4": 21,
+      "5": 12,
+      "7": 246,
+      "8": 120
+    }
+  },
+  "lucentNonwins": {
+    "playerMatches": 9,
+    "meanScore": 72.22222222222223,
+    "winPercent": 0.0,
+    "with7PlusPercent": 88.88888888888889,
+    "words7PlusPerMatch": 1.6666666666666667,
+    "points7PlusPerMatch": 66.0,
+    "scoreShare7PlusPercent": 91.38461538461539,
+    "mean7PlusReward": 39.6,
+    "withExactly7Percent": 88.88888888888889,
+    "wordsExactly7PerMatch": 1.3333333333333333,
+    "scoreShareExactly7Percent": 69.6923076923077,
+    "wordLengthCounts": {
+      "2": 2,
+      "3": 2,
+      "6": 2,
+      "7": 12,
+      "8": 2,
+      "9": 1
+    },
+    "pointsByWordLength": {
+      "2": 4,
+      "3": 8,
+      "6": 44,
+      "7": 453,
+      "8": 81,
+      "9": 60
+    }
+  },
+  "quality": {
+    "duplicateWordIds": 0,
+    "scoreMismatches": []
+  },
+  "dictionary": {
+    "sha256": "b819e7b67f8f2c80640ae76f0edbe59a4a1befb6de0f348463642ad49bdd2ad3",
+    "uniqueWords": 172820,
+    "length6to10Counts": {
+      "6": 15232,
+      "7": 23109,
+      "8": 28420,
+      "9": 24873,
+      "10": 20300
+    },
+    "playedWordsMissing": []
+  },
+  "topWinningWords": [
+    {
+      "match": 43137,
+      "bot": "LexForge-1107",
+      "word": "CAZIQUE",
+      "score": 81,
+      "length": 7
+    },
+    {
+      "match": 42978,
+      "bot": "RackMaw",
+      "word": "WOMANIZED",
+      "score": 72,
+      "length": 9
+    },
+    {
+      "match": 43143,
+      "bot": "RackMaw",
+      "word": "JAYWALK",
+      "score": 72,
+      "length": 7
+    },
+    {
+      "match": 42891,
+      "bot": "RackMaw",
+      "word": "QUIXOTE",
+      "score": 69,
+      "length": 7
+    },
+    {
+      "match": 42927,
+      "bot": "RackMaw",
+      "word": "EQUINOX",
+      "score": 69,
+      "length": 7
+    },
+    {
+      "match": 43025,
+      "bot": "Malicious",
+      "word": "EQUINOX",
+      "score": 69,
+      "length": 7
+    },
+    {
+      "match": 42936,
+      "bot": "RackMaw",
+      "word": "QUICKEN",
+      "score": 66,
+      "length": 7
+    },
+    {
+      "match": 42968,
+      "bot": "RackMaw",
+      "word": "VIXENISH",
+      "score": 63,
+      "length": 8
+    },
+    {
+      "match": 43170,
+      "bot": "RackMaw",
+      "word": "ZIBETHS",
+      "score": 63,
+      "length": 7
+    },
+    {
+      "match": 43225,
+      "bot": "RackMaw",
+      "word": "OVERJOYS",
+      "score": 63,
+      "length": 8
+    },
+    {
+      "match": 42958,
+      "bot": "GodOfThudner",
+      "word": "VIXENLY",
+      "score": 60,
+      "length": 7
+    },
+    {
+      "match": 42958,
+      "bot": "GodOfThudner",
+      "word": "WRACKFUL",
+      "score": 60,
+      "length": 8
+    },
+    {
+      "match": 42996,
+      "bot": "Como Se Dice I Want to Scrabble",
+      "word": "TAXONOMY",
+      "score": 60,
+      "length": 8
+    },
+    {
+      "match": 43007,
+      "bot": "RackMaw",
+      "word": "HEXAPOD",
+      "score": 60,
+      "length": 7
+    },
+    {
+      "match": 43070,
+      "bot": "RackMaw",
+      "word": "QUAKERS",
+      "score": 60,
+      "length": 7
+    },
+    {
+      "match": 43088,
+      "bot": "RackMaw",
+      "word": "EMPRIZE",
+      "score": 60,
+      "length": 7
+    },
+    {
+      "match": 43094,
+      "bot": "LUCENT",
+      "word": "KUNZITE",
+      "score": 60,
+      "length": 7
+    },
+    {
+      "match": 42895,
+      "bot": "RackMaw",
+      "word": "PARAQUAT",
+      "score": 57,
+      "length": 8
+    },
+    {
+      "match": 43031,
+      "bot": "RackMaw",
+      "word": "FIXABLE",
+      "score": 57,
+      "length": 7
+    },
+    {
+      "match": 43058,
+      "bot": "RackMaw",
+      "word": "JAPONICA",
+      "score": 57,
+      "length": 8
+    }
+  ],
+  "limitations": [
+    "Observational tables containing our bot only; selection bias and repeated bots.",
+    "Versions and opponents changed. Correlation does not establish a cashout or bidding policy improvement.",
+    "No private racks inferred; dictionary coverage does not guarantee timely search completion."
+  ],
+  "playerMatches": [
+    {
+      "match": 42854,
+      "botId": 172,
+      "name": "Odysseus's Voyage",
+      "score": 91,
+      "win": false,
+      "words": [
+        {
+          "word": "JOYRIDE",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "ETAMINE",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "ALEF",
+          "score": 10,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42854,
+      "botId": 166,
+      "name": "SoapConsumers",
+      "score": 68,
+      "win": false,
+      "words": [
+        {
+          "word": "BOLIDES",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "VEGGIE",
+          "score": 27,
+          "length": 6
+        },
+        {
+          "word": "VIG",
+          "score": 7,
+          "length": 3
+        },
+        {
+          "word": "TO",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "AR",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42854,
+      "botId": 167,
+      "name": "Jaeger",
+      "score": 75,
+      "win": false,
+      "words": [
+        {
+          "word": "AWLWORT",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "ADZES",
+          "score": 30,
+          "length": 5
+        },
+        {
+          "word": "ANUS",
+          "score": 6,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42854,
+      "botId": 190,
+      "name": "Karppa",
+      "score": 51,
+      "win": false,
+      "words": [
+        {
+          "word": "ENDUROS",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "PIERROT",
+          "score": 27,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 42854,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 119,
+      "win": true,
+      "words": [
+        {
+          "word": "EPIFOCAL",
+          "score": 45,
+          "length": 8
+        },
+        {
+          "word": "QUINNAT",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "MOUCH",
+          "score": 24,
+          "length": 5
+        },
+        {
+          "word": "IN",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42854,
+      "botId": 176,
+      "name": "Titan",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 42858,
+      "botId": 181,
+      "name": "LexiconWarrior",
+      "score": 49,
+      "win": false,
+      "words": [
+        {
+          "word": "PERMEATE",
+          "score": 36,
+          "length": 8
+        },
+        {
+          "word": "ADZ",
+          "score": 13,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42858,
+      "botId": 167,
+      "name": "Jaeger",
+      "score": 48,
+      "win": false,
+      "words": [
+        {
+          "word": "NOIRISH",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "ACOLD",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "ER",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42858,
+      "botId": 190,
+      "name": "Karppa",
+      "score": 82,
+      "win": true,
+      "words": [
+        {
+          "word": "GUMWEEDS",
+          "score": 45,
+          "length": 8
+        },
+        {
+          "word": "FATING",
+          "score": 25,
+          "length": 6
+        },
+        {
+          "word": "VEND",
+          "score": 12,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42858,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 76,
+      "win": false,
+      "words": [
+        {
+          "word": "FOREBAY",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "HINGER",
+          "score": 25,
+          "length": 6
+        },
+        {
+          "word": "LAV",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42858,
+      "botId": 165,
+      "name": "cosine",
+      "score": 61,
+      "win": false,
+      "words": [
+        {
+          "word": "KITTIES",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "QAT",
+          "score": 12,
+          "length": 3
+        },
+        {
+          "word": "BICE",
+          "score": 12,
+          "length": 4
+        },
+        {
+          "word": "OP",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42858,
+      "botId": 182,
+      "name": "scrabblemaxxing",
+      "score": 76,
+      "win": false,
+      "words": [
+        {
+          "word": "SWEATILY",
+          "score": 42,
+          "length": 8
+        },
+        {
+          "word": "JOUAL",
+          "score": 24,
+          "length": 5
+        },
+        {
+          "word": "INURN",
+          "score": 10,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42862,
+      "botId": 180,
+      "name": "StickBot",
+      "score": 164,
+      "win": true,
+      "words": [
+        {
+          "word": "HYDROGEN",
+          "score": 48,
+          "length": 8
+        },
+        {
+          "word": "BAILIFFS",
+          "score": 48,
+          "length": 8
+        },
+        {
+          "word": "MOSQUE",
+          "score": 42,
+          "length": 6
+        },
+        {
+          "word": "NIEVE",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "VET",
+          "score": 6,
+          "length": 3
+        },
+        {
+          "word": "PE",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42862,
+      "botId": 167,
+      "name": "Jaeger",
+      "score": 29,
+      "win": false,
+      "words": [
+        {
+          "word": "DETOURS",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "AY",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42862,
+      "botId": 190,
+      "name": "Karppa",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 42862,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 72,
+      "win": false,
+      "words": [
+        {
+          "word": "DITZIER",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "AGNATE",
+          "score": 17,
+          "length": 6
+        },
+        {
+          "word": "OP",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42862,
+      "botId": 170,
+      "name": "Sepcis",
+      "score": 32,
+      "win": false,
+      "words": [
+        {
+          "word": "ULNAR",
+          "score": 10,
+          "length": 5
+        },
+        {
+          "word": "AXLE",
+          "score": 16,
+          "length": 4
+        },
+        {
+          "word": "HIE",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42862,
+      "botId": 178,
+      "name": "gas",
+      "score": 71,
+      "win": false,
+      "words": [
+        {
+          "word": "COWBIRDS",
+          "score": 48,
+          "length": 8
+        },
+        {
+          "word": "MOULIN",
+          "score": 20,
+          "length": 6
+        },
+        {
+          "word": "ATE",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42866,
+      "botId": 169,
+      "name": "Abhi-AuctionLab",
+      "score": 99,
+      "win": true,
+      "words": [
+        {
+          "word": "DEVOTEE",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "QUINTAR",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "LOOEY",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "AS",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42866,
+      "botId": 170,
+      "name": "Sepcis",
+      "score": 33,
+      "win": false,
+      "words": [
+        {
+          "word": "IAMBI",
+          "score": 18,
+          "length": 5
+        },
+        {
+          "word": "BI",
+          "score": 4,
+          "length": 2
+        },
+        {
+          "word": "TA",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "SPAR",
+          "score": 9,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42866,
+      "botId": 178,
+      "name": "gas",
+      "score": 67,
+      "win": false,
+      "words": [
+        {
+          "word": "HERTZ",
+          "score": 34,
+          "length": 5
+        },
+        {
+          "word": "FLUTER",
+          "score": 22,
+          "length": 6
+        },
+        {
+          "word": "AMIE",
+          "score": 9,
+          "length": 4
+        },
+        {
+          "word": "OE",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42866,
+      "botId": 167,
+      "name": "Jaeger",
+      "score": 82,
+      "win": false,
+      "words": [
+        {
+          "word": "EROSION",
+          "score": 21,
+          "length": 7
+        },
+        {
+          "word": "LEXICON",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "ARF",
+          "score": 6,
+          "length": 3
+        },
+        {
+          "word": "GUV",
+          "score": 7,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42866,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 85,
+      "win": false,
+      "words": [
+        {
+          "word": "WALKING",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "PSHAW",
+          "score": 26,
+          "length": 5
+        },
+        {
+          "word": "DOTED",
+          "score": 14,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42866,
+      "botId": 190,
+      "name": "Karppa",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 42870,
+      "botId": 164,
+      "name": "Tow57-Auctioneer",
+      "score": 51,
+      "win": false,
+      "words": [
+        {
+          "word": "RELATOR",
+          "score": 21,
+          "length": 7
+        },
+        {
+          "word": "OLDNESS",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "INTI",
+          "score": 6,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42870,
+      "botId": 170,
+      "name": "Sepcis",
+      "score": 36,
+      "win": false,
+      "words": [
+        {
+          "word": "VEG",
+          "score": 7,
+          "length": 3
+        },
+        {
+          "word": "MIDST",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "IMP",
+          "score": 7,
+          "length": 3
+        },
+        {
+          "word": "WAR",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42870,
+      "botId": 167,
+      "name": "Jaeger",
+      "score": 65,
+      "win": false,
+      "words": [
+        {
+          "word": "BIFIDLY",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "HEFT",
+          "score": 15,
+          "length": 4
+        },
+        {
+          "word": "AE",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42870,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 85,
+      "win": true,
+      "words": [
+        {
+          "word": "UNWEIGHT",
+          "score": 45,
+          "length": 8
+        },
+        {
+          "word": "AZOLE",
+          "score": 28,
+          "length": 5
+        },
+        {
+          "word": "COX",
+          "score": 12,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42870,
+      "botId": 172,
+      "name": "Odysseus's Voyage",
+      "score": 52,
+      "win": false,
+      "words": [
+        {
+          "word": "GUANACO",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "JERK",
+          "score": 22,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42870,
+      "botId": 181,
+      "name": "LexiconWarrior",
+      "score": 76,
+      "win": false,
+      "words": [
+        {
+          "word": "SPOONEY",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "NERVATE",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "AURAE",
+          "score": 10,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42874,
+      "botId": 165,
+      "name": "cosine",
+      "score": 62,
+      "win": false,
+      "words": [
+        {
+          "word": "IF",
+          "score": 5,
+          "length": 2
+        },
+        {
+          "word": "JASSID",
+          "score": 35,
+          "length": 6
+        },
+        {
+          "word": "OVOID",
+          "score": 18,
+          "length": 5
+        },
+        {
+          "word": "OP",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42874,
+      "botId": 181,
+      "name": "LexiconWarrior",
+      "score": 100,
+      "win": true,
+      "words": [
+        {
+          "word": "HOWBEIT",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "WHALING",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "PATY",
+          "score": 13,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42874,
+      "botId": 170,
+      "name": "Sepcis",
+      "score": 74,
+      "win": false,
+      "words": [
+        {
+          "word": "BOOZIER",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "MENTA",
+          "score": 14,
+          "length": 5
+        },
+        {
+          "word": "DEE",
+          "score": 4,
+          "length": 3
+        },
+        {
+          "word": "AI",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42874,
+      "botId": 167,
+      "name": "Jaeger",
+      "score": 32,
+      "win": false,
+      "words": [
+        {
+          "word": "TEENFUL",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "AI",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42874,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 66,
+      "win": false,
+      "words": [
+        {
+          "word": "VEXERS",
+          "score": 40,
+          "length": 6
+        },
+        {
+          "word": "DAGGA",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "OUTER",
+          "score": 10,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42874,
+      "botId": 175,
+      "name": "wordgoat",
+      "score": 86,
+      "win": false,
+      "words": [
+        {
+          "word": "SICKERLY",
+          "score": 51,
+          "length": 8
+        },
+        {
+          "word": "CENTRUM",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "AR",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42878,
+      "botId": 169,
+      "name": "Abhi-AuctionLab",
+      "score": 58,
+      "win": false,
+      "words": [
+        {
+          "word": "DETOX",
+          "score": 26,
+          "length": 5
+        },
+        {
+          "word": "GLENOID",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "NET",
+          "score": 3,
+          "length": 3
+        },
+        {
+          "word": "OR",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42878,
+      "botId": 165,
+      "name": "cosine",
+      "score": 124,
+      "win": false,
+      "words": [
+        {
+          "word": "COMPEER",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "FLAWING",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "AZINE",
+          "score": 28,
+          "length": 5
+        },
+        {
+          "word": "NISI",
+          "score": 6,
+          "length": 4
+        },
+        {
+          "word": "ULU",
+          "score": 3,
+          "length": 3
+        },
+        {
+          "word": "MI",
+          "score": 4,
+          "length": 2
+        },
+        {
+          "word": "OR",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42878,
+      "botId": 167,
+      "name": "Jaeger",
+      "score": 39,
+      "win": false,
+      "words": [
+        {
+          "word": "SLAVERY",
+          "score": 39,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 42878,
+      "botId": 170,
+      "name": "Sepcis",
+      "score": 28,
+      "win": false,
+      "words": [
+        {
+          "word": "OUTBY",
+          "score": 20,
+          "length": 5
+        },
+        {
+          "word": "TAS",
+          "score": 3,
+          "length": 3
+        },
+        {
+          "word": "TO",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "ID",
+          "score": 3,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42878,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 126,
+      "win": true,
+      "words": [
+        {
+          "word": "JARHEAD",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "EPHEBIC",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "WAKEN",
+          "score": 24,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42878,
+      "botId": 174,
+      "name": "benoit",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 42883,
+      "botId": 186,
+      "name": "Lucy",
+      "score": 76,
+      "win": false,
+      "words": [
+        {
+          "word": "FOVEOLA",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "QUINTE",
+          "score": 37,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 42883,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 87,
+      "win": false,
+      "words": [
+        {
+          "word": "SALCHOW",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "VIBRATION",
+          "score": 42,
+          "length": 9
+        }
+      ]
+    },
+    {
+      "match": 42883,
+      "botId": 172,
+      "name": "Odysseus's Voyage",
+      "score": 93,
+      "win": false,
+      "words": [
+        {
+          "word": "DEAFISH",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "REWAKED",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "MM",
+          "score": 6,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42883,
+      "botId": 180,
+      "name": "StickBot",
+      "score": 62,
+      "win": false,
+      "words": [
+        {
+          "word": "LARCENY",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "GENITOR",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "AS",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42883,
+      "botId": 166,
+      "name": "SoapConsumers",
+      "score": 55,
+      "win": false,
+      "words": [
+        {
+          "word": "DUOTONE",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "BAITERS",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "PI",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42883,
+      "botId": 18,
+      "name": "LUCENT",
+      "score": 102,
+      "win": true,
+      "words": [
+        {
+          "word": "EXPIATED",
+          "score": 54,
+          "length": 8
+        },
+        {
+          "word": "JUGGLER",
+          "score": 48,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 42887,
+      "botId": 175,
+      "name": "wordgoat",
+      "score": 77,
+      "win": false,
+      "words": [
+        {
+          "word": "POSTIQUE",
+          "score": 57,
+          "length": 8
+        },
+        {
+          "word": "AFTER",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "PA",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42887,
+      "botId": 180,
+      "name": "StickBot",
+      "score": 61,
+      "win": false,
+      "words": [
+        {
+          "word": "NUANCED",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "COINTER",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "MU",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42887,
+      "botId": 186,
+      "name": "Lucy",
+      "score": 52,
+      "win": false,
+      "words": [
+        {
+          "word": "ISOGRIV",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "ZETA",
+          "score": 19,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42887,
+      "botId": 18,
+      "name": "LUCENT",
+      "score": 104,
+      "win": false,
+      "words": [
+        {
+          "word": "TELEXING",
+          "score": 48,
+          "length": 8
+        },
+        {
+          "word": "MAGUEYS",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "OROIDE",
+          "score": 17,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 42887,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 142,
+      "win": true,
+      "words": [
+        {
+          "word": "BOWHEAD",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "OVERWILY",
+          "score": 51,
+          "length": 8
+        },
+        {
+          "word": "FARINHA",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "BE",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42887,
+      "botId": 145,
+      "name": "Afterword",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 42891,
+      "botId": 192,
+      "name": "aipom",
+      "score": 69,
+      "win": false,
+      "words": [
+        {
+          "word": "WIGWAMS",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "DEFT",
+          "score": 12,
+          "length": 4
+        },
+        {
+          "word": "JO",
+          "score": 9,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42891,
+      "botId": 18,
+      "name": "LUCENT",
+      "score": 74,
+      "win": false,
+      "words": [
+        {
+          "word": "PEEVING",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "UNBARRED",
+          "score": 33,
+          "length": 8
+        },
+        {
+          "word": "AE",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42891,
+      "botId": 180,
+      "name": "StickBot",
+      "score": 48,
+      "win": false,
+      "words": [
+        {
+          "word": "MAESTRO",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "URINOSE",
+          "score": 21,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 42891,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 114,
+      "win": true,
+      "words": [
+        {
+          "word": "QUIXOTE",
+          "score": 69,
+          "length": 7
+        },
+        {
+          "word": "DIABLERY",
+          "score": 42,
+          "length": 8
+        },
+        {
+          "word": "OAR",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42891,
+      "botId": 191,
+      "name": "Primey",
+      "score": 82,
+      "win": false,
+      "words": [
+        {
+          "word": "ZINCKED",
+          "score": 69,
+          "length": 7
+        },
+        {
+          "word": "OUPH",
+          "score": 13,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42891,
+      "botId": 164,
+      "name": "Tow57-Auctioneer",
+      "score": 93,
+      "win": false,
+      "words": [
+        {
+          "word": "CHITLIN",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "FLAYING",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "OSTEAL",
+          "score": 15,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 42895,
+      "botId": 178,
+      "name": "gas",
+      "score": 54,
+      "win": false,
+      "words": [
+        {
+          "word": "TRACHEOLES",
+          "score": 45,
+          "length": 10
+        },
+        {
+          "word": "MINT",
+          "score": 9,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42895,
+      "botId": 192,
+      "name": "aipom",
+      "score": 73,
+      "win": false,
+      "words": [
+        {
+          "word": "OXLIP",
+          "score": 28,
+          "length": 5
+        },
+        {
+          "word": "BREVITY",
+          "score": 45,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 42895,
+      "botId": 18,
+      "name": "LUCENT",
+      "score": 56,
+      "win": false,
+      "words": [
+        {
+          "word": "ANGUINE",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "FOOTIER",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "LI",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42895,
+      "botId": 180,
+      "name": "StickBot",
+      "score": 76,
+      "win": false,
+      "words": [
+        {
+          "word": "WATCHES",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "DINGOES",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "MO",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42895,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 124,
+      "win": true,
+      "words": [
+        {
+          "word": "PARAQUAT",
+          "score": 57,
+          "length": 8
+        },
+        {
+          "word": "KNAVERY",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "INDUE",
+          "score": 12,
+          "length": 5
+        },
+        {
+          "word": "BO",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42895,
+      "botId": 181,
+      "name": "LexiconWarrior",
+      "score": 93,
+      "win": false,
+      "words": [
+        {
+          "word": "DEGLAZE",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "FORESAW",
+          "score": 39,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 42899,
+      "botId": 163,
+      "name": "Binter",
+      "score": 71,
+      "win": false,
+      "words": [
+        {
+          "word": "TRAPEZOIDS",
+          "score": 66,
+          "length": 10
+        },
+        {
+          "word": "LAR",
+          "score": 3,
+          "length": 3
+        },
+        {
+          "word": "US",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42899,
+      "botId": 192,
+      "name": "aipom",
+      "score": 70,
+      "win": false,
+      "words": [
+        {
+          "word": "FALLOWS",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "DAVIT",
+          "score": 18,
+          "length": 5
+        },
+        {
+          "word": "FIB",
+          "score": 8,
+          "length": 3
+        },
+        {
+          "word": "WE",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42899,
+      "botId": 18,
+      "name": "LUCENT",
+      "score": 83,
+      "win": true,
+      "words": [
+        {
+          "word": "UPGATHER",
+          "score": 42,
+          "length": 8
+        },
+        {
+          "word": "ENLISTEE",
+          "score": 24,
+          "length": 8
+        },
+        {
+          "word": "BOOK",
+          "score": 15,
+          "length": 4
+        },
+        {
+          "word": "AE",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42899,
+      "botId": 145,
+      "name": "Afterword",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 42899,
+      "botId": 178,
+      "name": "gas",
+      "score": 82,
+      "win": false,
+      "words": [
+        {
+          "word": "QAID",
+          "score": 21,
+          "length": 4
+        },
+        {
+          "word": "HYAENIC",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "GUIRO",
+          "score": 12,
+          "length": 5
+        },
+        {
+          "word": "MO",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42899,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 80,
+      "win": false,
+      "words": [
+        {
+          "word": "DECOYING",
+          "score": 45,
+          "length": 8
+        },
+        {
+          "word": "INTONER",
+          "score": 21,
+          "length": 7
+        },
+        {
+          "word": "TUX",
+          "score": 10,
+          "length": 3
+        },
+        {
+          "word": "EM",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42903,
+      "botId": 186,
+      "name": "Lucy",
+      "score": 46,
+      "win": false,
+      "words": [
+        {
+          "word": "FURIOUS",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "FEASE",
+          "score": 16,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42903,
+      "botId": 178,
+      "name": "gas",
+      "score": 71,
+      "win": false,
+      "words": [
+        {
+          "word": "DAPHNIA",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "LOCKET",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "AE",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42903,
+      "botId": 163,
+      "name": "Binter",
+      "score": 71,
+      "win": false,
+      "words": [
+        {
+          "word": "XI",
+          "score": 9,
+          "length": 2
+        },
+        {
+          "word": "IMPOWER",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "ACTINS",
+          "score": 20,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 42903,
+      "botId": 18,
+      "name": "LUCENT",
+      "score": 66,
+      "win": false,
+      "words": [
+        {
+          "word": "INVOLVE",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "HANGED",
+          "score": 27,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 42903,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 102,
+      "win": true,
+      "words": [
+        {
+          "word": "GLAZIER",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "RONYONS",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "JUTE",
+          "score": 16,
+          "length": 4
+        },
+        {
+          "word": "MOA",
+          "score": 5,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42903,
+      "botId": 172,
+      "name": "Odysseus's Voyage",
+      "score": 64,
+      "win": false,
+      "words": [
+        {
+          "word": "WEIRDLY",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "BEGIRT",
+          "score": 22,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 42908,
+      "botId": 164,
+      "name": "Tow57-Auctioneer",
+      "score": 51,
+      "win": false,
+      "words": [
+        {
+          "word": "STRATAL",
+          "score": 21,
+          "length": 7
+        },
+        {
+          "word": "GEOIDAL",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "ANA",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42908,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 96,
+      "win": true,
+      "words": [
+        {
+          "word": "INJECTOR",
+          "score": 51,
+          "length": 8
+        },
+        {
+          "word": "MAUVES",
+          "score": 27,
+          "length": 6
+        },
+        {
+          "word": "ZAG",
+          "score": 13,
+          "length": 3
+        },
+        {
+          "word": "OW",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42908,
+      "botId": 189,
+      "name": "RackPilot",
+      "score": 20,
+      "win": false,
+      "words": [
+        {
+          "word": "OX",
+          "score": 9,
+          "length": 2
+        },
+        {
+          "word": "TSK",
+          "score": 7,
+          "length": 3
+        },
+        {
+          "word": "OE",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "NU",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42908,
+      "botId": 182,
+      "name": "scrabblemaxxing",
+      "score": 59,
+      "win": false,
+      "words": [
+        {
+          "word": "FEATURING",
+          "score": 39,
+          "length": 9
+        },
+        {
+          "word": "LEVIN",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "BE",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42908,
+      "botId": 166,
+      "name": "SoapConsumers",
+      "score": 73,
+      "win": false,
+      "words": [
+        {
+          "word": "PRYTHEE",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "POUNDS",
+          "score": 22,
+          "length": 6
+        },
+        {
+          "word": "LOW",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42908,
+      "botId": 171,
+      "name": "GodOfThudner",
+      "score": 74,
+      "win": false,
+      "words": [
+        {
+          "word": "EDIFICE",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "MYRIAD",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "BRO",
+          "score": 5,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42913,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 75,
+      "win": false,
+      "words": [
+        {
+          "word": "CAJOLES",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "FAGOTS",
+          "score": 25,
+          "length": 6
+        },
+        {
+          "word": "AI",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42913,
+      "botId": 191,
+      "name": "Primey",
+      "score": 104,
+      "win": true,
+      "words": [
+        {
+          "word": "QUAVER",
+          "score": 45,
+          "length": 6
+        },
+        {
+          "word": "DUBBING",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "MOVER",
+          "score": 20,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42913,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 93,
+      "win": false,
+      "words": [
+        {
+          "word": "DAYWORK",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "CHITONS",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "RET",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42913,
+      "botId": 114,
+      "name": "Bron",
+      "score": 64,
+      "win": false,
+      "words": [
+        {
+          "word": "DIMOUTS",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "WAIFED",
+          "score": 32,
+          "length": 6
+        },
+        {
+          "word": "NO",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42913,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 80,
+      "win": false,
+      "words": [
+        {
+          "word": "ULEXITE",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "HERNIAL",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "PRY",
+          "score": 8,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42913,
+      "botId": 197,
+      "name": "76ers",
+      "score": 48,
+      "win": false,
+      "words": [
+        {
+          "word": "IGNATIA",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "ZONE",
+          "score": 19,
+          "length": 4
+        },
+        {
+          "word": "PEE",
+          "score": 5,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42917,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 62,
+      "win": false,
+      "words": [
+        {
+          "word": "OVERMANY",
+          "score": 48,
+          "length": 8
+        },
+        {
+          "word": "ZIT",
+          "score": 12,
+          "length": 3
+        },
+        {
+          "word": "NU",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42917,
+      "botId": 162,
+      "name": "Barracuda",
+      "score": 70,
+      "win": false,
+      "words": [
+        {
+          "word": "WATAPES",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "FLOOSIE",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "OE",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "OR",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42917,
+      "botId": 171,
+      "name": "GodOfThudner",
+      "score": 77,
+      "win": false,
+      "words": [
+        {
+          "word": "JADEITE",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "BEGULF",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "AS",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42917,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 72,
+      "win": false,
+      "words": [
+        {
+          "word": "BEGORAH",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "OSTIARY",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "DE",
+          "score": 3,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42917,
+      "botId": 191,
+      "name": "Primey",
+      "score": 98,
+      "win": true,
+      "words": [
+        {
+          "word": "WINCHED",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "LUXATING",
+          "score": 48,
+          "length": 8
+        },
+        {
+          "word": "AR",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42917,
+      "botId": 114,
+      "name": "Bron",
+      "score": 89,
+      "win": false,
+      "words": [
+        {
+          "word": "IMPLODE",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "QUINTIN",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "REC",
+          "score": 5,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42922,
+      "botId": 165,
+      "name": "cosine",
+      "score": 70,
+      "win": false,
+      "words": [
+        {
+          "word": "BANEFUL",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "BE",
+          "score": 4,
+          "length": 2
+        },
+        {
+          "word": "TENSIVE",
+          "score": 30,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 42922,
+      "botId": 114,
+      "name": "Bron",
+      "score": 96,
+      "win": false,
+      "words": [
+        {
+          "word": "DIAZINS",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "JADEITE",
+          "score": 45,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 42922,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 101,
+      "win": true,
+      "words": [
+        {
+          "word": "ANOREXY",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "CALKIN",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "HOMER",
+          "score": 20,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42922,
+      "botId": 180,
+      "name": "StickBot",
+      "score": 42,
+      "win": false,
+      "words": [
+        {
+          "word": "VAUNTER",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "GRIOT",
+          "score": 12,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42922,
+      "botId": 192,
+      "name": "aipom",
+      "score": 96,
+      "win": false,
+      "words": [
+        {
+          "word": "QUOITED",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "EPISODIC",
+          "score": 39,
+          "length": 8
+        },
+        {
+          "word": "PUG",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42922,
+      "botId": 200,
+      "name": "Milo :3",
+      "score": 46,
+      "win": false,
+      "words": [
+        {
+          "word": "FELLOW",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "YOGH",
+          "score": 16,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42927,
+      "botId": 169,
+      "name": "Abhi-AuctionLab",
+      "score": 48,
+      "win": false,
+      "words": [
+        {
+          "word": "FAINTER",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "STRAW",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "TO",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42927,
+      "botId": 114,
+      "name": "Bron",
+      "score": 64,
+      "win": false,
+      "words": [
+        {
+          "word": "DITTOED",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "BUCKER",
+          "score": 35,
+          "length": 6
+        },
+        {
+          "word": "AE",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42927,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 165,
+      "win": true,
+      "words": [
+        {
+          "word": "EQUINOX",
+          "score": 69,
+          "length": 7
+        },
+        {
+          "word": "JOINERY",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "GLOZES",
+          "score": 40,
+          "length": 6
+        },
+        {
+          "word": "IF",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42927,
+      "botId": 190,
+      "name": "Karppa",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 42927,
+      "botId": 172,
+      "name": "Odysseus's Voyage",
+      "score": 71,
+      "win": false,
+      "words": [
+        {
+          "word": "STOWAGE",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "LAIRDLY",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "BIN",
+          "score": 5,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42927,
+      "botId": 178,
+      "name": "gas",
+      "score": 104,
+      "win": false,
+      "words": [
+        {
+          "word": "UPHEAVE",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "PUMICING",
+          "score": 45,
+          "length": 8
+        },
+        {
+          "word": "ENORM",
+          "score": 14,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42932,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 47,
+      "win": false,
+      "words": [
+        {
+          "word": "FATTENS",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "GIRON",
+          "score": 12,
+          "length": 5
+        },
+        {
+          "word": "IF",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42932,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 77,
+      "win": false,
+      "words": [
+        {
+          "word": "BANJOES",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "MUCID",
+          "score": 20,
+          "length": 5
+        },
+        {
+          "word": "BOAR",
+          "score": 9,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42932,
+      "botId": 164,
+      "name": "Tow57-Auctioneer",
+      "score": 118,
+      "win": true,
+      "words": [
+        {
+          "word": "AGENIZE",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "ANTITAX",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "MYOID",
+          "score": 22,
+          "length": 5
+        },
+        {
+          "word": "ULU",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42932,
+      "botId": 186,
+      "name": "Lucy",
+      "score": 46,
+      "win": false,
+      "words": [
+        {
+          "word": "VIRELAY",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "KUE",
+          "score": 7,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42932,
+      "botId": 181,
+      "name": "LexiconWarrior",
+      "score": 50,
+      "win": false,
+      "words": [
+        {
+          "word": "THEREON",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "PROVE",
+          "score": 20,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42932,
+      "botId": 182,
+      "name": "scrabblemaxxing",
+      "score": 75,
+      "win": false,
+      "words": [
+        {
+          "word": "PALEWISE",
+          "score": 39,
+          "length": 8
+        },
+        {
+          "word": "DECALOG",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "ID",
+          "score": 3,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42936,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 89,
+      "win": false,
+      "words": [
+        {
+          "word": "OVERPAY",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "JOURNAL",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "TO",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42936,
+      "botId": 186,
+      "name": "Lucy",
+      "score": 63,
+      "win": false,
+      "words": [
+        {
+          "word": "AUNTIES",
+          "score": 21,
+          "length": 7
+        },
+        {
+          "word": "WRITHED",
+          "score": 42,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 42936,
+      "botId": 181,
+      "name": "LexiconWarrior",
+      "score": 92,
+      "win": false,
+      "words": [
+        {
+          "word": "BEDWARF",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "CAVITY",
+          "score": 35,
+          "length": 6
+        },
+        {
+          "word": "NIMS",
+          "score": 9,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42936,
+      "botId": 164,
+      "name": "Tow57-Auctioneer",
+      "score": 73,
+      "win": false,
+      "words": [
+        {
+          "word": "EXITING",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "AGOUTIS",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "LOG",
+          "score": 4,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42936,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 98,
+      "win": true,
+      "words": [
+        {
+          "word": "QUICKEN",
+          "score": 66,
+          "length": 7
+        },
+        {
+          "word": "DOBLA",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "FRENA",
+          "score": 16,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42936,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 65,
+      "win": false,
+      "words": [
+        {
+          "word": "RESIZED",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "AMOLE",
+          "score": 14,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42940,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 52,
+      "win": false,
+      "words": [
+        {
+          "word": "MIAULED",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "TWEEN",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "VIA",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42940,
+      "botId": 186,
+      "name": "Lucy",
+      "score": 74,
+      "win": false,
+      "words": [
+        {
+          "word": "ANTEFIXA",
+          "score": 54,
+          "length": 8
+        },
+        {
+          "word": "DIGEST",
+          "score": 20,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 42940,
+      "botId": 181,
+      "name": "LexiconWarrior",
+      "score": 84,
+      "win": false,
+      "words": [
+        {
+          "word": "CHORIAL",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "LAZARET",
+          "score": 48,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 42940,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 107,
+      "win": true,
+      "words": [
+        {
+          "word": "VASIFORM",
+          "score": 48,
+          "length": 8
+        },
+        {
+          "word": "JOYRODE",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "EH",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42940,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 72,
+      "win": false,
+      "words": [
+        {
+          "word": "KNOBBED",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "TOWERS",
+          "score": 22,
+          "length": 6
+        },
+        {
+          "word": "NU",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42940,
+      "botId": 164,
+      "name": "Tow57-Auctioneer",
+      "score": 66,
+      "win": false,
+      "words": [
+        {
+          "word": "GUIPURE",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "LAPSING",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "ONTO",
+          "score": 6,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42944,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 110,
+      "win": true,
+      "words": [
+        {
+          "word": "JUNGLED",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "KAMSIN",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "CHUFF",
+          "score": 32,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42944,
+      "botId": 195,
+      "name": "Como Se Dice I Want to Scrabble",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 42944,
+      "botId": 181,
+      "name": "LexiconWarrior",
+      "score": 104,
+      "win": false,
+      "words": [
+        {
+          "word": "TRIVETS",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "BANQUET",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "GARGLE",
+          "score": 20,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 42944,
+      "botId": 186,
+      "name": "Lucy",
+      "score": 81,
+      "win": false,
+      "words": [
+        {
+          "word": "CERVIXES",
+          "score": 60,
+          "length": 8
+        },
+        {
+          "word": "SWEAT",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "HI",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42944,
+      "botId": 164,
+      "name": "Tow57-Auctioneer",
+      "score": 75,
+      "win": false,
+      "words": [
+        {
+          "word": "DELATOR",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "BROWNED",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "ANION",
+          "score": 10,
+          "length": 5
+        },
+        {
+          "word": "TO",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42944,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 74,
+      "win": false,
+      "words": [
+        {
+          "word": "PERILED",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "PYEMIA",
+          "score": 32,
+          "length": 6
+        },
+        {
+          "word": "AZO",
+          "score": 12,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42949,
+      "botId": 171,
+      "name": "GodOfThudner",
+      "score": 61,
+      "win": false,
+      "words": [
+        {
+          "word": "QUOITED",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "MEM",
+          "score": 7,
+          "length": 3
+        },
+        {
+          "word": "AG",
+          "score": 3,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42949,
+      "botId": 186,
+      "name": "Lucy",
+      "score": 117,
+      "win": true,
+      "words": [
+        {
+          "word": "DUALIZE",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "ANCHOVY",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "KILT",
+          "score": 12,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42949,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 63,
+      "win": false,
+      "words": [
+        {
+          "word": "GROANED",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "AXONES",
+          "score": 32,
+          "length": 6
+        },
+        {
+          "word": "ER",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "AI",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42949,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 69,
+      "win": false,
+      "words": [
+        {
+          "word": "FIBRILLA",
+          "score": 39,
+          "length": 8
+        },
+        {
+          "word": "WANTED",
+          "score": 25,
+          "length": 6
+        },
+        {
+          "word": "ABO",
+          "score": 5,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42949,
+      "botId": 165,
+      "name": "cosine",
+      "score": 106,
+      "win": false,
+      "words": [
+        {
+          "word": "JEWFISH",
+          "score": 69,
+          "length": 7
+        },
+        {
+          "word": "CORRUPT",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "PI",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42949,
+      "botId": 162,
+      "name": "Barracuda",
+      "score": 42,
+      "win": false,
+      "words": [
+        {
+          "word": "STOGEY",
+          "score": 25,
+          "length": 6
+        },
+        {
+          "word": "ENSURE",
+          "score": 15,
+          "length": 6
+        },
+        {
+          "word": "IN",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42953,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 99,
+      "win": true,
+      "words": [
+        {
+          "word": "QUOINED",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "FORBIDAL",
+          "score": 42,
+          "length": 8
+        },
+        {
+          "word": "FAS",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42953,
+      "botId": 186,
+      "name": "Lucy",
+      "score": 78,
+      "win": false,
+      "words": [
+        {
+          "word": "KITSCHES",
+          "score": 51,
+          "length": 8
+        },
+        {
+          "word": "GRAVID",
+          "score": 27,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 42953,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 58,
+      "win": false,
+      "words": [
+        {
+          "word": "PATROON",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "JEUX",
+          "score": 27,
+          "length": 4
+        },
+        {
+          "word": "MO",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42953,
+      "botId": 165,
+      "name": "cosine",
+      "score": 95,
+      "win": false,
+      "words": [
+        {
+          "word": "CUTINIZES",
+          "score": 60,
+          "length": 9
+        },
+        {
+          "word": "WE",
+          "score": 5,
+          "length": 2
+        },
+        {
+          "word": "GLADIATE",
+          "score": 30,
+          "length": 8
+        }
+      ]
+    },
+    {
+      "match": 42953,
+      "botId": 162,
+      "name": "Barracuda",
+      "score": 37,
+      "win": false,
+      "words": [
+        {
+          "word": "ORATION",
+          "score": 21,
+          "length": 7
+        },
+        {
+          "word": "AI",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "APTER",
+          "score": 14,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42953,
+      "botId": 171,
+      "name": "GodOfThudner",
+      "score": 80,
+      "win": false,
+      "words": [
+        {
+          "word": "WHEREBY",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "VELUM",
+          "score": 20,
+          "length": 5
+        },
+        {
+          "word": "YEN",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42958,
+      "botId": 180,
+      "name": "StickBot",
+      "score": 74,
+      "win": false,
+      "words": [
+        {
+          "word": "MAIMING",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "TYRONIC",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "NU",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42958,
+      "botId": 162,
+      "name": "Barracuda",
+      "score": 58,
+      "win": false,
+      "words": [
+        {
+          "word": "DEVIANT",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "RAPIER",
+          "score": 20,
+          "length": 6
+        },
+        {
+          "word": "GAG",
+          "score": 5,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42958,
+      "botId": 171,
+      "name": "GodOfThudner",
+      "score": 138,
+      "win": true,
+      "words": [
+        {
+          "word": "VIXENLY",
+          "score": 60,
+          "length": 7
+        },
+        {
+          "word": "WRACKFUL",
+          "score": 60,
+          "length": 8
+        },
+        {
+          "word": "DOWSE",
+          "score": 18,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42958,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 69,
+      "win": false,
+      "words": [
+        {
+          "word": "LOATHES",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "EQUATE",
+          "score": 37,
+          "length": 6
+        },
+        {
+          "word": "LO",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42958,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 94,
+      "win": false,
+      "words": [
+        {
+          "word": "BATHROBE",
+          "score": 45,
+          "length": 8
+        },
+        {
+          "word": "JOINTERS",
+          "score": 45,
+          "length": 8
+        },
+        {
+          "word": "DEE",
+          "score": 4,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42958,
+      "botId": 172,
+      "name": "Odysseus's Voyage",
+      "score": 56,
+      "win": false,
+      "words": [
+        {
+          "word": "DOOZIES",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "FA",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42963,
+      "botId": 203,
+      "name": "CasualThinker",
+      "score": 16,
+      "win": false,
+      "words": [
+        {
+          "word": "HALER",
+          "score": 16,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42963,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 138,
+      "win": true,
+      "words": [
+        {
+          "word": "HUSWIFE",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "AGNIZED",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "RABBI",
+          "score": 18,
+          "length": 5
+        },
+        {
+          "word": "GONEF",
+          "score": 18,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42963,
+      "botId": 166,
+      "name": "SoapConsumers",
+      "score": 18,
+      "win": false,
+      "words": [
+        {
+          "word": "ANTED",
+          "score": 12,
+          "length": 5
+        },
+        {
+          "word": "AN",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "IT",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "LO",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42963,
+      "botId": 181,
+      "name": "LexiconWarrior",
+      "score": 95,
+      "win": false,
+      "words": [
+        {
+          "word": "TAPROOM",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "PEARTLY",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "CUTINS",
+          "score": 20,
+          "length": 6
+        },
+        {
+          "word": "IRIS",
+          "score": 6,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42963,
+      "botId": 192,
+      "name": "aipom",
+      "score": 83,
+      "win": false,
+      "words": [
+        {
+          "word": "MAYWEED",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "COVE",
+          "score": 13,
+          "length": 4
+        },
+        {
+          "word": "XI",
+          "score": 9,
+          "length": 2
+        },
+        {
+          "word": "GOOK",
+          "score": 13,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42963,
+      "botId": 196,
+      "name": "Vector Blast",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 42968,
+      "botId": 182,
+      "name": "scrabblemaxxing",
+      "score": 57,
+      "win": false,
+      "words": [
+        {
+          "word": "PIONEERING",
+          "score": 39,
+          "length": 10
+        },
+        {
+          "word": "QUA",
+          "score": 12,
+          "length": 3
+        },
+        {
+          "word": "OLIO",
+          "score": 6,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42968,
+      "botId": 192,
+      "name": "aipom",
+      "score": 113,
+      "win": false,
+      "words": [
+        {
+          "word": "FEEDBAG",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "JUDOKA",
+          "score": 45,
+          "length": 6
+        },
+        {
+          "word": "CAPUT",
+          "score": 18,
+          "length": 5
+        },
+        {
+          "word": "VIM",
+          "score": 8,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42968,
+      "botId": 196,
+      "name": "Vector Blast",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 42968,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 146,
+      "win": true,
+      "words": [
+        {
+          "word": "VIXENISH",
+          "score": 63,
+          "length": 8
+        },
+        {
+          "word": "ANYBODY",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "GLEAMIER",
+          "score": 33,
+          "length": 8
+        },
+        {
+          "word": "ER",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42968,
+      "botId": 203,
+      "name": "CasualThinker",
+      "score": 20,
+      "win": false,
+      "words": [
+        {
+          "word": "HWAN",
+          "score": 15,
+          "length": 4
+        },
+        {
+          "word": "OF",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42968,
+      "botId": 166,
+      "name": "SoapConsumers",
+      "score": 15,
+      "win": false,
+      "words": [
+        {
+          "word": "WIS",
+          "score": 6,
+          "length": 3
+        },
+        {
+          "word": "CUT",
+          "score": 5,
+          "length": 3
+        },
+        {
+          "word": "AE",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "LO",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42973,
+      "botId": 166,
+      "name": "SoapConsumers",
+      "score": 15,
+      "win": false,
+      "words": [
+        {
+          "word": "HOB",
+          "score": 8,
+          "length": 3
+        },
+        {
+          "word": "BOT",
+          "score": 5,
+          "length": 3
+        },
+        {
+          "word": "IN",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42973,
+      "botId": 182,
+      "name": "scrabblemaxxing",
+      "score": 102,
+      "win": false,
+      "words": [
+        {
+          "word": "ZYGOTE",
+          "score": 47,
+          "length": 6
+        },
+        {
+          "word": "WEARIER",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "GANOF",
+          "score": 18,
+          "length": 5
+        },
+        {
+          "word": "DINT",
+          "score": 7,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42973,
+      "botId": 192,
+      "name": "aipom",
+      "score": 114,
+      "win": false,
+      "words": [
+        {
+          "word": "DEGERMS",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "PULQUE",
+          "score": 42,
+          "length": 6
+        },
+        {
+          "word": "FLAVIN",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "CUES",
+          "score": 9,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42973,
+      "botId": 196,
+      "name": "Vector Blast",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 42973,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 118,
+      "win": true,
+      "words": [
+        {
+          "word": "TAXWISE",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "CHIMLEY",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "RAVER",
+          "score": 16,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42973,
+      "botId": 203,
+      "name": "CasualThinker",
+      "score": 18,
+      "win": false,
+      "words": [
+        {
+          "word": "JUDO",
+          "score": 18,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42978,
+      "botId": 167,
+      "name": "Jaeger",
+      "score": 101,
+      "win": false,
+      "words": [
+        {
+          "word": "WHOLISM",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "JUNKIER",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "ET",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42978,
+      "botId": 192,
+      "name": "aipom",
+      "score": 51,
+      "win": false,
+      "words": [
+        {
+          "word": "VESPERAL",
+          "score": 39,
+          "length": 8
+        },
+        {
+          "word": "OUTDO",
+          "score": 12,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42978,
+      "botId": 196,
+      "name": "Vector Blast",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 42978,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 102,
+      "win": true,
+      "words": [
+        {
+          "word": "WOMANIZED",
+          "score": 72,
+          "length": 9
+        },
+        {
+          "word": "FARCED",
+          "score": 30,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 42978,
+      "botId": 164,
+      "name": "Tow57-Auctioneer",
+      "score": 58,
+      "win": false,
+      "words": [
+        {
+          "word": "ORATIONS",
+          "score": 24,
+          "length": 8
+        },
+        {
+          "word": "BOTANY",
+          "score": 27,
+          "length": 6
+        },
+        {
+          "word": "NEE",
+          "score": 3,
+          "length": 3
+        },
+        {
+          "word": "BI",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42978,
+      "botId": 186,
+      "name": "Lucy",
+      "score": 96,
+      "win": false,
+      "words": [
+        {
+          "word": "REGALIA",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "AQUIVER",
+          "score": 57,
+          "length": 7
+        },
+        {
+          "word": "CHUG",
+          "score": 15,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42984,
+      "botId": 18,
+      "name": "LUCENT",
+      "score": 95,
+      "win": false,
+      "words": [
+        {
+          "word": "AQUAVIT",
+          "score": 57,
+          "length": 7
+        },
+        {
+          "word": "FIDEIST",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "OPE",
+          "score": 5,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42984,
+      "botId": 167,
+      "name": "Jaeger",
+      "score": 88,
+      "win": false,
+      "words": [
+        {
+          "word": "MYCELIA",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "OUTFAWN",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "GALS",
+          "score": 7,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42984,
+      "botId": 196,
+      "name": "Vector Blast",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 42984,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 85,
+      "win": false,
+      "words": [
+        {
+          "word": "ZEROING",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "WHINY",
+          "score": 28,
+          "length": 5
+        },
+        {
+          "word": "TOLL",
+          "score": 6,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42984,
+      "botId": 172,
+      "name": "Odysseus's Voyage",
+      "score": 99,
+      "win": true,
+      "words": [
+        {
+          "word": "HOAXERS",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "AMBROID",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "VEND",
+          "score": 12,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42984,
+      "botId": 169,
+      "name": "Abhi-AuctionLab",
+      "score": 79,
+      "win": false,
+      "words": [
+        {
+          "word": "KAJEPUT",
+          "score": 60,
+          "length": 7
+        },
+        {
+          "word": "IODINE",
+          "score": 17,
+          "length": 6
+        },
+        {
+          "word": "ES",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42990,
+      "botId": 191,
+      "name": "Primey",
+      "score": 70,
+      "win": false,
+      "words": [
+        {
+          "word": "DOVEKEY",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "CARAT",
+          "score": 14,
+          "length": 5
+        },
+        {
+          "word": "UT",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42990,
+      "botId": 18,
+      "name": "LUCENT",
+      "score": 81,
+      "win": false,
+      "words": [
+        {
+          "word": "FAVORED",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "TRISHAW",
+          "score": 39,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 42990,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 101,
+      "win": false,
+      "words": [
+        {
+          "word": "POETIZED",
+          "score": 60,
+          "length": 8
+        },
+        {
+          "word": "FORAGE",
+          "score": 25,
+          "length": 6
+        },
+        {
+          "word": "NIXE",
+          "score": 16,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 42990,
+      "botId": 201,
+      "name": "Lbender",
+      "score": 42,
+      "win": false,
+      "words": [
+        {
+          "word": "DISOBEY",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "LET",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42990,
+      "botId": 178,
+      "name": "gas",
+      "score": 63,
+      "win": false,
+      "words": [
+        {
+          "word": "IMPINGE",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "ABSENTS",
+          "score": 27,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 42990,
+      "botId": 165,
+      "name": "cosine",
+      "score": 123,
+      "win": true,
+      "words": [
+        {
+          "word": "JOWING",
+          "score": 42,
+          "length": 6
+        },
+        {
+          "word": "QUINELA",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "MANORIAL",
+          "score": 30,
+          "length": 8
+        },
+        {
+          "word": "ULU",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42996,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 83,
+      "win": false,
+      "words": [
+        {
+          "word": "AIGRETS",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "QUINTE",
+          "score": 37,
+          "length": 6
+        },
+        {
+          "word": "ZETA",
+          "score": 19,
+          "length": 4
+        },
+        {
+          "word": "AIN",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 42996,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 106,
+      "win": true,
+      "words": [
+        {
+          "word": "FROTHING",
+          "score": 45,
+          "length": 8
+        },
+        {
+          "word": "WALKYRIE",
+          "score": 54,
+          "length": 8
+        },
+        {
+          "word": "NU",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "EF",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 42996,
+      "botId": 145,
+      "name": "Afterword",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 42996,
+      "botId": 180,
+      "name": "StickBot",
+      "score": 66,
+      "win": false,
+      "words": [
+        {
+          "word": "LIVABLE",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "JOWAR",
+          "score": 30,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42996,
+      "botId": 195,
+      "name": "Como Se Dice I Want to Scrabble",
+      "score": 106,
+      "win": true,
+      "words": [
+        {
+          "word": "TAXONOMY",
+          "score": 60,
+          "length": 8
+        },
+        {
+          "word": "OCHROUS",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "SENSE",
+          "score": 10,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 42996,
+      "botId": 114,
+      "name": "Bron",
+      "score": 79,
+      "win": false,
+      "words": [
+        {
+          "word": "DECAPOD",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "VAULTER",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "GIBE",
+          "score": 10,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43001,
+      "botId": 181,
+      "name": "LexiconWarrior",
+      "score": 59,
+      "win": false,
+      "words": [
+        {
+          "word": "INWARDS",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "JINGO",
+          "score": 26,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43001,
+      "botId": 180,
+      "name": "StickBot",
+      "score": 76,
+      "win": false,
+      "words": [
+        {
+          "word": "VIOLETS",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "QUEANS",
+          "score": 37,
+          "length": 6
+        },
+        {
+          "word": "ABUT",
+          "score": 9,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43001,
+      "botId": 195,
+      "name": "Como Se Dice I Want to Scrabble",
+      "score": 90,
+      "win": false,
+      "words": [
+        {
+          "word": "POTZERS",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "CONKED",
+          "score": 32,
+          "length": 6
+        },
+        {
+          "word": "BI",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43001,
+      "botId": 114,
+      "name": "Bron",
+      "score": 66,
+      "win": false,
+      "words": [
+        {
+          "word": "PRIDING",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "FOMITE",
+          "score": 27,
+          "length": 6
+        },
+        {
+          "word": "VIA",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43001,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 81,
+      "win": false,
+      "words": [
+        {
+          "word": "ANOREXY",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "ETAGERE",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "HAO",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43001,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 102,
+      "win": true,
+      "words": [
+        {
+          "word": "AIMFULLY",
+          "score": 48,
+          "length": 8
+        },
+        {
+          "word": "WELCHED",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "TOEA",
+          "score": 6,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43007,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 75,
+      "win": false,
+      "words": [
+        {
+          "word": "NOIRISH",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "FORAYS",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "LEVY",
+          "score": 15,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43007,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 111,
+      "win": true,
+      "words": [
+        {
+          "word": "HEXAPOD",
+          "score": 60,
+          "length": 7
+        },
+        {
+          "word": "TWIGGEN",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "BAKE",
+          "score": 15,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43007,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 64,
+      "win": false,
+      "words": [
+        {
+          "word": "FJORDS",
+          "score": 42,
+          "length": 6
+        },
+        {
+          "word": "AG",
+          "score": 3,
+          "length": 2
+        },
+        {
+          "word": "TURBO",
+          "score": 14,
+          "length": 5
+        },
+        {
+          "word": "OW",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43007,
+      "botId": 204,
+      "name": "bot1717",
+      "score": 30,
+      "win": false,
+      "words": [
+        {
+          "word": "ANTACID",
+          "score": 30,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 43007,
+      "botId": 186,
+      "name": "Lucy",
+      "score": 87,
+      "win": false,
+      "words": [
+        {
+          "word": "AQUARIA",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "COZIE",
+          "score": 32,
+          "length": 5
+        },
+        {
+          "word": "DEIL",
+          "score": 7,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43007,
+      "botId": 164,
+      "name": "Tow57-Auctioneer",
+      "score": 60,
+      "win": false,
+      "words": [
+        {
+          "word": "NESTLER",
+          "score": 21,
+          "length": 7
+        },
+        {
+          "word": "VEINLET",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "MU",
+          "score": 4,
+          "length": 2
+        },
+        {
+          "word": "TOE",
+          "score": 3,
+          "length": 3
+        },
+        {
+          "word": "EN",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43013,
+      "botId": 172,
+      "name": "Odysseus's Voyage",
+      "score": 52,
+      "win": false,
+      "words": [
+        {
+          "word": "OVERING",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "SUETY",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "ART",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43013,
+      "botId": 204,
+      "name": "bot1717",
+      "score": 25,
+      "win": false,
+      "words": [
+        {
+          "word": "CUMULI",
+          "score": 25,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 43013,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 123,
+      "win": true,
+      "words": [
+        {
+          "word": "HEMATAL",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "OZONIDE",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "WIGGLE",
+          "score": 27,
+          "length": 6
+        },
+        {
+          "word": "EX",
+          "score": 9,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43013,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 112,
+      "win": false,
+      "words": [
+        {
+          "word": "FOREBAY",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "WONKIER",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "VEEPS",
+          "score": 20,
+          "length": 5
+        },
+        {
+          "word": "HO",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43013,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 43,
+      "win": false,
+      "words": [
+        {
+          "word": "ASPIRIN",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "FIDS",
+          "score": 12,
+          "length": 4
+        },
+        {
+          "word": "UT",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "LO",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43013,
+      "botId": 182,
+      "name": "scrabblemaxxing",
+      "score": 96,
+      "win": false,
+      "words": [
+        {
+          "word": "QINDAR",
+          "score": 40,
+          "length": 6
+        },
+        {
+          "word": "ADJACENT",
+          "score": 54,
+          "length": 8
+        },
+        {
+          "word": "TO",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43019,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 64,
+      "win": false,
+      "words": [
+        {
+          "word": "FANFOLD",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "REMAP",
+          "score": 18,
+          "length": 5
+        },
+        {
+          "word": "AN",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "US",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43019,
+      "botId": 204,
+      "name": "bot1717",
+      "score": 48,
+      "win": false,
+      "words": [
+        {
+          "word": "EDITORS",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "ANTIRED",
+          "score": 24,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 43019,
+      "botId": 172,
+      "name": "Odysseus's Voyage",
+      "score": 47,
+      "win": false,
+      "words": [
+        {
+          "word": "QUEEN",
+          "score": 28,
+          "length": 5
+        },
+        {
+          "word": "OOZE",
+          "score": 19,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43019,
+      "botId": 182,
+      "name": "scrabblemaxxing",
+      "score": 74,
+      "win": false,
+      "words": [
+        {
+          "word": "WARISON",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "VEXIL",
+          "score": 30,
+          "length": 5
+        },
+        {
+          "word": "YAGI",
+          "score": 12,
+          "length": 4
+        },
+        {
+          "word": "IT",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43019,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 92,
+      "win": true,
+      "words": [
+        {
+          "word": "KASHRUT",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "BEADING",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "JOE",
+          "score": 10,
+          "length": 3
+        },
+        {
+          "word": "COB",
+          "score": 7,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43019,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 71,
+      "win": false,
+      "words": [
+        {
+          "word": "TWITCHER",
+          "score": 48,
+          "length": 8
+        },
+        {
+          "word": "LAEVO",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "MY",
+          "score": 7,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43025,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 39,
+      "win": false,
+      "words": [
+        {
+          "word": "GAROTTED",
+          "score": 30,
+          "length": 8
+        },
+        {
+          "word": "BEL",
+          "score": 5,
+          "length": 3
+        },
+        {
+          "word": "IN",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "AI",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43025,
+      "botId": 172,
+      "name": "Odysseus's Voyage",
+      "score": 38,
+      "win": false,
+      "words": [
+        {
+          "word": "ESTRIOL",
+          "score": 21,
+          "length": 7
+        },
+        {
+          "word": "BARF",
+          "score": 13,
+          "length": 4
+        },
+        {
+          "word": "GNU",
+          "score": 4,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43025,
+      "botId": 204,
+      "name": "bot1717",
+      "score": 63,
+      "win": false,
+      "words": [
+        {
+          "word": "KAOLINE",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "OUTWILE",
+          "score": 30,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 43025,
+      "botId": 182,
+      "name": "scrabblemaxxing",
+      "score": 69,
+      "win": false,
+      "words": [
+        {
+          "word": "CODEIAS",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "PAVING",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "MUTT",
+          "score": 9,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43025,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 111,
+      "win": true,
+      "words": [
+        {
+          "word": "EQUINOX",
+          "score": 69,
+          "length": 7
+        },
+        {
+          "word": "HAZER",
+          "score": 34,
+          "length": 5
+        },
+        {
+          "word": "CRY",
+          "score": 8,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43025,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 110,
+      "win": false,
+      "words": [
+        {
+          "word": "JANIFORM",
+          "score": 60,
+          "length": 8
+        },
+        {
+          "word": "SWAYED",
+          "score": 32,
+          "length": 6
+        },
+        {
+          "word": "HOSED",
+          "score": 18,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43031,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 105,
+      "win": true,
+      "words": [
+        {
+          "word": "FIXABLE",
+          "score": 57,
+          "length": 7
+        },
+        {
+          "word": "GRAYISH",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "MI",
+          "score": 4,
+          "length": 2
+        },
+        {
+          "word": "NO",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43031,
+      "botId": 172,
+      "name": "Odysseus's Voyage",
+      "score": 55,
+      "win": false,
+      "words": [
+        {
+          "word": "UNSPOKE",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "JUG",
+          "score": 11,
+          "length": 3
+        },
+        {
+          "word": "HO",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43031,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 64,
+      "win": false,
+      "words": [
+        {
+          "word": "CONIDIA",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "SWIFT",
+          "score": 22,
+          "length": 5
+        },
+        {
+          "word": "AUDIO",
+          "score": 12,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43031,
+      "botId": 182,
+      "name": "scrabblemaxxing",
+      "score": 59,
+      "win": false,
+      "words": [
+        {
+          "word": "DEVIANT",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "RELATOR",
+          "score": 21,
+          "length": 7
+        },
+        {
+          "word": "YE",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43031,
+      "botId": 187,
+      "name": "TileHoarder",
+      "score": 60,
+      "win": false,
+      "words": [
+        {
+          "word": "PLUMAGE",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "AVOSET",
+          "score": 22,
+          "length": 6
+        },
+        {
+          "word": "EN",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43031,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 87,
+      "win": false,
+      "words": [
+        {
+          "word": "BENZOLE",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "REWRITE",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "ART",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43037,
+      "botId": 187,
+      "name": "TileHoarder",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43037,
+      "botId": 172,
+      "name": "Odysseus's Voyage",
+      "score": 30,
+      "win": false,
+      "words": [
+        {
+          "word": "TEAWARE",
+          "score": 30,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 43037,
+      "botId": 182,
+      "name": "scrabblemaxxing",
+      "score": 78,
+      "win": false,
+      "words": [
+        {
+          "word": "BEGUINE",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "TANTIVY",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "DOES",
+          "score": 7,
+          "length": 4
+        },
+        {
+          "word": "TO",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43037,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 65,
+      "win": false,
+      "words": [
+        {
+          "word": "DELIGHT",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "LEXIS",
+          "score": 24,
+          "length": 5
+        },
+        {
+          "word": "OF",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43037,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 124,
+      "win": true,
+      "words": [
+        {
+          "word": "COOKINGS",
+          "score": 45,
+          "length": 8
+        },
+        {
+          "word": "TZARINA",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "HUMID",
+          "score": 22,
+          "length": 5
+        },
+        {
+          "word": "ARBS",
+          "score": 9,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43037,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 89,
+      "win": false,
+      "words": [
+        {
+          "word": "FREEWAY",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "COPPRA",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "LIME",
+          "score": 9,
+          "length": 4
+        },
+        {
+          "word": "OR",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43043,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43043,
+      "botId": 205,
+      "name": "Nigel \"Bidderson\" Richards",
+      "score": 11,
+      "win": false,
+      "words": [
+        {
+          "word": "RATO",
+          "score": 6,
+          "length": 4
+        },
+        {
+          "word": "HO",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43043,
+      "botId": 185,
+      "name": "monkey",
+      "score": 36,
+      "win": false,
+      "words": [
+        {
+          "word": "NORIA",
+          "score": 10,
+          "length": 5
+        },
+        {
+          "word": "LAPSE",
+          "score": 14,
+          "length": 5
+        },
+        {
+          "word": "ANENT",
+          "score": 10,
+          "length": 5
+        },
+        {
+          "word": "LI",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43043,
+      "botId": 172,
+      "name": "Odysseus's Voyage",
+      "score": 143,
+      "win": true,
+      "words": [
+        {
+          "word": "ESTUARY",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "DECKING",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "TEABOWL",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "MAQUI",
+          "score": 32,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43043,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 75,
+      "win": false,
+      "words": [
+        {
+          "word": "EARLOBE",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "GENDERS",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "FAUX",
+          "score": 21,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43043,
+      "botId": 182,
+      "name": "scrabblemaxxing",
+      "score": 95,
+      "win": false,
+      "words": [
+        {
+          "word": "JEWING",
+          "score": 42,
+          "length": 6
+        },
+        {
+          "word": "ZEDS",
+          "score": 21,
+          "length": 4
+        },
+        {
+          "word": "CROFT",
+          "score": 20,
+          "length": 5
+        },
+        {
+          "word": "YOD",
+          "score": 7,
+          "length": 3
+        },
+        {
+          "word": "UH",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43052,
+      "botId": 208,
+      "name": "Pegasus",
+      "score": 60,
+      "win": false,
+      "words": [
+        {
+          "word": "DAMOZEL",
+          "score": 57,
+          "length": 7
+        },
+        {
+          "word": "ION",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43052,
+      "botId": 207,
+      "name": "LexForge-1107",
+      "score": 100,
+      "win": false,
+      "words": [
+        {
+          "word": "TWITCHY",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "KNIFES",
+          "score": 32,
+          "length": 6
+        },
+        {
+          "word": "BOULE",
+          "score": 14,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43052,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 106,
+      "win": true,
+      "words": [
+        {
+          "word": "WHIPPER",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "FOCALISED",
+          "score": 45,
+          "length": 9
+        },
+        {
+          "word": "ANTRE",
+          "score": 10,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43052,
+      "botId": 175,
+      "name": "wordgoat",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43052,
+      "botId": 181,
+      "name": "LexiconWarrior",
+      "score": 70,
+      "win": false,
+      "words": [
+        {
+          "word": "OUTMOVED",
+          "score": 42,
+          "length": 8
+        },
+        {
+          "word": "SOJAS",
+          "score": 24,
+          "length": 5
+        },
+        {
+          "word": "RIG",
+          "score": 4,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43052,
+      "botId": 164,
+      "name": "Tow57-Auctioneer",
+      "score": 94,
+      "win": false,
+      "words": [
+        {
+          "word": "BAUXITE",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "VAUNTING",
+          "score": 36,
+          "length": 8
+        },
+        {
+          "word": "ARIA",
+          "score": 6,
+          "length": 4
+        },
+        {
+          "word": "OE",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "AR",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43058,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 107,
+      "win": true,
+      "words": [
+        {
+          "word": "JAPONICA",
+          "score": 57,
+          "length": 8
+        },
+        {
+          "word": "BAFFLED",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "AS",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43058,
+      "botId": 183,
+      "name": "QuertyBot",
+      "score": 42,
+      "win": false,
+      "words": [
+        {
+          "word": "ORATION",
+          "score": 21,
+          "length": 7
+        },
+        {
+          "word": "EERIEST",
+          "score": 21,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 43058,
+      "botId": 170,
+      "name": "Sepcis",
+      "score": 62,
+      "win": false,
+      "words": [
+        {
+          "word": "INVOKE",
+          "score": 32,
+          "length": 6
+        },
+        {
+          "word": "NOUGHT",
+          "score": 25,
+          "length": 6
+        },
+        {
+          "word": "YO",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43058,
+      "botId": 181,
+      "name": "LexiconWarrior",
+      "score": 101,
+      "win": false,
+      "words": [
+        {
+          "word": "QUAGMIRE",
+          "score": 60,
+          "length": 8
+        },
+        {
+          "word": "THYMES",
+          "score": 35,
+          "length": 6
+        },
+        {
+          "word": "NINE",
+          "score": 6,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43058,
+      "botId": 164,
+      "name": "Tow57-Auctioneer",
+      "score": 56,
+      "win": false,
+      "words": [
+        {
+          "word": "TAWDRIER",
+          "score": 36,
+          "length": 8
+        },
+        {
+          "word": "GASLIT",
+          "score": 17,
+          "length": 6
+        },
+        {
+          "word": "LEU",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43058,
+      "botId": 208,
+      "name": "Pegasus",
+      "score": 54,
+      "win": false,
+      "words": [
+        {
+          "word": "BECROWDED",
+          "score": 54,
+          "length": 9
+        }
+      ]
+    },
+    {
+      "match": 43064,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 144,
+      "win": true,
+      "words": [
+        {
+          "word": "JARLDOM",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "FIQUE",
+          "score": 34,
+          "length": 5
+        },
+        {
+          "word": "HOMINY",
+          "score": 35,
+          "length": 6
+        },
+        {
+          "word": "SIZY",
+          "score": 24,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43064,
+      "botId": 145,
+      "name": "Afterword",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43064,
+      "botId": 181,
+      "name": "LexiconWarrior",
+      "score": 79,
+      "win": false,
+      "words": [
+        {
+          "word": "CESTODE",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "BOWERED",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "VAIL",
+          "score": 10,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43064,
+      "botId": 164,
+      "name": "Tow57-Auctioneer",
+      "score": 77,
+      "win": false,
+      "words": [
+        {
+          "word": "KEISTER",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "PARGING",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "BINT",
+          "score": 9,
+          "length": 4
+        },
+        {
+          "word": "LO",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43064,
+      "botId": 183,
+      "name": "QuertyBot",
+      "score": 54,
+      "win": false,
+      "words": [
+        {
+          "word": "PANATELA",
+          "score": 30,
+          "length": 8
+        },
+        {
+          "word": "ARENOSE",
+          "score": 21,
+          "length": 7
+        },
+        {
+          "word": "AIT",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43064,
+      "botId": 208,
+      "name": "Pegasus",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43070,
+      "botId": 186,
+      "name": "Lucy",
+      "score": 36,
+      "win": false,
+      "words": [
+        {
+          "word": "EPISODE",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "NEW",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43070,
+      "botId": 181,
+      "name": "LexiconWarrior",
+      "score": 79,
+      "win": false,
+      "words": [
+        {
+          "word": "RAMPION",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "ANTISEX",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "EM",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43070,
+      "botId": 164,
+      "name": "Tow57-Auctioneer",
+      "score": 68,
+      "win": false,
+      "words": [
+        {
+          "word": "SIGNORY",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "ELATIVE",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "OAT",
+          "score": 3,
+          "length": 3
+        },
+        {
+          "word": "LO",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43070,
+      "botId": 183,
+      "name": "QuertyBot",
+      "score": 95,
+      "win": false,
+      "words": [
+        {
+          "word": "THRIFTY",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "UNBATED",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "GLAIRE",
+          "score": 17,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 43070,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 116,
+      "win": true,
+      "words": [
+        {
+          "word": "QUAKERS",
+          "score": 60,
+          "length": 7
+        },
+        {
+          "word": "CHEDDAR",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "COW",
+          "score": 8,
+          "length": 3
+        },
+        {
+          "word": "BIG",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43070,
+      "botId": 204,
+      "name": "bot1717",
+      "score": 22,
+      "win": false,
+      "words": [
+        {
+          "word": "FINALE",
+          "score": 22,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 43076,
+      "botId": 18,
+      "name": "LUCENT",
+      "score": 93,
+      "win": true,
+      "words": [
+        {
+          "word": "ROWLOCK",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "REWOUND",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "GRUNT",
+          "score": 12,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43076,
+      "botId": 183,
+      "name": "QuertyBot",
+      "score": 39,
+      "win": false,
+      "words": [
+        {
+          "word": "BIENNIA",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "TUTEE",
+          "score": 10,
+          "length": 5
+        },
+        {
+          "word": "AA",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43076,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 82,
+      "win": false,
+      "words": [
+        {
+          "word": "ZYGOID",
+          "score": 50,
+          "length": 6
+        },
+        {
+          "word": "MYTHS",
+          "score": 26,
+          "length": 5
+        },
+        {
+          "word": "ARF",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43076,
+      "botId": 195,
+      "name": "Como Se Dice I Want to Scrabble",
+      "score": 37,
+      "win": false,
+      "words": [
+        {
+          "word": "AREOLAS",
+          "score": 21,
+          "length": 7
+        },
+        {
+          "word": "JIN",
+          "score": 10,
+          "length": 3
+        },
+        {
+          "word": "VIA",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43076,
+      "botId": 191,
+      "name": "Primey",
+      "score": 75,
+      "win": false,
+      "words": [
+        {
+          "word": "BEHOOVE",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "SEPTUM",
+          "score": 25,
+          "length": 6
+        },
+        {
+          "word": "CEL",
+          "score": 5,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43076,
+      "botId": 114,
+      "name": "Bron",
+      "score": 75,
+      "win": false,
+      "words": [
+        {
+          "word": "TAXPAID",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "DINEROS",
+          "score": 24,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 43082,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 105,
+      "win": true,
+      "words": [
+        {
+          "word": "QUELLER",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "KUCHEN",
+          "score": 37,
+          "length": 6
+        },
+        {
+          "word": "BREVE",
+          "score": 20,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43082,
+      "botId": 114,
+      "name": "Bron",
+      "score": 95,
+      "win": false,
+      "words": [
+        {
+          "word": "SYLPHID",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "JUICED",
+          "score": 40,
+          "length": 6
+        },
+        {
+          "word": "AB",
+          "score": 4,
+          "length": 2
+        },
+        {
+          "word": "DO",
+          "score": 3,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43082,
+      "botId": 183,
+      "name": "QuertyBot",
+      "score": 39,
+      "win": false,
+      "words": [
+        {
+          "word": "INTONER",
+          "score": 21,
+          "length": 7
+        },
+        {
+          "word": "TAWIE",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "OR",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43082,
+      "botId": 18,
+      "name": "LUCENT",
+      "score": 84,
+      "win": false,
+      "words": [
+        {
+          "word": "FARTING",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "FOOTWAY",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "OAT",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43082,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 80,
+      "win": false,
+      "words": [
+        {
+          "word": "SIMAZINE",
+          "score": 57,
+          "length": 8
+        },
+        {
+          "word": "VELUM",
+          "score": 20,
+          "length": 5
+        },
+        {
+          "word": "ID",
+          "score": 3,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43082,
+      "botId": 172,
+      "name": "Odysseus's Voyage",
+      "score": 51,
+      "win": false,
+      "words": [
+        {
+          "word": "PASSAGE",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "ANGER",
+          "score": 12,
+          "length": 5
+        },
+        {
+          "word": "OX",
+          "score": 9,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43088,
+      "botId": 212,
+      "name": "Astronaut",
+      "score": 80,
+      "win": false,
+      "words": [
+        {
+          "word": "ARCHWAY",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "EXPO",
+          "score": 19,
+          "length": 4
+        },
+        {
+          "word": "KIT",
+          "score": 7,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43088,
+      "botId": 183,
+      "name": "QuertyBot",
+      "score": 94,
+      "win": false,
+      "words": [
+        {
+          "word": "EQUAL",
+          "score": 28,
+          "length": 5
+        },
+        {
+          "word": "HOORAY",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "VAUNTIE",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "INRO",
+          "score": 6,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43088,
+      "botId": 114,
+      "name": "Bron",
+      "score": 57,
+      "win": false,
+      "words": [
+        {
+          "word": "TOLUIDS",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "WAIRING",
+          "score": 33,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 43088,
+      "botId": 18,
+      "name": "LUCENT",
+      "score": 90,
+      "win": false,
+      "words": [
+        {
+          "word": "JUSTIFIED",
+          "score": 60,
+          "length": 9
+        },
+        {
+          "word": "BEAGLES",
+          "score": 30,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 43088,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 102,
+      "win": true,
+      "words": [
+        {
+          "word": "EMPRIZE",
+          "score": 60,
+          "length": 7
+        },
+        {
+          "word": "BROCADE",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "ELAN",
+          "score": 6,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43088,
+      "botId": 145,
+      "name": "Afterword",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43094,
+      "botId": 200,
+      "name": "Milo :3",
+      "score": 83,
+      "win": false,
+      "words": [
+        {
+          "word": "GAPPED",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "FIQUE",
+          "score": 34,
+          "length": 5
+        },
+        {
+          "word": "WAVY",
+          "score": 19,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43094,
+      "botId": 114,
+      "name": "Bron",
+      "score": 62,
+      "win": false,
+      "words": [
+        {
+          "word": "DISTEND",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "FEARING",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "AL",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43094,
+      "botId": 18,
+      "name": "LUCENT",
+      "score": 123,
+      "win": true,
+      "words": [
+        {
+          "word": "BRUTISH",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "KUNZITE",
+          "score": 60,
+          "length": 7
+        },
+        {
+          "word": "ERASION",
+          "score": 21,
+          "length": 7
+        },
+        {
+          "word": "IOTA",
+          "score": 6,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43094,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 97,
+      "win": false,
+      "words": [
+        {
+          "word": "JUNGLY",
+          "score": 42,
+          "length": 6
+        },
+        {
+          "word": "EXACTER",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "DOLE",
+          "score": 7,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43094,
+      "botId": 194,
+      "name": "NigelBot",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43094,
+      "botId": 162,
+      "name": "Barracuda",
+      "score": 55,
+      "win": false,
+      "words": [
+        {
+          "word": "IMBOWER",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "HI",
+          "score": 5,
+          "length": 2
+        },
+        {
+          "word": "REV",
+          "score": 6,
+          "length": 3
+        },
+        {
+          "word": "OE",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43100,
+      "botId": 181,
+      "name": "LexiconWarrior",
+      "score": 136,
+      "win": true,
+      "words": [
+        {
+          "word": "WINCEYS",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "FOXIEST",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "GRAVID",
+          "score": 27,
+          "length": 6
+        },
+        {
+          "word": "BUHL",
+          "score": 13,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43100,
+      "botId": 114,
+      "name": "Bron",
+      "score": 72,
+      "win": false,
+      "words": [
+        {
+          "word": "VERDURE",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "JAPERS",
+          "score": 37,
+          "length": 6
+        },
+        {
+          "word": "AI",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43100,
+      "botId": 162,
+      "name": "Barracuda",
+      "score": 48,
+      "win": false,
+      "words": [
+        {
+          "word": "BLONDER",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "GOOD",
+          "score": 9,
+          "length": 4
+        },
+        {
+          "word": "HOE",
+          "score": 6,
+          "length": 3
+        },
+        {
+          "word": "NOT",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43100,
+      "botId": 194,
+      "name": "NigelBot",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43100,
+      "botId": 18,
+      "name": "LUCENT",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43100,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 125,
+      "win": false,
+      "words": [
+        {
+          "word": "LAZARET",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "CYTOKININ",
+          "score": 54,
+          "length": 9
+        },
+        {
+          "word": "OPIUM",
+          "score": 18,
+          "length": 5
+        },
+        {
+          "word": "MAT",
+          "score": 5,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43106,
+      "botId": 209,
+      "name": "N1gel",
+      "score": 91,
+      "win": false,
+      "words": [
+        {
+          "word": "QUININA",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "VISAGED",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "KUE",
+          "score": 7,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43106,
+      "botId": 162,
+      "name": "Barracuda",
+      "score": 32,
+      "win": false,
+      "words": [
+        {
+          "word": "UNROLL",
+          "score": 15,
+          "length": 6
+        },
+        {
+          "word": "MORRO",
+          "score": 14,
+          "length": 5
+        },
+        {
+          "word": "TIE",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43106,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 108,
+      "win": true,
+      "words": [
+        {
+          "word": "COZENER",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "ROPEWAY",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "MAUT",
+          "score": 9,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43106,
+      "botId": 180,
+      "name": "StickBot",
+      "score": 75,
+      "win": false,
+      "words": [
+        {
+          "word": "EXIGENT",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "AWAITER",
+          "score": 30,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 43106,
+      "botId": 182,
+      "name": "scrabblemaxxing",
+      "score": 69,
+      "win": false,
+      "words": [
+        {
+          "word": "TENFOLD",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "JIVES",
+          "score": 30,
+          "length": 5
+        },
+        {
+          "word": "HIS",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43106,
+      "botId": 178,
+      "name": "gas",
+      "score": 79,
+      "win": false,
+      "words": [
+        {
+          "word": "FATHEAD",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "CAPSID",
+          "score": 27,
+          "length": 6
+        },
+        {
+          "word": "GOBO",
+          "score": 10,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43112,
+      "botId": 186,
+      "name": "Lucy",
+      "score": 76,
+      "win": false,
+      "words": [
+        {
+          "word": "ALKYNES",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "FALX",
+          "score": 21,
+          "length": 4
+        },
+        {
+          "word": "PHON",
+          "score": 13,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43112,
+      "botId": 180,
+      "name": "StickBot",
+      "score": 45,
+      "win": false,
+      "words": [
+        {
+          "word": "DESIGNEE",
+          "score": 30,
+          "length": 8
+        },
+        {
+          "word": "TOUTER",
+          "score": 15,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 43112,
+      "botId": 182,
+      "name": "scrabblemaxxing",
+      "score": 89,
+      "win": false,
+      "words": [
+        {
+          "word": "QUINTIC",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "FOOTSY",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "OUT",
+          "score": 3,
+          "length": 3
+        },
+        {
+          "word": "AS",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43112,
+      "botId": 178,
+      "name": "gas",
+      "score": 69,
+      "win": false,
+      "words": [
+        {
+          "word": "OVERDRAW",
+          "score": 45,
+          "length": 8
+        },
+        {
+          "word": "ALMEH",
+          "score": 20,
+          "length": 5
+        },
+        {
+          "word": "BE",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43112,
+      "botId": 162,
+      "name": "Barracuda",
+      "score": 49,
+      "win": false,
+      "words": [
+        {
+          "word": "CLAWED",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "NORIA",
+          "score": 10,
+          "length": 5
+        },
+        {
+          "word": "BITE",
+          "score": 9,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43112,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 97,
+      "win": true,
+      "words": [
+        {
+          "word": "MAJORED",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "RAZING",
+          "score": 40,
+          "length": 6
+        },
+        {
+          "word": "VIE",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43118,
+      "botId": 195,
+      "name": "Como Se Dice I Want to Scrabble",
+      "score": 75,
+      "win": false,
+      "words": [
+        {
+          "word": "FOLIAGE",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "SERVABLE",
+          "score": 39,
+          "length": 8
+        },
+        {
+          "word": "DE",
+          "score": 3,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43118,
+      "botId": 178,
+      "name": "gas",
+      "score": 100,
+      "win": true,
+      "words": [
+        {
+          "word": "OBJECTS",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "NUTLIKE",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "FARM",
+          "score": 13,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43118,
+      "botId": 180,
+      "name": "StickBot",
+      "score": 93,
+      "win": false,
+      "words": [
+        {
+          "word": "TARDYON",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "QUOINED",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "XU",
+          "score": 9,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43118,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 97,
+      "win": false,
+      "words": [
+        {
+          "word": "WOOZIER",
+          "score": 57,
+          "length": 7
+        },
+        {
+          "word": "THIAMIN",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "GIE",
+          "score": 4,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43118,
+      "botId": 194,
+      "name": "NigelBot",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43118,
+      "botId": 169,
+      "name": "Abhi-AuctionLab",
+      "score": 55,
+      "win": false,
+      "words": [
+        {
+          "word": "GRAYOUT",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "WANIER",
+          "score": 22,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 43124,
+      "botId": 163,
+      "name": "Binter",
+      "score": 13,
+      "win": false,
+      "words": [
+        {
+          "word": "MIB",
+          "score": 7,
+          "length": 3
+        },
+        {
+          "word": "GIT",
+          "score": 4,
+          "length": 3
+        },
+        {
+          "word": "OE",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43124,
+      "botId": 194,
+      "name": "NigelBot",
+      "score": 35,
+      "win": false,
+      "words": [
+        {
+          "word": "TWISTY",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "YE",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43124,
+      "botId": 180,
+      "name": "StickBot",
+      "score": 106,
+      "win": true,
+      "words": [
+        {
+          "word": "IDEALIZE",
+          "score": 54,
+          "length": 8
+        },
+        {
+          "word": "GADARENE",
+          "score": 30,
+          "length": 8
+        },
+        {
+          "word": "OCTADS",
+          "score": 22,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 43124,
+      "botId": 195,
+      "name": "Como Se Dice I Want to Scrabble",
+      "score": 86,
+      "win": false,
+      "words": [
+        {
+          "word": "WHIMPER",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "CANKER",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "OF",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43124,
+      "botId": 178,
+      "name": "gas",
+      "score": 86,
+      "win": false,
+      "words": [
+        {
+          "word": "EXPLANT",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "VERNAL",
+          "score": 22,
+          "length": 6
+        },
+        {
+          "word": "HOARS",
+          "score": 16,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43124,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 94,
+      "win": false,
+      "words": [
+        {
+          "word": "LOVEBUG",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "ADJOURN",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "SOFT",
+          "score": 10,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43131,
+      "botId": 207,
+      "name": "LexForge-1107",
+      "score": 93,
+      "win": true,
+      "words": [
+        {
+          "word": "LUXATION",
+          "score": 45,
+          "length": 8
+        },
+        {
+          "word": "HOWLETS",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "BARE",
+          "score": 9,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43131,
+      "botId": 180,
+      "name": "StickBot",
+      "score": 85,
+      "win": false,
+      "words": [
+        {
+          "word": "PRIVATE",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "ENWOUND",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "YANG",
+          "score": 12,
+          "length": 4
+        },
+        {
+          "word": "GEE",
+          "score": 4,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43131,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 89,
+      "win": false,
+      "words": [
+        {
+          "word": "COTQUEAN",
+          "score": 57,
+          "length": 8
+        },
+        {
+          "word": "VOMICA",
+          "score": 32,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 43131,
+      "botId": 163,
+      "name": "Binter",
+      "score": 16,
+      "win": false,
+      "words": [
+        {
+          "word": "ADEPT",
+          "score": 16,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43131,
+      "botId": 212,
+      "name": "Astronaut",
+      "score": 73,
+      "win": false,
+      "words": [
+        {
+          "word": "FISHILY",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "ADSORB",
+          "score": 22,
+          "length": 6
+        },
+        {
+          "word": "ID",
+          "score": 3,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43131,
+      "botId": 202,
+      "name": "Rowin'Boats",
+      "score": 74,
+      "win": false,
+      "words": [
+        {
+          "word": "FRISKER",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "AMITROLE",
+          "score": 30,
+          "length": 8
+        },
+        {
+          "word": "EN",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43137,
+      "botId": 207,
+      "name": "LexForge-1107",
+      "score": 141,
+      "win": true,
+      "words": [
+        {
+          "word": "CAZIQUE",
+          "score": 81,
+          "length": 7
+        },
+        {
+          "word": "WHINGED",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "RAX",
+          "score": 10,
+          "length": 3
+        },
+        {
+          "word": "HO",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43137,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 75,
+      "win": false,
+      "words": [
+        {
+          "word": "FOLKIES",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "TROLLEY",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "AIT",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43137,
+      "botId": 212,
+      "name": "Astronaut",
+      "score": 59,
+      "win": false,
+      "words": [
+        {
+          "word": "FIMBRIA",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "AGENES",
+          "score": 17,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 43137,
+      "botId": 180,
+      "name": "StickBot",
+      "score": 63,
+      "win": false,
+      "words": [
+        {
+          "word": "TURBANS",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "GOOIEST",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "DIENE",
+          "score": 12,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43137,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 82,
+      "win": false,
+      "words": [
+        {
+          "word": "PROJECT",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "UNLIVE",
+          "score": 22,
+          "length": 6
+        },
+        {
+          "word": "DAP",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43137,
+      "botId": 163,
+      "name": "Binter",
+      "score": 27,
+      "win": false,
+      "words": [
+        {
+          "word": "AMORT",
+          "score": 14,
+          "length": 5
+        },
+        {
+          "word": "OY",
+          "score": 5,
+          "length": 2
+        },
+        {
+          "word": "WE",
+          "score": 5,
+          "length": 2
+        },
+        {
+          "word": "AD",
+          "score": 3,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43143,
+      "botId": 145,
+      "name": "Afterword",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43143,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 166,
+      "win": true,
+      "words": [
+        {
+          "word": "JAYWALK",
+          "score": 72,
+          "length": 7
+        },
+        {
+          "word": "SUBNICHE",
+          "score": 45,
+          "length": 8
+        },
+        {
+          "word": "QINDAR",
+          "score": 40,
+          "length": 6
+        },
+        {
+          "word": "DAGO",
+          "score": 9,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43143,
+      "botId": 207,
+      "name": "LexForge-1107",
+      "score": 88,
+      "win": false,
+      "words": [
+        {
+          "word": "ZEBRINE",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "PURELY",
+          "score": 27,
+          "length": 6
+        },
+        {
+          "word": "DOTE",
+          "score": 7,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43143,
+      "botId": 163,
+      "name": "Binter",
+      "score": 34,
+      "win": false,
+      "words": [
+        {
+          "word": "ACME",
+          "score": 12,
+          "length": 4
+        },
+        {
+          "word": "FEW",
+          "score": 9,
+          "length": 3
+        },
+        {
+          "word": "GIG",
+          "score": 5,
+          "length": 3
+        },
+        {
+          "word": "OPT",
+          "score": 5,
+          "length": 3
+        },
+        {
+          "word": "ITS",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43143,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 92,
+      "win": false,
+      "words": [
+        {
+          "word": "UNFIXED",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "HAULERS",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "TORN",
+          "score": 6,
+          "length": 4
+        },
+        {
+          "word": "AI",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43143,
+      "botId": 169,
+      "name": "Abhi-AuctionLab",
+      "score": 42,
+      "win": false,
+      "words": [
+        {
+          "word": "OVATION",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "AERIE",
+          "score": 10,
+          "length": 5
+        },
+        {
+          "word": "LO",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43149,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 71,
+      "win": false,
+      "words": [
+        {
+          "word": "TIMIDER",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "LOBEFIN",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "AW",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43149,
+      "botId": 191,
+      "name": "Primey",
+      "score": 84,
+      "win": false,
+      "words": [
+        {
+          "word": "PRIVILY",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "TROAKED",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "OUR",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43149,
+      "botId": 213,
+      "name": "GoatBot",
+      "score": 67,
+      "win": false,
+      "words": [
+        {
+          "word": "WANGUNS",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "METHOD",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "OR",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "AE",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43149,
+      "botId": 169,
+      "name": "Abhi-AuctionLab",
+      "score": 69,
+      "win": false,
+      "words": [
+        {
+          "word": "HEXAPLA",
+          "score": 57,
+          "length": 7
+        },
+        {
+          "word": "YOGI",
+          "score": 12,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43149,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 105,
+      "win": true,
+      "words": [
+        {
+          "word": "ACQUEST",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "JELUTONG",
+          "score": 48,
+          "length": 8
+        },
+        {
+          "word": "ENS",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43149,
+      "botId": 207,
+      "name": "LexForge-1107",
+      "score": 93,
+      "win": false,
+      "words": [
+        {
+          "word": "ZEBRAIC",
+          "score": 60,
+          "length": 7
+        },
+        {
+          "word": "FAINEST",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "DE",
+          "score": 3,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43156,
+      "botId": 161,
+      "name": "Bot",
+      "score": 69,
+      "win": false,
+      "words": [
+        {
+          "word": "POCKY",
+          "score": 32,
+          "length": 5
+        },
+        {
+          "word": "JUDO",
+          "score": 18,
+          "length": 4
+        },
+        {
+          "word": "MAXI",
+          "score": 19,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43156,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 112,
+      "win": true,
+      "words": [
+        {
+          "word": "QUERIER",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "SHERIFF",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "PARER",
+          "score": 14,
+          "length": 5
+        },
+        {
+          "word": "AL",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43156,
+      "botId": 207,
+      "name": "LexForge-1107",
+      "score": 70,
+      "win": false,
+      "words": [
+        {
+          "word": "UNBOWED",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "DEALT",
+          "score": 12,
+          "length": 5
+        },
+        {
+          "word": "ZETA",
+          "score": 19,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43156,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 72,
+      "win": false,
+      "words": [
+        {
+          "word": "MINNOWS",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "LEVATOR",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "HAE",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43156,
+      "botId": 204,
+      "name": "bot1717",
+      "score": 12,
+      "win": false,
+      "words": [
+        {
+          "word": "YIDS",
+          "score": 12,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43156,
+      "botId": 164,
+      "name": "Tow57-Auctioneer",
+      "score": 67,
+      "win": false,
+      "words": [
+        {
+          "word": "BOSCAGE",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "TITANITE",
+          "score": 24,
+          "length": 8
+        },
+        {
+          "word": "GONE",
+          "score": 7,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43163,
+      "botId": 166,
+      "name": "SoapConsumers",
+      "score": 66,
+      "win": false,
+      "words": [
+        {
+          "word": "VOGUING",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "JIBES",
+          "score": 28,
+          "length": 5
+        },
+        {
+          "word": "AN",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43163,
+      "botId": 161,
+      "name": "Bot",
+      "score": 59,
+      "win": false,
+      "words": [
+        {
+          "word": "KNURLED",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "AVOID",
+          "score": 18,
+          "length": 5
+        },
+        {
+          "word": "YE",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43163,
+      "botId": 164,
+      "name": "Tow57-Auctioneer",
+      "score": 54,
+      "win": false,
+      "words": [
+        {
+          "word": "OUTPOST",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "RANTING",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "ATE",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43163,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 102,
+      "win": true,
+      "words": [
+        {
+          "word": "HYPODERM",
+          "score": 57,
+          "length": 8
+        },
+        {
+          "word": "ORIFICE",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "BRAT",
+          "score": 9,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43163,
+      "botId": 207,
+      "name": "LexForge-1107",
+      "score": 61,
+      "win": false,
+      "words": [
+        {
+          "word": "ZOWIE",
+          "score": 34,
+          "length": 5
+        },
+        {
+          "word": "FAULTS",
+          "score": 22,
+          "length": 6
+        },
+        {
+          "word": "MOR",
+          "score": 5,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43163,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 71,
+      "win": false,
+      "words": [
+        {
+          "word": "AXILLAS",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "WENCH",
+          "score": 26,
+          "length": 5
+        },
+        {
+          "word": "ID",
+          "score": 3,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43170,
+      "botId": 165,
+      "name": "cosine",
+      "score": 73,
+      "win": false,
+      "words": [
+        {
+          "word": "UNWOVEN",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "GRIFT",
+          "score": 18,
+          "length": 5
+        },
+        {
+          "word": "LEAPT",
+          "score": 14,
+          "length": 5
+        },
+        {
+          "word": "NO",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43170,
+      "botId": 166,
+      "name": "SoapConsumers",
+      "score": 61,
+      "win": false,
+      "words": [
+        {
+          "word": "DECEITFUL",
+          "score": 45,
+          "length": 9
+        },
+        {
+          "word": "VOX",
+          "score": 13,
+          "length": 3
+        },
+        {
+          "word": "ERR",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43170,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 90,
+      "win": true,
+      "words": [
+        {
+          "word": "ZIBETHS",
+          "score": 63,
+          "length": 7
+        },
+        {
+          "word": "ARCHES",
+          "score": 27,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 43170,
+      "botId": 207,
+      "name": "LexForge-1107",
+      "score": 73,
+      "win": false,
+      "words": [
+        {
+          "word": "QUOTE",
+          "score": 28,
+          "length": 5
+        },
+        {
+          "word": "KAYOED",
+          "score": 35,
+          "length": 6
+        },
+        {
+          "word": "AWEE",
+          "score": 10,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43170,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 47,
+      "win": false,
+      "words": [
+        {
+          "word": "LABIALS",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "PINEY",
+          "score": 20,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43170,
+      "botId": 181,
+      "name": "LexiconWarrior",
+      "score": 74,
+      "win": false,
+      "words": [
+        {
+          "word": "AMORINI",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "MASJID",
+          "score": 40,
+          "length": 6
+        },
+        {
+          "word": "GIRN",
+          "score": 7,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43176,
+      "botId": 188,
+      "name": "peanuts",
+      "score": 72,
+      "win": false,
+      "words": [
+        {
+          "word": "DADOING",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "UNTEACH",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "AERO",
+          "score": 6,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43176,
+      "botId": 165,
+      "name": "cosine",
+      "score": 55,
+      "win": false,
+      "words": [
+        {
+          "word": "LARKING",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "VOX",
+          "score": 13,
+          "length": 3
+        },
+        {
+          "word": "STIR",
+          "score": 6,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43176,
+      "botId": 166,
+      "name": "SoapConsumers",
+      "score": 58,
+      "win": false,
+      "words": [
+        {
+          "word": "TOWLINE",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "AFIRE",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "AZO",
+          "score": 12,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43176,
+      "botId": 201,
+      "name": "Lbender",
+      "score": 57,
+      "win": false,
+      "words": [
+        {
+          "word": "NOVELTY",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "BARIC",
+          "score": 18,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43176,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 80,
+      "win": false,
+      "words": [
+        {
+          "word": "JALOUSIES",
+          "score": 48,
+          "length": 9
+        },
+        {
+          "word": "DEWING",
+          "score": 27,
+          "length": 6
+        },
+        {
+          "word": "YE",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43176,
+      "botId": 207,
+      "name": "LexForge-1107",
+      "score": 92,
+      "win": true,
+      "words": [
+        {
+          "word": "PERFUMED",
+          "score": 48,
+          "length": 8
+        },
+        {
+          "word": "BAPTISM",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "EH",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43182,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 76,
+      "win": false,
+      "words": [
+        {
+          "word": "ZOOECIA",
+          "score": 54,
+          "length": 7
+        },
+        {
+          "word": "BILKS",
+          "score": 22,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43182,
+      "botId": 213,
+      "name": "GoatBot",
+      "score": 70,
+      "win": false,
+      "words": [
+        {
+          "word": "CITRALS",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "WOODBIN",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "UP",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43182,
+      "botId": 217,
+      "name": "Cruds",
+      "score": 69,
+      "win": false,
+      "words": [
+        {
+          "word": "FEATHER",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "WHALER",
+          "score": 30,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 43182,
+      "botId": 165,
+      "name": "cosine",
+      "score": 88,
+      "win": false,
+      "words": [
+        {
+          "word": "NOVELTY",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "MISGAVE",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "FARO",
+          "score": 10,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43182,
+      "botId": 166,
+      "name": "SoapConsumers",
+      "score": 38,
+      "win": false,
+      "words": [
+        {
+          "word": "DEMOUNTS",
+          "score": 33,
+          "length": 8
+        },
+        {
+          "word": "OR",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "AIR",
+          "score": 3,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43182,
+      "botId": 207,
+      "name": "LexForge-1107",
+      "score": 114,
+      "win": true,
+      "words": [
+        {
+          "word": "EPITAXY",
+          "score": 57,
+          "length": 7
+        },
+        {
+          "word": "JAUNTED",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "ENDUE",
+          "score": 12,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43189,
+      "botId": 207,
+      "name": "LexForge-1107",
+      "score": 85,
+      "win": false,
+      "words": [
+        {
+          "word": "JASMINE",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "SHUTOUT",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "ELK",
+          "score": 7,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43189,
+      "botId": 166,
+      "name": "SoapConsumers",
+      "score": 69,
+      "win": false,
+      "words": [
+        {
+          "word": "MIAOWED",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "ZONER",
+          "score": 28,
+          "length": 5
+        },
+        {
+          "word": "LI",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43189,
+      "botId": 165,
+      "name": "cosine",
+      "score": 59,
+      "win": false,
+      "words": [
+        {
+          "word": "NEBULAE",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "OVOIDS",
+          "score": 25,
+          "length": 6
+        },
+        {
+          "word": "LOGO",
+          "score": 7,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43189,
+      "botId": 217,
+      "name": "Cruds",
+      "score": 48,
+      "win": false,
+      "words": [
+        {
+          "word": "CHIPPIE",
+          "score": 48,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 43189,
+      "botId": 213,
+      "name": "GoatBot",
+      "score": 67,
+      "win": false,
+      "words": [
+        {
+          "word": "CAESURA",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "FONTINA",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "BERG",
+          "score": 10,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43189,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 103,
+      "win": true,
+      "words": [
+        {
+          "word": "ANXIETY",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "AIRWAVE",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "EDGY",
+          "score": 13,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43196,
+      "botId": 207,
+      "name": "LexForge-1107",
+      "score": 110,
+      "win": true,
+      "words": [
+        {
+          "word": "COMPOSED",
+          "score": 45,
+          "length": 8
+        },
+        {
+          "word": "JOWAR",
+          "score": 30,
+          "length": 5
+        },
+        {
+          "word": "QUILT",
+          "score": 28,
+          "length": 5
+        },
+        {
+          "word": "EF",
+          "score": 5,
+          "length": 2
+        },
+        {
+          "word": "AE",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43196,
+      "botId": 165,
+      "name": "cosine",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43196,
+      "botId": 166,
+      "name": "SoapConsumers",
+      "score": 42,
+      "win": false,
+      "words": [
+        {
+          "word": "FUNKIER",
+          "score": 42,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 43196,
+      "botId": 213,
+      "name": "GoatBot",
+      "score": 75,
+      "win": false,
+      "words": [
+        {
+          "word": "GETABLE",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "DIABOLO",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "AUNTIE",
+          "score": 15,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 43196,
+      "botId": 174,
+      "name": "benoit",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43196,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 83,
+      "win": false,
+      "words": [
+        {
+          "word": "VIOMYCINS",
+          "score": 57,
+          "length": 9
+        },
+        {
+          "word": "THRIP",
+          "score": 20,
+          "length": 5
+        },
+        {
+          "word": "LIER",
+          "score": 6,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43203,
+      "botId": 186,
+      "name": "Lucy",
+      "score": 97,
+      "win": true,
+      "words": [
+        {
+          "word": "ALPINISM",
+          "score": 36,
+          "length": 8
+        },
+        {
+          "word": "DEFLOWER",
+          "score": 45,
+          "length": 8
+        },
+        {
+          "word": "AIVER",
+          "score": 16,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43203,
+      "botId": 199,
+      "name": "Lexicoin",
+      "score": 80,
+      "win": false,
+      "words": [
+        {
+          "word": "WINESHOP",
+          "score": 48,
+          "length": 8
+        },
+        {
+          "word": "COROTATE",
+          "score": 30,
+          "length": 8
+        },
+        {
+          "word": "AE",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43203,
+      "botId": 213,
+      "name": "GoatBot",
+      "score": 54,
+      "win": false,
+      "words": [
+        {
+          "word": "BLAZON",
+          "score": 42,
+          "length": 6
+        },
+        {
+          "word": "QUA",
+          "score": 12,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43203,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 90,
+      "win": false,
+      "words": [
+        {
+          "word": "GEMSBOK",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "TUXEDO",
+          "score": 35,
+          "length": 6
+        },
+        {
+          "word": "LI",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "YE",
+          "score": 5,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43203,
+      "botId": 207,
+      "name": "LexForge-1107",
+      "score": 86,
+      "win": false,
+      "words": [
+        {
+          "word": "ADVERSITY",
+          "score": 48,
+          "length": 9
+        },
+        {
+          "word": "HAGRIDE",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "NU",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43203,
+      "botId": 174,
+      "name": "benoit",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43210,
+      "botId": 199,
+      "name": "Lexicoin",
+      "score": 60,
+      "win": false,
+      "words": [
+        {
+          "word": "STARVERS",
+          "score": 33,
+          "length": 8
+        },
+        {
+          "word": "CALOTTE",
+          "score": 27,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 43210,
+      "botId": 178,
+      "name": "gas",
+      "score": 48,
+      "win": false,
+      "words": [
+        {
+          "word": "WIDOWING",
+          "score": 48,
+          "length": 8
+        }
+      ]
+    },
+    {
+      "match": 43210,
+      "botId": 186,
+      "name": "Lucy",
+      "score": 61,
+      "win": false,
+      "words": [
+        {
+          "word": "HAYSEED",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "QUAI",
+          "score": 19,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43210,
+      "botId": 213,
+      "name": "GoatBot",
+      "score": 97,
+      "win": false,
+      "words": [
+        {
+          "word": "CAJOLER",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "FANLIKE",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "EAU",
+          "score": 3,
+          "length": 3
+        },
+        {
+          "word": "OP",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43210,
+      "botId": 207,
+      "name": "LexForge-1107",
+      "score": 99,
+      "win": false,
+      "words": [
+        {
+          "word": "BREVITY",
+          "score": 45,
+          "length": 7
+        },
+        {
+          "word": "HAGRIDDEN",
+          "score": 45,
+          "length": 9
+        },
+        {
+          "word": "OX",
+          "score": 9,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43210,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 111,
+      "win": true,
+      "words": [
+        {
+          "word": "GLITZES",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "TUBIFORM",
+          "score": 45,
+          "length": 8
+        },
+        {
+          "word": "EONIAN",
+          "score": 15,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 43218,
+      "botId": 165,
+      "name": "cosine",
+      "score": 97,
+      "win": false,
+      "words": [
+        {
+          "word": "BIGFEET",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "HEAVILY",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "PAW",
+          "score": 8,
+          "length": 3
+        },
+        {
+          "word": "TO",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43218,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 93,
+      "win": false,
+      "words": [
+        {
+          "word": "TZARINA",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "EARLOCK",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "SORI",
+          "score": 6,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43218,
+      "botId": 199,
+      "name": "Lexicoin",
+      "score": 108,
+      "win": true,
+      "words": [
+        {
+          "word": "QUEERED",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "BUOYANT",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "VIREO",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "PIU",
+          "score": 5,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43218,
+      "botId": 166,
+      "name": "SoapConsumers",
+      "score": 41,
+      "win": false,
+      "words": [
+        {
+          "word": "MODELLING",
+          "score": 39,
+          "length": 9
+        },
+        {
+          "word": "NU",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43218,
+      "botId": 145,
+      "name": "Afterword",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43218,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 65,
+      "win": false,
+      "words": [
+        {
+          "word": "HINGERS",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "DEXIE",
+          "score": 26,
+          "length": 5
+        },
+        {
+          "word": "NOW",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43225,
+      "botId": 204,
+      "name": "bot1717",
+      "score": 17,
+      "win": false,
+      "words": [
+        {
+          "word": "LOANED",
+          "score": 17,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 43225,
+      "botId": 168,
+      "name": "Malicious",
+      "score": 82,
+      "win": false,
+      "words": [
+        {
+          "word": "TRIFORM",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "ALOETIC",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "QUAI",
+          "score": 19,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43225,
+      "botId": 166,
+      "name": "SoapConsumers",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43225,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 112,
+      "win": true,
+      "words": [
+        {
+          "word": "OVERJOYS",
+          "score": 63,
+          "length": 8
+        },
+        {
+          "word": "DAMAGES",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "UNFIT",
+          "score": 16,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43225,
+      "botId": 199,
+      "name": "Lexicoin",
+      "score": 79,
+      "win": false,
+      "words": [
+        {
+          "word": "HEEDING",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "AWAITER",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "BUHR",
+          "score": 13,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43225,
+      "botId": 165,
+      "name": "cosine",
+      "score": 106,
+      "win": false,
+      "words": [
+        {
+          "word": "STOPGAP",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "OLIVINE",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "BAWLED",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "ICY",
+          "score": 8,
+          "length": 3
+        },
+        {
+          "word": "EN",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43233,
+      "botId": 205,
+      "name": "Nigel \"Bidderson\" Richards",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43233,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 117,
+      "win": true,
+      "words": [
+        {
+          "word": "OBJECTOR",
+          "score": 57,
+          "length": 8
+        },
+        {
+          "word": "AISLEWAY",
+          "score": 42,
+          "length": 8
+        },
+        {
+          "word": "ASHED",
+          "score": 18,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43233,
+      "botId": 199,
+      "name": "Lexicoin",
+      "score": 87,
+      "win": false,
+      "words": [
+        {
+          "word": "RETHINK",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "DEMOTING",
+          "score": 36,
+          "length": 8
+        },
+        {
+          "word": "PION",
+          "score": 9,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43233,
+      "botId": 212,
+      "name": "Astronaut",
+      "score": 77,
+      "win": false,
+      "words": [
+        {
+          "word": "TWEETED",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "REVVING",
+          "score": 42,
+          "length": 7
+        },
+        {
+          "word": "EN",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43233,
+      "botId": 209,
+      "name": "N1gel",
+      "score": 76,
+      "win": false,
+      "words": [
+        {
+          "word": "FURIOUS",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "QATS",
+          "score": 19,
+          "length": 4
+        },
+        {
+          "word": "GIAOUR",
+          "score": 17,
+          "length": 6
+        },
+        {
+          "word": "ONLY",
+          "score": 10,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43233,
+      "botId": 195,
+      "name": "Como Se Dice I Want to Scrabble",
+      "score": 57,
+      "win": false,
+      "words": [
+        {
+          "word": "BUMPIER",
+          "score": 39,
+          "length": 7
+        },
+        {
+          "word": "ADZ",
+          "score": 13,
+          "length": 3
+        },
+        {
+          "word": "LAC",
+          "score": 5,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43240,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 99,
+      "win": false,
+      "words": [
+        {
+          "word": "URBANIZE",
+          "score": 57,
+          "length": 8
+        },
+        {
+          "word": "ERGOTIC",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "DAYS",
+          "score": 12,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43240,
+      "botId": 178,
+      "name": "gas",
+      "score": 111,
+      "win": true,
+      "words": [
+        {
+          "word": "OVERMAN",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "QUOTH",
+          "score": 34,
+          "length": 5
+        },
+        {
+          "word": "MOTLEYS",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "LIP",
+          "score": 5,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43240,
+      "botId": 212,
+      "name": "Astronaut",
+      "score": 66,
+      "win": false,
+      "words": [
+        {
+          "word": "LEONINE",
+          "score": 21,
+          "length": 7
+        },
+        {
+          "word": "DEBOUCH",
+          "score": 45,
+          "length": 7
+        }
+      ]
+    },
+    {
+      "match": 43240,
+      "botId": 195,
+      "name": "Como Se Dice I Want to Scrabble",
+      "score": 68,
+      "win": false,
+      "words": [
+        {
+          "word": "DIATRON",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "EXTERN",
+          "score": 32,
+          "length": 6
+        },
+        {
+          "word": "SWAG",
+          "score": 12,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43240,
+      "botId": 209,
+      "name": "N1gel",
+      "score": 70,
+      "win": false,
+      "words": [
+        {
+          "word": "PIEDFORT",
+          "score": 42,
+          "length": 8
+        },
+        {
+          "word": "JEWS",
+          "score": 21,
+          "length": 4
+        },
+        {
+          "word": "GLIA",
+          "score": 7,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43240,
+      "botId": 205,
+      "name": "Nigel \"Bidderson\" Richards",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43247,
+      "botId": 191,
+      "name": "Primey",
+      "score": 62,
+      "win": false,
+      "words": [
+        {
+          "word": "DRABBET",
+          "score": 36,
+          "length": 7
+        },
+        {
+          "word": "AWARE",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "HEIR",
+          "score": 10,
+          "length": 4
+        }
+      ]
+    },
+    {
+      "match": 43247,
+      "botId": 195,
+      "name": "Como Se Dice I Want to Scrabble",
+      "score": 80,
+      "win": false,
+      "words": [
+        {
+          "word": "PYRAMIDS",
+          "score": 48,
+          "length": 8
+        },
+        {
+          "word": "VIOLENT",
+          "score": 30,
+          "length": 7
+        },
+        {
+          "word": "IN",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43247,
+      "botId": 205,
+      "name": "Nigel \"Bidderson\" Richards",
+      "score": 0,
+      "win": false,
+      "words": []
+    },
+    {
+      "match": 43247,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 88,
+      "win": false,
+      "words": [
+        {
+          "word": "LAVEROCK",
+          "score": 51,
+          "length": 8
+        },
+        {
+          "word": "TUFFET",
+          "score": 30,
+          "length": 6
+        },
+        {
+          "word": "GUY",
+          "score": 7,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43247,
+      "botId": 201,
+      "name": "Lbender",
+      "score": 132,
+      "win": true,
+      "words": [
+        {
+          "word": "ZINCING",
+          "score": 57,
+          "length": 7
+        },
+        {
+          "word": "EXHUMES",
+          "score": 57,
+          "length": 7
+        },
+        {
+          "word": "ADOPT",
+          "score": 16,
+          "length": 5
+        },
+        {
+          "word": "OE",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43247,
+      "botId": 164,
+      "name": "Tow57-Auctioneer",
+      "score": 85,
+      "win": false,
+      "words": [
+        {
+          "word": "UNDERJAW",
+          "score": 57,
+          "length": 8
+        },
+        {
+          "word": "GALIOTS",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "AI",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "OE",
+          "score": 2,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43254,
+      "botId": 193,
+      "name": "RackMaw",
+      "score": 130,
+      "win": true,
+      "words": [
+        {
+          "word": "PINKEYE",
+          "score": 48,
+          "length": 7
+        },
+        {
+          "word": "CLIMAXES",
+          "score": 57,
+          "length": 8
+        },
+        {
+          "word": "BARMIE",
+          "score": 25,
+          "length": 6
+        }
+      ]
+    },
+    {
+      "match": 43254,
+      "botId": 162,
+      "name": "Barracuda",
+      "score": 38,
+      "win": false,
+      "words": [
+        {
+          "word": "DEVOTE",
+          "score": 25,
+          "length": 6
+        },
+        {
+          "word": "HOG",
+          "score": 7,
+          "length": 3
+        },
+        {
+          "word": "OE",
+          "score": 2,
+          "length": 2
+        },
+        {
+          "word": "UP",
+          "score": 4,
+          "length": 2
+        }
+      ]
+    },
+    {
+      "match": 43254,
+      "botId": 195,
+      "name": "Como Se Dice I Want to Scrabble",
+      "score": 82,
+      "win": false,
+      "words": [
+        {
+          "word": "SEDATES",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "JOWAR",
+          "score": 30,
+          "length": 5
+        },
+        {
+          "word": "QUIRE",
+          "score": 28,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43254,
+      "botId": 164,
+      "name": "Tow57-Auctioneer",
+      "score": 67,
+      "win": false,
+      "words": [
+        {
+          "word": "SUCTION",
+          "score": 27,
+          "length": 7
+        },
+        {
+          "word": "AGITATO",
+          "score": 24,
+          "length": 7
+        },
+        {
+          "word": "BRING",
+          "score": 16,
+          "length": 5
+        }
+      ]
+    },
+    {
+      "match": 43254,
+      "botId": 191,
+      "name": "Primey",
+      "score": 90,
+      "win": false,
+      "words": [
+        {
+          "word": "DAFFILY",
+          "score": 51,
+          "length": 7
+        },
+        {
+          "word": "WARLORD",
+          "score": 33,
+          "length": 7
+        },
+        {
+          "word": "HOT",
+          "score": 6,
+          "length": 3
+        }
+      ]
+    },
+    {
+      "match": 43254,
+      "botId": 205,
+      "name": "Nigel \"Bidderson\" Richards",
+      "score": 0,
+      "win": false,
+      "words": []
+    }
+  ],
+  "matchedOursLucent": {
+    "172": {
+      "playerMatches": 14,
+      "meanScore": 67.28571428571429,
+      "winPercent": 14.285714285714286,
+      "with7PlusPercent": 92.85714285714286,
+      "words7PlusPerMatch": 1.3571428571428572,
+      "points7PlusPerMatch": 50.57142857142857,
+      "scoreShare7PlusPercent": 75.1592356687898,
+      "mean7PlusReward": 37.26315789473684,
+      "withExactly7Percent": 92.85714285714286,
+      "wordsExactly7PerMatch": 1.3571428571428572,
+      "scoreShareExactly7Percent": 75.1592356687898,
+      "wordLengthCounts": {
+        "2": 4,
+        "3": 4,
+        "4": 5,
+        "5": 4,
+        "6": 1,
+        "7": 19
+      },
+      "pointsByWordLength": {
+        "2": 25,
+        "3": 23,
+        "4": 76,
+        "5": 88,
+        "6": 22,
+        "7": 708
+      }
+    },
+    "18": {
+      "playerMatches": 4,
+      "meanScore": 86.75,
+      "winPercent": 25.0,
+      "with7PlusPercent": 100.0,
+      "words7PlusPerMatch": 1.75,
+      "points7PlusPerMatch": 78.0,
+      "scoreShare7PlusPercent": 89.9135446685879,
+      "mean7PlusReward": 44.57142857142857,
+      "withExactly7Percent": 100.0,
+      "wordsExactly7PerMatch": 1.5,
+      "scoreShareExactly7Percent": 74.35158501440922,
+      "wordLengthCounts": {
+        "3": 2,
+        "6": 1,
+        "7": 6,
+        "8": 1
+      },
+      "pointsByWordLength": {
+        "3": 8,
+        "6": 27,
+        "7": 258,
+        "8": 54
+      }
+    }
+  }
+}

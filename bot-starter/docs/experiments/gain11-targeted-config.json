@@ -1,0 +1,41 @@
+{
+  "N": 192,
+  "seed": 970719,
+  "prefix": "gain11-targeted",
+  "dataset": "data/market-clean-train.json",
+  "base": {
+    "samples": 24,
+    "bidGain": 1.1
+  },
+  "arms": [
+    [
+      "BASE",
+      {}
+    ],
+    [
+      "LIQUID2",
+      {
+        "starveMinBagLeft": 2
+      }
+    ],
+    [
+      "RARE025",
+      {
+        "rareFacePremium": 0.25
+      }
+    ],
+    [
+      "RARE05",
+      {
+        "rareFacePremium": 0.5
+      }
+    ],
+    [
+      "PACK",
+      {
+        "packLongWords": true
+      }
+    ]
+  ],
+  "selection": "Fresh seed training screen; gain1.1 baseline; no automatic deployment; static-market surrogate only"
+}

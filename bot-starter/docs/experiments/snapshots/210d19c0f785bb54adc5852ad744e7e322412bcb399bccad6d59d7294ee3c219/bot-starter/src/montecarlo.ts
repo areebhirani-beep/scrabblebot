@@ -1,0 +1,149 @@
+// Monte Carlo letter valuation + shadow-price budget pacing.
+//
+// This is the heart of the strong bot, and it mirrors what the Cal Hacks
+// champion (K-13) and the runner-up did, rebuilt from scratch:
+//
+//   value(L) = E[ bestScore(rack + L + futureDraws) ] - E[ bestScore(rack + futureDraws) ]
+//
+// We don't know the future tiles, so we sample them from the *unseen* pool
+// (every tile not in our rack and not already revealed in a public auction),
+// evaluate the best words with and without L on the SAME sampled future
+// (common random numbers, so the noise cancels), and average the gain.
+//
+// Coins, not points, are the binding constraint: tiles clear around 12 coins
+// while being worth ~4 points, and the average bot leaves ~31 coins unspent.
+// So we convert a letter's point value into a coin bid with a shadow price
+// lambda (points per coin): bid = value / lambda. Lambda is chosen so the
+// whole balance gets spent across the auctions that remain, and it falls as
+// the bag empties, because unspent coins at match end are worth nothing.
+
+import { FastEval, type Rack, type SearchBudget, toCounts } from "./engine.js";
+
+export interface Unseen {
+  // letters still available to be drawn: count per letter
+  counts: Record<string, number>;
+  total: number;
+}
+
+// Mulberry32: tiny fast seedable RNG so runs are reproducible in the sim.
+export function rng(seed: number): () => number {
+  let a = seed >>> 0;
+  return () => {
+    a |= 0; a = (a + 0x6d2b79f5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+const A = 65;
+
+// Draw `k` tiles from the unseen pool without replacement, into a 26-counts
+// array. Returns the drawn counts; does not mutate `pool`.
+export function sampleFuture(pool: Record<string, number>, total: number, k: number, rnd: () => number,
+  weights?: Readonly<Record<string, number>>): Uint8Array {
+  const letters: string[] = [];
+  const counts: number[] = [];
+  for (const [l, n] of Object.entries(pool)) if (n > 0) { letters.push(l); counts.push(n); }
+  const out = new Uint8Array(26);
+  let remaining = total;
+  const draw = Math.min(k, remaining);
+  const work = counts.slice();
+  const mass = weights && letters.map(l => weights[l] ?? 1);
+  if (mass?.some(w => !Number.isFinite(w) || w <= 0)) throw new Error('Invalid future acquisition weight');
+  for (let d = 0; d < draw; d++) {
+    if (mass) {
+      const weightedTotal = work.reduce((sum, n, i) => sum + n * mass[i]!, 0);
+      let target = rnd() * weightedTotal;
+      for (let i = 0; i < work.length; i++) {
+        target -= work[i]! * mass[i]!;
+        if (target < 0) { out[letters[i]!.charCodeAt(0) - A]!++; work[i]!--; remaining--; break; }
+      }
+      continue;
+    }
+    let idx = Math.floor(rnd() * remaining);
+    for (let i = 0; i < work.length; i++) {
+      if (idx < work[i]!) { out[letters[i]!.charCodeAt(0) - A]!++; work[i]!--; remaining--; break; }
+      idx -= work[i]!;
+    }
+  }
+  return out;
+}
+
+export interface MCResult {
+  value: number; // expected point gain from winning this letter
+}
+
+export class MonteCarlo {
+  constructor(private evalr: FastEval) {}
+
+  // Expected marginal value of adding `letter` to `rack`, given how many more
+  // tiles we expect to win before the match ends (`futureWins`) and the
+  // unseen pool to sample them from.
+  // Stops early once `budgetMs` is spent, so a busy CPU can't make us miss
+  // the auction window. Incomplete paired samples contribute nothing.
+  value(rack: Rack, letter: string, unseen: Unseen, futureWins: number, samples: number, seed: number, budgetMs = 300, now: () => number = () => performance.now(), utility?: (rackScore: number) => number,
+    futureWeights?: Readonly<Record<string, number>>): number {
+    const t0 = now();
+    const tracker = { operations: 0, exhausted: false };
+    const budget: SearchBudget = { deadlineMs: t0 + Math.max(0, budgetMs), now, tracker,
+      maxOperations: Math.max(1, samples) * 150_000 };
+    const base = toCounts(rack);
+    const li = letter.charCodeAt(0) - A;
+    const rnd = rng(seed);
+    const k = Math.max(0, Math.round(futureWins));
+    let sum = 0;
+    let done = 0;
+    const tmp = new Uint8Array(26);
+    // Repeated sampled racks have the same deterministic score. Keep only
+    // completed evaluations, scoped to this decision, under its same budget.
+    const scores = new Map<string, number>();
+    const evaluate = (): number => {
+      // evalCounts consumes tmp, so capture the incoming multiset first.
+      const key = Array.from(tmp).join(',');
+      const cached = scores.get(key);
+      if (cached !== undefined) return cached;
+      const score = this.evalr.evalCounts(tmp, 3, undefined, budget);
+      if (!tracker.exhausted && now() < budget.deadlineMs!) scores.set(key, score);
+      return score;
+    };
+    // With no future draw every pair is identical; one is the entire
+    // deterministic estimate, provided the caller requested a sample.
+    const trials = k === 0 ? Math.min(samples, 1) : samples;
+    for (let s = 0; s < trials; s++) {
+      if (tracker.exhausted || now() >= budget.deadlineMs!) break;
+      const fut = sampleFuture(unseen.counts, unseen.total, k, rnd, futureWeights); // common random numbers
+      // without the letter
+      for (let i = 0; i < 26; i++) tmp[i] = base[i]! + fut[i]!;
+      const without = evaluate();
+      if (tracker.exhausted) break;
+      // with the letter
+      for (let i = 0; i < 26; i++) tmp[i] = base[i]! + fut[i]!;
+      tmp[li]!++;
+      const withL = evaluate();
+      if (tracker.exhausted || now() >= budget.deadlineMs!) break;
+      // Greedy splitting can decrease when a tile enables a different first
+      // word. Keeping the old feasible plan is always an available choice.
+      sum += Math.max(0, utility ? utility(withL) - utility(without) : withL - without);
+      done++;
+    }
+    return sum / Math.max(1, done);
+  }
+}
+
+// Shadow price: points per coin. We want to spend our whole balance over the
+// auctions that remain, so lambda ~= (total value we can still capture) /
+// (coins we can still spend). In practice we calibrate it from how valuable
+// the current letter is relative to a running estimate, but the simple,
+// robust version used here: lambda decays with the fraction of the bag left,
+// so late tiles get bid up (coins are about to be worthless) and early tiles
+// are bid conservatively (save coins for better letters).
+//
+//   bid = value / lambda,  lambda = base * (0.3 + 0.7 * bagFraction)
+//
+// base is tuned in the simulator.
+export function shadowBid(value: number, bagLeft: number, bagStart: number, base: number): number {
+  const frac = bagStart > 0 ? bagLeft / bagStart : 0;
+  const lambda = base * (0.3 + 0.7 * frac);
+  return value / Math.max(0.05, lambda);
+}

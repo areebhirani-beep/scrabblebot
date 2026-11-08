@@ -1,0 +1,19 @@
+[
+  {
+    "id": 100,
+    "bot_id": 172,
+    "version": 1,
+    "rating": 1498,
+    "matches_played": 110,
+    "wins": 15,
+    "total_score": 9174,
+    "last_played": [
+      0,
+      [
+        1794091860301076
+      ]
+    ],
+    "openskill_mu": 40.5681420922456,
+    "openskill_sigma": 3.6348505500565347
+  }
+]

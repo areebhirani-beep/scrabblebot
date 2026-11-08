@@ -1,0 +1,130 @@
+{
+  "at": "2026-11-07T23:42:00.576231+00:00",
+  "status": "point-estimate frontier only; selection uncertainty remains",
+  "evidence": ".runtime-odysseus/reactive-validation-128-reactive-summary.json",
+  "fields": {
+    "live": {
+      "frontier": [
+        {
+          "label": "NEUTRAL6",
+          "score": 89.609375,
+          "winPercent": 24.21875,
+          "N": 128,
+          "policy": {
+            "samples": 24,
+            "bidGain": 1.1,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 2,
+            "huPaceEarly": 1.1,
+            "huHorizon": 10,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 3.5,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2,
+            "neutralSixHorizon": true
+          },
+          "rival": {
+            "samples": 24,
+            "bidGain": 1.3,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 2,
+            "huPaceEarly": 1.1,
+            "huHorizon": 10,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 3.5,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2
+          },
+          "sourceSha256": "f45db57da996287399f1d46cd6cdf5c6d9705a3526eb418d94f92323131b3070",
+          "snapshotRoot": "bot-starter/docs/experiments/snapshots/f45db57da996287399f1d46cd6cdf5c6d9705a3526eb418d94f92323131b3070/bot-starter"
+        }
+      ],
+      "meaning": "stronger synthetic reactive field",
+      "maximumWinPercent": 24.21875,
+      "maximumScore": 89.609375
+    },
+    "gauntlet": {
+      "frontier": [
+        {
+          "label": "BASE",
+          "score": 211.9140625,
+          "winPercent": 97.65625,
+          "N": 128,
+          "policy": {
+            "samples": 24,
+            "bidGain": 1.1,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 2,
+            "huPaceEarly": 1.1,
+            "huHorizon": 10,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 3.5,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2
+          },
+          "rival": null,
+          "sourceSha256": "f45db57da996287399f1d46cd6cdf5c6d9705a3526eb418d94f92323131b3070",
+          "snapshotRoot": "bot-starter/docs/experiments/snapshots/f45db57da996287399f1d46cd6cdf5c6d9705a3526eb418d94f92323131b3070/bot-starter"
+        },
+        {
+          "label": "NEUTRAL6",
+          "score": 219.0859375,
+          "winPercent": 94.53125,
+          "N": 128,
+          "policy": {
+            "samples": 24,
+            "bidGain": 1.1,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 2,
+            "huPaceEarly": 1.1,
+            "huHorizon": 10,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 3.5,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2,
+            "neutralSixHorizon": true
+          },
+          "rival": null,
+          "sourceSha256": "f45db57da996287399f1d46cd6cdf5c6d9705a3526eb418d94f92323131b3070",
+          "snapshotRoot": "bot-starter/docs/experiments/snapshots/f45db57da996287399f1d46cd6cdf5c6d9705a3526eb418d94f92323131b3070/bot-starter"
+        }
+      ],
+      "meaning": "easy synthetic mixed field; not representative of top leaderboard",
+      "maximumWinPercent": 97.65625,
+      "maximumScore": 219.0859375
+    }
+  },
+  "livePromotion": false
+}

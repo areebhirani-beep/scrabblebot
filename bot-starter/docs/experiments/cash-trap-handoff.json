@@ -1,0 +1,264 @@
+{
+  "botId": 172,
+  "datasetPath": "/Users/siddarthakodithyala/the scrabble bot for utd hacks/odysseus-live/bot-starter/.runtime-odysseus/odysseus-public-handoff.json",
+  "statusPath": "/Users/siddarthakodithyala/the scrabble bot for utd hacks/odysseus-live/bot-starter/.runtime-odysseus/status.json",
+  "collectedAt": "2026-11-07T23:09:53.121686+00:00",
+  "criterion": "At auction opening: own balance exactly 8, at least 10 tiles remain beyond the current tile, and a legal word of at least 5 letters exists.",
+  "reconstruction": "Own final unplayed rack + own accepted words - own awarded auction tiles; require five valid starting tiles and exact final rack/cash/score replay.",
+  "validatedMatches": [
+    42754,
+    42756,
+    42758,
+    42760,
+    42762,
+    42764,
+    42766,
+    42769,
+    42771,
+    42774,
+    42777,
+    42780,
+    42782,
+    42784,
+    42786,
+    42789,
+    42792,
+    42794,
+    42797,
+    42800,
+    42803,
+    42805,
+    42808,
+    42811,
+    42814,
+    42816,
+    42818,
+    42820,
+    42822,
+    42825,
+    42828,
+    42830,
+    42833,
+    42836,
+    42839,
+    42842,
+    42845,
+    42848,
+    42851,
+    42854,
+    42857,
+    42860,
+    42863,
+    42867,
+    42870,
+    42873,
+    42876,
+    42879,
+    42883,
+    42886,
+    42889,
+    42893,
+    42896,
+    42900,
+    42903,
+    42907,
+    42911,
+    42915,
+    42919,
+    42923,
+    42927
+  ],
+  "missingLocalFinalRack": 63,
+  "rejected": [],
+  "ambiguousOpeningTimestamps": 0,
+  "cashEightOpenings": 90,
+  "emptyCandidateOpenings": 47,
+  "incompleteEmptySearchOpenings": 0,
+  "legalWordEpisodes": 5,
+  "blockedFiveOrSixEpisodes": 2,
+  "episodes": [
+    {
+      "matchId": 42848,
+      "sourceCommit": "6ed86a73c28779a96f0d21214aa97fa7e30fea8b",
+      "reconstructedInitialRack": "EILST",
+      "rack": "EEHLPPT",
+      "balance": 8,
+      "firstRound": 38,
+      "lastRound": 58,
+      "firstAuctionId": 2804032,
+      "lastAuctionId": 2804091,
+      "bagLeftFirst": 30,
+      "bagLeftLast": 10,
+      "openings": 21,
+      "missedAuctions": 21,
+      "maximumConsecutiveMisses": 21,
+      "wonAuctions": 0,
+      "top3": [
+        {
+          "word": "LETHE",
+          "score": 16
+        }
+      ],
+      "bestFiveOrSix": {
+        "word": "LETHE",
+        "score": 16
+      },
+      "sevenPlusAvailable": false,
+      "noSevenPlusProven": true,
+      "searchComplete": true
+    },
+    {
+      "matchId": 42845,
+      "sourceCommit": "0890ce4e58f4fb094190b51ad319f06febd726c0",
+      "reconstructedInitialRack": "AAELO",
+      "rack": "DEFOORV",
+      "balance": 8,
+      "firstRound": 40,
+      "lastRound": 58,
+      "firstAuctionId": 2803836,
+      "lastAuctionId": 2803888,
+      "bagLeftFirst": 28,
+      "bagLeftLast": 10,
+      "openings": 19,
+      "missedAuctions": 19,
+      "maximumConsecutiveMisses": 19,
+      "wonAuctions": 0,
+      "top3": [
+        {
+          "word": "OVERDO",
+          "score": 25
+        },
+        {
+          "word": "FOREDO",
+          "score": 25
+        },
+        {
+          "word": "FORDO",
+          "score": 18
+        }
+      ],
+      "bestFiveOrSix": {
+        "word": "OVERDO",
+        "score": 25
+      },
+      "sevenPlusAvailable": false,
+      "noSevenPlusProven": true,
+      "searchComplete": true
+    },
+    {
+      "matchId": 42808,
+      "sourceCommit": "0890ce4e58f4fb094190b51ad319f06febd726c0",
+      "reconstructedInitialRack": "FIIRW",
+      "rack": "DEFHOOW",
+      "balance": 8,
+      "firstRound": 40,
+      "lastRound": 40,
+      "firstAuctionId": 2798953,
+      "lastAuctionId": 2798953,
+      "bagLeftFirst": 28,
+      "bagLeftLast": 28,
+      "openings": 1,
+      "missedAuctions": 1,
+      "maximumConsecutiveMisses": 1,
+      "wonAuctions": 0,
+      "top3": [
+        {
+          "word": "WHOOFED",
+          "score": 51
+        },
+        {
+          "word": "WOOFED",
+          "score": 32
+        },
+        {
+          "word": "HOOFED",
+          "score": 32
+        }
+      ],
+      "bestFiveOrSix": {
+        "word": "WOOFED",
+        "score": 32
+      },
+      "sevenPlusAvailable": true,
+      "noSevenPlusProven": false,
+      "searchComplete": true
+    },
+    {
+      "matchId": 42893,
+      "sourceCommit": "a86d8ca1c5284aa4260bbbfcdca312a9f19187f9",
+      "reconstructedInitialRack": "AGIMY",
+      "rack": "ABEFGIKLL",
+      "balance": 8,
+      "firstRound": 46,
+      "lastRound": 46,
+      "firstAuctionId": 2807116,
+      "lastAuctionId": 2807116,
+      "bagLeftFirst": 22,
+      "bagLeftLast": 22,
+      "openings": 1,
+      "missedAuctions": 1,
+      "maximumConsecutiveMisses": 1,
+      "wonAuctions": 0,
+      "top3": [
+        {
+          "word": "LIKABLE",
+          "score": 39
+        },
+        {
+          "word": "BEFLAG",
+          "score": 30
+        },
+        {
+          "word": "BEFALL",
+          "score": 27
+        }
+      ],
+      "bestFiveOrSix": {
+        "word": "BEFLAG",
+        "score": 30
+      },
+      "sevenPlusAvailable": true,
+      "noSevenPlusProven": false,
+      "searchComplete": true
+    },
+    {
+      "matchId": 42789,
+      "sourceCommit": "0890ce4e58f4fb094190b51ad319f06febd726c0",
+      "reconstructedInitialRack": "AFKRV",
+      "rack": "ACEEHKOVW",
+      "balance": 8,
+      "firstRound": 45,
+      "lastRound": 45,
+      "firstAuctionId": 2797618,
+      "lastAuctionId": 2797618,
+      "bagLeftFirst": 23,
+      "bagLeftLast": 23,
+      "openings": 1,
+      "missedAuctions": 0,
+      "maximumConsecutiveMisses": 0,
+      "wonAuctions": 1,
+      "top3": [
+        {
+          "word": "HOECAKE",
+          "score": 48
+        },
+        {
+          "word": "WHACKO",
+          "score": 45
+        },
+        {
+          "word": "HACKEE",
+          "score": 37
+        }
+      ],
+      "bestFiveOrSix": {
+        "word": "WHACKO",
+        "score": 45
+      },
+      "sevenPlusAvailable": true,
+      "noSevenPlusProven": false,
+      "searchComplete": true
+    }
+  ],
+  "limitation": "Observational diagnosis only. Equal-timestamp own plays at openings are excluded. An auction miss includes losses and abstentions; public data does not reveal our losing bid. This does not estimate the counterfactual rating benefit of earlier cashing."
+}

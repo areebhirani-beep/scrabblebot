@@ -1,0 +1,11 @@
+{
+  "id": "lucent-seven-letter-public-200",
+  "family": "long-word-completion-throughput",
+  "hypothesis": "Repeated high-value seven-letter completions are associated with strong live outcomes and can guide a tested acquisition policy.",
+  "decision": "unproven",
+  "evidence": "experiments/lucent-word-length-pattern-200.json",
+  "observed": "LUCENT200publicmatches:46.5%wins122.74points;exact7supplies68.38%score;7+86.66%;92of93winscontainexact7,all93contain7+. Matched53:1.717longwordsLUCENTvs1.660ours.",
+  "reason": "Prioritize long-word frequency and value in new paired experiments. Existing cashLen7 and full lexicon already cover long words; no policy promotion from observational data.",
+  "uncertainty": "Changing versions/opponent mix; selected recent matches; correlations and winner-conditioned summaries do not identify causal effects or predict130\u2013140mean.",
+  "revisitWhen": "Test a concrete acquisition/completion mechanism against the current live policy on joint score and win outcomes; retain long-word diagnostics."
+}

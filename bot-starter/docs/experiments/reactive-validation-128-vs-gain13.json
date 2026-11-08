@@ -1,0 +1,64 @@
+{
+  "GAIN16": {
+    "metric_type": "synthetic_reactive_simulation",
+    "N": 128,
+    "placeDirection": "negative candidate-minus-BASE delta is better",
+    "warning": "Synthetic reactive simulation only, not live win probability, leaderboard rating or a calibrated forecast. Fixed deal/tie streams pair model worlds; rivals react to each policy. CPU-dependent search cutoffs, instant actions, missing transport latency and synthetic rival policies limit realism. Bootstrap intervals are conditional on this model and omit selection/model uncertainty. No automatic deployment.",
+    "bootstrapRepetitions": 2000,
+    "bootstrapSeed": 8441,
+    "scoreDelta": 4.0,
+    "scoreConditional95": [
+      -0.2189453125,
+      8.211523437499997
+    ],
+    "placeDelta": -0.421875,
+    "placeConditional95": [
+      -0.734375,
+      -0.1171875
+    ],
+    "winPPDelta": 5.46875,
+    "winPPConditional95": [
+      -2.34375,
+      13.28125
+    ],
+    "winGained": 17,
+    "winLost": 10,
+    "exactDiscordanceP": 0.24778856337070596,
+    "smallDiscordantWarning": false,
+    "changedGames": 128,
+    "higherScoreGames": 75,
+    "lowerScoreGames": 53,
+    "exactTestLimit": "Independent paired-world assumption; no multiplicity or selection adjustment."
+  },
+  "NEUTRAL6": {
+    "metric_type": "synthetic_reactive_simulation",
+    "N": 128,
+    "placeDirection": "negative candidate-minus-BASE delta is better",
+    "warning": "Synthetic reactive simulation only, not live win probability, leaderboard rating or a calibrated forecast. Fixed deal/tie streams pair model worlds; rivals react to each policy. CPU-dependent search cutoffs, instant actions, missing transport latency and synthetic rival policies limit realism. Bootstrap intervals are conditional on this model and omit selection/model uncertainty. No automatic deployment.",
+    "bootstrapRepetitions": 2000,
+    "bootstrapSeed": 8441,
+    "scoreDelta": 4.3828125,
+    "scoreConditional95": [
+      -0.6564453125,
+      9.556054687499993
+    ],
+    "placeDelta": -0.34375,
+    "placeConditional95": [
+      -0.6484375,
+      -0.0390625
+    ],
+    "winPPDelta": 6.25,
+    "winPPConditional95": [
+      -1.5625,
+      14.84375
+    ],
+    "winGained": 18,
+    "winLost": 10,
+    "exactDiscordanceP": 0.18493334203958667,
+    "smallDiscordantWarning": false,
+    "changedGames": 127,
+    "higherScoreGames": 79,
+    "lowerScoreGames": 48,
+    "exactTestLimit": "Independent paired-world assumption; no multiplicity or selection adjustment."
+  }
+}

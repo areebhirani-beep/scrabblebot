@@ -1,0 +1,23 @@
+{
+  "summary": "/Users/siddarthakodithyala/the scrabble bot for utd hacks/odysseus-live/bot-starter/.runtime-odysseus/cash-recovery-win30-screen-reactive-summary.json",
+  "summarySha256": "35443ca50e84066d718c10f413bf04c3eaf9e0f30b0c74735798e9d0272d9806",
+  "startedAt": "2026-11-08T01:13:54.478976+00:00",
+  "status": "complete",
+  "steps": {
+    "registry": {
+      "status": "complete",
+      "returncode": 0,
+      "stdoutTail": "{\n  \"warning\": \"Surrogate only, not live win probability or rating gain. Uncertainty is conditional on historical inputs/model; fresh seeds do not make a reused historical cohort independent. No automatic deployment.\",\n  \"imports\": [\n    {\n      \"id\": 14,\n      \"inserted\": true,\n      \"prefix\": \"cash-recovery-win30-screen\",\n      \"metric_type\": \"synthetic_reactive\"\n    }\n  ],\n  \"errors\": []\n}\n",
+      "stderrTail": "",
+      "elapsedSeconds": 0.05820649996167049
+    },
+    "learning": {
+      "status": "complete",
+      "returncode": 0,
+      "stdoutTail": "{\n  \"memory\": {\n    \"lessons\": 10,\n    \"campaignComparisons\": 57,\n    \"skipped\": 3,\n    \"output\": \"/Users/siddarthakodithyala/the scrabble bot for utd hacks/LEARNINGS.md\"\n  }\n}\n",
+      "stderrTail": "",
+      "elapsedSeconds": 0.06639016699045897
+    }
+  },
+  "finishedAt": "2026-11-08T01:13:54.605224+00:00"
+}

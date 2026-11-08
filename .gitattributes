@@ -1,0 +1,8 @@
+bot-starter/docs/experiments/snapshots/** linguist-generated=true -diff
+bot-starter/docs/experiments/live-releases/** linguist-generated=true -diff
+offline-lucent-lab/candidates/**/spacetimedb/wordlist.txt linguist-generated=true -diff
+offline-lucent-lab/candidates/**/module_bindings/** linguist-generated=true
+offline-lucent-lab/experiments/leader-cycle-audit-*/*.json linguist-generated=true
+bot-starter/data/*.json linguist-generated=true
+offline-lucent-lab/experiments/*.json linguist-generated=true
+offline-lucent-lab/lucent-comparison.json linguist-generated=true

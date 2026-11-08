@@ -1,0 +1,23 @@
+{
+  "summary": "/Users/siddarthakodithyala/the scrabble bot for utd hacks/odysseus-live/bot-starter/.runtime-odysseus/completion-opportunity-screen-reactive-summary.json",
+  "summarySha256": "8076b7dba39fde4ab70bab5307a3b9a48f6ebcafeba0f8416b74a4ae3194b084",
+  "startedAt": "2026-11-08T01:06:52.472375+00:00",
+  "status": "complete",
+  "steps": {
+    "registry": {
+      "status": "complete",
+      "returncode": 0,
+      "stdoutTail": "{\n  \"warning\": \"Surrogate only, not live win probability or rating gain. Uncertainty is conditional on historical inputs/model; fresh seeds do not make a reused historical cohort independent. No automatic deployment.\",\n  \"imports\": [\n    {\n      \"id\": 13,\n      \"inserted\": true,\n      \"prefix\": \"completion-opportunity-screen\",\n      \"metric_type\": \"synthetic_reactive\"\n    }\n  ],\n  \"errors\": []\n}\n",
+      "stderrTail": "",
+      "elapsedSeconds": 0.06755887501640245
+    },
+    "learning": {
+      "status": "complete",
+      "returncode": 0,
+      "stdoutTail": "{\n  \"memory\": {\n    \"lessons\": 10,\n    \"campaignComparisons\": 56,\n    \"skipped\": 3,\n    \"output\": \"/Users/siddarthakodithyala/the scrabble bot for utd hacks/LEARNINGS.md\"\n  }\n}\n",
+      "stderrTail": "",
+      "elapsedSeconds": 0.07372858404414728
+    }
+  },
+  "finishedAt": "2026-11-08T01:06:52.615387+00:00"
+}

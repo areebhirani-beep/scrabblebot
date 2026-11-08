@@ -1,0 +1,23 @@
+{
+  "N": 512,
+  "seed": 970821,
+  "prefix": "cash9-validation",
+  "dataset": "data/market-clean-validation.json",
+  "base": {
+    "samples": 24,
+    "bidGain": 1.1
+  },
+  "arms": [
+    [
+      "BASE",
+      {}
+    ],
+    [
+      "CASH9",
+      {
+        "starveCoins": 9
+      }
+    ]
+  ],
+  "selection": "Prespecified cash8 failure hypothesis; paired fresh seed; separate validation; no automatic deployment"
+}

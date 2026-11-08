@@ -1,0 +1,59 @@
+{
+  "kind": "full-game-lexicon functional probe, not match evaluation",
+  "at": "2026-11-08T00:34:24.239Z",
+  "dictionarySha256": "b819e7b67f8f2c80640ae76f0edbe59a4a1befb6de0f348463642ad49bdd2ad3",
+  "budgetMs": 3,
+  "maxOperations": 20000,
+  "cases": [
+    {
+      "rack": "EINOUX",
+      "tile": "Q",
+      "completion": {
+        "word": "EQUINOX",
+        "score": 69,
+        "baselineScore": 16,
+        "gain": 53
+      },
+      "elapsedMs": 0.7758330000000342
+    },
+    {
+      "rack": "ZINGER",
+      "tile": "S",
+      "completion": {
+        "word": "ZINGERS",
+        "score": 51,
+        "baselineScore": 40,
+        "gain": 11
+      },
+      "elapsedMs": 0.5588329999999928
+    },
+    {
+      "rack": "JAYWAL",
+      "tile": "K",
+      "completion": {
+        "word": "JAYWALK",
+        "score": 72,
+        "baselineScore": 22,
+        "gain": 50
+      },
+      "elapsedMs": 0.4194170000000099
+    },
+    {
+      "rack": "ELATIO",
+      "tile": "N",
+      "completion": {
+        "word": "ELATION",
+        "score": 21,
+        "baselineScore": 10,
+        "gain": 11
+      },
+      "elapsedMs": 0.37429099999997106
+    },
+    {
+      "rack": "QUICKEN",
+      "tile": "A",
+      "completion": null,
+      "elapsedMs": 0.0266250000000241
+    }
+  ]
+}

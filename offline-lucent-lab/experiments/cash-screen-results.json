@@ -1,0 +1,208 @@
+{
+  "source": "../bot-starter/docs/experiments/lucentlab-cash-screen-reactive-summary.json",
+  "sourceSha256": "ba978847028265f5336f5875e002df9936f1c09d08d1b683d7aa9420fbfb0dba",
+  "target": {
+    "winPercentIncludingTiesGreaterThan": 42,
+    "meanScoreGreaterThan": 124.4
+  },
+  "warning": "Synthetic reactive matches, not a leaderboard estimate. Intervals omit model uncertainty; screening arms are selection data. A tied first is not counted as a strict win.",
+  "fields": {
+    "live": {
+      "BASE": {
+        "N": 48,
+        "strictWinPercent": 10.416666666666666,
+        "strictWins": 5,
+        "tiedFirst": 1,
+        "winPercentIncludingTies": 12.5,
+        "winWilson95IncludingTies": [
+          5.857051438571979,
+          24.700458286386834
+        ],
+        "strictWinWilson95": [
+          4.53217190418131,
+          22.16742169438633
+        ],
+        "score": 64.54166666666667,
+        "scoreBootstrap95": [
+          57.270833333333336,
+          72.39583333333333
+        ],
+        "averagePlace": 4.583333333333333,
+        "averageFinalCash": 74.39583333333333,
+        "pointTargetsMet": false,
+        "strictPointTargetsMet": false,
+        "conditionalLowerBoundsMeetTargets": false
+      },
+      "COST8": {
+        "N": 48,
+        "strictWinPercent": 8.333333333333334,
+        "strictWins": 4,
+        "tiedFirst": 1,
+        "winPercentIncludingTies": 10.416666666666666,
+        "winWilson95IncludingTies": [
+          4.53217190418131,
+          22.16742169438633
+        ],
+        "strictWinWilson95": [
+          3.2883756818091774,
+          19.553301790367282
+        ],
+        "score": 63.5,
+        "scoreBootstrap95": [
+          56.75,
+          70.6875
+        ],
+        "averagePlace": 4.625,
+        "averageFinalCash": 75.41666666666667,
+        "pointTargetsMet": false,
+        "strictPointTargetsMet": false,
+        "conditionalLowerBoundsMeetTargets": false
+      },
+      "COST12": {
+        "N": 48,
+        "strictWinPercent": 8.333333333333334,
+        "strictWins": 4,
+        "tiedFirst": 1,
+        "winPercentIncludingTies": 10.416666666666666,
+        "winWilson95IncludingTies": [
+          4.53217190418131,
+          22.16742169438633
+        ],
+        "strictWinWilson95": [
+          3.2883756818091774,
+          19.553301790367282
+        ],
+        "score": 63.5,
+        "scoreBootstrap95": [
+          56.75,
+          70.6875
+        ],
+        "averagePlace": 4.625,
+        "averageFinalCash": 75.41666666666667,
+        "pointTargetsMet": false,
+        "strictPointTargetsMet": false,
+        "conditionalLowerBoundsMeetTargets": false
+      },
+      "COST16": {
+        "N": 48,
+        "strictWinPercent": 8.333333333333334,
+        "strictWins": 4,
+        "tiedFirst": 1,
+        "winPercentIncludingTies": 10.416666666666666,
+        "winWilson95IncludingTies": [
+          4.53217190418131,
+          22.16742169438633
+        ],
+        "strictWinWilson95": [
+          3.2883756818091774,
+          19.553301790367282
+        ],
+        "score": 63.333333333333336,
+        "scoreBootstrap95": [
+          56.604166666666664,
+          70.45833333333333
+        ],
+        "averagePlace": 4.625,
+        "averageFinalCash": 75.27083333333333,
+        "pointTargetsMet": false,
+        "strictPointTargetsMet": false,
+        "conditionalLowerBoundsMeetTargets": false
+      },
+      "pairedComparisons": {
+        "COST8": {
+          "metric_type": "synthetic_reactive_simulation",
+          "N": 48,
+          "placeDirection": "negative candidate-minus-BASE delta is better",
+          "warning": "Synthetic reactive simulation only, not live win probability, leaderboard rating or a calibrated forecast. Fixed deal/tie streams pair model worlds; rivals react to each policy. CPU-dependent search cutoffs, instant actions, missing transport latency and synthetic rival policies limit realism. Bootstrap intervals are conditional on this model and omit selection/model uncertainty. No automatic deployment.",
+          "bootstrapRepetitions": 2000,
+          "bootstrapSeed": 8441,
+          "scoreDelta": -1.0416666666666667,
+          "scoreConditional95": [
+            -3.125,
+            0.0
+          ],
+          "placeDelta": 0.041666666666666664,
+          "placeConditional95": [
+            0.0,
+            0.125
+          ],
+          "winPPDelta": -2.0833333333333335,
+          "winPPConditional95": [
+            -6.25,
+            0.0
+          ],
+          "winGained": 0,
+          "winLost": 1,
+          "exactDiscordanceP": 1.0,
+          "smallDiscordantWarning": true,
+          "changedGames": 1,
+          "higherScoreGames": 0,
+          "lowerScoreGames": 1,
+          "exactTestLimit": "Independent paired-world assumption; no multiplicity or selection adjustment."
+        },
+        "COST12": {
+          "metric_type": "synthetic_reactive_simulation",
+          "N": 48,
+          "placeDirection": "negative candidate-minus-BASE delta is better",
+          "warning": "Synthetic reactive simulation only, not live win probability, leaderboard rating or a calibrated forecast. Fixed deal/tie streams pair model worlds; rivals react to each policy. CPU-dependent search cutoffs, instant actions, missing transport latency and synthetic rival policies limit realism. Bootstrap intervals are conditional on this model and omit selection/model uncertainty. No automatic deployment.",
+          "bootstrapRepetitions": 2000,
+          "bootstrapSeed": 8441,
+          "scoreDelta": -1.0416666666666667,
+          "scoreConditional95": [
+            -3.125,
+            0.0
+          ],
+          "placeDelta": 0.041666666666666664,
+          "placeConditional95": [
+            0.0,
+            0.125
+          ],
+          "winPPDelta": -2.0833333333333335,
+          "winPPConditional95": [
+            -6.25,
+            0.0
+          ],
+          "winGained": 0,
+          "winLost": 1,
+          "exactDiscordanceP": 1.0,
+          "smallDiscordantWarning": true,
+          "changedGames": 1,
+          "higherScoreGames": 0,
+          "lowerScoreGames": 1,
+          "exactTestLimit": "Independent paired-world assumption; no multiplicity or selection adjustment."
+        },
+        "COST16": {
+          "metric_type": "synthetic_reactive_simulation",
+          "N": 48,
+          "placeDirection": "negative candidate-minus-BASE delta is better",
+          "warning": "Synthetic reactive simulation only, not live win probability, leaderboard rating or a calibrated forecast. Fixed deal/tie streams pair model worlds; rivals react to each policy. CPU-dependent search cutoffs, instant actions, missing transport latency and synthetic rival policies limit realism. Bootstrap intervals are conditional on this model and omit selection/model uncertainty. No automatic deployment.",
+          "bootstrapRepetitions": 2000,
+          "bootstrapSeed": 8441,
+          "scoreDelta": -1.2083333333333333,
+          "scoreConditional95": [
+            -3.625,
+            0.0
+          ],
+          "placeDelta": 0.041666666666666664,
+          "placeConditional95": [
+            0.0,
+            0.125
+          ],
+          "winPPDelta": -2.0833333333333335,
+          "winPPConditional95": [
+            -6.25,
+            0.0
+          ],
+          "winGained": 0,
+          "winLost": 1,
+          "exactDiscordanceP": 1.0,
+          "smallDiscordantWarning": true,
+          "changedGames": 2,
+          "higherScoreGames": 0,
+          "lowerScoreGames": 2,
+          "exactTestLimit": "Independent paired-world assumption; no multiplicity or selection adjustment."
+        }
+      }
+    }
+  }
+}

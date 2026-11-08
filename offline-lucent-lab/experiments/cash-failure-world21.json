@@ -1,0 +1,79 @@
+{
+  "kind": "paired_failure_case",
+  "model": "Synthetic reactive simulation only, not live win probability, leaderboard rating or a calibrated forecast. Fixed deal/tie streams pair model worlds; rivals react to each policy. CPU-dependent search cutoffs, instant actions, missing transport latency and synthetic rival policies limit realism. Bootstrap intervals are conditional on this model and omit selection/model uncertainty. No automatic deployment.",
+  "sourceSha256": "ba978847028265f5336f5875e002df9936f1c09d08d1b683d7aa9420fbfb0dba",
+  "seed": 11072941,
+  "worldIndex": 21,
+  "baseline": {
+    "matchIndex": 21,
+    "score": 140,
+    "place": 1,
+    "win": true,
+    "balance": 27,
+    "fieldScores": [
+      140,
+      93,
+      33,
+      69,
+      68,
+      78
+    ]
+  },
+  "candidate": {
+    "matchIndex": 21,
+    "score": 90,
+    "place": 3,
+    "win": false,
+    "balance": 76,
+    "fieldScores": [
+      90,
+      127,
+      33,
+      69,
+      77,
+      97
+    ]
+  },
+  "candidateParameters": {
+    "samples": 24,
+    "bidGain": 1.1,
+    "paceEarly": 0.8,
+    "paceLate": 2.5,
+    "maxBidShare": 0.7,
+    "starveCoins": 8,
+    "starveMinBagLeft": 10,
+    "cashLen": 7,
+    "futureHorizon": 6,
+    "huGain": 0,
+    "huPaceEarly": 0,
+    "huHorizon": 0,
+    "bigSeats": 8,
+    "bigGain": 0,
+    "bigPaceLate": 0,
+    "denyLast": 0,
+    "denyMult": 1,
+    "facePremium": 2,
+    "cashRolloutCost": 8
+  },
+  "rival": {
+    "samples": 24,
+    "bidGain": 1.3,
+    "paceEarly": 0.8,
+    "paceLate": 2.5,
+    "maxBidShare": 0.7,
+    "starveCoins": 8,
+    "starveMinBagLeft": 10,
+    "cashLen": 7,
+    "futureHorizon": 6,
+    "huGain": 0,
+    "huPaceEarly": 0,
+    "huHorizon": 0,
+    "bigSeats": 8,
+    "bigGain": 0,
+    "bigPaceLate": 0,
+    "denyLast": 0,
+    "denyMult": 1,
+    "facePremium": 2
+  },
+  "hypothesis": "One-step cashout may overestimate replenishment and destroy long-word combinations; trace required to establish the decision sequence."
+}

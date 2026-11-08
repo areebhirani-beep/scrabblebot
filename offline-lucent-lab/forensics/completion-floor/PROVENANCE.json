@@ -1,0 +1,8 @@
+{
+  "parentSourceSha256": "f91ea7e615a872abb0713038a51636b73b0c518bef1518e9e42978c361856fd9",
+  "purpose": "Read-only offline replay trace; only sim.ts changed to retain per-auction bids, awards and words. Logs buffered until match ends. Timing-sensitive decisions must reproduce before causal attribution.",
+  "changedFiles": [
+    "bot-starter/src/sim.ts"
+  ],
+  "simSha256": "155c70b350a7a6f8499bbc14f9c3fb343da4694ba795a3c1f16333a5f687d434"
+}

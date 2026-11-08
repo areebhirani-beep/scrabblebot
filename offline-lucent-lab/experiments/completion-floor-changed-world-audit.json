@@ -1,0 +1,626 @@
+{
+  "status": "complete",
+  "sourceSha256": "f91ea7e615a872abb0713038a51636b73b0c518bef1518e9e42978c361856fd9",
+  "seed": 11073301,
+  "N": 32,
+  "arms": {
+    "BASE": {
+      "score": 83.53125,
+      "wins": 25.0
+    },
+    "FLOOR1": {
+      "score": 82.65625,
+      "wins": 21.875
+    }
+  },
+  "changedWorlds": [
+    {
+      "world": 0,
+      "scoreDelta": 10,
+      "longPointDelta": 0,
+      "longCountDelta": 0,
+      "tilesDelta": 4,
+      "paidDelta": -4,
+      "endCashDelta": 14,
+      "base": {
+        "matchIndex": 0,
+        "score": 68,
+        "place": 3,
+        "win": false,
+        "balance": 20,
+        "fieldScores": [
+          68,
+          103,
+          66,
+          101,
+          63,
+          68
+        ],
+        "completionFloorStats": {
+          "checks": 0,
+          "opportunities": 0,
+          "raisedBids": 0
+        },
+        "words7Plus": 2,
+        "points7Plus": 66,
+        "wordLengths": [
+          7,
+          7,
+          2
+        ],
+        "tilesPurchased": 11,
+        "totalPaid": 148
+      },
+      "floor": {
+        "matchIndex": 0,
+        "score": 78,
+        "place": 3,
+        "win": false,
+        "balance": 34,
+        "fieldScores": [
+          78,
+          112,
+          60,
+          75,
+          63,
+          80
+        ],
+        "completionFloorStats": {
+          "checks": 66,
+          "opportunities": 11,
+          "raisedBids": 4
+        },
+        "words7Plus": 2,
+        "points7Plus": 66,
+        "wordLengths": [
+          7,
+          7,
+          5
+        ],
+        "tilesPurchased": 15,
+        "totalPaid": 144
+      }
+    },
+    {
+      "world": 6,
+      "scoreDelta": -54,
+      "longPointDelta": -30,
+      "longCountDelta": 0,
+      "tilesDelta": -5,
+      "paidDelta": -79,
+      "endCashDelta": 25,
+      "base": {
+        "matchIndex": 6,
+        "score": 102,
+        "place": 1,
+        "win": true,
+        "balance": 29,
+        "fieldScores": [
+          102,
+          74,
+          96,
+          81,
+          86,
+          44
+        ],
+        "completionFloorStats": {
+          "checks": 0,
+          "opportunities": 0,
+          "raisedBids": 0
+        },
+        "words7Plus": 2,
+        "points7Plus": 78,
+        "wordLengths": [
+          7,
+          7,
+          5
+        ],
+        "tilesPurchased": 14,
+        "totalPaid": 173
+      },
+      "floor": {
+        "matchIndex": 6,
+        "score": 48,
+        "place": 6,
+        "win": false,
+        "balance": 54,
+        "fieldScores": [
+          48,
+          92,
+          87,
+          90,
+          114,
+          93
+        ],
+        "completionFloorStats": {
+          "checks": 66,
+          "opportunities": 2,
+          "raisedBids": 1
+        },
+        "words7Plus": 2,
+        "points7Plus": 48,
+        "wordLengths": [
+          7,
+          7
+        ],
+        "tilesPurchased": 9,
+        "totalPaid": 94
+      }
+    },
+    {
+      "world": 8,
+      "scoreDelta": 34,
+      "longPointDelta": 36,
+      "longCountDelta": 1,
+      "tilesDelta": 5,
+      "paidDelta": 19,
+      "endCashDelta": 15,
+      "base": {
+        "matchIndex": 8,
+        "score": 57,
+        "place": 5,
+        "win": false,
+        "balance": 5,
+        "fieldScores": [
+          57,
+          60,
+          79,
+          98,
+          30,
+          99
+        ],
+        "completionFloorStats": {
+          "checks": 0,
+          "opportunities": 0,
+          "raisedBids": 0
+        },
+        "words7Plus": 1,
+        "points7Plus": 39,
+        "wordLengths": [
+          7,
+          5
+        ],
+        "tilesPurchased": 10,
+        "totalPaid": 152
+      },
+      "floor": {
+        "matchIndex": 8,
+        "score": 91,
+        "place": 3,
+        "win": false,
+        "balance": 20,
+        "fieldScores": [
+          91,
+          46,
+          90,
+          103,
+          30,
+          123
+        ],
+        "completionFloorStats": {
+          "checks": 66,
+          "opportunities": 2,
+          "raisedBids": 1
+        },
+        "words7Plus": 2,
+        "points7Plus": 75,
+        "wordLengths": [
+          8,
+          7,
+          4
+        ],
+        "tilesPurchased": 15,
+        "totalPaid": 171
+      }
+    },
+    {
+      "world": 9,
+      "scoreDelta": 68,
+      "longPointDelta": 27,
+      "longCountDelta": 1,
+      "tilesDelta": 14,
+      "paidDelta": 119,
+      "endCashDelta": -51,
+      "base": {
+        "matchIndex": 9,
+        "score": 33,
+        "place": 6,
+        "win": false,
+        "balance": 96,
+        "fieldScores": [
+          33,
+          111,
+          78,
+          108,
+          81,
+          94
+        ],
+        "completionFloorStats": {
+          "checks": 0,
+          "opportunities": 0,
+          "raisedBids": 0
+        },
+        "words7Plus": 1,
+        "points7Plus": 33,
+        "wordLengths": [
+          7
+        ],
+        "tilesPurchased": 3,
+        "totalPaid": 37
+      },
+      "floor": {
+        "matchIndex": 9,
+        "score": 101,
+        "place": 2,
+        "win": false,
+        "balance": 45,
+        "fieldScores": [
+          101,
+          108,
+          56,
+          63,
+          81,
+          89
+        ],
+        "completionFloorStats": {
+          "checks": 66,
+          "opportunities": 3,
+          "raisedBids": 1
+        },
+        "words7Plus": 2,
+        "points7Plus": 60,
+        "wordLengths": [
+          7,
+          7,
+          5,
+          3
+        ],
+        "tilesPurchased": 17,
+        "totalPaid": 156
+      }
+    },
+    {
+      "world": 16,
+      "scoreDelta": -9,
+      "longPointDelta": -24,
+      "longCountDelta": 0,
+      "tilesDelta": 1,
+      "paidDelta": -25,
+      "endCashDelta": 16,
+      "base": {
+        "matchIndex": 16,
+        "score": 103,
+        "place": 1,
+        "win": true,
+        "balance": 16,
+        "fieldScores": [
+          103,
+          87,
+          60,
+          47,
+          51,
+          99
+        ],
+        "completionFloorStats": {
+          "checks": 0,
+          "opportunities": 0,
+          "raisedBids": 0
+        },
+        "words7Plus": 2,
+        "points7Plus": 90,
+        "wordLengths": [
+          7,
+          7,
+          3,
+          3
+        ],
+        "tilesPurchased": 15,
+        "totalPaid": 187
+      },
+      "floor": {
+        "matchIndex": 16,
+        "score": 94,
+        "place": 1,
+        "win": true,
+        "balance": 32,
+        "fieldScores": [
+          94,
+          90,
+          82,
+          79,
+          51,
+          53
+        ],
+        "completionFloorStats": {
+          "checks": 66,
+          "opportunities": 5,
+          "raisedBids": 2
+        },
+        "words7Plus": 2,
+        "points7Plus": 66,
+        "wordLengths": [
+          7,
+          7,
+          5,
+          2
+        ],
+        "tilesPurchased": 16,
+        "totalPaid": 162
+      }
+    },
+    {
+      "world": 23,
+      "scoreDelta": -33,
+      "longPointDelta": -33,
+      "longCountDelta": -1,
+      "tilesDelta": -6,
+      "paidDelta": -44,
+      "endCashDelta": 11,
+      "base": {
+        "matchIndex": 23,
+        "score": 96,
+        "place": 2,
+        "win": false,
+        "balance": 23,
+        "fieldScores": [
+          96,
+          82,
+          88,
+          71,
+          99,
+          43
+        ],
+        "completionFloorStats": {
+          "checks": 0,
+          "opportunities": 0,
+          "raisedBids": 0
+        },
+        "words7Plus": 2,
+        "points7Plus": 69,
+        "wordLengths": [
+          7,
+          7,
+          5,
+          2
+        ],
+        "tilesPurchased": 16,
+        "totalPaid": 173
+      },
+      "floor": {
+        "matchIndex": 23,
+        "score": 63,
+        "place": 4,
+        "win": false,
+        "balance": 34,
+        "fieldScores": [
+          63,
+          125,
+          81,
+          48,
+          103,
+          60
+        ],
+        "completionFloorStats": {
+          "checks": 66,
+          "opportunities": 2,
+          "raisedBids": 1
+        },
+        "words7Plus": 1,
+        "points7Plus": 36,
+        "wordLengths": [
+          7,
+          6,
+          2
+        ],
+        "tilesPurchased": 10,
+        "totalPaid": 129
+      }
+    },
+    {
+      "world": 25,
+      "scoreDelta": -24,
+      "longPointDelta": -51,
+      "longCountDelta": -1,
+      "tilesDelta": -4,
+      "paidDelta": 12,
+      "endCashDelta": -36,
+      "base": {
+        "matchIndex": 25,
+        "score": 143,
+        "place": 1,
+        "win": true,
+        "balance": 77,
+        "fieldScores": [
+          143,
+          96,
+          39,
+          36,
+          76,
+          87
+        ],
+        "completionFloorStats": {
+          "checks": 0,
+          "opportunities": 0,
+          "raisedBids": 0
+        },
+        "words7Plus": 3,
+        "points7Plus": 138,
+        "wordLengths": [
+          8,
+          7,
+          7,
+          3
+        ],
+        "tilesPurchased": 20,
+        "totalPaid": 166
+      },
+      "floor": {
+        "matchIndex": 25,
+        "score": 119,
+        "place": 1,
+        "win": true,
+        "balance": 41,
+        "fieldScores": [
+          119,
+          95,
+          39,
+          69,
+          76,
+          93
+        ],
+        "completionFloorStats": {
+          "checks": 66,
+          "opportunities": 3,
+          "raisedBids": 2
+        },
+        "words7Plus": 2,
+        "points7Plus": 87,
+        "wordLengths": [
+          8,
+          7,
+          6
+        ],
+        "tilesPurchased": 16,
+        "totalPaid": 178
+      }
+    },
+    {
+      "world": 26,
+      "scoreDelta": 7,
+      "longPointDelta": -18,
+      "longCountDelta": 0,
+      "tilesDelta": 8,
+      "paidDelta": 25,
+      "endCashDelta": -18,
+      "base": {
+        "matchIndex": 26,
+        "score": 88,
+        "place": 1,
+        "win": true,
+        "balance": 29,
+        "fieldScores": [
+          88,
+          75,
+          68,
+          81,
+          87,
+          87
+        ],
+        "completionFloorStats": {
+          "checks": 0,
+          "opportunities": 0,
+          "raisedBids": 0
+        },
+        "words7Plus": 2,
+        "points7Plus": 84,
+        "wordLengths": [
+          7,
+          7,
+          2
+        ],
+        "tilesPurchased": 11,
+        "totalPaid": 159
+      },
+      "floor": {
+        "matchIndex": 26,
+        "score": 95,
+        "place": 1,
+        "win": true,
+        "balance": 11,
+        "fieldScores": [
+          95,
+          91,
+          68,
+          33,
+          87,
+          86
+        ],
+        "completionFloorStats": {
+          "checks": 66,
+          "opportunities": 2,
+          "raisedBids": 1
+        },
+        "words7Plus": 2,
+        "points7Plus": 66,
+        "wordLengths": [
+          7,
+          7,
+          6,
+          3
+        ],
+        "tilesPurchased": 19,
+        "totalPaid": 184
+      }
+    },
+    {
+      "world": 30,
+      "scoreDelta": -27,
+      "longPointDelta": -30,
+      "longCountDelta": -1,
+      "tilesDelta": -5,
+      "paidDelta": -16,
+      "endCashDelta": -11,
+      "base": {
+        "matchIndex": 30,
+        "score": 156,
+        "place": 1,
+        "win": true,
+        "balance": 40,
+        "fieldScores": [
+          156,
+          78,
+          42,
+          72,
+          60,
+          125
+        ],
+        "completionFloorStats": {
+          "checks": 0,
+          "opportunities": 0,
+          "raisedBids": 0
+        },
+        "words7Plus": 4,
+        "points7Plus": 156,
+        "wordLengths": [
+          7,
+          7,
+          7,
+          8
+        ],
+        "tilesPurchased": 24,
+        "totalPaid": 216
+      },
+      "floor": {
+        "matchIndex": 30,
+        "score": 129,
+        "place": 1,
+        "win": true,
+        "balance": 29,
+        "fieldScores": [
+          129,
+          52,
+          51,
+          101,
+          66,
+          97
+        ],
+        "completionFloorStats": {
+          "checks": 66,
+          "opportunities": 8,
+          "raisedBids": 4
+        },
+        "words7Plus": 3,
+        "points7Plus": 126,
+        "wordLengths": [
+          7,
+          7,
+          7,
+          3
+        ],
+        "tilesPurchased": 19,
+        "totalPaid": 200
+      }
+    }
+  ],
+  "limitation": "Saved outcomes identify changed quality and acquisition totals; no per-auction trace was recorded, so the precise causal first divergence requires replay."
+}

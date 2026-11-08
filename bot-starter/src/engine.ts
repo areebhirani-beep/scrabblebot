@@ -74,6 +74,31 @@ export interface Candidate {
   score: number;
 }
 
+export interface SearchBudget {
+  budgetMs?: number;
+  maxOperations?: number;
+  now?: () => number;
+  deadlineMs?: number;
+  tracker?: { operations: number; exhausted: boolean };
+}
+
+// A shared tracker/deadline keeps nested searches inside the original budget.
+function searchLimit(options: SearchBudget, defaultMs: number) {
+  const now = options.now ?? (() => performance.now());
+  const deadline = options.deadlineMs ?? now() + (options.budgetMs ?? defaultMs);
+  const tracker = options.tracker ?? { operations: 0, exhausted: false };
+  const maxOperations = options.maxOperations ?? 150_000;
+  return { tracker, check: () => {
+    if (tracker.exhausted) return false;
+    if (tracker.operations >= maxOperations || now() >= deadline) {
+      tracker.exhausted = true;
+      return false;
+    }
+    tracker.operations++;
+    return true;
+  } };
+}
+
 export class WordEngine {
   // sorted letters -> one real word with exactly those letters
   private byKey = new Map<string, string>();
@@ -97,7 +122,11 @@ export class WordEngine {
 
   // Every distinct word (one per letter set) the rack can spell, with at
   // least `minLen` letters.
-  spellable(rack: Rack, minLen = 2): Candidate[] {
+  spellable(rack: Rack, minLen = 2, budget: SearchBudget = {}): Candidate[] {
+    return this.enumerate(rack, minLen, searchLimit(budget, 8));
+  }
+
+  private enumerate(rack: Rack, minLen: number, limit: ReturnType<typeof searchLimit>): Candidate[] {
     const letters: string[] = [];
     const counts: number[] = [];
     for (const c of ALPHA) {
@@ -109,6 +138,7 @@ export class WordEngine {
     }
     const out: Candidate[] = [];
     const walk = (i: number, key: string) => {
+      if (!limit.check()) return;
       if (i === letters.length) {
         if (key.length >= minLen) {
           const w = this.byKey.get(key);
@@ -119,6 +149,7 @@ export class WordEngine {
       let k = key;
       for (let take = 0; take <= counts[i]!; take++) {
         walk(i + 1, k);
+        if (limit.tracker.exhausted) break;
         k += letters[i];
       }
     };
@@ -130,42 +161,50 @@ export class WordEngine {
   // The best set of words to play from this rack right now, all at once.
   // Tries the top few words first and recurses on what's left, so it finds
   // splits like one 7-letter word plus a 3-letter word.
-  bestPlayout(rack: Rack, beam = 12, depth = 4): { words: string[]; score: number } {
+  bestPlayout(rack: Rack, beam = 12, depth = 4, budget: SearchBudget = {}): { words: string[]; score: number; exact: boolean } {
+    const limit = searchLimit(budget, 30);
+    let exact = true;
     const memo = new Map<string, { words: string[]; score: number }>();
     const go = (r: Rack, d: number): { words: string[]; score: number } => {
+      if (!limit.check()) return { words: [], score: 0 };
       const key = rackKey(r) + "|" + d;
       const hit = memo.get(key);
       if (hit) return hit;
       let best = { words: [] as string[], score: 0 };
       if (d > 0) {
-        const cands = this.spellable(r, 2).slice(0, beam);
+        const all = this.enumerate(r, 2, limit);
+        if (all.length > beam) exact = false;
+        const cands = all.slice(0, beam);
         for (const c of cands) {
           const rest = go(minus(r, c.word), d - 1);
           const total = c.score + rest.score;
           if (total > best.score) best = { words: [c.word, ...rest.words], score: total };
+          if (limit.tracker.exhausted) break;
         }
-      }
+      } else if (rackSize(r) >= 2) exact = false;
       memo.set(key, best);
       return best;
     };
-    return go(rack, depth);
+    const result = go(rack, depth);
+    return { ...result, exact: exact && !limit.tracker.exhausted };
   }
 }
 
 // ---------- Fast evaluator for Monte Carlo ----------
 //
 // Monte Carlo needs hundreds of rack evaluations per auction, so this one
-// trades a little accuracy for speed: a flat list of every word (one per
-// letter set) with a 26-bit letter mask, scanned once per pick. A word can
-// only fit if its mask is inside the rack's mask, which rejects most of the
-// list with one AND. Picks the best word, removes it, repeats.
+// trades a little accuracy for speed: greedy picks from words indexed by
+// their 26-bit letter masks. Small racks visit only submasks they contain;
+// wider racks scan the original score-ordered list. Both paths preserve the
+// same score ordering and original dictionary order when scores tie.
 
 interface Entry { mask: number; len: number; counts: Uint8Array; score: number; word: string }
 
 export class FastEval {
   private entries: Entry[] = [];
+  private entriesByMask = new Map<number, number[]>();
 
-  constructor(words: Iterable<string>, minLen = 3) {
+  constructor(words: Iterable<string>, minLen = 2) {
     const seen = new Set<string>();
     for (const raw of words) {
       const w = raw.trim().toUpperCase();
@@ -180,6 +219,12 @@ export class FastEval {
     }
     // best scores first, so the scan can stop early
     this.entries.sort((a, b) => b.score - a.score);
+    for (let rank = 0; rank < this.entries.length; rank++) {
+      const mask = this.entries[rank]!.mask;
+      const bucket = this.entriesByMask.get(mask);
+      if (bucket) bucket.push(rank);
+      else this.entriesByMask.set(mask, [rank]);
+    }
   }
 
   static fromFile(path: string): FastEval {
@@ -188,18 +233,47 @@ export class FastEval {
 
   // counts: 26 letter counts (modified in place). Returns total score of the
   // greedy split and fills `words` if given.
-  evalCounts(counts: Uint8Array, maxWords = 3, words?: string[]): number {
+  evalCounts(counts: Uint8Array, maxWords = 3, words?: string[], budget: SearchBudget = {}): number {
+    const limit = searchLimit(budget, 8);
     let total = 0;
     for (let k = 0; k < maxWords; k++) {
-      let mask = 0, n = 0;
-      for (let i = 0; i < 26; i++) if (counts[i]! > 0) { mask |= 1 << i; n += counts[i]!; }
-      if (n < 3) break;
+      if (!limit.check()) break;
+      let mask = 0, n = 0, distinct = 0;
+      for (let i = 0; i < 26; i++) if (counts[i]! > 0) { mask |= 1 << i; n += counts[i]!; distinct++; }
+      if (n < 2) break;
       let found: Entry | undefined;
-      for (const e of this.entries) {
-        if (e.len > n || (e.mask & ~mask) !== 0) continue;
-        let ok = true;
-        for (let i = 0; i < 26; i++) if (e.counts[i]! > counts[i]!) { ok = false; break; }
-        if (ok) { found = e; break; }
+      if (distinct <= 12) {
+        let bestRank = this.entries.length;
+        for (let submask = mask; submask !== 0; submask = (submask - 1) & mask) {
+          if (!limit.check()) break;
+          const bucket = this.entriesByMask.get(submask);
+          if (!bucket) continue;
+          // Ranks are ascending inside each bucket. Once a rank cannot beat
+          // the incumbent, neither can any later member of this bucket.
+          for (const rank of bucket) {
+            if (rank >= bestRank) break;
+            if (!limit.check()) break;
+            const entry = this.entries[rank]!;
+            if (entry.len > n) continue;
+            let fits = true;
+            for (let i = 0; i < 26; i++) {
+              if (entry.counts[i]! > counts[i]!) { fits = false; break; }
+            }
+            if (fits) { found = entry; bestRank = rank; break; }
+          }
+          if (limit.tracker.exhausted || bestRank === 0) break;
+        }
+        // A partially visited index has not proved which word the canonical
+        // greedy scan would choose. Discard this pick instead of changing it.
+        if (limit.tracker.exhausted) break;
+      } else {
+        for (const e of this.entries) {
+          if (!limit.check()) break;
+          if (e.len > n || (e.mask & ~mask) !== 0) continue;
+          let ok = true;
+          for (let i = 0; i < 26; i++) if (e.counts[i]! > counts[i]!) { ok = false; break; }
+          if (ok) { found = e; break; }
+        }
       }
       if (!found) break;
       for (let i = 0; i < 26; i++) counts[i]! -= found.counts[i]!;

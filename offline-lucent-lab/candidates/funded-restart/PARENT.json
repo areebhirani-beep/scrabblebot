@@ -1,0 +1,26 @@
+{
+  "sourceSha256": "1563a4e3423e6d49cccc6cac0fc5b7add538fd9f9194b29880bc76bd208acb9c",
+  "policy": {
+    "samples": 24,
+    "bidGain": 1.1,
+    "paceEarly": 0.8,
+    "paceLate": 2.5,
+    "maxBidShare": 0.7,
+    "starveCoins": 8,
+    "starveMinBagLeft": 10,
+    "cashLen": 7,
+    "futureHorizon": 6,
+    "huGain": 2,
+    "huPaceEarly": 1.1,
+    "huHorizon": 10,
+    "bigSeats": 8,
+    "bigGain": 0,
+    "bigPaceLate": 3.5,
+    "denyLast": 0,
+    "denyMult": 1,
+    "facePremium": 2,
+    "neutralSixHorizon": true,
+    "winBonus": 30
+  },
+  "purpose": "Isolated default-off funded small-rack restart hypothesis; no bot run"
+}

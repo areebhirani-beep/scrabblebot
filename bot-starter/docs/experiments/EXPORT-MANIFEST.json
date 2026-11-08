@@ -1,0 +1,233 @@
+{
+  "purpose": "Offline reports and exact frozen source; no credentials, dependency folders or runtime directories copied. Historical reports may retain original machine path metadata; use snapshots/<sourceSha256> for the archived source.",
+  "reports": [
+    {
+      "file": "bidgrid-config.json",
+      "sha256": "0a1b08f939a7779e1f690220c41a45a38bf158cec2e1a650297a0114b3953b57"
+    },
+    {
+      "file": "bidgrid-screen-summary.json",
+      "sha256": "bd7f5eba8000b702b00e9cf1ec8a5f58a0a2250842d6d89df0b55b85110b6da7"
+    },
+    {
+      "file": "candidate-screen-summary.json",
+      "sha256": "5ebe3f5a343cbc15210d1195a88cc7c0a189aa03f40ba5c2ece78595e7a0389c"
+    },
+    {
+      "file": "cash-trap-handoff.json",
+      "sha256": "bf78468edeb63c47dd727780d6910bb5a937de233faa581f5d079225bd72abfa"
+    },
+    {
+      "file": "cash9-validation-analysis.json",
+      "sha256": "29d6237d9b30353ab8bd509cd51d6fb62301c1c7bccc3eef0998a41d23b5d227"
+    },
+    {
+      "file": "cash9-validation-config.json",
+      "sha256": "724973299364fbaba6734f915354d4f46fe354dd40e376cac247ebb203b1c3a4"
+    },
+    {
+      "file": "cash9-validation-screen-summary.json",
+      "sha256": "3a07d4301d4e153ac9b64cfdf783d3dc3549786eac7f1bd71a35c3bc98087902"
+    },
+    {
+      "file": "count-dp-benchmark.json",
+      "sha256": "77ff7a3df2f4625e2a1fc1adc2acdadb6a21f646efd1e8c6c9c219288a6baf92"
+    },
+    {
+      "file": "final-usable-all-in-audit.md",
+      "sha256": "3ee896a41964c1c8c7f1bc14439e82c6523740222be71c8060edb2d7b677d6c6"
+    },
+    {
+      "file": "gain11-targeted-config.json",
+      "sha256": "5d0d9636b330b67d7ed33761e0d721eb6eb7977867d77a38cabcc75002d8a7c3"
+    },
+    {
+      "file": "gain11-targeted-screen-summary.json",
+      "sha256": "76dbca4f17d532b1ca565e96f13b9b706999ad68ed6712c17c0c6494ba03e656"
+    },
+    {
+      "file": "incumbent-refinement-32-config.json",
+      "sha256": "484023528df3ff0904763e73495d94ac60fd0d4f33a8684eccdc43a250fbd660"
+    },
+    {
+      "file": "incumbent-refinement-32-reactive-summary.json",
+      "sha256": "5bd68ac848e3a01979c98d3a9b88b63ea668fc5057e0667839cfb55c92eb0842"
+    },
+    {
+      "file": "lucentlab-cash-screen-reactive-summary.json",
+      "sha256": "691710aae905d8fc68c904207ace364aeafebfd4d71921a68c0a50904731c1c6"
+    },
+    {
+      "file": "lucentlab-win-from-neutral-screen-reactive-summary.json",
+      "sha256": "0789afce8ed12662db922439ab93f61c164ac88f327d21e2c44022525b830f73"
+    },
+    {
+      "file": "quick-screen-summary.json",
+      "sha256": "b18b2ca1dfc5d2598272eac30006a0437d455d32a4c316f1891b8f9ffd2bcd5b"
+    },
+    {
+      "file": "reactive-48-config.json",
+      "sha256": "c49f01d74f86dbfcee76803748bad4edb0203a75c264e7de42c6883a19a1324a"
+    },
+    {
+      "file": "reactive-48-live-BASE-reactive.txt",
+      "sha256": "568f59190e291db9636c121f7e2441ea159c263c7b0b4f6723ae392c92fd09b2"
+    },
+    {
+      "file": "reactive-48-reactive-summary.json",
+      "sha256": "dc333ade433dc1bb11ede75d8cfb3d88c2a86a5e0f0dabc111509b7e0d3d53cd"
+    },
+    {
+      "file": "reactive-48-v2-config.json",
+      "sha256": "a2236c04a3df0c4b30bd412c2ac70e342a703703bd173cea8ee6073dc01d5aef"
+    },
+    {
+      "file": "reactive-48-v2-reactive-summary.json",
+      "sha256": "99b43742f76935e9c260770247910abbed805acaa93c81ec93cc17036175af3e"
+    },
+    {
+      "file": "reactive-validation-128-config.json",
+      "sha256": "2095dd3b3c9ecfdc33347dd1760f84bd6694b1de6c6fa1881fd9d079c964cffc"
+    },
+    {
+      "file": "reactive-validation-128-reactive-summary.json",
+      "sha256": "9e3fd99d54a4d0d4da37c1b6ed086da75a00d0566daf9fcb88547bb450912689"
+    },
+    {
+      "file": "reactive-validation-128-vs-gain13.json",
+      "sha256": "5c977e98d2fa2b01ef5b274f52cb4201ccc1f7d011f10269e1b6a8b563389c94"
+    },
+    {
+      "file": "ruflo-execution-result.json",
+      "sha256": "a163f453e035fe35a8afe744cfbcc67215075cbcf0bc552a120a40d5d08762ad"
+    },
+    {
+      "file": "validation-gain-analysis.json",
+      "sha256": "db3b0e9d587830e909697f611e41709f7508c19966cd260d4d854a45c188732c"
+    },
+    {
+      "file": "validation-gain-config.json",
+      "sha256": "c13726b1cc9468f12320354668f437be1f3251309d67c775541d4c00ea3c683d"
+    },
+    {
+      "file": "validation-gain-screen-summary.json",
+      "sha256": "37bd46233f17f9d728b3f983b42c8d4503d31a97c146e448f5988ac5be77afbd"
+    },
+    {
+      "file": "validation-refine-config.json",
+      "sha256": "6140e857c3b3eacf5e1cf10c46a5ae3df02e09367c06bb40886d831ccc20f64e"
+    },
+    {
+      "file": "validation-refine-screen-summary.json",
+      "sha256": "e22591922b67c2e311d2e200f694c0bfdde883f8467292d3305357517ac692bb"
+    },
+    {
+      "file": "lucentlab-win30-price-future-screen-reactive-summary.json",
+      "sha256": "f65824cd522286342d7891c97af433a38b8b00a56998f7c0d96f3ddce697faa4"
+    },
+    {
+      "file": "win30-gain-price-validation-256-config.json",
+      "sha256": "96da3e481adfe2c8491b2a8c80216139ee07a9d469a7a44be1d2b67205ee0b4a"
+    },
+    {
+      "file": "win30-gain-price-validation-256-reactive-summary.json",
+      "sha256": "0127aaf2659b4e653b0bb1754a34340bc43a4548f59962bb649f137b3ee84ad3"
+    },
+    {
+      "file": "win30-gain-price-validation-256-reactive-summary-postprocess.json",
+      "sha256": "a73111d5da504035f8350cac0f5e1c5bc1debe8a4c6aab9a998bcc1109a4d6c9"
+    },
+    {
+      "file": "win30-gain-price-validation-256-live-BASE-reactive.json",
+      "sha256": "d9ac7b0beadb68b55b000794458e510ae6b9f9ab47486420dd12c21ec22fda09"
+    },
+    {
+      "file": "win30-gain-price-validation-256-live-GAIN13-reactive.json",
+      "sha256": "000b1900d369727d08617fcccb60e86e865fd42309910e7b4a4e540abb9e18a3"
+    },
+    {
+      "file": "win30-gain-price-validation-256-live-PRICE2-reactive.json",
+      "sha256": "81828b7822f5867b38c6e9f8b8aa2ea064b4535fe6a87803cdc6dace368fab63"
+    },
+    {
+      "file": "retired-version1-rating.json",
+      "sha256": "e7b7872f12bd32a4d70594c7aa6c27a0529109d3e35de7c68ad6db4614c3a379"
+    },
+    {
+      "file": "rating-history-attribution.json",
+      "sha256": "7b9c97348066383c1ffd59d7b0110071978b95add797facea90a4fd305b7515a"
+    },
+    {
+      "file": "1970-rise-cohort-comparison.json",
+      "sha256": "01a761b8f5b7b528d7f043d2c7d06ce7214e14b50af0bab9482c27276d14d866"
+    },
+    {
+      "file": "completion-floor-full-lexicon-probe.json",
+      "sha256": "918c4314c21195c2f53831cc998569e27ae417552fcb2f3bd579f8195a12e1ab"
+    },
+    {
+      "file": "win30-residual-audit.json",
+      "sha256": "747b8087dc9130120b0c1a2f01cd9f25149937d99f3832fcc88b94dd025ed122"
+    },
+    {
+      "file": "completion-floor-win30-screen-reactive-summary.json",
+      "sha256": "b921e63cd1129fcf4a3128fe3a55ab15ee94d15bc5e677f760939d36e5721860"
+    },
+    {
+      "file": "completion-floor-win30-screen-live-BASE-reactive.json",
+      "sha256": "335067546938d57315f8647ead20f2c97f19bc4be633e68e793ccc1902ac29dc"
+    },
+    {
+      "file": "completion-floor-win30-screen-live-FLOOR1-reactive.json",
+      "sha256": "1034e18e98fd8def385b5c59414ad6629367b18e80e27960537f87cd7f58cef7"
+    },
+    {
+      "file": "win30-rare-screen-64-config.json",
+      "sha256": "43907affc6db26b3b4f348dbe4cab008550a1c5a16fe58641f69082bfcd2a35c"
+    },
+    {
+      "file": "win30-rare-screen-64-live-BASE-reactive.json",
+      "sha256": "991a75c349c33e401a55ca09262c53bbeb16d6e0c7e74e7a529e46643ea5337b"
+    },
+    {
+      "file": "win30-rare-screen-64-live-RARE05-reactive.json",
+      "sha256": "1b3b784ce5f5cac65f0fd2c6cad503859b75c4762d62967584283cd90406bcc2"
+    },
+    {
+      "file": "win30-rare-screen-64-live-RARE1-reactive.json",
+      "sha256": "7b61c05766a8b6c15e9c951ea69751d019570f6e14c5a37d82e7382d005f5e5a"
+    },
+    {
+      "file": "win30-rare-screen-64-live-RARE2-reactive.json",
+      "sha256": "f6e0bd0d663eb885031131fface9b8956fbd47ddec722214812c8c0d39e5f077"
+    },
+    {
+      "file": "win30-rare-screen-64-reactive-summary-postprocess.json",
+      "sha256": "e1731f8600b1d8d07240f443f0b1a789eef8f7ca07f7ab3d48e39162ea6d5148"
+    },
+    {
+      "file": "win30-rare-screen-64-reactive-summary.json",
+      "sha256": "9224468d73c33c4e7befc6389920bded01676a011a809ba2519af0fdf7d7897e"
+    },
+    {
+      "file": "win30-rare2-validation-256-config.json",
+      "sha256": "c754ef06c5f074dc72a1fe690e056dcb4f9be16ade0e94da4d5f4cc1e47485f1"
+    },
+    {
+      "file": "win30-rare2-validation-256-live-BASE-reactive.json",
+      "sha256": "fbdc303802911649db2134203a6e484886282405f18303ea53b2c32d7b90d02b"
+    },
+    {
+      "file": "win30-rare2-validation-256-live-RARE2-reactive.json",
+      "sha256": "8b24b6dffe76e6a88d36b18689a9e537a892fdcae2d4cd2413927ac76f1358d6"
+    },
+    {
+      "file": "win30-rare2-validation-256-reactive-summary-postprocess.json",
+      "sha256": "f2472d5049bbe4c010eae131c1d052ee3cb8adb020ee00d4e173c1d0e4eb6152"
+    },
+    {
+      "file": "win30-rare2-validation-256-reactive-summary.json",
+      "sha256": "c4f7bf66098b4d0e5edd9622d9d7f32071df12b6637559ea72502223e892190c"
+    }
+  ]
+}

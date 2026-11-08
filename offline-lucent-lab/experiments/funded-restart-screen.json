@@ -1,0 +1,55 @@
+{
+  "prefix": "funded-restart-win30-screen",
+  "N": 64,
+  "seed": 11076217,
+  "fields": [
+    "live"
+  ],
+  "bot": "adv",
+  "auctionType": "Vickrey",
+  "base": {
+    "samples": 24,
+    "bidGain": 1.1,
+    "paceEarly": 0.8,
+    "paceLate": 2.5,
+    "maxBidShare": 0.7,
+    "starveCoins": 8,
+    "starveMinBagLeft": 10,
+    "cashLen": 7,
+    "futureHorizon": 6,
+    "huGain": 2,
+    "huPaceEarly": 1.1,
+    "huHorizon": 10,
+    "bigSeats": 8,
+    "bigGain": 0,
+    "bigPaceLate": 3.5,
+    "denyLast": 0,
+    "denyMult": 1,
+    "facePremium": 2,
+    "neutralSixHorizon": true,
+    "winBonus": 30
+  },
+  "arms": [
+    [
+      "BASE",
+      {}
+    ],
+    [
+      "FUNDED_RESTART",
+      {
+        "fundedRestart": true
+      }
+    ]
+  ],
+  "bootstrapRepetitions": 2000,
+  "timeoutSeconds": 900,
+  "rival": {
+    "samples": 24,
+    "bidGain": 1.3,
+    "facePremium": 2,
+    "cashLen": 7,
+    "paceEarly": 0.8,
+    "paceLate": 2.5,
+    "maxBidShare": 0.7
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "completion-floor-first32",
+  "family": "unfiltered-immediate-completion-floor",
+  "hypothesis": "A bid floor for an immediately available seven-plus-letter completion improves long-word scoring and both match objectives.",
+  "decision": "reject",
+  "evidence": "../bot-starter/docs/experiments/completion-floor-win30-screen-reactive-summary.json",
+  "observed": "32 paired worlds: BASE83.53125points/25%wins vs FLOOR82.65625/21.875%. Seven-plus points62.71875 ->58.875. Checks2112, opportunities145, raisedBids42. Nine changed scores:4higher5lower; no gainedwins,1lostwin. World6 score102first ->48sixth, same2longwords but longpoints78 ->48.",
+  "reason": "Implementation triggers, but this unfiltered floor does not improve either primary point estimate or long-word points. Keep disabled and preserve both winning and losing worlds. Diagnose completion quality and subsequent acquisitions before another candidate.",
+  "uncertainty": "Small synthetic screen; score95CI[-6.90625,5.75078],winpp95CI[-9.375,0]. No proof of universal harm or causal identification of the world6 sequence.",
+  "revisitWhen": "Trace a retained failure and change acquisition quality or timing based on the actual missed opportunity. A longer-word count or a higher bid cap alone is not evidence of better total points or wins."
+}

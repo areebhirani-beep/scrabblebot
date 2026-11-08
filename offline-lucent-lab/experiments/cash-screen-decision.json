@@ -1,0 +1,11 @@
+{
+  "id": "cash-rollout-screen-20261107-v1",
+  "family": "one-step-priced-cashout",
+  "hypothesis": "Cashing a 4\u20136-letter word when it funds more sampled future tiles improves both wins and score.",
+  "decision": "reject",
+  "evidence": "../bot-starter/docs/experiments/lucentlab-cash-screen-reactive-summary.json",
+  "observed": "48 paired worlds per arm, 192 matches total, 24 MC samples. BASE64.5417 points/12.5% wins incl ties; COST8/COST12 63.5/10.4167%; COST16 63.3333/10.4167%. COST8 changed one world, losing 50 points and one first place.",
+  "reason": "Keep default disabled. None of the three assumed-price candidates improves either primary outcome in this screen. Do not rerun price tweaks as a new improvement without a changed mechanism or calibrated evidence.",
+  "uncertainty": "Exploratory screen, only 1\u20132 changed worlds, conditional score CI reaches zero. This rejects promotion, not all possible priced cashout policies. Opponents are synthetic and instant receipts are idealized.",
+  "revisitWhen": "Use a complete short-horizon auction rollout with explicit future payments and receipt-aware income, or provide new calibrated prices and a concrete failure reproduction. Then evaluate against stronger gain1.3/1.6 incumbents as well."
+}

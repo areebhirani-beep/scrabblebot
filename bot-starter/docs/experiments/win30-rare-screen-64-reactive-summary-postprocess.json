@@ -1,0 +1,23 @@
+{
+  "summary": "/Users/siddarthakodithyala/the scrabble bot for utd hacks/odysseus-live/bot-starter/.runtime-odysseus/win30-rare-screen-64-reactive-summary.json",
+  "summarySha256": "9224468d73c33c4e7befc6389920bded01676a011a809ba2519af0fdf7d7897e",
+  "startedAt": "2026-11-08T00:40:53.470170+00:00",
+  "status": "complete",
+  "steps": {
+    "registry": {
+      "status": "complete",
+      "returncode": 0,
+      "stdoutTail": "{\n  \"warning\": \"Surrogate only, not live win probability or rating gain. Uncertainty is conditional on historical inputs/model; fresh seeds do not make a reused historical cohort independent. No automatic deployment.\",\n  \"imports\": [\n    {\n      \"id\": 10,\n      \"inserted\": true,\n      \"prefix\": \"win30-rare-screen-64\",\n      \"metric_type\": \"synthetic_reactive\"\n    }\n  ],\n  \"errors\": []\n}\n",
+      "stderrTail": "",
+      "elapsedSeconds": 0.06172920804237947
+    },
+    "learning": {
+      "status": "complete",
+      "returncode": 0,
+      "stdoutTail": "{\n  \"memory\": {\n    \"lessons\": 9,\n    \"campaignComparisons\": 53,\n    \"skipped\": 3,\n    \"output\": \"/Users/siddarthakodithyala/the scrabble bot for utd hacks/LEARNINGS.md\"\n  }\n}\n",
+      "stderrTail": "",
+      "elapsedSeconds": 0.0688482080004178
+    }
+  },
+  "finishedAt": "2026-11-08T00:40:53.606721+00:00"
+}

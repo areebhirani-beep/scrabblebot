@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "kind": "full lexicon fixture; synthetic unseen counts, not a match replay",
+  "rows": [
+    {
+      "rack": "AEILTU",
+      "tile": "N",
+      "completionScore": 21,
+      "alternative": {
+        "letter": "Q",
+        "word": "LIQUATE",
+        "score": 48,
+        "appearanceProbability": 0.6703296703296704,
+        "availableUpside": 18.098901098901102
+      },
+      "elapsedMs": 0.9773340000000132
+    },
+    {
+      "rack": "AEMOPTU",
+      "tile": "L",
+      "completionScore": 33,
+      "alternative": null,
+      "elapsedMs": 2.5901250000000005
+    }
+  ]
+}

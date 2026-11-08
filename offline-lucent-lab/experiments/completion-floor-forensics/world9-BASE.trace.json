@@ -1,0 +1,10120 @@
+{
+  "seed": 11073301,
+  "matchIndex": 9,
+  "events": [
+    {
+      "event": "bid",
+      "round": 0,
+      "letter": "S",
+      "bagLeft": 67,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 0,
+      "letter": "S",
+      "bagLeft": 67,
+      "seat": 1,
+      "rack": "AFIIV",
+      "balance": 100,
+      "score": 0,
+      "bid": 12,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 0,
+      "letter": "S",
+      "bagLeft": 67,
+      "seat": 2,
+      "rack": "AGIOR",
+      "balance": 100,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 0,
+      "letter": "S",
+      "bagLeft": 67,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 0,
+      "letter": "S",
+      "bagLeft": 67,
+      "seat": 4,
+      "rack": "AFOOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 16
+    },
+    {
+      "event": "bid",
+      "round": 0,
+      "letter": "S",
+      "bagLeft": 67,
+      "seat": 5,
+      "rack": "DENSX",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 0,
+      "letter": "S",
+      "winner": 4,
+      "paid": 12,
+      "sortedBids": [
+        {
+          "i": 4,
+          "amt": 16
+        },
+        {
+          "i": 1,
+          "amt": 12
+        },
+        {
+          "i": 2,
+          "amt": 4
+        },
+        {
+          "i": 3,
+          "amt": 4
+        },
+        {
+          "i": 0,
+          "amt": 4
+        },
+        {
+          "i": 5,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 1,
+      "letter": "C",
+      "bagLeft": 66,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 12,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 1,
+      "letter": "C",
+      "bagLeft": 66,
+      "seat": 1,
+      "rack": "AFIIV",
+      "balance": 100,
+      "score": 0,
+      "bid": 12,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 1,
+      "letter": "C",
+      "bagLeft": 66,
+      "seat": 2,
+      "rack": "AGIOR",
+      "balance": 100,
+      "score": 0,
+      "bid": 13,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 1,
+      "letter": "C",
+      "bagLeft": 66,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 13,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 1,
+      "letter": "C",
+      "bagLeft": 66,
+      "seat": 4,
+      "rack": "AFOOST",
+      "balance": 88,
+      "score": 0,
+      "bid": 37
+    },
+    {
+      "event": "bid",
+      "round": 1,
+      "letter": "C",
+      "bagLeft": 66,
+      "seat": 5,
+      "rack": "DENSX",
+      "balance": 100,
+      "score": 0,
+      "bid": 10,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 1,
+      "letter": "C",
+      "winner": 4,
+      "paid": 13,
+      "sortedBids": [
+        {
+          "i": 4,
+          "amt": 37
+        },
+        {
+          "i": 2,
+          "amt": 13
+        },
+        {
+          "i": 3,
+          "amt": 13
+        },
+        {
+          "i": 0,
+          "amt": 12
+        },
+        {
+          "i": 1,
+          "amt": 12
+        },
+        {
+          "i": 5,
+          "amt": 10
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 2,
+      "letter": "R",
+      "bagLeft": 65,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 2,
+      "letter": "R",
+      "bagLeft": 65,
+      "seat": 1,
+      "rack": "AFIIV",
+      "balance": 100,
+      "score": 0,
+      "bid": 10,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 2,
+      "letter": "R",
+      "bagLeft": 65,
+      "seat": 2,
+      "rack": "AGIOR",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 2,
+      "letter": "R",
+      "bagLeft": 65,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 2,
+      "letter": "R",
+      "bagLeft": 65,
+      "seat": 4,
+      "rack": "ACFOOST",
+      "balance": 75,
+      "score": 0,
+      "bid": 31
+    },
+    {
+      "event": "bid",
+      "round": 2,
+      "letter": "R",
+      "bagLeft": 65,
+      "seat": 5,
+      "rack": "DENSX",
+      "balance": 100,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 2,
+      "letter": "R",
+      "winner": 4,
+      "paid": 10,
+      "sortedBids": [
+        {
+          "i": 4,
+          "amt": 31
+        },
+        {
+          "i": 1,
+          "amt": 10
+        },
+        {
+          "i": 5,
+          "amt": 4
+        },
+        {
+          "i": 0,
+          "amt": 4
+        },
+        {
+          "i": 2,
+          "amt": 3
+        },
+        {
+          "i": 3,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "word",
+      "round": 3,
+      "seat": 4,
+      "word": "FACTORS",
+      "points": 36,
+      "rack": "O",
+      "balance": 101,
+      "score": 36
+    },
+    {
+      "event": "bid",
+      "round": 3,
+      "letter": "A",
+      "bagLeft": 64,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 3,
+      "letter": "A",
+      "bagLeft": 64,
+      "seat": 1,
+      "rack": "AFIIV",
+      "balance": 100,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 3,
+      "letter": "A",
+      "bagLeft": 64,
+      "seat": 2,
+      "rack": "AGIOR",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 3,
+      "letter": "A",
+      "bagLeft": 64,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 3,
+      "letter": "A",
+      "bagLeft": 64,
+      "seat": 4,
+      "rack": "O",
+      "balance": 101,
+      "score": 36,
+      "bid": 4
+    },
+    {
+      "event": "bid",
+      "round": 3,
+      "letter": "A",
+      "bagLeft": 64,
+      "seat": 5,
+      "rack": "DENSX",
+      "balance": 100,
+      "score": 0,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 3,
+      "letter": "A",
+      "winner": 5,
+      "paid": 6,
+      "sortedBids": [
+        {
+          "i": 5,
+          "amt": 8
+        },
+        {
+          "i": 0,
+          "amt": 6
+        },
+        {
+          "i": 1,
+          "amt": 4
+        },
+        {
+          "i": 4,
+          "amt": 4
+        },
+        {
+          "i": 3,
+          "amt": 3
+        },
+        {
+          "i": 2,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 4,
+      "letter": "U",
+      "bagLeft": 63,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 2,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 4,
+      "letter": "U",
+      "bagLeft": 63,
+      "seat": 1,
+      "rack": "AFIIV",
+      "balance": 100,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 4,
+      "letter": "U",
+      "bagLeft": 63,
+      "seat": 2,
+      "rack": "AGIOR",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 4,
+      "letter": "U",
+      "bagLeft": 63,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 2,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 4,
+      "letter": "U",
+      "bagLeft": 63,
+      "seat": 4,
+      "rack": "O",
+      "balance": 101,
+      "score": 36,
+      "bid": 2
+    },
+    {
+      "event": "bid",
+      "round": 4,
+      "letter": "U",
+      "bagLeft": 63,
+      "seat": 5,
+      "rack": "ADENSX",
+      "balance": 94,
+      "score": 0,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 4,
+      "letter": "U",
+      "winner": 5,
+      "paid": 4,
+      "sortedBids": [
+        {
+          "i": 5,
+          "amt": 6
+        },
+        {
+          "i": 1,
+          "amt": 4
+        },
+        {
+          "i": 2,
+          "amt": 3
+        },
+        {
+          "i": 4,
+          "amt": 2
+        },
+        {
+          "i": 3,
+          "amt": 2
+        },
+        {
+          "i": 0,
+          "amt": 2
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 5,
+      "letter": "A",
+      "bagLeft": 62,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 5,
+      "letter": "A",
+      "bagLeft": 62,
+      "seat": 1,
+      "rack": "AFIIV",
+      "balance": 100,
+      "score": 0,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 5,
+      "letter": "A",
+      "bagLeft": 62,
+      "seat": 2,
+      "rack": "AGIOR",
+      "balance": 100,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 5,
+      "letter": "A",
+      "bagLeft": 62,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 5,
+      "letter": "A",
+      "bagLeft": 62,
+      "seat": 4,
+      "rack": "O",
+      "balance": 101,
+      "score": 36,
+      "bid": 4
+    },
+    {
+      "event": "bid",
+      "round": 5,
+      "letter": "A",
+      "bagLeft": 62,
+      "seat": 5,
+      "rack": "ADENSUX",
+      "balance": 90,
+      "score": 0,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 5,
+      "letter": "A",
+      "winner": 1,
+      "paid": 6,
+      "sortedBids": [
+        {
+          "i": 1,
+          "amt": 6
+        },
+        {
+          "i": 5,
+          "amt": 6
+        },
+        {
+          "i": 2,
+          "amt": 4
+        },
+        {
+          "i": 4,
+          "amt": 4
+        },
+        {
+          "i": 0,
+          "amt": 3
+        },
+        {
+          "i": 3,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 6,
+      "letter": "O",
+      "bagLeft": 61,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 6,
+      "letter": "O",
+      "bagLeft": 61,
+      "seat": 1,
+      "rack": "AAFIIV",
+      "balance": 94,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 6,
+      "letter": "O",
+      "bagLeft": 61,
+      "seat": 2,
+      "rack": "AGIOR",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 6,
+      "letter": "O",
+      "bagLeft": 61,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 6,
+      "letter": "O",
+      "bagLeft": 61,
+      "seat": 4,
+      "rack": "O",
+      "balance": 101,
+      "score": 36,
+      "bid": 2
+    },
+    {
+      "event": "bid",
+      "round": 6,
+      "letter": "O",
+      "bagLeft": 61,
+      "seat": 5,
+      "rack": "ADENSUX",
+      "balance": 90,
+      "score": 0,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 6,
+      "letter": "O",
+      "winner": 5,
+      "paid": 5,
+      "sortedBids": [
+        {
+          "i": 5,
+          "amt": 7
+        },
+        {
+          "i": 3,
+          "amt": 5
+        },
+        {
+          "i": 0,
+          "amt": 4
+        },
+        {
+          "i": 1,
+          "amt": 3
+        },
+        {
+          "i": 2,
+          "amt": 3
+        },
+        {
+          "i": 4,
+          "amt": 2
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 7,
+      "letter": "P",
+      "bagLeft": 60,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 11,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 7,
+      "letter": "P",
+      "bagLeft": 60,
+      "seat": 1,
+      "rack": "AAFIIV",
+      "balance": 94,
+      "score": 0,
+      "bid": 12,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 7,
+      "letter": "P",
+      "bagLeft": 60,
+      "seat": 2,
+      "rack": "AGIOR",
+      "balance": 100,
+      "score": 0,
+      "bid": 12,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 7,
+      "letter": "P",
+      "bagLeft": 60,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 14,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 7,
+      "letter": "P",
+      "bagLeft": 60,
+      "seat": 4,
+      "rack": "O",
+      "balance": 101,
+      "score": 36,
+      "bid": 28
+    },
+    {
+      "event": "bid",
+      "round": 7,
+      "letter": "P",
+      "bagLeft": 60,
+      "seat": 5,
+      "rack": "ADENOSUX",
+      "balance": 85,
+      "score": 0,
+      "bid": 13,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 7,
+      "letter": "P",
+      "winner": 4,
+      "paid": 14,
+      "sortedBids": [
+        {
+          "i": 4,
+          "amt": 28
+        },
+        {
+          "i": 3,
+          "amt": 14
+        },
+        {
+          "i": 5,
+          "amt": 13
+        },
+        {
+          "i": 2,
+          "amt": 12
+        },
+        {
+          "i": 1,
+          "amt": 12
+        },
+        {
+          "i": 0,
+          "amt": 11
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 8,
+      "letter": "I",
+      "bagLeft": 59,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 8,
+      "letter": "I",
+      "bagLeft": 59,
+      "seat": 1,
+      "rack": "AAFIIV",
+      "balance": 94,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 8,
+      "letter": "I",
+      "bagLeft": 59,
+      "seat": 2,
+      "rack": "AGIOR",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 8,
+      "letter": "I",
+      "bagLeft": 59,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 8,
+      "letter": "I",
+      "bagLeft": 59,
+      "seat": 4,
+      "rack": "OP",
+      "balance": 87,
+      "score": 36,
+      "bid": 0
+    },
+    {
+      "event": "bid",
+      "round": 8,
+      "letter": "I",
+      "bagLeft": 59,
+      "seat": 5,
+      "rack": "ADENOSUX",
+      "balance": 85,
+      "score": 0,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 8,
+      "letter": "I",
+      "winner": 5,
+      "paid": 4,
+      "sortedBids": [
+        {
+          "i": 5,
+          "amt": 5
+        },
+        {
+          "i": 0,
+          "amt": 4
+        },
+        {
+          "i": 1,
+          "amt": 3
+        },
+        {
+          "i": 3,
+          "amt": 3
+        },
+        {
+          "i": 2,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "word",
+      "round": 9,
+      "seat": 5,
+      "word": "DIOXANES",
+      "points": 48,
+      "rack": "U",
+      "balance": 129,
+      "score": 48
+    },
+    {
+      "event": "bid",
+      "round": 9,
+      "letter": "O",
+      "bagLeft": 58,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 9,
+      "letter": "O",
+      "bagLeft": 58,
+      "seat": 1,
+      "rack": "AAFIIV",
+      "balance": 94,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 9,
+      "letter": "O",
+      "bagLeft": 58,
+      "seat": 2,
+      "rack": "AGIOR",
+      "balance": 100,
+      "score": 0,
+      "bid": 1,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 9,
+      "letter": "O",
+      "bagLeft": 58,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 9,
+      "letter": "O",
+      "bagLeft": 58,
+      "seat": 4,
+      "rack": "OP",
+      "balance": 87,
+      "score": 36,
+      "bid": 0
+    },
+    {
+      "event": "bid",
+      "round": 9,
+      "letter": "O",
+      "bagLeft": 58,
+      "seat": 5,
+      "rack": "U",
+      "balance": 129,
+      "score": 48,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 9,
+      "letter": "O",
+      "winner": 5,
+      "paid": 4,
+      "sortedBids": [
+        {
+          "i": 5,
+          "amt": 4
+        },
+        {
+          "i": 1,
+          "amt": 4
+        },
+        {
+          "i": 3,
+          "amt": 3
+        },
+        {
+          "i": 0,
+          "amt": 3
+        },
+        {
+          "i": 2,
+          "amt": 1
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 10,
+      "letter": "H",
+      "bagLeft": 57,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 22,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 10,
+      "letter": "H",
+      "bagLeft": 57,
+      "seat": 1,
+      "rack": "AAFIIV",
+      "balance": 94,
+      "score": 0,
+      "bid": 17,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 10,
+      "letter": "H",
+      "bagLeft": 57,
+      "seat": 2,
+      "rack": "AGIOR",
+      "balance": 100,
+      "score": 0,
+      "bid": 20,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 10,
+      "letter": "H",
+      "bagLeft": 57,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 22,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 10,
+      "letter": "H",
+      "bagLeft": 57,
+      "seat": 4,
+      "rack": "OP",
+      "balance": 87,
+      "score": 36,
+      "bid": 31
+    },
+    {
+      "event": "bid",
+      "round": 10,
+      "letter": "H",
+      "bagLeft": 57,
+      "seat": 5,
+      "rack": "OU",
+      "balance": 125,
+      "score": 48,
+      "bid": 20,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 10,
+      "letter": "H",
+      "winner": 4,
+      "paid": 22,
+      "sortedBids": [
+        {
+          "i": 4,
+          "amt": 31
+        },
+        {
+          "i": 0,
+          "amt": 22
+        },
+        {
+          "i": 3,
+          "amt": 22
+        },
+        {
+          "i": 2,
+          "amt": 20
+        },
+        {
+          "i": 5,
+          "amt": 20
+        },
+        {
+          "i": 1,
+          "amt": 17
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 11,
+      "letter": "E",
+      "bagLeft": 56,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 11,
+      "letter": "E",
+      "bagLeft": 56,
+      "seat": 1,
+      "rack": "AAFIIV",
+      "balance": 94,
+      "score": 0,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 11,
+      "letter": "E",
+      "bagLeft": 56,
+      "seat": 2,
+      "rack": "AGIOR",
+      "balance": 100,
+      "score": 0,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 11,
+      "letter": "E",
+      "bagLeft": 56,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 11,
+      "letter": "E",
+      "bagLeft": 56,
+      "seat": 4,
+      "rack": "HOP",
+      "balance": 65,
+      "score": 36,
+      "bid": 13
+    },
+    {
+      "event": "bid",
+      "round": 11,
+      "letter": "E",
+      "bagLeft": 56,
+      "seat": 5,
+      "rack": "OU",
+      "balance": 125,
+      "score": 48,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 11,
+      "letter": "E",
+      "winner": 4,
+      "paid": 9,
+      "sortedBids": [
+        {
+          "i": 4,
+          "amt": 13
+        },
+        {
+          "i": 1,
+          "amt": 9
+        },
+        {
+          "i": 5,
+          "amt": 7
+        },
+        {
+          "i": 2,
+          "amt": 6
+        },
+        {
+          "i": 0,
+          "amt": 3
+        },
+        {
+          "i": 3,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 12,
+      "letter": "E",
+      "bagLeft": 55,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 12,
+      "letter": "E",
+      "bagLeft": 55,
+      "seat": 1,
+      "rack": "AAFIIV",
+      "balance": 94,
+      "score": 0,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 12,
+      "letter": "E",
+      "bagLeft": 55,
+      "seat": 2,
+      "rack": "AGIOR",
+      "balance": 100,
+      "score": 0,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 12,
+      "letter": "E",
+      "bagLeft": 55,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 12,
+      "letter": "E",
+      "bagLeft": 55,
+      "seat": 4,
+      "rack": "EHOP",
+      "balance": 56,
+      "score": 36,
+      "bid": 0
+    },
+    {
+      "event": "bid",
+      "round": 12,
+      "letter": "E",
+      "bagLeft": 55,
+      "seat": 5,
+      "rack": "OU",
+      "balance": 125,
+      "score": 48,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 12,
+      "letter": "E",
+      "winner": 1,
+      "paid": 7,
+      "sortedBids": [
+        {
+          "i": 1,
+          "amt": 9
+        },
+        {
+          "i": 2,
+          "amt": 7
+        },
+        {
+          "i": 5,
+          "amt": 7
+        },
+        {
+          "i": 0,
+          "amt": 4
+        },
+        {
+          "i": 3,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 13,
+      "letter": "A",
+      "bagLeft": 54,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 13,
+      "letter": "A",
+      "bagLeft": 54,
+      "seat": 1,
+      "rack": "AAEFIIV",
+      "balance": 87,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 13,
+      "letter": "A",
+      "bagLeft": 54,
+      "seat": 2,
+      "rack": "AGIOR",
+      "balance": 100,
+      "score": 0,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 13,
+      "letter": "A",
+      "bagLeft": 54,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 13,
+      "letter": "A",
+      "bagLeft": 54,
+      "seat": 4,
+      "rack": "EHOP",
+      "balance": 56,
+      "score": 36,
+      "bid": 0
+    },
+    {
+      "event": "bid",
+      "round": 13,
+      "letter": "A",
+      "bagLeft": 54,
+      "seat": 5,
+      "rack": "OU",
+      "balance": 125,
+      "score": 48,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 13,
+      "letter": "A",
+      "winner": 2,
+      "paid": 5,
+      "sortedBids": [
+        {
+          "i": 2,
+          "amt": 5
+        },
+        {
+          "i": 5,
+          "amt": 5
+        },
+        {
+          "i": 0,
+          "amt": 4
+        },
+        {
+          "i": 1,
+          "amt": 3
+        },
+        {
+          "i": 3,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 14,
+      "letter": "Y",
+      "bagLeft": 53,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 19,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 14,
+      "letter": "Y",
+      "bagLeft": 53,
+      "seat": 1,
+      "rack": "AAEFIIV",
+      "balance": 87,
+      "score": 0,
+      "bid": 20,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 14,
+      "letter": "Y",
+      "bagLeft": 53,
+      "seat": 2,
+      "rack": "AAGIOR",
+      "balance": 95,
+      "score": 0,
+      "bid": 21,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 14,
+      "letter": "Y",
+      "bagLeft": 53,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 19,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 14,
+      "letter": "Y",
+      "bagLeft": 53,
+      "seat": 4,
+      "rack": "EHOP",
+      "balance": 56,
+      "score": 36,
+      "bid": 33
+    },
+    {
+      "event": "bid",
+      "round": 14,
+      "letter": "Y",
+      "bagLeft": 53,
+      "seat": 5,
+      "rack": "OU",
+      "balance": 125,
+      "score": 48,
+      "bid": 19,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 14,
+      "letter": "Y",
+      "winner": 4,
+      "paid": 21,
+      "sortedBids": [
+        {
+          "i": 4,
+          "amt": 33
+        },
+        {
+          "i": 2,
+          "amt": 21
+        },
+        {
+          "i": 1,
+          "amt": 20
+        },
+        {
+          "i": 5,
+          "amt": 19
+        },
+        {
+          "i": 0,
+          "amt": 19
+        },
+        {
+          "i": 3,
+          "amt": 19
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 15,
+      "letter": "S",
+      "bagLeft": 52,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 15,
+      "letter": "S",
+      "bagLeft": 52,
+      "seat": 1,
+      "rack": "AAEFIIV",
+      "balance": 87,
+      "score": 0,
+      "bid": 11,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 15,
+      "letter": "S",
+      "bagLeft": 52,
+      "seat": 2,
+      "rack": "AAGIOR",
+      "balance": 95,
+      "score": 0,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 15,
+      "letter": "S",
+      "bagLeft": 52,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 15,
+      "letter": "S",
+      "bagLeft": 52,
+      "seat": 4,
+      "rack": "EHOPY",
+      "balance": 35,
+      "score": 36,
+      "bid": 12
+    },
+    {
+      "event": "bid",
+      "round": 15,
+      "letter": "S",
+      "bagLeft": 52,
+      "seat": 5,
+      "rack": "OU",
+      "balance": 125,
+      "score": 48,
+      "bid": 15,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 15,
+      "letter": "S",
+      "winner": 5,
+      "paid": 12,
+      "sortedBids": [
+        {
+          "i": 5,
+          "amt": 15
+        },
+        {
+          "i": 4,
+          "amt": 12
+        },
+        {
+          "i": 1,
+          "amt": 11
+        },
+        {
+          "i": 2,
+          "amt": 7
+        },
+        {
+          "i": 0,
+          "amt": 5
+        },
+        {
+          "i": 3,
+          "amt": 4
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 16,
+      "letter": "E",
+      "bagLeft": 51,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 16,
+      "letter": "E",
+      "bagLeft": 51,
+      "seat": 1,
+      "rack": "AAEFIIV",
+      "balance": 87,
+      "score": 0,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 16,
+      "letter": "E",
+      "bagLeft": 51,
+      "seat": 2,
+      "rack": "AAGIOR",
+      "balance": 95,
+      "score": 0,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 16,
+      "letter": "E",
+      "bagLeft": 51,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 1,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 16,
+      "letter": "E",
+      "bagLeft": 51,
+      "seat": 4,
+      "rack": "EHOPY",
+      "balance": 35,
+      "score": 36,
+      "bid": 0
+    },
+    {
+      "event": "bid",
+      "round": 16,
+      "letter": "E",
+      "bagLeft": 51,
+      "seat": 5,
+      "rack": "OSU",
+      "balance": 113,
+      "score": 48,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 16,
+      "letter": "E",
+      "winner": 5,
+      "paid": 5,
+      "sortedBids": [
+        {
+          "i": 5,
+          "amt": 6
+        },
+        {
+          "i": 1,
+          "amt": 5
+        },
+        {
+          "i": 2,
+          "amt": 5
+        },
+        {
+          "i": 0,
+          "amt": 3
+        },
+        {
+          "i": 3,
+          "amt": 1
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 17,
+      "letter": "R",
+      "bagLeft": 50,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 17,
+      "letter": "R",
+      "bagLeft": 50,
+      "seat": 1,
+      "rack": "AAEFIIV",
+      "balance": 87,
+      "score": 0,
+      "bid": 13,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 17,
+      "letter": "R",
+      "bagLeft": 50,
+      "seat": 2,
+      "rack": "AAGIOR",
+      "balance": 95,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 17,
+      "letter": "R",
+      "bagLeft": 50,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 17,
+      "letter": "R",
+      "bagLeft": 50,
+      "seat": 4,
+      "rack": "EHOPY",
+      "balance": 35,
+      "score": 36,
+      "bid": 12
+    },
+    {
+      "event": "bid",
+      "round": 17,
+      "letter": "R",
+      "bagLeft": 50,
+      "seat": 5,
+      "rack": "EOSU",
+      "balance": 108,
+      "score": 48,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 17,
+      "letter": "R",
+      "winner": 1,
+      "paid": 12,
+      "sortedBids": [
+        {
+          "i": 1,
+          "amt": 13
+        },
+        {
+          "i": 4,
+          "amt": 12
+        },
+        {
+          "i": 5,
+          "amt": 8
+        },
+        {
+          "i": 0,
+          "amt": 5
+        },
+        {
+          "i": 3,
+          "amt": 3
+        },
+        {
+          "i": 2,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 18,
+      "letter": "W",
+      "bagLeft": 49,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 20,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 18,
+      "letter": "W",
+      "bagLeft": 49,
+      "seat": 1,
+      "rack": "AAEFIIRV",
+      "balance": 75,
+      "score": 0,
+      "bid": 18,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 18,
+      "letter": "W",
+      "bagLeft": 49,
+      "seat": 2,
+      "rack": "AAGIOR",
+      "balance": 95,
+      "score": 0,
+      "bid": 20,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 18,
+      "letter": "W",
+      "bagLeft": 49,
+      "seat": 3,
+      "rack": "EEIRS",
+      "balance": 100,
+      "score": 0,
+      "bid": 22,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 18,
+      "letter": "W",
+      "bagLeft": 49,
+      "seat": 4,
+      "rack": "EHOPY",
+      "balance": 35,
+      "score": 36,
+      "bid": 14
+    },
+    {
+      "event": "bid",
+      "round": 18,
+      "letter": "W",
+      "bagLeft": 49,
+      "seat": 5,
+      "rack": "EOSU",
+      "balance": 108,
+      "score": 48,
+      "bid": 20,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 18,
+      "letter": "W",
+      "winner": 3,
+      "paid": 20,
+      "sortedBids": [
+        {
+          "i": 3,
+          "amt": 22
+        },
+        {
+          "i": 5,
+          "amt": 20
+        },
+        {
+          "i": 2,
+          "amt": 20
+        },
+        {
+          "i": 0,
+          "amt": 20
+        },
+        {
+          "i": 1,
+          "amt": 18
+        },
+        {
+          "i": 4,
+          "amt": 14
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 19,
+      "letter": "N",
+      "bagLeft": 48,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 19,
+      "letter": "N",
+      "bagLeft": 48,
+      "seat": 1,
+      "rack": "AAEFIIRV",
+      "balance": 75,
+      "score": 0,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 19,
+      "letter": "N",
+      "bagLeft": 48,
+      "seat": 2,
+      "rack": "AAGIOR",
+      "balance": 95,
+      "score": 0,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 19,
+      "letter": "N",
+      "bagLeft": 48,
+      "seat": 3,
+      "rack": "EEIRSW",
+      "balance": 80,
+      "score": 0,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 19,
+      "letter": "N",
+      "bagLeft": 48,
+      "seat": 4,
+      "rack": "EHOPY",
+      "balance": 35,
+      "score": 36,
+      "bid": 21
+    },
+    {
+      "event": "bid",
+      "round": 19,
+      "letter": "N",
+      "bagLeft": 48,
+      "seat": 5,
+      "rack": "EOSU",
+      "balance": 108,
+      "score": 48,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 19,
+      "letter": "N",
+      "winner": 4,
+      "paid": 9,
+      "sortedBids": [
+        {
+          "i": 4,
+          "amt": 21
+        },
+        {
+          "i": 2,
+          "amt": 9
+        },
+        {
+          "i": 3,
+          "amt": 6
+        },
+        {
+          "i": 5,
+          "amt": 6
+        },
+        {
+          "i": 1,
+          "amt": 5
+        },
+        {
+          "i": 0,
+          "amt": 5
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 20,
+      "letter": "M",
+      "bagLeft": 47,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 16,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 20,
+      "letter": "M",
+      "bagLeft": 47,
+      "seat": 1,
+      "rack": "AAEFIIRV",
+      "balance": 75,
+      "score": 0,
+      "bid": 17,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 20,
+      "letter": "M",
+      "bagLeft": 47,
+      "seat": 2,
+      "rack": "AAGIOR",
+      "balance": 95,
+      "score": 0,
+      "bid": 21,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 20,
+      "letter": "M",
+      "bagLeft": 47,
+      "seat": 3,
+      "rack": "EEIRSW",
+      "balance": 80,
+      "score": 0,
+      "bid": 18,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 20,
+      "letter": "M",
+      "bagLeft": 47,
+      "seat": 4,
+      "rack": "EHNOPY",
+      "balance": 26,
+      "score": 36,
+      "bid": 15
+    },
+    {
+      "event": "bid",
+      "round": 20,
+      "letter": "M",
+      "bagLeft": 47,
+      "seat": 5,
+      "rack": "EOSU",
+      "balance": 108,
+      "score": 48,
+      "bid": 21,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 20,
+      "letter": "M",
+      "winner": 2,
+      "paid": 21,
+      "sortedBids": [
+        {
+          "i": 2,
+          "amt": 21
+        },
+        {
+          "i": 5,
+          "amt": 21
+        },
+        {
+          "i": 3,
+          "amt": 18
+        },
+        {
+          "i": 1,
+          "amt": 17
+        },
+        {
+          "i": 0,
+          "amt": 16
+        },
+        {
+          "i": 4,
+          "amt": 15
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 21,
+      "letter": "T",
+      "bagLeft": 46,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 21,
+      "letter": "T",
+      "bagLeft": 46,
+      "seat": 1,
+      "rack": "AAEFIIRV",
+      "balance": 75,
+      "score": 0,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 21,
+      "letter": "T",
+      "bagLeft": 46,
+      "seat": 2,
+      "rack": "AAGIMOR",
+      "balance": 74,
+      "score": 0,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 21,
+      "letter": "T",
+      "bagLeft": 46,
+      "seat": 3,
+      "rack": "EEIRSW",
+      "balance": 80,
+      "score": 0,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 21,
+      "letter": "T",
+      "bagLeft": 46,
+      "seat": 4,
+      "rack": "EHNOPY",
+      "balance": 26,
+      "score": 36,
+      "bid": 1
+    },
+    {
+      "event": "bid",
+      "round": 21,
+      "letter": "T",
+      "bagLeft": 46,
+      "seat": 5,
+      "rack": "EOSU",
+      "balance": 108,
+      "score": 48,
+      "bid": 13,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 21,
+      "letter": "T",
+      "winner": 5,
+      "paid": 9,
+      "sortedBids": [
+        {
+          "i": 5,
+          "amt": 13
+        },
+        {
+          "i": 3,
+          "amt": 9
+        },
+        {
+          "i": 2,
+          "amt": 7
+        },
+        {
+          "i": 1,
+          "amt": 7
+        },
+        {
+          "i": 0,
+          "amt": 5
+        },
+        {
+          "i": 4,
+          "amt": 1
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 22,
+      "letter": "J",
+      "bagLeft": 45,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 19,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 22,
+      "letter": "J",
+      "bagLeft": 45,
+      "seat": 1,
+      "rack": "AAEFIIRV",
+      "balance": 75,
+      "score": 0,
+      "bid": 18,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 22,
+      "letter": "J",
+      "bagLeft": 45,
+      "seat": 2,
+      "rack": "AAGIMOR",
+      "balance": 74,
+      "score": 0,
+      "bid": 24,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 22,
+      "letter": "J",
+      "bagLeft": 45,
+      "seat": 3,
+      "rack": "EEIRSW",
+      "balance": 80,
+      "score": 0,
+      "bid": 23,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 22,
+      "letter": "J",
+      "bagLeft": 45,
+      "seat": 4,
+      "rack": "EHNOPY",
+      "balance": 26,
+      "score": 36,
+      "bid": 4
+    },
+    {
+      "event": "bid",
+      "round": 22,
+      "letter": "J",
+      "bagLeft": 45,
+      "seat": 5,
+      "rack": "EOSTU",
+      "balance": 99,
+      "score": 48,
+      "bid": 21,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 22,
+      "letter": "J",
+      "winner": 2,
+      "paid": 23,
+      "sortedBids": [
+        {
+          "i": 2,
+          "amt": 24
+        },
+        {
+          "i": 3,
+          "amt": 23
+        },
+        {
+          "i": 5,
+          "amt": 21
+        },
+        {
+          "i": 0,
+          "amt": 19
+        },
+        {
+          "i": 1,
+          "amt": 18
+        },
+        {
+          "i": 4,
+          "amt": 4
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 23,
+      "letter": "B",
+      "bagLeft": 44,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 16,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 23,
+      "letter": "B",
+      "bagLeft": 44,
+      "seat": 1,
+      "rack": "AAEFIIRV",
+      "balance": 75,
+      "score": 0,
+      "bid": 20,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 23,
+      "letter": "B",
+      "bagLeft": 44,
+      "seat": 2,
+      "rack": "AAGIJMOR",
+      "balance": 51,
+      "score": 0,
+      "bid": 20,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 23,
+      "letter": "B",
+      "bagLeft": 44,
+      "seat": 3,
+      "rack": "EEIRSW",
+      "balance": 80,
+      "score": 0,
+      "bid": 19,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 23,
+      "letter": "B",
+      "bagLeft": 44,
+      "seat": 4,
+      "rack": "EHNOPY",
+      "balance": 26,
+      "score": 36,
+      "bid": 8
+    },
+    {
+      "event": "bid",
+      "round": 23,
+      "letter": "B",
+      "bagLeft": 44,
+      "seat": 5,
+      "rack": "EOSTU",
+      "balance": 99,
+      "score": 48,
+      "bid": 21,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 23,
+      "letter": "B",
+      "winner": 5,
+      "paid": 20,
+      "sortedBids": [
+        {
+          "i": 5,
+          "amt": 21
+        },
+        {
+          "i": 1,
+          "amt": 20
+        },
+        {
+          "i": 2,
+          "amt": 20
+        },
+        {
+          "i": 3,
+          "amt": 19
+        },
+        {
+          "i": 0,
+          "amt": 16
+        },
+        {
+          "i": 4,
+          "amt": 8
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 24,
+      "letter": "V",
+      "bagLeft": 43,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 22,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 24,
+      "letter": "V",
+      "bagLeft": 43,
+      "seat": 1,
+      "rack": "AAEFIIRV",
+      "balance": 75,
+      "score": 0,
+      "bid": 35,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 24,
+      "letter": "V",
+      "bagLeft": 43,
+      "seat": 2,
+      "rack": "AAGIJMOR",
+      "balance": 51,
+      "score": 0,
+      "bid": 21,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 24,
+      "letter": "V",
+      "bagLeft": 43,
+      "seat": 3,
+      "rack": "EEIRSW",
+      "balance": 80,
+      "score": 0,
+      "bid": 26,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 24,
+      "letter": "V",
+      "bagLeft": 43,
+      "seat": 4,
+      "rack": "EHNOPY",
+      "balance": 26,
+      "score": 36,
+      "bid": 6
+    },
+    {
+      "event": "bid",
+      "round": 24,
+      "letter": "V",
+      "bagLeft": 43,
+      "seat": 5,
+      "rack": "BEOSTU",
+      "balance": 79,
+      "score": 48,
+      "bid": 22,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 24,
+      "letter": "V",
+      "winner": 1,
+      "paid": 26,
+      "sortedBids": [
+        {
+          "i": 1,
+          "amt": 35
+        },
+        {
+          "i": 3,
+          "amt": 26
+        },
+        {
+          "i": 5,
+          "amt": 22
+        },
+        {
+          "i": 0,
+          "amt": 22
+        },
+        {
+          "i": 2,
+          "amt": 21
+        },
+        {
+          "i": 4,
+          "amt": 6
+        }
+      ]
+    },
+    {
+      "event": "word",
+      "round": 25,
+      "seat": 1,
+      "word": "VIVARIA",
+      "points": 39,
+      "rack": "EF",
+      "balance": 88,
+      "score": 39
+    },
+    {
+      "event": "bid",
+      "round": 25,
+      "letter": "T",
+      "bagLeft": 42,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 25,
+      "letter": "T",
+      "bagLeft": 42,
+      "seat": 1,
+      "rack": "EF",
+      "balance": 88,
+      "score": 39,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 25,
+      "letter": "T",
+      "bagLeft": 42,
+      "seat": 2,
+      "rack": "AAGIJMOR",
+      "balance": 51,
+      "score": 0,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 25,
+      "letter": "T",
+      "bagLeft": 42,
+      "seat": 3,
+      "rack": "EEIRSW",
+      "balance": 80,
+      "score": 0,
+      "bid": 10,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 25,
+      "letter": "T",
+      "bagLeft": 42,
+      "seat": 4,
+      "rack": "EHNOPY",
+      "balance": 26,
+      "score": 36,
+      "bid": 1
+    },
+    {
+      "event": "bid",
+      "round": 25,
+      "letter": "T",
+      "bagLeft": 42,
+      "seat": 5,
+      "rack": "BEOSTU",
+      "balance": 79,
+      "score": 48,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 25,
+      "letter": "T",
+      "winner": 3,
+      "paid": 9,
+      "sortedBids": [
+        {
+          "i": 3,
+          "amt": 10
+        },
+        {
+          "i": 1,
+          "amt": 9
+        },
+        {
+          "i": 2,
+          "amt": 7
+        },
+        {
+          "i": 0,
+          "amt": 5
+        },
+        {
+          "i": 5,
+          "amt": 4
+        },
+        {
+          "i": 4,
+          "amt": 1
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 26,
+      "letter": "U",
+      "bagLeft": 41,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 26,
+      "letter": "U",
+      "bagLeft": 41,
+      "seat": 1,
+      "rack": "EF",
+      "balance": 88,
+      "score": 39,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 26,
+      "letter": "U",
+      "bagLeft": 41,
+      "seat": 2,
+      "rack": "AAGIJMOR",
+      "balance": 51,
+      "score": 0,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 26,
+      "letter": "U",
+      "bagLeft": 41,
+      "seat": 3,
+      "rack": "EEIRSTW",
+      "balance": 71,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 26,
+      "letter": "U",
+      "bagLeft": 41,
+      "seat": 4,
+      "rack": "EHNOPY",
+      "balance": 26,
+      "score": 36,
+      "bid": 15
+    },
+    {
+      "event": "bid",
+      "round": 26,
+      "letter": "U",
+      "bagLeft": 41,
+      "seat": 5,
+      "rack": "BEOSTU",
+      "balance": 79,
+      "score": 48,
+      "bid": 2,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 26,
+      "letter": "U",
+      "winner": 4,
+      "paid": 7,
+      "sortedBids": [
+        {
+          "i": 4,
+          "amt": 15
+        },
+        {
+          "i": 2,
+          "amt": 7
+        },
+        {
+          "i": 1,
+          "amt": 7
+        },
+        {
+          "i": 0,
+          "amt": 5
+        },
+        {
+          "i": 3,
+          "amt": 4
+        },
+        {
+          "i": 5,
+          "amt": 2
+        }
+      ]
+    },
+    {
+      "event": "word",
+      "round": 27,
+      "seat": 4,
+      "word": "EUPHONY",
+      "points": 45,
+      "rack": "",
+      "balance": 64,
+      "score": 81
+    },
+    {
+      "event": "bid",
+      "round": 27,
+      "letter": "R",
+      "bagLeft": 40,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 27,
+      "letter": "R",
+      "bagLeft": 40,
+      "seat": 1,
+      "rack": "EF",
+      "balance": 88,
+      "score": 39,
+      "bid": 18,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 27,
+      "letter": "R",
+      "bagLeft": 40,
+      "seat": 2,
+      "rack": "AAGIJMOR",
+      "balance": 51,
+      "score": 0,
+      "bid": 10,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 27,
+      "letter": "R",
+      "bagLeft": 40,
+      "seat": 3,
+      "rack": "EEIRSTW",
+      "balance": 71,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 27,
+      "letter": "R",
+      "bagLeft": 40,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 4
+    },
+    {
+      "event": "bid",
+      "round": 27,
+      "letter": "R",
+      "bagLeft": 40,
+      "seat": 5,
+      "rack": "BEOSTU",
+      "balance": 79,
+      "score": 48,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 27,
+      "letter": "R",
+      "winner": 1,
+      "paid": 10,
+      "sortedBids": [
+        {
+          "i": 1,
+          "amt": 18
+        },
+        {
+          "i": 2,
+          "amt": 10
+        },
+        {
+          "i": 5,
+          "amt": 7
+        },
+        {
+          "i": 4,
+          "amt": 4
+        },
+        {
+          "i": 0,
+          "amt": 4
+        },
+        {
+          "i": 3,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 28,
+      "letter": "N",
+      "bagLeft": 39,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 28,
+      "letter": "N",
+      "bagLeft": 39,
+      "seat": 1,
+      "rack": "EFR",
+      "balance": 78,
+      "score": 39,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 28,
+      "letter": "N",
+      "bagLeft": 39,
+      "seat": 2,
+      "rack": "AAGIJMOR",
+      "balance": 51,
+      "score": 0,
+      "bid": 17,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 28,
+      "letter": "N",
+      "bagLeft": 39,
+      "seat": 3,
+      "rack": "EEIRSTW",
+      "balance": 71,
+      "score": 0,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 28,
+      "letter": "N",
+      "bagLeft": 39,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 4
+    },
+    {
+      "event": "bid",
+      "round": 28,
+      "letter": "N",
+      "bagLeft": 39,
+      "seat": 5,
+      "rack": "BEOSTU",
+      "balance": 79,
+      "score": 48,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 28,
+      "letter": "N",
+      "winner": 2,
+      "paid": 9,
+      "sortedBids": [
+        {
+          "i": 2,
+          "amt": 17
+        },
+        {
+          "i": 1,
+          "amt": 9
+        },
+        {
+          "i": 3,
+          "amt": 8
+        },
+        {
+          "i": 5,
+          "amt": 6
+        },
+        {
+          "i": 4,
+          "amt": 4
+        },
+        {
+          "i": 0,
+          "amt": 4
+        }
+      ]
+    },
+    {
+      "event": "word",
+      "round": 29,
+      "seat": 2,
+      "word": "MAJORING",
+      "points": 54,
+      "rack": "A",
+      "balance": 96,
+      "score": 54
+    },
+    {
+      "event": "bid",
+      "round": 29,
+      "letter": "D",
+      "bagLeft": 38,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 11,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 29,
+      "letter": "D",
+      "bagLeft": 38,
+      "seat": 1,
+      "rack": "EFR",
+      "balance": 78,
+      "score": 39,
+      "bid": 20,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 29,
+      "letter": "D",
+      "bagLeft": 38,
+      "seat": 2,
+      "rack": "A",
+      "balance": 96,
+      "score": 54,
+      "bid": 11,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 29,
+      "letter": "D",
+      "bagLeft": 38,
+      "seat": 3,
+      "rack": "EEIRSTW",
+      "balance": 71,
+      "score": 0,
+      "bid": 10,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 29,
+      "letter": "D",
+      "bagLeft": 38,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 6
+    },
+    {
+      "event": "bid",
+      "round": 29,
+      "letter": "D",
+      "bagLeft": 38,
+      "seat": 5,
+      "rack": "BEOSTU",
+      "balance": 79,
+      "score": 48,
+      "bid": 12,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 29,
+      "letter": "D",
+      "winner": 1,
+      "paid": 12,
+      "sortedBids": [
+        {
+          "i": 1,
+          "amt": 20
+        },
+        {
+          "i": 5,
+          "amt": 12
+        },
+        {
+          "i": 0,
+          "amt": 11
+        },
+        {
+          "i": 2,
+          "amt": 11
+        },
+        {
+          "i": 3,
+          "amt": 10
+        },
+        {
+          "i": 4,
+          "amt": 6
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 30,
+      "letter": "B",
+      "bagLeft": 37,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 17,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 30,
+      "letter": "B",
+      "bagLeft": 37,
+      "seat": 1,
+      "rack": "DEFR",
+      "balance": 66,
+      "score": 39,
+      "bid": 16,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 30,
+      "letter": "B",
+      "bagLeft": 37,
+      "seat": 2,
+      "rack": "A",
+      "balance": 96,
+      "score": 54,
+      "bid": 18,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 30,
+      "letter": "B",
+      "bagLeft": 37,
+      "seat": 3,
+      "rack": "EEIRSTW",
+      "balance": 71,
+      "score": 0,
+      "bid": 21,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 30,
+      "letter": "B",
+      "bagLeft": 37,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 7
+    },
+    {
+      "event": "bid",
+      "round": 30,
+      "letter": "B",
+      "bagLeft": 37,
+      "seat": 5,
+      "rack": "BEOSTU",
+      "balance": 79,
+      "score": 48,
+      "bid": 20,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 30,
+      "letter": "B",
+      "winner": 3,
+      "paid": 20,
+      "sortedBids": [
+        {
+          "i": 3,
+          "amt": 21
+        },
+        {
+          "i": 5,
+          "amt": 20
+        },
+        {
+          "i": 2,
+          "amt": 18
+        },
+        {
+          "i": 0,
+          "amt": 17
+        },
+        {
+          "i": 1,
+          "amt": 16
+        },
+        {
+          "i": 4,
+          "amt": 7
+        }
+      ]
+    },
+    {
+      "event": "word",
+      "round": 31,
+      "seat": 3,
+      "word": "BESTREW",
+      "points": 36,
+      "rack": "I",
+      "balance": 87,
+      "score": 36
+    },
+    {
+      "event": "bid",
+      "round": 31,
+      "letter": "E",
+      "bagLeft": 36,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 31,
+      "letter": "E",
+      "bagLeft": 36,
+      "seat": 1,
+      "rack": "DEFR",
+      "balance": 66,
+      "score": 39,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 31,
+      "letter": "E",
+      "bagLeft": 36,
+      "seat": 2,
+      "rack": "A",
+      "balance": 96,
+      "score": 54,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 31,
+      "letter": "E",
+      "bagLeft": 36,
+      "seat": 3,
+      "rack": "I",
+      "balance": 87,
+      "score": 36,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 31,
+      "letter": "E",
+      "bagLeft": 36,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 3
+    },
+    {
+      "event": "bid",
+      "round": 31,
+      "letter": "E",
+      "bagLeft": 36,
+      "seat": 5,
+      "rack": "BEOSTU",
+      "balance": 79,
+      "score": 48,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 31,
+      "letter": "E",
+      "winner": 1,
+      "paid": 6,
+      "sortedBids": [
+        {
+          "i": 1,
+          "amt": 9
+        },
+        {
+          "i": 2,
+          "amt": 6
+        },
+        {
+          "i": 5,
+          "amt": 5
+        },
+        {
+          "i": 3,
+          "amt": 5
+        },
+        {
+          "i": 0,
+          "amt": 3
+        },
+        {
+          "i": 4,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 32,
+      "letter": "P",
+      "bagLeft": 35,
+      "seat": 0,
+      "rack": "AEMOT",
+      "balance": 100,
+      "score": 0,
+      "bid": 21,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 32,
+      "letter": "P",
+      "bagLeft": 35,
+      "seat": 1,
+      "rack": "DEEFR",
+      "balance": 60,
+      "score": 39,
+      "bid": 18,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 32,
+      "letter": "P",
+      "bagLeft": 35,
+      "seat": 2,
+      "rack": "A",
+      "balance": 96,
+      "score": 54,
+      "bid": 19,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 32,
+      "letter": "P",
+      "bagLeft": 35,
+      "seat": 3,
+      "rack": "I",
+      "balance": 87,
+      "score": 36,
+      "bid": 19,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 32,
+      "letter": "P",
+      "bagLeft": 35,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 7
+    },
+    {
+      "event": "bid",
+      "round": 32,
+      "letter": "P",
+      "bagLeft": 35,
+      "seat": 5,
+      "rack": "BEOSTU",
+      "balance": 79,
+      "score": 48,
+      "bid": 21,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 32,
+      "letter": "P",
+      "winner": 0,
+      "paid": 21,
+      "sortedBids": [
+        {
+          "i": 0,
+          "amt": 21
+        },
+        {
+          "i": 5,
+          "amt": 21
+        },
+        {
+          "i": 3,
+          "amt": 19
+        },
+        {
+          "i": 2,
+          "amt": 19
+        },
+        {
+          "i": 1,
+          "amt": 18
+        },
+        {
+          "i": 4,
+          "amt": 7
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 33,
+      "letter": "U",
+      "bagLeft": 34,
+      "seat": 0,
+      "rack": "AEMOPT",
+      "balance": 79,
+      "score": 0,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 33,
+      "letter": "U",
+      "bagLeft": 34,
+      "seat": 1,
+      "rack": "DEEFR",
+      "balance": 60,
+      "score": 39,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 33,
+      "letter": "U",
+      "bagLeft": 34,
+      "seat": 2,
+      "rack": "A",
+      "balance": 96,
+      "score": 54,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 33,
+      "letter": "U",
+      "bagLeft": 34,
+      "seat": 3,
+      "rack": "I",
+      "balance": 87,
+      "score": 36,
+      "bid": 2,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 33,
+      "letter": "U",
+      "bagLeft": 34,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 2
+    },
+    {
+      "event": "bid",
+      "round": 33,
+      "letter": "U",
+      "bagLeft": 34,
+      "seat": 5,
+      "rack": "BEOSTU",
+      "balance": 79,
+      "score": 48,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 33,
+      "letter": "U",
+      "winner": 0,
+      "paid": 8,
+      "sortedBids": [
+        {
+          "i": 0,
+          "amt": 9
+        },
+        {
+          "i": 1,
+          "amt": 8
+        },
+        {
+          "i": 5,
+          "amt": 3
+        },
+        {
+          "i": 2,
+          "amt": 3
+        },
+        {
+          "i": 3,
+          "amt": 2
+        },
+        {
+          "i": 4,
+          "amt": 2
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 34,
+      "letter": "H",
+      "bagLeft": 33,
+      "seat": 0,
+      "rack": "AEMOPTU",
+      "balance": 71,
+      "score": 0,
+      "bid": 30,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 34,
+      "letter": "H",
+      "bagLeft": 33,
+      "seat": 1,
+      "rack": "DEEFR",
+      "balance": 60,
+      "score": 39,
+      "bid": 26,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 34,
+      "letter": "H",
+      "bagLeft": 33,
+      "seat": 2,
+      "rack": "A",
+      "balance": 96,
+      "score": 54,
+      "bid": 22,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 34,
+      "letter": "H",
+      "bagLeft": 33,
+      "seat": 3,
+      "rack": "I",
+      "balance": 87,
+      "score": 36,
+      "bid": 21,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 34,
+      "letter": "H",
+      "bagLeft": 33,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 9
+    },
+    {
+      "event": "bid",
+      "round": 34,
+      "letter": "H",
+      "bagLeft": 33,
+      "seat": 5,
+      "rack": "BEOSTU",
+      "balance": 79,
+      "score": 48,
+      "bid": 31,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 34,
+      "letter": "H",
+      "winner": 5,
+      "paid": 30,
+      "sortedBids": [
+        {
+          "i": 5,
+          "amt": 31
+        },
+        {
+          "i": 0,
+          "amt": 30
+        },
+        {
+          "i": 1,
+          "amt": 26
+        },
+        {
+          "i": 2,
+          "amt": 22
+        },
+        {
+          "i": 3,
+          "amt": 21
+        },
+        {
+          "i": 4,
+          "amt": 9
+        }
+      ]
+    },
+    {
+      "event": "word",
+      "round": 35,
+      "seat": 5,
+      "word": "BESHOUT",
+      "points": 36,
+      "rack": "",
+      "balance": 85,
+      "score": 84
+    },
+    {
+      "event": "bid",
+      "round": 35,
+      "letter": "A",
+      "bagLeft": 32,
+      "seat": 0,
+      "rack": "AEMOPTU",
+      "balance": 71,
+      "score": 0,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 35,
+      "letter": "A",
+      "bagLeft": 32,
+      "seat": 1,
+      "rack": "DEEFR",
+      "balance": 60,
+      "score": 39,
+      "bid": 11,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 35,
+      "letter": "A",
+      "bagLeft": 32,
+      "seat": 2,
+      "rack": "A",
+      "balance": 96,
+      "score": 54,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 35,
+      "letter": "A",
+      "bagLeft": 32,
+      "seat": 3,
+      "rack": "I",
+      "balance": 87,
+      "score": 36,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 35,
+      "letter": "A",
+      "bagLeft": 32,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 3
+    },
+    {
+      "event": "bid",
+      "round": 35,
+      "letter": "A",
+      "bagLeft": 32,
+      "seat": 5,
+      "rack": "",
+      "balance": 85,
+      "score": 84,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 35,
+      "letter": "A",
+      "winner": 1,
+      "paid": 8,
+      "sortedBids": [
+        {
+          "i": 1,
+          "amt": 11
+        },
+        {
+          "i": 5,
+          "amt": 8
+        },
+        {
+          "i": 0,
+          "amt": 7
+        },
+        {
+          "i": 3,
+          "amt": 6
+        },
+        {
+          "i": 2,
+          "amt": 4
+        },
+        {
+          "i": 4,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 36,
+      "letter": "W",
+      "bagLeft": 31,
+      "seat": 0,
+      "rack": "AEMOPTU",
+      "balance": 71,
+      "score": 0,
+      "bid": 22,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 36,
+      "letter": "W",
+      "bagLeft": 31,
+      "seat": 1,
+      "rack": "ADEEFR",
+      "balance": 52,
+      "score": 39,
+      "bid": 28,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 36,
+      "letter": "W",
+      "bagLeft": 31,
+      "seat": 2,
+      "rack": "A",
+      "balance": 96,
+      "score": 54,
+      "bid": 22,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 36,
+      "letter": "W",
+      "bagLeft": 31,
+      "seat": 3,
+      "rack": "I",
+      "balance": 87,
+      "score": 36,
+      "bid": 19,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 36,
+      "letter": "W",
+      "bagLeft": 31,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 5
+    },
+    {
+      "event": "bid",
+      "round": 36,
+      "letter": "W",
+      "bagLeft": 31,
+      "seat": 5,
+      "rack": "",
+      "balance": 85,
+      "score": 84,
+      "bid": 20,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 36,
+      "letter": "W",
+      "winner": 1,
+      "paid": 22,
+      "sortedBids": [
+        {
+          "i": 1,
+          "amt": 28
+        },
+        {
+          "i": 0,
+          "amt": 22
+        },
+        {
+          "i": 2,
+          "amt": 22
+        },
+        {
+          "i": 5,
+          "amt": 20
+        },
+        {
+          "i": 3,
+          "amt": 19
+        },
+        {
+          "i": 4,
+          "amt": 5
+        }
+      ]
+    },
+    {
+      "event": "word",
+      "round": 37,
+      "seat": 1,
+      "word": "WAFERED",
+      "points": 42,
+      "rack": "",
+      "balance": 72,
+      "score": 81
+    },
+    {
+      "event": "bid",
+      "round": 37,
+      "letter": "L",
+      "bagLeft": 30,
+      "seat": 0,
+      "rack": "AEMOPTU",
+      "balance": 71,
+      "score": 0,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 37,
+      "letter": "L",
+      "bagLeft": 30,
+      "seat": 1,
+      "rack": "",
+      "balance": 72,
+      "score": 81,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 37,
+      "letter": "L",
+      "bagLeft": 30,
+      "seat": 2,
+      "rack": "A",
+      "balance": 96,
+      "score": 54,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 37,
+      "letter": "L",
+      "bagLeft": 30,
+      "seat": 3,
+      "rack": "I",
+      "balance": 87,
+      "score": 36,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 37,
+      "letter": "L",
+      "bagLeft": 30,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 3
+    },
+    {
+      "event": "bid",
+      "round": 37,
+      "letter": "L",
+      "bagLeft": 30,
+      "seat": 5,
+      "rack": "",
+      "balance": 85,
+      "score": 84,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 37,
+      "letter": "L",
+      "winner": 2,
+      "paid": 8,
+      "sortedBids": [
+        {
+          "i": 2,
+          "amt": 9
+        },
+        {
+          "i": 3,
+          "amt": 8
+        },
+        {
+          "i": 0,
+          "amt": 6
+        },
+        {
+          "i": 1,
+          "amt": 5
+        },
+        {
+          "i": 5,
+          "amt": 5
+        },
+        {
+          "i": 4,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 38,
+      "letter": "I",
+      "bagLeft": 29,
+      "seat": 0,
+      "rack": "AEMOPTU",
+      "balance": 71,
+      "score": 0,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 38,
+      "letter": "I",
+      "bagLeft": 29,
+      "seat": 1,
+      "rack": "",
+      "balance": 72,
+      "score": 81,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 38,
+      "letter": "I",
+      "bagLeft": 29,
+      "seat": 2,
+      "rack": "AL",
+      "balance": 88,
+      "score": 54,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 38,
+      "letter": "I",
+      "bagLeft": 29,
+      "seat": 3,
+      "rack": "I",
+      "balance": 87,
+      "score": 36,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 38,
+      "letter": "I",
+      "bagLeft": 29,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 3
+    },
+    {
+      "event": "bid",
+      "round": 38,
+      "letter": "I",
+      "bagLeft": 29,
+      "seat": 5,
+      "rack": "",
+      "balance": 85,
+      "score": 84,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 38,
+      "letter": "I",
+      "winner": 5,
+      "paid": 9,
+      "sortedBids": [
+        {
+          "i": 5,
+          "amt": 9
+        },
+        {
+          "i": 2,
+          "amt": 9
+        },
+        {
+          "i": 1,
+          "amt": 9
+        },
+        {
+          "i": 0,
+          "amt": 7
+        },
+        {
+          "i": 4,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 39,
+      "letter": "E",
+      "bagLeft": 28,
+      "seat": 0,
+      "rack": "AEMOPTU",
+      "balance": 71,
+      "score": 0,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 39,
+      "letter": "E",
+      "bagLeft": 28,
+      "seat": 1,
+      "rack": "",
+      "balance": 72,
+      "score": 81,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 39,
+      "letter": "E",
+      "bagLeft": 28,
+      "seat": 2,
+      "rack": "AL",
+      "balance": 88,
+      "score": 54,
+      "bid": 12,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 39,
+      "letter": "E",
+      "bagLeft": 28,
+      "seat": 3,
+      "rack": "I",
+      "balance": 87,
+      "score": 36,
+      "bid": 10,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 39,
+      "letter": "E",
+      "bagLeft": 28,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 3
+    },
+    {
+      "event": "bid",
+      "round": 39,
+      "letter": "E",
+      "bagLeft": 28,
+      "seat": 5,
+      "rack": "I",
+      "balance": 76,
+      "score": 84,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 39,
+      "letter": "E",
+      "winner": 2,
+      "paid": 10,
+      "sortedBids": [
+        {
+          "i": 2,
+          "amt": 12
+        },
+        {
+          "i": 3,
+          "amt": 10
+        },
+        {
+          "i": 1,
+          "amt": 8
+        },
+        {
+          "i": 5,
+          "amt": 7
+        },
+        {
+          "i": 0,
+          "amt": 4
+        },
+        {
+          "i": 4,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 40,
+      "letter": "T",
+      "bagLeft": 27,
+      "seat": 0,
+      "rack": "AEMOPTU",
+      "balance": 71,
+      "score": 0,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 40,
+      "letter": "T",
+      "bagLeft": 27,
+      "seat": 1,
+      "rack": "",
+      "balance": 72,
+      "score": 81,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 40,
+      "letter": "T",
+      "bagLeft": 27,
+      "seat": 2,
+      "rack": "AEL",
+      "balance": 78,
+      "score": 54,
+      "bid": 12,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 40,
+      "letter": "T",
+      "bagLeft": 27,
+      "seat": 3,
+      "rack": "I",
+      "balance": 87,
+      "score": 36,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 40,
+      "letter": "T",
+      "bagLeft": 27,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 3
+    },
+    {
+      "event": "bid",
+      "round": 40,
+      "letter": "T",
+      "bagLeft": 27,
+      "seat": 5,
+      "rack": "I",
+      "balance": 76,
+      "score": 84,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 40,
+      "letter": "T",
+      "winner": 2,
+      "paid": 9,
+      "sortedBids": [
+        {
+          "i": 2,
+          "amt": 12
+        },
+        {
+          "i": 5,
+          "amt": 9
+        },
+        {
+          "i": 0,
+          "amt": 7
+        },
+        {
+          "i": 3,
+          "amt": 6
+        },
+        {
+          "i": 1,
+          "amt": 4
+        },
+        {
+          "i": 4,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 41,
+      "letter": "E",
+      "bagLeft": 26,
+      "seat": 0,
+      "rack": "AEMOPTU",
+      "balance": 71,
+      "score": 0,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 41,
+      "letter": "E",
+      "bagLeft": 26,
+      "seat": 1,
+      "rack": "",
+      "balance": 72,
+      "score": 81,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 41,
+      "letter": "E",
+      "bagLeft": 26,
+      "seat": 2,
+      "rack": "AELT",
+      "balance": 69,
+      "score": 54,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 41,
+      "letter": "E",
+      "bagLeft": 26,
+      "seat": 3,
+      "rack": "I",
+      "balance": 87,
+      "score": 36,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 41,
+      "letter": "E",
+      "bagLeft": 26,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 3
+    },
+    {
+      "event": "bid",
+      "round": 41,
+      "letter": "E",
+      "bagLeft": 26,
+      "seat": 5,
+      "rack": "I",
+      "balance": 76,
+      "score": 84,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 41,
+      "letter": "E",
+      "winner": 1,
+      "paid": 8,
+      "sortedBids": [
+        {
+          "i": 1,
+          "amt": 9
+        },
+        {
+          "i": 2,
+          "amt": 8
+        },
+        {
+          "i": 5,
+          "amt": 7
+        },
+        {
+          "i": 3,
+          "amt": 6
+        },
+        {
+          "i": 0,
+          "amt": 6
+        },
+        {
+          "i": 4,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 42,
+      "letter": "G",
+      "bagLeft": 25,
+      "seat": 0,
+      "rack": "AEMOPTU",
+      "balance": 71,
+      "score": 0,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 42,
+      "letter": "G",
+      "bagLeft": 25,
+      "seat": 1,
+      "rack": "E",
+      "balance": 64,
+      "score": 81,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 42,
+      "letter": "G",
+      "bagLeft": 25,
+      "seat": 2,
+      "rack": "AELT",
+      "balance": 69,
+      "score": 54,
+      "bid": 17,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 42,
+      "letter": "G",
+      "bagLeft": 25,
+      "seat": 3,
+      "rack": "I",
+      "balance": 87,
+      "score": 36,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 42,
+      "letter": "G",
+      "bagLeft": 25,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 4
+    },
+    {
+      "event": "bid",
+      "round": 42,
+      "letter": "G",
+      "bagLeft": 25,
+      "seat": 5,
+      "rack": "I",
+      "balance": 76,
+      "score": 84,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 42,
+      "letter": "G",
+      "winner": 2,
+      "paid": 9,
+      "sortedBids": [
+        {
+          "i": 2,
+          "amt": 17
+        },
+        {
+          "i": 0,
+          "amt": 9
+        },
+        {
+          "i": 1,
+          "amt": 8
+        },
+        {
+          "i": 5,
+          "amt": 7
+        },
+        {
+          "i": 3,
+          "amt": 7
+        },
+        {
+          "i": 4,
+          "amt": 4
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 43,
+      "letter": "O",
+      "bagLeft": 24,
+      "seat": 0,
+      "rack": "AEMOPTU",
+      "balance": 71,
+      "score": 0,
+      "bid": 1,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 43,
+      "letter": "O",
+      "bagLeft": 24,
+      "seat": 1,
+      "rack": "E",
+      "balance": 64,
+      "score": 81,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 43,
+      "letter": "O",
+      "bagLeft": 24,
+      "seat": 2,
+      "rack": "AEGLT",
+      "balance": 60,
+      "score": 54,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 43,
+      "letter": "O",
+      "bagLeft": 24,
+      "seat": 3,
+      "rack": "I",
+      "balance": 87,
+      "score": 36,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 43,
+      "letter": "O",
+      "bagLeft": 24,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 2
+    },
+    {
+      "event": "bid",
+      "round": 43,
+      "letter": "O",
+      "bagLeft": 24,
+      "seat": 5,
+      "rack": "I",
+      "balance": 76,
+      "score": 84,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 43,
+      "letter": "O",
+      "winner": 2,
+      "paid": 9,
+      "sortedBids": [
+        {
+          "i": 2,
+          "amt": 9
+        },
+        {
+          "i": 3,
+          "amt": 9
+        },
+        {
+          "i": 1,
+          "amt": 8
+        },
+        {
+          "i": 5,
+          "amt": 8
+        },
+        {
+          "i": 4,
+          "amt": 2
+        },
+        {
+          "i": 0,
+          "amt": 1
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 44,
+      "letter": "N",
+      "bagLeft": 23,
+      "seat": 0,
+      "rack": "AEMOPTU",
+      "balance": 71,
+      "score": 0,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 44,
+      "letter": "N",
+      "bagLeft": 23,
+      "seat": 1,
+      "rack": "E",
+      "balance": 64,
+      "score": 81,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 44,
+      "letter": "N",
+      "bagLeft": 23,
+      "seat": 2,
+      "rack": "AEGLOT",
+      "balance": 51,
+      "score": 54,
+      "bid": 10,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 44,
+      "letter": "N",
+      "bagLeft": 23,
+      "seat": 3,
+      "rack": "I",
+      "balance": 87,
+      "score": 36,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 44,
+      "letter": "N",
+      "bagLeft": 23,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 2
+    },
+    {
+      "event": "bid",
+      "round": 44,
+      "letter": "N",
+      "bagLeft": 23,
+      "seat": 5,
+      "rack": "I",
+      "balance": 76,
+      "score": 84,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 44,
+      "letter": "N",
+      "winner": 2,
+      "paid": 9,
+      "sortedBids": [
+        {
+          "i": 2,
+          "amt": 10
+        },
+        {
+          "i": 5,
+          "amt": 9
+        },
+        {
+          "i": 0,
+          "amt": 9
+        },
+        {
+          "i": 3,
+          "amt": 7
+        },
+        {
+          "i": 1,
+          "amt": 7
+        },
+        {
+          "i": 4,
+          "amt": 2
+        }
+      ]
+    },
+    {
+      "event": "word",
+      "round": 45,
+      "seat": 2,
+      "word": "TANGELO",
+      "points": 24,
+      "rack": "",
+      "balance": 66,
+      "score": 78
+    },
+    {
+      "event": "bid",
+      "round": 45,
+      "letter": "L",
+      "bagLeft": 22,
+      "seat": 0,
+      "rack": "AEMOPTU",
+      "balance": 71,
+      "score": 0,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 45,
+      "letter": "L",
+      "bagLeft": 22,
+      "seat": 1,
+      "rack": "E",
+      "balance": 64,
+      "score": 81,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 45,
+      "letter": "L",
+      "bagLeft": 22,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 2,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 45,
+      "letter": "L",
+      "bagLeft": 22,
+      "seat": 3,
+      "rack": "I",
+      "balance": 87,
+      "score": 36,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 45,
+      "letter": "L",
+      "bagLeft": 22,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 2
+    },
+    {
+      "event": "bid",
+      "round": 45,
+      "letter": "L",
+      "bagLeft": 22,
+      "seat": 5,
+      "rack": "I",
+      "balance": 76,
+      "score": 84,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 45,
+      "letter": "L",
+      "winner": 5,
+      "paid": 8,
+      "sortedBids": [
+        {
+          "i": 5,
+          "amt": 8
+        },
+        {
+          "i": 1,
+          "amt": 8
+        },
+        {
+          "i": 3,
+          "amt": 8
+        },
+        {
+          "i": 0,
+          "amt": 7
+        },
+        {
+          "i": 2,
+          "amt": 2
+        },
+        {
+          "i": 4,
+          "amt": 2
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 46,
+      "letter": "N",
+      "bagLeft": 21,
+      "seat": 0,
+      "rack": "AEMOPTU",
+      "balance": 71,
+      "score": 0,
+      "bid": 10,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 46,
+      "letter": "N",
+      "bagLeft": 21,
+      "seat": 1,
+      "rack": "E",
+      "balance": 64,
+      "score": 81,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 46,
+      "letter": "N",
+      "bagLeft": 21,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 46,
+      "letter": "N",
+      "bagLeft": 21,
+      "seat": 3,
+      "rack": "I",
+      "balance": 87,
+      "score": 36,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 46,
+      "letter": "N",
+      "bagLeft": 21,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 2
+    },
+    {
+      "event": "bid",
+      "round": 46,
+      "letter": "N",
+      "bagLeft": 21,
+      "seat": 5,
+      "rack": "IL",
+      "balance": 68,
+      "score": 84,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 46,
+      "letter": "N",
+      "winner": 0,
+      "paid": 8,
+      "sortedBids": [
+        {
+          "i": 0,
+          "amt": 10
+        },
+        {
+          "i": 3,
+          "amt": 8
+        },
+        {
+          "i": 1,
+          "amt": 6
+        },
+        {
+          "i": 5,
+          "amt": 6
+        },
+        {
+          "i": 2,
+          "amt": 3
+        },
+        {
+          "i": 4,
+          "amt": 2
+        }
+      ]
+    },
+    {
+      "event": "word",
+      "round": 47,
+      "seat": 0,
+      "word": "PANTOUM",
+      "points": 33,
+      "rack": "E",
+      "balance": 96,
+      "score": 33
+    },
+    {
+      "event": "bid",
+      "round": 47,
+      "letter": "D",
+      "bagLeft": 20,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 11,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 47,
+      "letter": "D",
+      "bagLeft": 20,
+      "seat": 1,
+      "rack": "E",
+      "balance": 64,
+      "score": 81,
+      "bid": 10,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 47,
+      "letter": "D",
+      "bagLeft": 20,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 47,
+      "letter": "D",
+      "bagLeft": 20,
+      "seat": 3,
+      "rack": "I",
+      "balance": 87,
+      "score": 36,
+      "bid": 18,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 47,
+      "letter": "D",
+      "bagLeft": 20,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 3
+    },
+    {
+      "event": "bid",
+      "round": 47,
+      "letter": "D",
+      "bagLeft": 20,
+      "seat": 5,
+      "rack": "IL",
+      "balance": 68,
+      "score": 84,
+      "bid": 14,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 47,
+      "letter": "D",
+      "winner": 3,
+      "paid": 14,
+      "sortedBids": [
+        {
+          "i": 3,
+          "amt": 18
+        },
+        {
+          "i": 5,
+          "amt": 14
+        },
+        {
+          "i": 0,
+          "amt": 11
+        },
+        {
+          "i": 1,
+          "amt": 10
+        },
+        {
+          "i": 2,
+          "amt": 5
+        },
+        {
+          "i": 4,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 48,
+      "letter": "G",
+      "bagLeft": 19,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 10,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 48,
+      "letter": "G",
+      "bagLeft": 19,
+      "seat": 1,
+      "rack": "E",
+      "balance": 64,
+      "score": 81,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 48,
+      "letter": "G",
+      "bagLeft": 19,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 48,
+      "letter": "G",
+      "bagLeft": 19,
+      "seat": 3,
+      "rack": "DI",
+      "balance": 73,
+      "score": 36,
+      "bid": 11,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 48,
+      "letter": "G",
+      "bagLeft": 19,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 3
+    },
+    {
+      "event": "bid",
+      "round": 48,
+      "letter": "G",
+      "bagLeft": 19,
+      "seat": 5,
+      "rack": "IL",
+      "balance": 68,
+      "score": 84,
+      "bid": 11,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 48,
+      "letter": "G",
+      "winner": 3,
+      "paid": 11,
+      "sortedBids": [
+        {
+          "i": 3,
+          "amt": 11
+        },
+        {
+          "i": 5,
+          "amt": 11
+        },
+        {
+          "i": 0,
+          "amt": 10
+        },
+        {
+          "i": 1,
+          "amt": 9
+        },
+        {
+          "i": 2,
+          "amt": 3
+        },
+        {
+          "i": 4,
+          "amt": 3
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 49,
+      "letter": "C",
+      "bagLeft": 18,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 19,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 49,
+      "letter": "C",
+      "bagLeft": 18,
+      "seat": 1,
+      "rack": "E",
+      "balance": 64,
+      "score": 81,
+      "bid": 19,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 49,
+      "letter": "C",
+      "bagLeft": 18,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 10,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 49,
+      "letter": "C",
+      "bagLeft": 18,
+      "seat": 3,
+      "rack": "DGI",
+      "balance": 62,
+      "score": 36,
+      "bid": 17,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 49,
+      "letter": "C",
+      "bagLeft": 18,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 4
+    },
+    {
+      "event": "bid",
+      "round": 49,
+      "letter": "C",
+      "bagLeft": 18,
+      "seat": 5,
+      "rack": "IL",
+      "balance": 68,
+      "score": 84,
+      "bid": 18,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 49,
+      "letter": "C",
+      "winner": 1,
+      "paid": 19,
+      "sortedBids": [
+        {
+          "i": 1,
+          "amt": 19
+        },
+        {
+          "i": 0,
+          "amt": 19
+        },
+        {
+          "i": 5,
+          "amt": 18
+        },
+        {
+          "i": 3,
+          "amt": 17
+        },
+        {
+          "i": 2,
+          "amt": 10
+        },
+        {
+          "i": 4,
+          "amt": 4
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 50,
+      "letter": "Q",
+      "bagLeft": 17,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 50,
+      "letter": "Q",
+      "bagLeft": 17,
+      "seat": 1,
+      "rack": "CE",
+      "balance": 45,
+      "score": 81,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 50,
+      "letter": "Q",
+      "bagLeft": 17,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 1,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 50,
+      "letter": "Q",
+      "bagLeft": 17,
+      "seat": 3,
+      "rack": "DGI",
+      "balance": 62,
+      "score": 36,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 50,
+      "letter": "Q",
+      "bagLeft": 17,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 2
+    },
+    {
+      "event": "bid",
+      "round": 50,
+      "letter": "Q",
+      "bagLeft": 17,
+      "seat": 5,
+      "rack": "IL",
+      "balance": 68,
+      "score": 84,
+      "bid": 2,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 50,
+      "letter": "Q",
+      "winner": 3,
+      "paid": 7,
+      "sortedBids": [
+        {
+          "i": 3,
+          "amt": 9
+        },
+        {
+          "i": 0,
+          "amt": 7
+        },
+        {
+          "i": 4,
+          "amt": 2
+        },
+        {
+          "i": 5,
+          "amt": 2
+        },
+        {
+          "i": 2,
+          "amt": 1
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 51,
+      "letter": "E",
+      "bagLeft": 16,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 10,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 51,
+      "letter": "E",
+      "bagLeft": 16,
+      "seat": 1,
+      "rack": "CE",
+      "balance": 45,
+      "score": 81,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 51,
+      "letter": "E",
+      "bagLeft": 16,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 51,
+      "letter": "E",
+      "bagLeft": 16,
+      "seat": 3,
+      "rack": "DGIQ",
+      "balance": 55,
+      "score": 36,
+      "bid": 18,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 51,
+      "letter": "E",
+      "bagLeft": 16,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 2
+    },
+    {
+      "event": "bid",
+      "round": 51,
+      "letter": "E",
+      "bagLeft": 16,
+      "seat": 5,
+      "rack": "IL",
+      "balance": 68,
+      "score": 84,
+      "bid": 12,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 51,
+      "letter": "E",
+      "winner": 3,
+      "paid": 12,
+      "sortedBids": [
+        {
+          "i": 3,
+          "amt": 18
+        },
+        {
+          "i": 5,
+          "amt": 12
+        },
+        {
+          "i": 0,
+          "amt": 10
+        },
+        {
+          "i": 1,
+          "amt": 8
+        },
+        {
+          "i": 2,
+          "amt": 6
+        },
+        {
+          "i": 4,
+          "amt": 2
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 52,
+      "letter": "I",
+      "bagLeft": 15,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 52,
+      "letter": "I",
+      "bagLeft": 15,
+      "seat": 1,
+      "rack": "CE",
+      "balance": 45,
+      "score": 81,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 52,
+      "letter": "I",
+      "bagLeft": 15,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 2,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 52,
+      "letter": "I",
+      "bagLeft": 15,
+      "seat": 3,
+      "rack": "DEGIQ",
+      "balance": 43,
+      "score": 36,
+      "bid": 2,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 52,
+      "letter": "I",
+      "bagLeft": 15,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 1
+    },
+    {
+      "event": "bid",
+      "round": 52,
+      "letter": "I",
+      "bagLeft": 15,
+      "seat": 5,
+      "rack": "IL",
+      "balance": 68,
+      "score": 84,
+      "bid": 1,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 52,
+      "letter": "I",
+      "winner": 1,
+      "paid": 4,
+      "sortedBids": [
+        {
+          "i": 1,
+          "amt": 9
+        },
+        {
+          "i": 0,
+          "amt": 4
+        },
+        {
+          "i": 2,
+          "amt": 2
+        },
+        {
+          "i": 3,
+          "amt": 2
+        },
+        {
+          "i": 4,
+          "amt": 1
+        },
+        {
+          "i": 5,
+          "amt": 1
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 53,
+      "letter": "U",
+      "bagLeft": 14,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 53,
+      "letter": "U",
+      "bagLeft": 14,
+      "seat": 1,
+      "rack": "CEI",
+      "balance": 41,
+      "score": 81,
+      "bid": 2,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 53,
+      "letter": "U",
+      "bagLeft": 14,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 1,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 53,
+      "letter": "U",
+      "bagLeft": 14,
+      "seat": 3,
+      "rack": "DEGIQ",
+      "balance": 43,
+      "score": 36,
+      "bid": 30,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 53,
+      "letter": "U",
+      "bagLeft": 14,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 1
+    },
+    {
+      "event": "bid",
+      "round": 53,
+      "letter": "U",
+      "bagLeft": 14,
+      "seat": 5,
+      "rack": "IL",
+      "balance": 68,
+      "score": 84,
+      "bid": 2,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 53,
+      "letter": "U",
+      "winner": 3,
+      "paid": 5,
+      "sortedBids": [
+        {
+          "i": 3,
+          "amt": 30
+        },
+        {
+          "i": 0,
+          "amt": 5
+        },
+        {
+          "i": 5,
+          "amt": 2
+        },
+        {
+          "i": 1,
+          "amt": 2
+        },
+        {
+          "i": 4,
+          "amt": 1
+        },
+        {
+          "i": 2,
+          "amt": 1
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 54,
+      "letter": "A",
+      "bagLeft": 13,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 54,
+      "letter": "A",
+      "bagLeft": 13,
+      "seat": 1,
+      "rack": "CEI",
+      "balance": 41,
+      "score": 81,
+      "bid": 2,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 54,
+      "letter": "A",
+      "bagLeft": 13,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 54,
+      "letter": "A",
+      "bagLeft": 13,
+      "seat": 3,
+      "rack": "DEGIQU",
+      "balance": 38,
+      "score": 36,
+      "bid": 15,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 54,
+      "letter": "A",
+      "bagLeft": 13,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 1
+    },
+    {
+      "event": "bid",
+      "round": 54,
+      "letter": "A",
+      "bagLeft": 13,
+      "seat": 5,
+      "rack": "IL",
+      "balance": 68,
+      "score": 84,
+      "bid": 10,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 54,
+      "letter": "A",
+      "winner": 3,
+      "paid": 10,
+      "sortedBids": [
+        {
+          "i": 3,
+          "amt": 15
+        },
+        {
+          "i": 5,
+          "amt": 10
+        },
+        {
+          "i": 0,
+          "amt": 7
+        },
+        {
+          "i": 2,
+          "amt": 6
+        },
+        {
+          "i": 1,
+          "amt": 2
+        },
+        {
+          "i": 4,
+          "amt": 1
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 55,
+      "letter": "L",
+      "bagLeft": 12,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 10,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 55,
+      "letter": "L",
+      "bagLeft": 12,
+      "seat": 1,
+      "rack": "CEI",
+      "balance": 41,
+      "score": 81,
+      "bid": 13,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 55,
+      "letter": "L",
+      "bagLeft": 12,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 55,
+      "letter": "L",
+      "bagLeft": 12,
+      "seat": 3,
+      "rack": "ADEGIQU",
+      "balance": 28,
+      "score": 36,
+      "bid": 19,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 55,
+      "letter": "L",
+      "bagLeft": 12,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 1
+    },
+    {
+      "event": "bid",
+      "round": 55,
+      "letter": "L",
+      "bagLeft": 12,
+      "seat": 5,
+      "rack": "IL",
+      "balance": 68,
+      "score": 84,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 55,
+      "letter": "L",
+      "winner": 3,
+      "paid": 13,
+      "sortedBids": [
+        {
+          "i": 3,
+          "amt": 19
+        },
+        {
+          "i": 1,
+          "amt": 13
+        },
+        {
+          "i": 0,
+          "amt": 10
+        },
+        {
+          "i": 5,
+          "amt": 8
+        },
+        {
+          "i": 2,
+          "amt": 3
+        },
+        {
+          "i": 4,
+          "amt": 1
+        }
+      ]
+    },
+    {
+      "event": "word",
+      "round": 56,
+      "seat": 3,
+      "word": "QUAILED",
+      "points": 51,
+      "rack": "G",
+      "balance": 66,
+      "score": 87
+    },
+    {
+      "event": "bid",
+      "round": 56,
+      "letter": "L",
+      "bagLeft": 11,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 56,
+      "letter": "L",
+      "bagLeft": 11,
+      "seat": 1,
+      "rack": "CEI",
+      "balance": 41,
+      "score": 81,
+      "bid": 14,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 56,
+      "letter": "L",
+      "bagLeft": 11,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 56,
+      "letter": "L",
+      "bagLeft": 11,
+      "seat": 3,
+      "rack": "G",
+      "balance": 66,
+      "score": 87,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 56,
+      "letter": "L",
+      "bagLeft": 11,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 1
+    },
+    {
+      "event": "bid",
+      "round": 56,
+      "letter": "L",
+      "bagLeft": 11,
+      "seat": 5,
+      "rack": "IL",
+      "balance": 68,
+      "score": 84,
+      "bid": 14,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 56,
+      "letter": "L",
+      "winner": 5,
+      "paid": 14,
+      "sortedBids": [
+        {
+          "i": 5,
+          "amt": 14
+        },
+        {
+          "i": 1,
+          "amt": 14
+        },
+        {
+          "i": 0,
+          "amt": 9
+        },
+        {
+          "i": 2,
+          "amt": 3
+        },
+        {
+          "i": 3,
+          "amt": 3
+        },
+        {
+          "i": 4,
+          "amt": 1
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 57,
+      "letter": "D",
+      "bagLeft": 10,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 57,
+      "letter": "D",
+      "bagLeft": 10,
+      "seat": 1,
+      "rack": "CEI",
+      "balance": 41,
+      "score": 81,
+      "bid": 21,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 57,
+      "letter": "D",
+      "bagLeft": 10,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 2,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 57,
+      "letter": "D",
+      "bagLeft": 10,
+      "seat": 3,
+      "rack": "G",
+      "balance": 66,
+      "score": 87,
+      "bid": 3,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 57,
+      "letter": "D",
+      "bagLeft": 10,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 2
+    },
+    {
+      "event": "bid",
+      "round": 57,
+      "letter": "D",
+      "bagLeft": 10,
+      "seat": 5,
+      "rack": "ILL",
+      "balance": 54,
+      "score": 84,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 57,
+      "letter": "D",
+      "winner": 1,
+      "paid": 9,
+      "sortedBids": [
+        {
+          "i": 1,
+          "amt": 21
+        },
+        {
+          "i": 0,
+          "amt": 9
+        },
+        {
+          "i": 5,
+          "amt": 9
+        },
+        {
+          "i": 3,
+          "amt": 3
+        },
+        {
+          "i": 4,
+          "amt": 2
+        },
+        {
+          "i": 2,
+          "amt": 2
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 58,
+      "letter": "Y",
+      "bagLeft": 9,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 26,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 58,
+      "letter": "Y",
+      "bagLeft": 9,
+      "seat": 1,
+      "rack": "CDEI",
+      "balance": 32,
+      "score": 81,
+      "bid": 22,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 58,
+      "letter": "Y",
+      "bagLeft": 9,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 17,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 58,
+      "letter": "Y",
+      "bagLeft": 9,
+      "seat": 3,
+      "rack": "G",
+      "balance": 66,
+      "score": 87,
+      "bid": 18,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 58,
+      "letter": "Y",
+      "bagLeft": 9,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 2
+    },
+    {
+      "event": "bid",
+      "round": 58,
+      "letter": "Y",
+      "bagLeft": 9,
+      "seat": 5,
+      "rack": "ILL",
+      "balance": 54,
+      "score": 84,
+      "bid": 27,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 58,
+      "letter": "Y",
+      "winner": 5,
+      "paid": 26,
+      "sortedBids": [
+        {
+          "i": 5,
+          "amt": 27
+        },
+        {
+          "i": 0,
+          "amt": 26
+        },
+        {
+          "i": 1,
+          "amt": 22
+        },
+        {
+          "i": 3,
+          "amt": 18
+        },
+        {
+          "i": 2,
+          "amt": 17
+        },
+        {
+          "i": 4,
+          "amt": 2
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 59,
+      "letter": "K",
+      "bagLeft": 8,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 22,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 59,
+      "letter": "K",
+      "bagLeft": 8,
+      "seat": 1,
+      "rack": "CDEI",
+      "balance": 32,
+      "score": 81,
+      "bid": 22,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 59,
+      "letter": "K",
+      "bagLeft": 8,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 59,
+      "letter": "K",
+      "bagLeft": 8,
+      "seat": 3,
+      "rack": "G",
+      "balance": 66,
+      "score": 87,
+      "bid": 24,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 59,
+      "letter": "K",
+      "bagLeft": 8,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 2
+    },
+    {
+      "event": "bid",
+      "round": 59,
+      "letter": "K",
+      "bagLeft": 8,
+      "seat": 5,
+      "rack": "ILLY",
+      "balance": 28,
+      "score": 84,
+      "bid": 19,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 59,
+      "letter": "K",
+      "winner": 3,
+      "paid": 22,
+      "sortedBids": [
+        {
+          "i": 3,
+          "amt": 24
+        },
+        {
+          "i": 0,
+          "amt": 22
+        },
+        {
+          "i": 1,
+          "amt": 22
+        },
+        {
+          "i": 5,
+          "amt": 19
+        },
+        {
+          "i": 4,
+          "amt": 2
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 60,
+      "letter": "R",
+      "bagLeft": 7,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 6,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 60,
+      "letter": "R",
+      "bagLeft": 7,
+      "seat": 1,
+      "rack": "CDEI",
+      "balance": 32,
+      "score": 81,
+      "bid": 22,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 60,
+      "letter": "R",
+      "bagLeft": 7,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 2,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 60,
+      "letter": "R",
+      "bagLeft": 7,
+      "seat": 3,
+      "rack": "GK",
+      "balance": 44,
+      "score": 87,
+      "bid": 9,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 60,
+      "letter": "R",
+      "bagLeft": 7,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 1
+    },
+    {
+      "event": "bid",
+      "round": 60,
+      "letter": "R",
+      "bagLeft": 7,
+      "seat": 5,
+      "rack": "ILLY",
+      "balance": 28,
+      "score": 84,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 60,
+      "letter": "R",
+      "winner": 1,
+      "paid": 9,
+      "sortedBids": [
+        {
+          "i": 1,
+          "amt": 22
+        },
+        {
+          "i": 3,
+          "amt": 9
+        },
+        {
+          "i": 5,
+          "amt": 7
+        },
+        {
+          "i": 0,
+          "amt": 6
+        },
+        {
+          "i": 2,
+          "amt": 2
+        },
+        {
+          "i": 4,
+          "amt": 1
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 61,
+      "letter": "I",
+      "bagLeft": 6,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 61,
+      "letter": "I",
+      "bagLeft": 6,
+      "seat": 1,
+      "rack": "CDEIR",
+      "balance": 23,
+      "score": 81,
+      "bid": 13,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 61,
+      "letter": "I",
+      "bagLeft": 6,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 1,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 61,
+      "letter": "I",
+      "bagLeft": 6,
+      "seat": 3,
+      "rack": "GK",
+      "balance": 44,
+      "score": 87,
+      "bid": 14,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 61,
+      "letter": "I",
+      "bagLeft": 6,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 1
+    },
+    {
+      "event": "bid",
+      "round": 61,
+      "letter": "I",
+      "bagLeft": 6,
+      "seat": 5,
+      "rack": "ILLY",
+      "balance": 28,
+      "score": 84,
+      "bid": 4,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 61,
+      "letter": "I",
+      "winner": 3,
+      "paid": 13,
+      "sortedBids": [
+        {
+          "i": 3,
+          "amt": 14
+        },
+        {
+          "i": 1,
+          "amt": 13
+        },
+        {
+          "i": 5,
+          "amt": 4
+        },
+        {
+          "i": 2,
+          "amt": 1
+        },
+        {
+          "i": 4,
+          "amt": 1
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 62,
+      "letter": "Z",
+      "bagLeft": 5,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 7,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 62,
+      "letter": "Z",
+      "bagLeft": 5,
+      "seat": 1,
+      "rack": "CDEIR",
+      "balance": 23,
+      "score": 81,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 62,
+      "letter": "Z",
+      "bagLeft": 5,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 62,
+      "letter": "Z",
+      "bagLeft": 5,
+      "seat": 3,
+      "rack": "GIK",
+      "balance": 31,
+      "score": 87,
+      "bid": 21,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 62,
+      "letter": "Z",
+      "bagLeft": 5,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 1
+    },
+    {
+      "event": "bid",
+      "round": 62,
+      "letter": "Z",
+      "bagLeft": 5,
+      "seat": 5,
+      "rack": "ILLY",
+      "balance": 28,
+      "score": 84,
+      "bid": 19,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 62,
+      "letter": "Z",
+      "winner": 3,
+      "paid": 19,
+      "sortedBids": [
+        {
+          "i": 3,
+          "amt": 21
+        },
+        {
+          "i": 5,
+          "amt": 19
+        },
+        {
+          "i": 0,
+          "amt": 7
+        },
+        {
+          "i": 4,
+          "amt": 1
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 63,
+      "letter": "T",
+      "bagLeft": 4,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 63,
+      "letter": "T",
+      "bagLeft": 4,
+      "seat": 1,
+      "rack": "CDEIR",
+      "balance": 23,
+      "score": 81,
+      "bid": 16,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 63,
+      "letter": "T",
+      "bagLeft": 4,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 63,
+      "letter": "T",
+      "bagLeft": 4,
+      "seat": 3,
+      "rack": "GIKZ",
+      "balance": 12,
+      "score": 87,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 63,
+      "letter": "T",
+      "bagLeft": 4,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 0
+    },
+    {
+      "event": "bid",
+      "round": 63,
+      "letter": "T",
+      "bagLeft": 4,
+      "seat": 5,
+      "rack": "ILLY",
+      "balance": 28,
+      "score": 84,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 63,
+      "letter": "T",
+      "winner": 1,
+      "paid": 5,
+      "sortedBids": [
+        {
+          "i": 1,
+          "amt": 16
+        },
+        {
+          "i": 0,
+          "amt": 5
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 64,
+      "letter": "E",
+      "bagLeft": 3,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 64,
+      "letter": "E",
+      "bagLeft": 3,
+      "seat": 1,
+      "rack": "CDEIRT",
+      "balance": 18,
+      "score": 81,
+      "bid": 12,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 64,
+      "letter": "E",
+      "bagLeft": 3,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 64,
+      "letter": "E",
+      "bagLeft": 3,
+      "seat": 3,
+      "rack": "GIKZ",
+      "balance": 12,
+      "score": 87,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 64,
+      "letter": "E",
+      "bagLeft": 3,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 0
+    },
+    {
+      "event": "bid",
+      "round": 64,
+      "letter": "E",
+      "bagLeft": 3,
+      "seat": 5,
+      "rack": "ILLY",
+      "balance": 28,
+      "score": 84,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 64,
+      "letter": "E",
+      "winner": 1,
+      "paid": 8,
+      "sortedBids": [
+        {
+          "i": 1,
+          "amt": 12
+        },
+        {
+          "i": 3,
+          "amt": 8
+        }
+      ]
+    },
+    {
+      "event": "word",
+      "round": 65,
+      "seat": 1,
+      "word": "RECITED",
+      "points": 30,
+      "rack": "",
+      "balance": 40,
+      "score": 111
+    },
+    {
+      "event": "bid",
+      "round": 65,
+      "letter": "N",
+      "bagLeft": 2,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 5,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 65,
+      "letter": "N",
+      "bagLeft": 2,
+      "seat": 1,
+      "rack": "",
+      "balance": 40,
+      "score": 111,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 65,
+      "letter": "N",
+      "bagLeft": 2,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 65,
+      "letter": "N",
+      "bagLeft": 2,
+      "seat": 3,
+      "rack": "GIKZ",
+      "balance": 12,
+      "score": 87,
+      "bid": 8,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 65,
+      "letter": "N",
+      "bagLeft": 2,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 0
+    },
+    {
+      "event": "bid",
+      "round": 65,
+      "letter": "N",
+      "bagLeft": 2,
+      "seat": 5,
+      "rack": "ILLY",
+      "balance": 28,
+      "score": 84,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "award",
+      "round": 65,
+      "letter": "N",
+      "winner": 3,
+      "paid": 5,
+      "sortedBids": [
+        {
+          "i": 3,
+          "amt": 8
+        },
+        {
+          "i": 0,
+          "amt": 5
+        }
+      ]
+    },
+    {
+      "event": "bid",
+      "round": 66,
+      "letter": "I",
+      "bagLeft": 1,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 66,
+      "letter": "I",
+      "bagLeft": 1,
+      "seat": 1,
+      "rack": "",
+      "balance": 40,
+      "score": 111,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 66,
+      "letter": "I",
+      "bagLeft": 1,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 66,
+      "letter": "I",
+      "bagLeft": 1,
+      "seat": 3,
+      "rack": "GIKNZ",
+      "balance": 7,
+      "score": 87,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 66,
+      "letter": "I",
+      "bagLeft": 1,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 0
+    },
+    {
+      "event": "bid",
+      "round": 66,
+      "letter": "I",
+      "bagLeft": 1,
+      "seat": 5,
+      "rack": "ILLY",
+      "balance": 28,
+      "score": 84,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "word",
+      "round": 67,
+      "seat": 3,
+      "word": "ZING",
+      "points": 21,
+      "rack": "K",
+      "balance": 28,
+      "score": 108
+    },
+    {
+      "event": "word",
+      "round": 67,
+      "seat": 5,
+      "word": "ILLY",
+      "points": 10,
+      "rack": "",
+      "balance": 38,
+      "score": 94
+    },
+    {
+      "event": "bid",
+      "round": 67,
+      "letter": "O",
+      "bagLeft": 0,
+      "seat": 0,
+      "rack": "E",
+      "balance": 96,
+      "score": 33,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 67,
+      "letter": "O",
+      "bagLeft": 0,
+      "seat": 1,
+      "rack": "",
+      "balance": 40,
+      "score": 111,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 67,
+      "letter": "O",
+      "bagLeft": 0,
+      "seat": 2,
+      "rack": "",
+      "balance": 66,
+      "score": 78,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 67,
+      "letter": "O",
+      "bagLeft": 0,
+      "seat": 3,
+      "rack": "K",
+      "balance": 28,
+      "score": 108,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    },
+    {
+      "event": "bid",
+      "round": 67,
+      "letter": "O",
+      "bagLeft": 0,
+      "seat": 4,
+      "rack": "",
+      "balance": 64,
+      "score": 81,
+      "bid": 0
+    },
+    {
+      "event": "bid",
+      "round": 67,
+      "letter": "O",
+      "bagLeft": 0,
+      "seat": 5,
+      "rack": "",
+      "balance": 38,
+      "score": 94,
+      "bid": 0,
+      "before": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      },
+      "after": {
+        "checks": 0,
+        "opportunities": 0,
+        "raisedBids": 0
+      }
+    }
+  ]
+}

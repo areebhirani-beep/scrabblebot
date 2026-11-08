@@ -1,0 +1,2584 @@
+{
+  "collectedAt": "2026-11-07T23:44:18.390783+00:00",
+  "publicOnly": true,
+  "bots": [
+    {
+      "id": 1,
+      "name": "Cheapo-sim",
+      "is_simulated": true
+    },
+    {
+      "id": 2,
+      "name": "Valor-sim",
+      "is_simulated": true
+    },
+    {
+      "id": 3,
+      "name": "Brutus-sim",
+      "is_simulated": true
+    },
+    {
+      "id": 4,
+      "name": "Hagrid-sim",
+      "is_simulated": true
+    },
+    {
+      "id": 5,
+      "name": "Maverick-sim",
+      "is_simulated": true
+    },
+    {
+      "id": 6,
+      "name": "Snippet-sim",
+      "is_simulated": true
+    },
+    {
+      "id": 7,
+      "name": "bot",
+      "is_simulated": false
+    },
+    {
+      "id": 8,
+      "name": "LetterShark",
+      "is_simulated": false
+    },
+    {
+      "id": 9,
+      "name": "SookraBot",
+      "is_simulated": false
+    },
+    {
+      "id": 10,
+      "name": "dev-voices",
+      "is_simulated": false
+    },
+    {
+      "id": 11,
+      "name": "code",
+      "is_simulated": false
+    },
+    {
+      "id": 12,
+      "name": "slow-n-dumb",
+      "is_simulated": false
+    },
+    {
+      "id": 13,
+      "name": "YeziShanYang",
+      "is_simulated": false
+    },
+    {
+      "id": 14,
+      "name": "tinytung",
+      "is_simulated": false
+    },
+    {
+      "id": 15,
+      "name": "podzemski",
+      "is_simulated": false
+    },
+    {
+      "id": 16,
+      "name": "Orpheus",
+      "is_simulated": false
+    },
+    {
+      "id": 17,
+      "name": "mexicanpepper",
+      "is_simulated": false
+    },
+    {
+      "id": 18,
+      "name": "LUCENT",
+      "is_simulated": false
+    },
+    {
+      "id": 19,
+      "name": "TileShark",
+      "is_simulated": false
+    },
+    {
+      "id": 20,
+      "name": "Doppio",
+      "is_simulated": false
+    },
+    {
+      "id": 21,
+      "name": "keanu_reeves",
+      "is_simulated": false
+    },
+    {
+      "id": 22,
+      "name": "Chinese Dante",
+      "is_simulated": false
+    },
+    {
+      "id": 23,
+      "name": "james",
+      "is_simulated": false
+    },
+    {
+      "id": 24,
+      "name": "Lex Maxima",
+      "is_simulated": false
+    },
+    {
+      "id": 25,
+      "name": "coconut",
+      "is_simulated": false
+    },
+    {
+      "id": 26,
+      "name": "ramsay",
+      "is_simulated": false
+    },
+    {
+      "id": 27,
+      "name": "MagnusBot",
+      "is_simulated": false
+    },
+    {
+      "id": 28,
+      "name": "LexMax",
+      "is_simulated": false
+    },
+    {
+      "id": 29,
+      "name": "BotAlpha",
+      "is_simulated": false
+    },
+    {
+      "id": 30,
+      "name": "scrabbler",
+      "is_simulated": false
+    },
+    {
+      "id": 31,
+      "name": "LexForge",
+      "is_simulated": false
+    },
+    {
+      "id": 32,
+      "name": "ChoiCube84",
+      "is_simulated": false
+    },
+    {
+      "id": 33,
+      "name": "adi",
+      "is_simulated": false
+    },
+    {
+      "id": 66,
+      "name": "Cashu",
+      "is_simulated": false
+    },
+    {
+      "id": 36,
+      "name": "SkyScrabble",
+      "is_simulated": false
+    },
+    {
+      "id": 41,
+      "name": "0x3f",
+      "is_simulated": false
+    },
+    {
+      "id": 39,
+      "name": "benx",
+      "is_simulated": false
+    },
+    {
+      "id": 40,
+      "name": "jawn",
+      "is_simulated": false
+    },
+    {
+      "id": 42,
+      "name": "LexOracle",
+      "is_simulated": false
+    },
+    {
+      "id": 43,
+      "name": "scrappybot",
+      "is_simulated": false
+    },
+    {
+      "id": 44,
+      "name": "marcellinus",
+      "is_simulated": false
+    },
+    {
+      "id": 45,
+      "name": "PathAndLight",
+      "is_simulated": false
+    },
+    {
+      "id": 48,
+      "name": "polarbear",
+      "is_simulated": false
+    },
+    {
+      "id": 47,
+      "name": "swanbot",
+      "is_simulated": false
+    },
+    {
+      "id": 49,
+      "name": "William Chenyin",
+      "is_simulated": false
+    },
+    {
+      "id": 50,
+      "name": "Megabot",
+      "is_simulated": false
+    },
+    {
+      "id": 51,
+      "name": "varr-bot",
+      "is_simulated": false
+    },
+    {
+      "id": 52,
+      "name": "postturing",
+      "is_simulated": false
+    },
+    {
+      "id": 53,
+      "name": "Heidi",
+      "is_simulated": false
+    },
+    {
+      "id": 54,
+      "name": "Fable",
+      "is_simulated": false
+    },
+    {
+      "id": 55,
+      "name": "guesser",
+      "is_simulated": false
+    },
+    {
+      "id": 74,
+      "name": "Karthik",
+      "is_simulated": false
+    },
+    {
+      "id": 58,
+      "name": "sardine",
+      "is_simulated": false
+    },
+    {
+      "id": 59,
+      "name": "Nijello",
+      "is_simulated": false
+    },
+    {
+      "id": 60,
+      "name": "atlas",
+      "is_simulated": false
+    },
+    {
+      "id": 75,
+      "name": "havrais",
+      "is_simulated": false
+    },
+    {
+      "id": 62,
+      "name": "maverick-bot",
+      "is_simulated": false
+    },
+    {
+      "id": 63,
+      "name": "hinsonloo",
+      "is_simulated": false
+    },
+    {
+      "id": 64,
+      "name": "Ally",
+      "is_simulated": false
+    },
+    {
+      "id": 65,
+      "name": "LexForge-DP",
+      "is_simulated": false
+    },
+    {
+      "id": 67,
+      "name": "bro",
+      "is_simulated": false
+    },
+    {
+      "id": 68,
+      "name": "swrj",
+      "is_simulated": false
+    },
+    {
+      "id": 69,
+      "name": "TaylorMason",
+      "is_simulated": false
+    },
+    {
+      "id": 71,
+      "name": "newBose",
+      "is_simulated": false
+    },
+    {
+      "id": 72,
+      "name": "Morei",
+      "is_simulated": false
+    },
+    {
+      "id": 73,
+      "name": "testbot",
+      "is_simulated": false
+    },
+    {
+      "id": 120,
+      "name": "LetterSharkUltra",
+      "is_simulated": false
+    },
+    {
+      "id": 77,
+      "name": "Lambi Lambiii",
+      "is_simulated": false
+    },
+    {
+      "id": 78,
+      "name": "HenryLoo",
+      "is_simulated": false
+    },
+    {
+      "id": 79,
+      "name": "Calliope",
+      "is_simulated": false
+    },
+    {
+      "id": 80,
+      "name": "Daphne",
+      "is_simulated": false
+    },
+    {
+      "id": 81,
+      "name": "Echo",
+      "is_simulated": false
+    },
+    {
+      "id": 82,
+      "name": "Fern",
+      "is_simulated": false
+    },
+    {
+      "id": 83,
+      "name": "Gaia",
+      "is_simulated": false
+    },
+    {
+      "id": 85,
+      "name": "Metheny",
+      "is_simulated": false
+    },
+    {
+      "id": 87,
+      "name": "varr2.0",
+      "is_simulated": false
+    },
+    {
+      "id": 88,
+      "name": "Lala",
+      "is_simulated": false
+    },
+    {
+      "id": 89,
+      "name": "triplo",
+      "is_simulated": false
+    },
+    {
+      "id": 90,
+      "name": "Menice",
+      "is_simulated": false
+    },
+    {
+      "id": 91,
+      "name": "Minjae",
+      "is_simulated": false
+    },
+    {
+      "id": 92,
+      "name": "wordchoice",
+      "is_simulated": false
+    },
+    {
+      "id": 93,
+      "name": "Zephyr",
+      "is_simulated": false
+    },
+    {
+      "id": 94,
+      "name": "James_Bond_007",
+      "is_simulated": false
+    },
+    {
+      "id": 96,
+      "name": "Spartans",
+      "is_simulated": false
+    },
+    {
+      "id": 97,
+      "name": "BlackSwan",
+      "is_simulated": false
+    },
+    {
+      "id": 98,
+      "name": "Dwight",
+      "is_simulated": false
+    },
+    {
+      "id": 99,
+      "name": "Torch",
+      "is_simulated": false
+    },
+    {
+      "id": 100,
+      "name": "Srinivas",
+      "is_simulated": false
+    },
+    {
+      "id": 101,
+      "name": "bee",
+      "is_simulated": false
+    },
+    {
+      "id": 102,
+      "name": "prestoshi",
+      "is_simulated": false
+    },
+    {
+      "id": 103,
+      "name": "Sher",
+      "is_simulated": false
+    },
+    {
+      "id": 104,
+      "name": "Ambees",
+      "is_simulated": false
+    },
+    {
+      "id": 105,
+      "name": "tatum",
+      "is_simulated": false
+    },
+    {
+      "id": 106,
+      "name": "Hamilton",
+      "is_simulated": false
+    },
+    {
+      "id": 107,
+      "name": "Lionel",
+      "is_simulated": false
+    },
+    {
+      "id": 108,
+      "name": "chad",
+      "is_simulated": false
+    },
+    {
+      "id": 109,
+      "name": "cortado",
+      "is_simulated": false
+    },
+    {
+      "id": 110,
+      "name": "ClaudeLab",
+      "is_simulated": false
+    },
+    {
+      "id": 111,
+      "name": "Mark Robbins",
+      "is_simulated": false
+    },
+    {
+      "id": 112,
+      "name": "tosh_lupoi",
+      "is_simulated": false
+    },
+    {
+      "id": 113,
+      "name": "MeniceLab",
+      "is_simulated": false
+    },
+    {
+      "id": 114,
+      "name": "Bron",
+      "is_simulated": false
+    },
+    {
+      "id": 115,
+      "name": "MeniceLab2",
+      "is_simulated": false
+    },
+    {
+      "id": 116,
+      "name": "scrabby",
+      "is_simulated": false
+    },
+    {
+      "id": 117,
+      "name": "yann",
+      "is_simulated": false
+    },
+    {
+      "id": 118,
+      "name": "triplov2",
+      "is_simulated": false
+    },
+    {
+      "id": 119,
+      "name": "Calebot",
+      "is_simulated": false
+    },
+    {
+      "id": 121,
+      "name": "daddy",
+      "is_simulated": false
+    },
+    {
+      "id": 122,
+      "name": "swrjlab",
+      "is_simulated": false
+    },
+    {
+      "id": 123,
+      "name": "67",
+      "is_simulated": false
+    },
+    {
+      "id": 124,
+      "name": "eskeetit",
+      "is_simulated": false
+    },
+    {
+      "id": 125,
+      "name": "adfa fdas df. as",
+      "is_simulated": false
+    },
+    {
+      "id": 126,
+      "name": "richard",
+      "is_simulated": false
+    },
+    {
+      "id": 127,
+      "name": "K-13",
+      "is_simulated": false
+    },
+    {
+      "id": 128,
+      "name": "Tessera",
+      "is_simulated": false
+    },
+    {
+      "id": 129,
+      "name": "Nigel",
+      "is_simulated": false
+    },
+    {
+      "id": 130,
+      "name": "dan",
+      "is_simulated": false
+    },
+    {
+      "id": 131,
+      "name": "BuySpellRepeat-bot",
+      "is_simulated": false
+    },
+    {
+      "id": 132,
+      "name": "dwade",
+      "is_simulated": false
+    },
+    {
+      "id": 133,
+      "name": "Jobs",
+      "is_simulated": false
+    },
+    {
+      "id": 134,
+      "name": "nigel's dad",
+      "is_simulated": false
+    },
+    {
+      "id": 135,
+      "name": "Nigel xLSTM Bidder",
+      "is_simulated": false
+    },
+    {
+      "id": 136,
+      "name": "robbot",
+      "is_simulated": false
+    },
+    {
+      "id": 137,
+      "name": "Derg",
+      "is_simulated": false
+    },
+    {
+      "id": 138,
+      "name": "Waupus",
+      "is_simulated": false
+    },
+    {
+      "id": 139,
+      "name": "ace_bot",
+      "is_simulated": false
+    },
+    {
+      "id": 140,
+      "name": "kuromi",
+      "is_simulated": false
+    },
+    {
+      "id": 141,
+      "name": "goat",
+      "is_simulated": false
+    },
+    {
+      "id": 142,
+      "name": "ericbot",
+      "is_simulated": false
+    },
+    {
+      "id": 143,
+      "name": "timefactories",
+      "is_simulated": false
+    },
+    {
+      "id": 145,
+      "name": "Afterword",
+      "is_simulated": false
+    },
+    {
+      "id": 146,
+      "name": "GrantBot",
+      "is_simulated": false
+    },
+    {
+      "id": 147,
+      "name": "bradley",
+      "is_simulated": false
+    },
+    {
+      "id": 148,
+      "name": "zoronbot",
+      "is_simulated": false
+    },
+    {
+      "id": 149,
+      "name": "here for free swag",
+      "is_simulated": false
+    },
+    {
+      "id": 150,
+      "name": "cancodexcarry",
+      "is_simulated": false
+    },
+    {
+      "id": 151,
+      "name": "allin-bot",
+      "is_simulated": false
+    },
+    {
+      "id": 152,
+      "name": "STM",
+      "is_simulated": false
+    },
+    {
+      "id": 153,
+      "name": "testbot2",
+      "is_simulated": false
+    },
+    {
+      "id": 154,
+      "name": "Skone",
+      "is_simulated": false
+    },
+    {
+      "id": 155,
+      "name": "zzbot",
+      "is_simulated": false
+    },
+    {
+      "id": 156,
+      "name": "IzzyBot",
+      "is_simulated": false
+    },
+    {
+      "id": 157,
+      "name": "MangoPotato",
+      "is_simulated": false
+    },
+    {
+      "id": 158,
+      "name": "chaski",
+      "is_simulated": false
+    },
+    {
+      "id": 159,
+      "name": "saketh",
+      "is_simulated": false
+    },
+    {
+      "id": 160,
+      "name": "ragazoor",
+      "is_simulated": false
+    },
+    {
+      "id": 161,
+      "name": "Bot",
+      "is_simulated": false
+    },
+    {
+      "id": 162,
+      "name": "Barracuda",
+      "is_simulated": false
+    },
+    {
+      "id": 163,
+      "name": "Binter",
+      "is_simulated": false
+    },
+    {
+      "id": 164,
+      "name": "Tow57-Auctioneer",
+      "is_simulated": false
+    },
+    {
+      "id": 165,
+      "name": "cosine",
+      "is_simulated": false
+    },
+    {
+      "id": 166,
+      "name": "SoapConsumers",
+      "is_simulated": false
+    },
+    {
+      "id": 167,
+      "name": "Jaeger",
+      "is_simulated": false
+    },
+    {
+      "id": 168,
+      "name": "Malicious",
+      "is_simulated": false
+    },
+    {
+      "id": 169,
+      "name": "Abhi-AuctionLab",
+      "is_simulated": false
+    },
+    {
+      "id": 170,
+      "name": "Sepcis",
+      "is_simulated": false
+    },
+    {
+      "id": 171,
+      "name": "GodOfThudner",
+      "is_simulated": false
+    },
+    {
+      "id": 172,
+      "name": "Odysseus's Voyage",
+      "is_simulated": false
+    },
+    {
+      "id": 173,
+      "name": "megatron pro max plus ultra 3000",
+      "is_simulated": false
+    },
+    {
+      "id": 174,
+      "name": "benoit",
+      "is_simulated": false
+    },
+    {
+      "id": 175,
+      "name": "wordgoat",
+      "is_simulated": false
+    },
+    {
+      "id": 176,
+      "name": "Titan",
+      "is_simulated": false
+    },
+    {
+      "id": 177,
+      "name": "Babbler",
+      "is_simulated": false
+    },
+    {
+      "id": 178,
+      "name": "gas",
+      "is_simulated": false
+    },
+    {
+      "id": 179,
+      "name": "exzell",
+      "is_simulated": false
+    },
+    {
+      "id": 180,
+      "name": "StickBot",
+      "is_simulated": false
+    },
+    {
+      "id": 181,
+      "name": "LexiconWarrior",
+      "is_simulated": false
+    },
+    {
+      "id": 182,
+      "name": "scrabblemaxxing",
+      "is_simulated": false
+    },
+    {
+      "id": 183,
+      "name": "QuertyBot",
+      "is_simulated": false
+    },
+    {
+      "id": 184,
+      "name": "clud",
+      "is_simulated": false
+    },
+    {
+      "id": 185,
+      "name": "monkey",
+      "is_simulated": false
+    },
+    {
+      "id": 186,
+      "name": "Lucy",
+      "is_simulated": false
+    },
+    {
+      "id": 187,
+      "name": "TileHoarder",
+      "is_simulated": false
+    },
+    {
+      "id": 188,
+      "name": "peanuts",
+      "is_simulated": false
+    },
+    {
+      "id": 189,
+      "name": "RackPilot",
+      "is_simulated": false
+    },
+    {
+      "id": 190,
+      "name": "Karppa",
+      "is_simulated": false
+    },
+    {
+      "id": 191,
+      "name": "Primey",
+      "is_simulated": false
+    },
+    {
+      "id": 192,
+      "name": "aipom",
+      "is_simulated": false
+    },
+    {
+      "id": 193,
+      "name": "RackMaw",
+      "is_simulated": false
+    },
+    {
+      "id": 194,
+      "name": "NigelBot",
+      "is_simulated": false
+    },
+    {
+      "id": 195,
+      "name": "Como Se Dice I Want to Scrabble",
+      "is_simulated": false
+    },
+    {
+      "id": 196,
+      "name": "Vector Blast",
+      "is_simulated": false
+    },
+    {
+      "id": 197,
+      "name": "76ers",
+      "is_simulated": false
+    },
+    {
+      "id": 198,
+      "name": "Mr. Turkey",
+      "is_simulated": false
+    },
+    {
+      "id": 199,
+      "name": "Lexicoin",
+      "is_simulated": false
+    },
+    {
+      "id": 200,
+      "name": "Milo :3",
+      "is_simulated": false
+    },
+    {
+      "id": 201,
+      "name": "Lbender",
+      "is_simulated": false
+    },
+    {
+      "id": 202,
+      "name": "Rowin'Boats",
+      "is_simulated": false
+    },
+    {
+      "id": 203,
+      "name": "CasualThinker",
+      "is_simulated": false
+    },
+    {
+      "id": 204,
+      "name": "bot1717",
+      "is_simulated": false
+    },
+    {
+      "id": 205,
+      "name": "Nigel \"Bidderson\" Richards",
+      "is_simulated": false
+    },
+    {
+      "id": 206,
+      "name": "Nhat",
+      "is_simulated": false
+    },
+    {
+      "id": 207,
+      "name": "LexForge-1107",
+      "is_simulated": false
+    },
+    {
+      "id": 208,
+      "name": "Pegasus",
+      "is_simulated": false
+    },
+    {
+      "id": 209,
+      "name": "N1gel",
+      "is_simulated": false
+    },
+    {
+      "id": 210,
+      "name": "scrapgoat",
+      "is_simulated": false
+    },
+    {
+      "id": 211,
+      "name": "evol",
+      "is_simulated": false
+    },
+    {
+      "id": 212,
+      "name": "Astronaut",
+      "is_simulated": false
+    },
+    {
+      "id": 213,
+      "name": "GoatBot",
+      "is_simulated": false
+    },
+    {
+      "id": 214,
+      "name": "sas",
+      "is_simulated": false
+    }
+  ],
+  "stats": [
+    {
+      "bot_id": 61,
+      "matches_played": 94,
+      "wins": 18,
+      "total_score": 7764,
+      "openskill_mu": 41.31601733708159,
+      "openskill_sigma": 3.3084258682844316
+    },
+    {
+      "bot_id": 15,
+      "matches_played": 1877,
+      "wins": 121,
+      "total_score": 83227,
+      "openskill_mu": 0.48598399961983696,
+      "openskill_sigma": 1.1713511272865156
+    },
+    {
+      "bot_id": 37,
+      "matches_played": 205,
+      "wins": 55,
+      "total_score": 17069,
+      "openskill_mu": 41.23743117784005,
+      "openskill_sigma": 2.5755942196722814
+    },
+    {
+      "bot_id": 33,
+      "matches_played": 72,
+      "wins": 0,
+      "total_score": 2475,
+      "openskill_mu": 0.3437612557933909,
+      "openskill_sigma": 4.577907383180033
+    },
+    {
+      "bot_id": 93,
+      "matches_played": 46,
+      "wins": 0,
+      "total_score": 0,
+      "openskill_mu": -8.612422177348572,
+      "openskill_sigma": 4.940652983857172
+    },
+    {
+      "bot_id": 45,
+      "matches_played": 618,
+      "wins": 110,
+      "total_score": 46892,
+      "openskill_mu": 37.23632735532597,
+      "openskill_sigma": 1.5521254628125565
+    },
+    {
+      "bot_id": 123,
+      "matches_played": 116,
+      "wins": 25,
+      "total_score": 9507,
+      "openskill_mu": 38.12456297962059,
+      "openskill_sigma": 2.721558235886421
+    },
+    {
+      "bot_id": 54,
+      "matches_played": 564,
+      "wins": 115,
+      "total_score": 42988,
+      "openskill_mu": 33.78896763724388,
+      "openskill_sigma": 1.621377038185603
+    },
+    {
+      "bot_id": 158,
+      "matches_played": 8,
+      "wins": 0,
+      "total_score": 202,
+      "openskill_mu": 11.810353552415839,
+      "openskill_sigma": 6.29245070470114
+    },
+    {
+      "bot_id": 83,
+      "matches_played": 141,
+      "wins": 15,
+      "total_score": 10334,
+      "openskill_mu": 38.856844815031536,
+      "openskill_sigma": 2.670984909715761
+    },
+    {
+      "bot_id": 103,
+      "matches_played": 99,
+      "wins": 0,
+      "total_score": 3746,
+      "openskill_mu": 9.522449065284517,
+      "openskill_sigma": 3.4394469870253563
+    },
+    {
+      "bot_id": 70,
+      "matches_played": 90,
+      "wins": 19,
+      "total_score": 7211,
+      "openskill_mu": 33.04458466732222,
+      "openskill_sigma": 3.071244145951258
+    },
+    {
+      "bot_id": 8,
+      "matches_played": 188,
+      "wins": 66,
+      "total_score": 20708,
+      "openskill_mu": 43.144531827217754,
+      "openskill_sigma": 2.8546869343956573
+    },
+    {
+      "bot_id": 75,
+      "matches_played": 203,
+      "wins": 24,
+      "total_score": 14341,
+      "openskill_mu": 31.318571050279285,
+      "openskill_sigma": 2.2714619001620266
+    },
+    {
+      "bot_id": 50,
+      "matches_played": 51,
+      "wins": 2,
+      "total_score": 3306,
+      "openskill_mu": 29.658686855431,
+      "openskill_sigma": 4.39803189144821
+    },
+    {
+      "bot_id": 13,
+      "matches_played": 219,
+      "wins": 25,
+      "total_score": 15604,
+      "openskill_mu": 33.10686116833753,
+      "openskill_sigma": 2.2549927146014785
+    },
+    {
+      "bot_id": 117,
+      "matches_played": 30,
+      "wins": 0,
+      "total_score": 286,
+      "openskill_mu": 8.119336259330632,
+      "openskill_sigma": 4.823990631876226
+    },
+    {
+      "bot_id": 51,
+      "matches_played": 63,
+      "wins": 4,
+      "total_score": 3791,
+      "openskill_mu": 24.49564832059155,
+      "openskill_sigma": 3.7670477548925807
+    },
+    {
+      "bot_id": 147,
+      "matches_played": 1,
+      "wins": 0,
+      "total_score": 19,
+      "openskill_mu": 23.338555151216987,
+      "openskill_sigma": 7.748319096762555
+    },
+    {
+      "bot_id": 49,
+      "matches_played": 44,
+      "wins": 0,
+      "total_score": 2014,
+      "openskill_mu": 20.349121050404595,
+      "openskill_sigma": 4.003890797145052
+    },
+    {
+      "bot_id": 137,
+      "matches_played": 132,
+      "wins": 3,
+      "total_score": 7108,
+      "openskill_mu": 18.76576893356035,
+      "openskill_sigma": 2.8551475731842237
+    },
+    {
+      "bot_id": 153,
+      "matches_played": 135,
+      "wins": 38,
+      "total_score": 12075,
+      "openskill_mu": 44.50841583398045,
+      "openskill_sigma": 2.5330255880866295
+    },
+    {
+      "bot_id": 91,
+      "matches_played": 19,
+      "wins": 0,
+      "total_score": 123,
+      "openskill_mu": -0.64464726991095,
+      "openskill_sigma": 5.557520751012487
+    },
+    {
+      "bot_id": 85,
+      "matches_played": 297,
+      "wins": 81,
+      "total_score": 25846,
+      "openskill_mu": 43.57762716485453,
+      "openskill_sigma": 1.9695989291377183
+    },
+    {
+      "bot_id": 57,
+      "matches_played": 165,
+      "wins": 42,
+      "total_score": 13741,
+      "openskill_mu": 41.831764918256276,
+      "openskill_sigma": 2.655001413154927
+    },
+    {
+      "bot_id": 159,
+      "matches_played": 12,
+      "wins": 0,
+      "total_score": 138,
+      "openskill_mu": 6.897794608435365,
+      "openskill_sigma": 5.874091996162304
+    },
+    {
+      "bot_id": 31,
+      "matches_played": 17,
+      "wins": 1,
+      "total_score": 650,
+      "openskill_mu": 18.271995328167126,
+      "openskill_sigma": 5.844676528498533
+    },
+    {
+      "bot_id": 36,
+      "matches_played": 441,
+      "wins": 15,
+      "total_score": 26277,
+      "openskill_mu": 25.08331654250214,
+      "openskill_sigma": 1.9856721072650867
+    },
+    {
+      "bot_id": 84,
+      "matches_played": 16,
+      "wins": 3,
+      "total_score": 1173,
+      "openskill_mu": 32.2550392541799,
+      "openskill_sigma": 5.2815001388651455
+    },
+    {
+      "bot_id": 76,
+      "matches_played": 95,
+      "wins": 19,
+      "total_score": 7705,
+      "openskill_mu": 37.27215037631986,
+      "openskill_sigma": 2.9853140474445667
+    },
+    {
+      "bot_id": 17,
+      "matches_played": 475,
+      "wins": 33,
+      "total_score": 28872,
+      "openskill_mu": 19.21963080678469,
+      "openskill_sigma": 1.8021530233664678
+    },
+    {
+      "bot_id": 151,
+      "matches_played": 42,
+      "wins": 0,
+      "total_score": 0,
+      "openskill_mu": -7.917284783022607,
+      "openskill_sigma": 5.048036860354368
+    },
+    {
+      "bot_id": 19,
+      "matches_played": 491,
+      "wins": 68,
+      "total_score": 35883,
+      "openskill_mu": 35.12303970290005,
+      "openskill_sigma": 1.7330163652822395
+    },
+    {
+      "bot_id": 71,
+      "matches_played": 912,
+      "wins": 117,
+      "total_score": 65265,
+      "openskill_mu": 32.72724868378098,
+      "openskill_sigma": 1.3175446812259979
+    },
+    {
+      "bot_id": 34,
+      "matches_played": 6,
+      "wins": 2,
+      "total_score": 434,
+      "openskill_mu": 32.957458007699415,
+      "openskill_sigma": 7.442775173021008
+    },
+    {
+      "bot_id": 40,
+      "matches_played": 46,
+      "wins": 2,
+      "total_score": 2344,
+      "openskill_mu": 23.621205536962613,
+      "openskill_sigma": 4.710900624774068
+    },
+    {
+      "bot_id": 12,
+      "matches_played": 975,
+      "wins": 186,
+      "total_score": 72833,
+      "openskill_mu": 36.37995140675889,
+      "openskill_sigma": 1.3732372614822657
+    },
+    {
+      "bot_id": 126,
+      "matches_played": 895,
+      "wins": 23,
+      "total_score": 20695,
+      "openskill_mu": -0.009405161126849106,
+      "openskill_sigma": 1.637773572700751
+    },
+    {
+      "bot_id": 101,
+      "matches_played": 73,
+      "wins": 3,
+      "total_score": 4533,
+      "openskill_mu": 21.63742736388306,
+      "openskill_sigma": 3.355184075036725
+    },
+    {
+      "bot_id": 145,
+      "matches_played": 6443,
+      "wins": 405,
+      "total_score": 145118,
+      "openskill_mu": -5.2267959999436835,
+      "openskill_sigma": 0.6994083285514678
+    },
+    {
+      "bot_id": 116,
+      "matches_played": 3508,
+      "wins": 310,
+      "total_score": 216387,
+      "openskill_mu": 17.377342875488132,
+      "openskill_sigma": 0.7806613217271294
+    },
+    {
+      "bot_id": 42,
+      "matches_played": 3,
+      "wins": 0,
+      "total_score": 231,
+      "openskill_mu": 32.99123605341772,
+      "openskill_sigma": 7.862770066417382
+    },
+    {
+      "bot_id": 105,
+      "matches_played": 1104,
+      "wins": 15,
+      "total_score": 56582,
+      "openskill_mu": 33.09602325173892,
+      "openskill_sigma": 1.2373973056062098
+    },
+    {
+      "bot_id": 140,
+      "matches_played": 25,
+      "wins": 0,
+      "total_score": 446,
+      "openskill_mu": 0.4757928594764008,
+      "openskill_sigma": 5.342100492875107
+    },
+    {
+      "bot_id": 86,
+      "matches_played": 118,
+      "wins": 18,
+      "total_score": 9153,
+      "openskill_mu": 36.425314778052396,
+      "openskill_sigma": 2.6733346676768663
+    },
+    {
+      "bot_id": 131,
+      "matches_played": 1447,
+      "wins": 120,
+      "total_score": 72579,
+      "openskill_mu": 11.743616627153274,
+      "openskill_sigma": 1.1121227148743573
+    },
+    {
+      "bot_id": 6,
+      "matches_played": 4054,
+      "wins": 0,
+      "total_score": 15046,
+      "openskill_mu": -0.12651141393445056,
+      "openskill_sigma": 0.8368744231975289
+    },
+    {
+      "bot_id": 32,
+      "matches_played": 12,
+      "wins": 0,
+      "total_score": 815,
+      "openskill_mu": 32.141193040499424,
+      "openskill_sigma": 6.281619096085024
+    },
+    {
+      "bot_id": 24,
+      "matches_played": 9,
+      "wins": 1,
+      "total_score": 491,
+      "openskill_mu": 21.418206216021915,
+      "openskill_sigma": 7.109772610410423
+    },
+    {
+      "bot_id": 177,
+      "matches_played": 2,
+      "wins": 0,
+      "total_score": 15,
+      "openskill_mu": 22.439031258339416,
+      "openskill_sigma": 7.9771850588364
+    },
+    {
+      "bot_id": 82,
+      "matches_played": 192,
+      "wins": 33,
+      "total_score": 15546,
+      "openskill_mu": 39.819901424077564,
+      "openskill_sigma": 2.3065293663204094
+    },
+    {
+      "bot_id": 108,
+      "matches_played": 463,
+      "wins": 15,
+      "total_score": 26110,
+      "openskill_mu": 20.419783885126197,
+      "openskill_sigma": 1.8421783516147483
+    },
+    {
+      "bot_id": 81,
+      "matches_played": 148,
+      "wins": 23,
+      "total_score": 10819,
+      "openskill_mu": 36.09830765134258,
+      "openskill_sigma": 2.5851206166072553
+    },
+    {
+      "bot_id": 53,
+      "matches_played": 501,
+      "wins": 67,
+      "total_score": 37285,
+      "openskill_mu": 33.93892660007274,
+      "openskill_sigma": 1.761476319485515
+    },
+    {
+      "bot_id": 95,
+      "matches_played": 272,
+      "wins": 60,
+      "total_score": 23367,
+      "openskill_mu": 42.54378794340002,
+      "openskill_sigma": 2.1200285876365657
+    },
+    {
+      "bot_id": 72,
+      "matches_played": 71,
+      "wins": 5,
+      "total_score": 4557,
+      "openskill_mu": 26.139583005063727,
+      "openskill_sigma": 3.0794937365924837
+    },
+    {
+      "bot_id": 129,
+      "matches_played": 410,
+      "wins": 78,
+      "total_score": 31845,
+      "openskill_mu": 38.22680205117214,
+      "openskill_sigma": 1.760313107681427
+    },
+    {
+      "bot_id": 157,
+      "matches_played": 4,
+      "wins": 0,
+      "total_score": 237,
+      "openskill_mu": 17.70392807869656,
+      "openskill_sigma": 6.9897625809552135
+    },
+    {
+      "bot_id": 146,
+      "matches_played": 37,
+      "wins": 7,
+      "total_score": 2728,
+      "openskill_mu": 31.082270774951795,
+      "openskill_sigma": 4.091216849232875
+    },
+    {
+      "bot_id": 111,
+      "matches_played": 22,
+      "wins": 0,
+      "total_score": 1077,
+      "openskill_mu": 24.678720758435908,
+      "openskill_sigma": 5.091907228734538
+    },
+    {
+      "bot_id": 80,
+      "matches_played": 196,
+      "wins": 37,
+      "total_score": 15967,
+      "openskill_mu": 40.01793384031146,
+      "openskill_sigma": 2.3518694099432977
+    },
+    {
+      "bot_id": 43,
+      "matches_played": 716,
+      "wins": 116,
+      "total_score": 56500,
+      "openskill_mu": 37.49463190301341,
+      "openskill_sigma": 1.4536379487284599
+    },
+    {
+      "bot_id": 10,
+      "matches_played": 41,
+      "wins": 4,
+      "total_score": 2003,
+      "openskill_mu": 33.79455507930729,
+      "openskill_sigma": 5.232900393105932
+    },
+    {
+      "bot_id": 90,
+      "matches_played": 143,
+      "wins": 29,
+      "total_score": 11623,
+      "openskill_mu": 39.31207107986636,
+      "openskill_sigma": 2.471066638519854
+    },
+    {
+      "bot_id": 113,
+      "matches_played": 474,
+      "wins": 85,
+      "total_score": 36687,
+      "openskill_mu": 36.215305183010145,
+      "openskill_sigma": 1.6551029002448039
+    },
+    {
+      "bot_id": 100,
+      "matches_played": 469,
+      "wins": 12,
+      "total_score": 26122,
+      "openskill_mu": 21.432480176737442,
+      "openskill_sigma": 1.822742349287773
+    },
+    {
+      "bot_id": 60,
+      "matches_played": 111,
+      "wins": 29,
+      "total_score": 9010,
+      "openskill_mu": 39.26345444617119,
+      "openskill_sigma": 2.7798803068433737
+    },
+    {
+      "bot_id": 30,
+      "matches_played": 434,
+      "wins": 44,
+      "total_score": 26066,
+      "openskill_mu": 14.073734110186168,
+      "openskill_sigma": 1.8656073161626794
+    },
+    {
+      "bot_id": 135,
+      "matches_played": 204,
+      "wins": 0,
+      "total_score": 2825,
+      "openskill_mu": -2.1131119122669633,
+      "openskill_sigma": 3.0913116156840776
+    },
+    {
+      "bot_id": 79,
+      "matches_played": 217,
+      "wins": 42,
+      "total_score": 16672,
+      "openskill_mu": 37.72283496050786,
+      "openskill_sigma": 2.244745247008494
+    },
+    {
+      "bot_id": 52,
+      "matches_played": 251,
+      "wins": 80,
+      "total_score": 22967,
+      "openskill_mu": 43.79869548454068,
+      "openskill_sigma": 2.0776438569844693
+    },
+    {
+      "bot_id": 41,
+      "matches_played": 266,
+      "wins": 2,
+      "total_score": 8540,
+      "openskill_mu": 8.474623659128698,
+      "openskill_sigma": 2.7134832124731525
+    },
+    {
+      "bot_id": 55,
+      "matches_played": 1621,
+      "wins": 349,
+      "total_score": 134294,
+      "openskill_mu": 43.12236644992982,
+      "openskill_sigma": 1.0712663144199162
+    },
+    {
+      "bot_id": 7,
+      "matches_played": 1073,
+      "wins": 107,
+      "total_score": 76652,
+      "openskill_mu": 26.974126612719868,
+      "openskill_sigma": 1.2714394801503273
+    },
+    {
+      "bot_id": 112,
+      "matches_played": 19,
+      "wins": 1,
+      "total_score": 1445,
+      "openskill_mu": 28.68147903987846,
+      "openskill_sigma": 4.911371785849281
+    },
+    {
+      "bot_id": 121,
+      "matches_played": 281,
+      "wins": 23,
+      "total_score": 17505,
+      "openskill_mu": 29.715380273677216,
+      "openskill_sigma": 2.1040138413919176
+    },
+    {
+      "bot_id": 78,
+      "matches_played": 64,
+      "wins": 1,
+      "total_score": 3420,
+      "openskill_mu": 23.878819854648025,
+      "openskill_sigma": 3.694620351738041
+    },
+    {
+      "bot_id": 206,
+      "matches_played": 11,
+      "wins": 0,
+      "total_score": 0,
+      "openskill_mu": 0.7651347065954694,
+      "openskill_sigma": 6.590457189568785
+    },
+    {
+      "bot_id": 109,
+      "matches_played": 363,
+      "wins": 16,
+      "total_score": 20487,
+      "openskill_mu": 23.500930001502557,
+      "openskill_sigma": 1.990575498404971
+    },
+    {
+      "bot_id": 96,
+      "matches_played": 226,
+      "wins": 3,
+      "total_score": 8538,
+      "openskill_mu": 7.132667357798923,
+      "openskill_sigma": 2.3937626582960125
+    },
+    {
+      "bot_id": 87,
+      "matches_played": 443,
+      "wins": 70,
+      "total_score": 33411,
+      "openskill_mu": 23.54576712553396,
+      "openskill_sigma": 1.7226499586707942
+    },
+    {
+      "bot_id": 132,
+      "matches_played": 579,
+      "wins": 81,
+      "total_score": 40169,
+      "openskill_mu": 37.3298097046093,
+      "openskill_sigma": 1.4613213380663546
+    },
+    {
+      "bot_id": 155,
+      "matches_played": 57,
+      "wins": 3,
+      "total_score": 3283,
+      "openskill_mu": 23.803137120848554,
+      "openskill_sigma": 3.6004334976598793
+    },
+    {
+      "bot_id": 23,
+      "matches_played": 53,
+      "wins": 27,
+      "total_score": 5210,
+      "openskill_mu": 51.255291715250884,
+      "openskill_sigma": 3.760433870124243
+    },
+    {
+      "bot_id": 25,
+      "matches_played": 316,
+      "wins": 60,
+      "total_score": 24239,
+      "openskill_mu": 32.4516592526622,
+      "openskill_sigma": 1.9773664288650077
+    },
+    {
+      "bot_id": 27,
+      "matches_played": 111,
+      "wins": 8,
+      "total_score": 8461,
+      "openskill_mu": 34.316596047347396,
+      "openskill_sigma": 2.7167862223502564
+    },
+    {
+      "bot_id": 148,
+      "matches_played": 428,
+      "wins": 13,
+      "total_score": 24113,
+      "openskill_mu": 19.000736405622092,
+      "openskill_sigma": 1.735896203936508
+    },
+    {
+      "bot_id": 16,
+      "matches_played": 46,
+      "wins": 10,
+      "total_score": 3733,
+      "openskill_mu": 43.021062911804094,
+      "openskill_sigma": 4.093878881936634
+    },
+    {
+      "bot_id": 124,
+      "matches_played": 299,
+      "wins": 32,
+      "total_score": 20802,
+      "openskill_mu": 30.00654942024025,
+      "openskill_sigma": 1.9761243466231595
+    },
+    {
+      "bot_id": 21,
+      "matches_played": 1154,
+      "wins": 239,
+      "total_score": 92068,
+      "openskill_mu": 36.858426046149525,
+      "openskill_sigma": 1.2743266582619697
+    },
+    {
+      "bot_id": 9,
+      "matches_played": 1457,
+      "wins": 218,
+      "total_score": 111084,
+      "openskill_mu": 40.08728111375479,
+      "openskill_sigma": 1.222528619193535
+    },
+    {
+      "bot_id": 66,
+      "matches_played": 705,
+      "wins": 118,
+      "total_score": 52207,
+      "openskill_mu": 36.51783189256348,
+      "openskill_sigma": 1.4895372972990006
+    },
+    {
+      "bot_id": 122,
+      "matches_played": 758,
+      "wins": 117,
+      "total_score": 61246,
+      "openskill_mu": 38.64208257626931,
+      "openskill_sigma": 1.3488969939403639
+    },
+    {
+      "bot_id": 11,
+      "matches_played": 276,
+      "wins": 42,
+      "total_score": 20697,
+      "openskill_mu": 33.939889468653405,
+      "openskill_sigma": 1.967744834252828
+    },
+    {
+      "bot_id": 14,
+      "matches_played": 574,
+      "wins": 26,
+      "total_score": 28985,
+      "openskill_mu": 11.613143243683783,
+      "openskill_sigma": 1.658321799410928
+    },
+    {
+      "bot_id": 156,
+      "matches_played": 138,
+      "wins": 17,
+      "total_score": 10239,
+      "openskill_mu": 31.947793435572354,
+      "openskill_sigma": 2.5003141985111887
+    },
+    {
+      "bot_id": 63,
+      "matches_played": 5607,
+      "wins": 356,
+      "total_score": 216623,
+      "openskill_mu": 8.134318623361855,
+      "openskill_sigma": 0.6853624886781383
+    },
+    {
+      "bot_id": 47,
+      "matches_played": 1563,
+      "wins": 223,
+      "total_score": 114184,
+      "openskill_mu": 34.10809521181269,
+      "openskill_sigma": 1.0970625681154782
+    },
+    {
+      "bot_id": 59,
+      "matches_played": 553,
+      "wins": 213,
+      "total_score": 50922,
+      "openskill_mu": 46.86819759961107,
+      "openskill_sigma": 1.5256750436676854
+    },
+    {
+      "bot_id": 73,
+      "matches_played": 8,
+      "wins": 2,
+      "total_score": 540,
+      "openskill_mu": 29.681055058586697,
+      "openskill_sigma": 6.311711543911383
+    },
+    {
+      "bot_id": 64,
+      "matches_played": 7,
+      "wins": 2,
+      "total_score": 662,
+      "openskill_mu": 39.290831856666,
+      "openskill_sigma": 6.615418238481277
+    },
+    {
+      "bot_id": 141,
+      "matches_played": 374,
+      "wins": 8,
+      "total_score": 16946,
+      "openskill_mu": 14.494782689149657,
+      "openskill_sigma": 1.9012244560298874
+    },
+    {
+      "bot_id": 92,
+      "matches_played": 2094,
+      "wins": 504,
+      "total_score": 169718,
+      "openskill_mu": 48.26275026517353,
+      "openskill_sigma": 0.9411940495797205
+    },
+    {
+      "bot_id": 106,
+      "matches_played": 1,
+      "wins": 0,
+      "total_score": 25,
+      "openskill_mu": 17.313490387123444,
+      "openskill_sigma": 7.6998186389626655
+    },
+    {
+      "bot_id": 154,
+      "matches_played": 223,
+      "wins": 44,
+      "total_score": 18709,
+      "openskill_mu": 39.8968682384308,
+      "openskill_sigma": 2.086007968190371
+    },
+    {
+      "bot_id": 48,
+      "matches_played": 717,
+      "wins": 120,
+      "total_score": 55231,
+      "openskill_mu": 33.63624032407621,
+      "openskill_sigma": 1.46574610523704
+    },
+    {
+      "bot_id": 160,
+      "matches_played": 35,
+      "wins": 4,
+      "total_score": 2494,
+      "openskill_mu": 39.094195012567425,
+      "openskill_sigma": 3.9049715321193683
+    },
+    {
+      "bot_id": 139,
+      "matches_played": 950,
+      "wins": 110,
+      "total_score": 70144,
+      "openskill_mu": 36.432361757553345,
+      "openskill_sigma": 1.2079444459652615
+    },
+    {
+      "bot_id": 62,
+      "matches_played": 7889,
+      "wins": 1163,
+      "total_score": 836286,
+      "openskill_mu": 51.335164944702704,
+      "openskill_sigma": 0.6092913275754762
+    },
+    {
+      "bot_id": 68,
+      "matches_played": 818,
+      "wins": 130,
+      "total_score": 65952,
+      "openskill_mu": 37.93384494039399,
+      "openskill_sigma": 1.312701003493226
+    },
+    {
+      "bot_id": 133,
+      "matches_played": 218,
+      "wins": 48,
+      "total_score": 17582,
+      "openskill_mu": 42.02832774313046,
+      "openskill_sigma": 2.2204014092804623
+    },
+    {
+      "bot_id": 128,
+      "matches_played": 358,
+      "wins": 37,
+      "total_score": 24453,
+      "openskill_mu": 33.04310079139488,
+      "openskill_sigma": 1.8933873673657358
+    },
+    {
+      "bot_id": 77,
+      "matches_played": 768,
+      "wins": 245,
+      "total_score": 69841,
+      "openskill_mu": 46.08174394869899,
+      "openskill_sigma": 1.4569628232563314
+    },
+    {
+      "bot_id": 203,
+      "matches_played": 6,
+      "wins": 0,
+      "total_score": 94,
+      "openskill_mu": 18.660671105835316,
+      "openskill_sigma": 7.026692644373294
+    },
+    {
+      "bot_id": 136,
+      "matches_played": 129,
+      "wins": 0,
+      "total_score": 3007,
+      "openskill_mu": 10.547332689113086,
+      "openskill_sigma": 3.092612155413841
+    },
+    {
+      "bot_id": 65,
+      "matches_played": 41,
+      "wins": 2,
+      "total_score": 2811,
+      "openskill_mu": 36.492147537720705,
+      "openskill_sigma": 4.163860363095483
+    },
+    {
+      "bot_id": 150,
+      "matches_played": 429,
+      "wins": 13,
+      "total_score": 21992,
+      "openskill_mu": 26.294166832763963,
+      "openskill_sigma": 1.7974131736632357
+    },
+    {
+      "bot_id": 102,
+      "matches_played": 693,
+      "wins": 104,
+      "total_score": 49249,
+      "openskill_mu": 31.745318991967615,
+      "openskill_sigma": 1.4447158375593223
+    },
+    {
+      "bot_id": 94,
+      "matches_played": 501,
+      "wins": 78,
+      "total_score": 38666,
+      "openskill_mu": 39.475078927551046,
+      "openskill_sigma": 1.638900686765026
+    },
+    {
+      "bot_id": 173,
+      "matches_played": 21,
+      "wins": 0,
+      "total_score": 482,
+      "openskill_mu": 5.130789225361934,
+      "openskill_sigma": 5.781752702389331
+    },
+    {
+      "bot_id": 97,
+      "matches_played": 657,
+      "wins": 140,
+      "total_score": 53795,
+      "openskill_mu": 38.608301585790244,
+      "openskill_sigma": 1.4957744297164435
+    },
+    {
+      "bot_id": 26,
+      "matches_played": 126,
+      "wins": 22,
+      "total_score": 10605,
+      "openskill_mu": 41.48877795220089,
+      "openskill_sigma": 2.6491071648237945
+    },
+    {
+      "bot_id": 1,
+      "matches_played": 3912,
+      "wins": 1,
+      "total_score": 12901,
+      "openskill_mu": -0.7578086762980033,
+      "openskill_sigma": 0.8496955254834673
+    },
+    {
+      "bot_id": 2,
+      "matches_played": 3784,
+      "wins": 0,
+      "total_score": 22204,
+      "openskill_mu": 3.341970085718453,
+      "openskill_sigma": 0.8383251058688622
+    },
+    {
+      "bot_id": 39,
+      "matches_played": 433,
+      "wins": 68,
+      "total_score": 34284,
+      "openskill_mu": 36.940083011723175,
+      "openskill_sigma": 1.7072307233336343
+    },
+    {
+      "bot_id": 115,
+      "matches_played": 461,
+      "wins": 64,
+      "total_score": 35096,
+      "openskill_mu": 35.71620260075841,
+      "openskill_sigma": 1.6858704357366316
+    },
+    {
+      "bot_id": 69,
+      "matches_played": 644,
+      "wins": 21,
+      "total_score": 39830,
+      "openskill_mu": 30.329671776517195,
+      "openskill_sigma": 1.434275660184544
+    },
+    {
+      "bot_id": 104,
+      "matches_played": 651,
+      "wins": 150,
+      "total_score": 54175,
+      "openskill_mu": 38.89050053688092,
+      "openskill_sigma": 1.505997881757284
+    },
+    {
+      "bot_id": 110,
+      "matches_played": 745,
+      "wins": 116,
+      "total_score": 57481,
+      "openskill_mu": 37.665065208353205,
+      "openskill_sigma": 1.411024465979504
+    },
+    {
+      "bot_id": 107,
+      "matches_played": 9045,
+      "wins": 2718,
+      "total_score": 890724,
+      "openskill_mu": 50.73996716886236,
+      "openskill_sigma": 0.5623214150509457
+    },
+    {
+      "bot_id": 98,
+      "matches_played": 337,
+      "wins": 73,
+      "total_score": 27790,
+      "openskill_mu": 41.82014611880444,
+      "openskill_sigma": 1.8757440090578927
+    },
+    {
+      "bot_id": 119,
+      "matches_played": 1664,
+      "wins": 517,
+      "total_score": 152077,
+      "openskill_mu": 47.18470275428083,
+      "openskill_sigma": 0.9912854304612226
+    },
+    {
+      "bot_id": 142,
+      "matches_played": 2409,
+      "wins": 104,
+      "total_score": 152230,
+      "openskill_mu": 35.57749383117886,
+      "openskill_sigma": 0.8871124896719081
+    },
+    {
+      "bot_id": 143,
+      "matches_played": 151,
+      "wins": 35,
+      "total_score": 12235,
+      "openskill_mu": 38.16622440433238,
+      "openskill_sigma": 2.4923619321054273
+    },
+    {
+      "bot_id": 74,
+      "matches_played": 1854,
+      "wins": 531,
+      "total_score": 161491,
+      "openskill_mu": 47.60858637961198,
+      "openskill_sigma": 0.9707516855983256
+    },
+    {
+      "bot_id": 58,
+      "matches_played": 4655,
+      "wins": 556,
+      "total_score": 353517,
+      "openskill_mu": 42.786573545910535,
+      "openskill_sigma": 0.7136605686903048
+    },
+    {
+      "bot_id": 4,
+      "matches_played": 3667,
+      "wins": 1,
+      "total_score": 21986,
+      "openskill_mu": 4.0367001587089195,
+      "openskill_sigma": 0.8481748142251901
+    },
+    {
+      "bot_id": 22,
+      "matches_played": 261,
+      "wins": 87,
+      "total_score": 24099,
+      "openskill_mu": 46.662632639166375,
+      "openskill_sigma": 2.094650737761518
+    },
+    {
+      "bot_id": 67,
+      "matches_played": 781,
+      "wins": 177,
+      "total_score": 53958,
+      "openskill_mu": 45.18071700076762,
+      "openskill_sigma": 1.6289463131428374
+    },
+    {
+      "bot_id": 99,
+      "matches_played": 417,
+      "wins": 59,
+      "total_score": 32016,
+      "openskill_mu": 35.74091145252581,
+      "openskill_sigma": 1.6886411777517598
+    },
+    {
+      "bot_id": 120,
+      "matches_played": 280,
+      "wins": 93,
+      "total_score": 24895,
+      "openskill_mu": 42.81063644858085,
+      "openskill_sigma": 2.017749091034132
+    },
+    {
+      "bot_id": 149,
+      "matches_played": 185,
+      "wins": 33,
+      "total_score": 15130,
+      "openskill_mu": 44.66430295909948,
+      "openskill_sigma": 2.1351926649450865
+    },
+    {
+      "bot_id": 20,
+      "matches_played": 6,
+      "wins": 1,
+      "total_score": 430,
+      "openskill_mu": 34.971071606340715,
+      "openskill_sigma": 7.3188269835225315
+    },
+    {
+      "bot_id": 88,
+      "matches_played": 3998,
+      "wins": 1058,
+      "total_score": 416257,
+      "openskill_mu": 51.17644624108684,
+      "openskill_sigma": 0.7421322107435399
+    },
+    {
+      "bot_id": 3,
+      "matches_played": 3709,
+      "wins": 44,
+      "total_score": 86329,
+      "openskill_mu": 29.793676708538733,
+      "openskill_sigma": 0.8381930416336073
+    },
+    {
+      "bot_id": 138,
+      "matches_played": 248,
+      "wins": 131,
+      "total_score": 25285,
+      "openskill_mu": 53.834994711238615,
+      "openskill_sigma": 2.2049392966155232
+    },
+    {
+      "bot_id": 134,
+      "matches_played": 283,
+      "wins": 47,
+      "total_score": 22242,
+      "openskill_mu": 37.67531250421727,
+      "openskill_sigma": 1.9940780449121713
+    },
+    {
+      "bot_id": 127,
+      "matches_played": 136,
+      "wins": 59,
+      "total_score": 13440,
+      "openskill_mu": 51.046428542749524,
+      "openskill_sigma": 2.6766483465644595
+    },
+    {
+      "bot_id": 5,
+      "matches_played": 3713,
+      "wins": 33,
+      "total_score": 85553,
+      "openskill_mu": 30.116901578989644,
+      "openskill_sigma": 0.8393286274962439
+    },
+    {
+      "bot_id": 44,
+      "matches_played": 1540,
+      "wins": 291,
+      "total_score": 123202,
+      "openskill_mu": 39.179084718328916,
+      "openskill_sigma": 1.1171244340780258
+    },
+    {
+      "bot_id": 189,
+      "matches_played": 11,
+      "wins": 0,
+      "total_score": 165,
+      "openskill_mu": 8.455539117419303,
+      "openskill_sigma": 6.6890843001600135
+    },
+    {
+      "bot_id": 187,
+      "matches_played": 24,
+      "wins": 1,
+      "total_score": 1238,
+      "openskill_mu": 19.48861594779335,
+      "openskill_sigma": 5.477859741550367
+    },
+    {
+      "bot_id": 194,
+      "matches_played": 4,
+      "wins": 0,
+      "total_score": 0,
+      "openskill_mu": 10.264881809064246,
+      "openskill_sigma": 7.3851779517053275
+    },
+    {
+      "bot_id": 184,
+      "matches_played": 17,
+      "wins": 0,
+      "total_score": 756,
+      "openskill_mu": 14.559880012886062,
+      "openskill_sigma": 5.995883057393501
+    },
+    {
+      "bot_id": 196,
+      "matches_played": 15,
+      "wins": 0,
+      "total_score": 54,
+      "openskill_mu": -4.244794148612865,
+      "openskill_sigma": 6.341101951885807
+    },
+    {
+      "bot_id": 175,
+      "matches_played": 54,
+      "wins": 6,
+      "total_score": 2284,
+      "openskill_mu": 25.89852505900569,
+      "openskill_sigma": 5.0273033225030455
+    },
+    {
+      "bot_id": 176,
+      "matches_played": 2,
+      "wins": 0,
+      "total_score": 0,
+      "openskill_mu": 19.846020684074265,
+      "openskill_sigma": 7.908337398595117
+    },
+    {
+      "bot_id": 204,
+      "matches_played": 16,
+      "wins": 0,
+      "total_score": 496,
+      "openskill_mu": 8.267945358273915,
+      "openskill_sigma": 6.238597385305078
+    },
+    {
+      "bot_id": 174,
+      "matches_played": 19,
+      "wins": 0,
+      "total_score": 0,
+      "openskill_mu": -5.175616537499788,
+      "openskill_sigma": 6.061549496951832
+    },
+    {
+      "bot_id": 205,
+      "matches_played": 14,
+      "wins": 0,
+      "total_score": 145,
+      "openskill_mu": 4.530800455993436,
+      "openskill_sigma": 6.214888166450224
+    },
+    {
+      "bot_id": 197,
+      "matches_played": 8,
+      "wins": 3,
+      "total_score": 610,
+      "openskill_mu": 23.797486727530544,
+      "openskill_sigma": 7.256666770173697
+    },
+    {
+      "bot_id": 162,
+      "matches_played": 58,
+      "wins": 0,
+      "total_score": 2619,
+      "openskill_mu": 14.362561583625427,
+      "openskill_sigma": 4.511785138353369
+    },
+    {
+      "bot_id": 163,
+      "matches_played": 8,
+      "wins": 1,
+      "total_score": 342,
+      "openskill_mu": 21.056893135838163,
+      "openskill_sigma": 7.080131813673734
+    },
+    {
+      "bot_id": 185,
+      "matches_played": 38,
+      "wins": 0,
+      "total_score": 846,
+      "openskill_mu": 8.012180340256114,
+      "openskill_sigma": 5.311257331922855
+    },
+    {
+      "bot_id": 202,
+      "matches_played": 17,
+      "wins": 1,
+      "total_score": 1145,
+      "openskill_mu": 27.137265479197072,
+      "openskill_sigma": 6.299620719736481
+    },
+    {
+      "bot_id": 208,
+      "matches_played": 8,
+      "wins": 0,
+      "total_score": 412,
+      "openskill_mu": 17.792645975934335,
+      "openskill_sigma": 6.653829938780059
+    },
+    {
+      "bot_id": 114,
+      "matches_played": 14783,
+      "wins": 5793,
+      "total_score": 2007626,
+      "openskill_mu": 58.00889612030931,
+      "openskill_sigma": 0.5058256049236869
+    },
+    {
+      "bot_id": 188,
+      "matches_played": 40,
+      "wins": 3,
+      "total_score": 2779,
+      "openskill_mu": 26.406530097071578,
+      "openskill_sigma": 4.862143812168041
+    },
+    {
+      "bot_id": 183,
+      "matches_played": 31,
+      "wins": 1,
+      "total_score": 1529,
+      "openskill_mu": 23.184383504530366,
+      "openskill_sigma": 5.468812567262489
+    },
+    {
+      "bot_id": 191,
+      "matches_played": 60,
+      "wins": 15,
+      "total_score": 5018,
+      "openskill_mu": 45.404603065206395,
+      "openskill_sigma": 4.499717797933107
+    },
+    {
+      "bot_id": 161,
+      "matches_played": 11,
+      "wins": 1,
+      "total_score": 598,
+      "openskill_mu": 24.464889727922277,
+      "openskill_sigma": 6.7317938007089175
+    },
+    {
+      "bot_id": 166,
+      "matches_played": 27,
+      "wins": 1,
+      "total_score": 1057,
+      "openskill_mu": 20.91042121084762,
+      "openskill_sigma": 5.60918808703616
+    },
+    {
+      "bot_id": 180,
+      "matches_played": 99,
+      "wins": 25,
+      "total_score": 8867,
+      "openskill_mu": 40.24108165883267,
+      "openskill_sigma": 3.800772859339226
+    },
+    {
+      "bot_id": 179,
+      "matches_played": 84,
+      "wins": 22,
+      "total_score": 7564,
+      "openskill_mu": 45.074893707910846,
+      "openskill_sigma": 3.9919744038932814
+    },
+    {
+      "bot_id": 193,
+      "matches_played": 48,
+      "wins": 26,
+      "total_score": 4758,
+      "openskill_mu": 58.32565918323867,
+      "openskill_sigma": 5.143453299921179
+    },
+    {
+      "bot_id": 172,
+      "matches_played": 39,
+      "wins": 6,
+      "total_score": 2846,
+      "openskill_mu": 26.093704251416813,
+      "openskill_sigma": 4.97896410861659
+    },
+    {
+      "bot_id": 167,
+      "matches_played": 21,
+      "wins": 3,
+      "total_score": 1574,
+      "openskill_mu": 31.17591929964662,
+      "openskill_sigma": 5.910381082762638
+    },
+    {
+      "bot_id": 199,
+      "matches_played": 35,
+      "wins": 3,
+      "total_score": 2074,
+      "openskill_mu": 32.70072951535409,
+      "openskill_sigma": 5.2856091106672185
+    },
+    {
+      "bot_id": 169,
+      "matches_played": 42,
+      "wins": 4,
+      "total_score": 3137,
+      "openskill_mu": 31.849233887768317,
+      "openskill_sigma": 4.760455695702831
+    },
+    {
+      "bot_id": 181,
+      "matches_played": 85,
+      "wins": 20,
+      "total_score": 7613,
+      "openskill_mu": 43.05333217433417,
+      "openskill_sigma": 3.9469884512071767
+    },
+    {
+      "bot_id": 212,
+      "matches_played": 12,
+      "wins": 1,
+      "total_score": 1043,
+      "openskill_mu": 32.89346780505227,
+      "openskill_sigma": 6.610288578071865
+    },
+    {
+      "bot_id": 168,
+      "matches_played": 38,
+      "wins": 7,
+      "total_score": 2954,
+      "openskill_mu": 39.88372874221474,
+      "openskill_sigma": 5.10247236429351
+    },
+    {
+      "bot_id": 195,
+      "matches_played": 24,
+      "wins": 3,
+      "total_score": 1709,
+      "openskill_mu": 33.68014721544838,
+      "openskill_sigma": 5.664593264965403
+    },
+    {
+      "bot_id": 170,
+      "matches_played": 22,
+      "wins": 3,
+      "total_score": 1557,
+      "openskill_mu": 31.333685415631344,
+      "openskill_sigma": 5.9175970649500504
+    },
+    {
+      "bot_id": 192,
+      "matches_played": 59,
+      "wins": 8,
+      "total_score": 4622,
+      "openskill_mu": 39.81505413143265,
+      "openskill_sigma": 4.5704998651126365
+    },
+    {
+      "bot_id": 165,
+      "matches_played": 77,
+      "wins": 10,
+      "total_score": 5398,
+      "openskill_mu": 35.27750376337177,
+      "openskill_sigma": 4.217721405513461
+    },
+    {
+      "bot_id": 178,
+      "matches_played": 86,
+      "wins": 15,
+      "total_score": 6624,
+      "openskill_mu": 44.436153773306756,
+      "openskill_sigma": 4.081624050810307
+    },
+    {
+      "bot_id": 182,
+      "matches_played": 82,
+      "wins": 6,
+      "total_score": 5767,
+      "openskill_mu": 35.57860366609398,
+      "openskill_sigma": 3.9894508167291765
+    },
+    {
+      "bot_id": 18,
+      "matches_played": 4753,
+      "wins": 2008,
+      "total_score": 590552,
+      "openskill_mu": 60.105259765129276,
+      "openskill_sigma": 0.7584897293126388
+    },
+    {
+      "bot_id": 186,
+      "matches_played": 82,
+      "wins": 13,
+      "total_score": 6076,
+      "openskill_mu": 41.20131917810252,
+      "openskill_sigma": 4.21414152144314
+    },
+    {
+      "bot_id": 164,
+      "matches_played": 166,
+      "wins": 16,
+      "total_score": 11698,
+      "openskill_mu": 33.62093366000689,
+      "openskill_sigma": 3.145189571505712
+    },
+    {
+      "bot_id": 200,
+      "matches_played": 11,
+      "wins": 1,
+      "total_score": 877,
+      "openskill_mu": 37.23510566605423,
+      "openskill_sigma": 6.803576449178217
+    },
+    {
+      "bot_id": 171,
+      "matches_played": 127,
+      "wins": 48,
+      "total_score": 13035,
+      "openskill_mu": 59.05439452469484,
+      "openskill_sigma": 3.697761257564697
+    },
+    {
+      "bot_id": 201,
+      "matches_played": 23,
+      "wins": 4,
+      "total_score": 1806,
+      "openskill_mu": 36.031168690186774,
+      "openskill_sigma": 6.105880980360748
+    },
+    {
+      "bot_id": 207,
+      "matches_played": 22,
+      "wins": 11,
+      "total_score": 2163,
+      "openskill_mu": 54.22210661587325,
+      "openskill_sigma": 6.2923049240288105
+    },
+    {
+      "bot_id": 209,
+      "matches_played": 2,
+      "wins": 0,
+      "total_score": 136,
+      "openskill_mu": 25.374720110838748,
+      "openskill_sigma": 7.972889856237095
+    },
+    {
+      "bot_id": 190,
+      "matches_played": 43,
+      "wins": 14,
+      "total_score": 3285,
+      "openskill_mu": 39.909218352207134,
+      "openskill_sigma": 5.2058671345886545
+    }
+  ]
+}

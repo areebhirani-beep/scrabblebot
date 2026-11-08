@@ -1,0 +1,11 @@
+{
+  "id": "completion-opportunity-fresh32-rejection",
+  "family": "opportunity-aware-completion-floor",
+  "hypothesis": "A rack-specific opportunity guard makes immediate completion floors improve wins and total points.",
+  "decision": "reject",
+  "evidence": "experiments/completion-opportunity-screen-reactive-summary.json",
+  "observed": "32 paired fresh worlds: BASE95.71875points/31.25%wins/place2.875 versus GUARDED87.5625/18.75%/3.34375. Score delta-8.15625,95CI[-15.72,-1.78]; win delta-12.5pp,95CI[-25,-3.125]. Zero gained wins and four lost.",
+  "reason": "Reject promotion on both primary objectives; preserve both arms and keep the optional guard disabled. Passing two selected trajectory fixtures did not generalize.",
+  "uncertainty": "Small synthetic screen with CPU-timed searches and reactive rivals. Conditional intervals do not include simulator or selection uncertainty. No live claim.",
+  "revisitWhen": "A new traced failure identifies a changed acquisition mechanism accounting for realistic costs and completion/continuation outcomes; do not simply retune this threshold on the same screen."
+}

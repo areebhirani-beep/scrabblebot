@@ -1,0 +1,911 @@
+{
+  "status": "complete",
+  "dictionarySha256": "b819e7b67f8f2c80640ae76f0edbe59a4a1befb6de0f348463642ad49bdd2ad3",
+  "inputSha256": "a37bff5e35f93056eeb3ea4a2b3d1b190f531acdd7bf9f43f16f601f879e9dfc",
+  "matches": [
+    {
+      "matchId": 43293,
+      "rackAtFinalAuctionOpen": "INS",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "INS"
+      ],
+      "observedTerminalPoints": 3,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 3,
+          "words": [
+            "INS"
+          ],
+          "states": 4,
+          "exact": true
+        },
+        "3": {
+          "score": 3,
+          "words": [
+            "INS"
+          ],
+          "states": 2,
+          "exact": true
+        },
+        "4": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43169,
+      "rackAtFinalAuctionOpen": "HSY",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "SHY"
+      ],
+      "observedTerminalPoints": 9,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 9,
+          "words": [
+            "SHY"
+          ],
+          "states": 3,
+          "exact": true
+        },
+        "3": {
+          "score": 9,
+          "words": [
+            "SHY"
+          ],
+          "states": 2,
+          "exact": true
+        },
+        "4": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43175,
+      "rackAtFinalAuctionOpen": "AIMMWY",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "IMMY",
+        "AW"
+      ],
+      "observedTerminalPoints": 21,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 21,
+          "words": [
+            "IMMY",
+            "AW"
+          ],
+          "states": 25,
+          "exact": true
+        },
+        "3": {
+          "score": 16,
+          "words": [
+            "MIM",
+            "WAY"
+          ],
+          "states": 9,
+          "exact": true
+        },
+        "4": {
+          "score": 16,
+          "words": [
+            "IMMY"
+          ],
+          "states": 3,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43181,
+      "rackAtFinalAuctionOpen": "EHILP",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "HELP"
+      ],
+      "observedTerminalPoints": 13,
+      "unplayedAfterEnd": "I",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 13,
+          "words": [
+            "HELP"
+          ],
+          "states": 18,
+          "exact": true
+        },
+        "3": {
+          "score": 13,
+          "words": [
+            "HELP"
+          ],
+          "states": 10,
+          "exact": true
+        },
+        "4": {
+          "score": 13,
+          "words": [
+            "HELP"
+          ],
+          "states": 4,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43188,
+      "rackAtFinalAuctionOpen": "EFLOPP",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "FLOP",
+        "PE"
+      ],
+      "observedTerminalPoints": 17,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 17,
+          "words": [
+            "OP",
+            "PELF"
+          ],
+          "states": 27,
+          "exact": true
+        },
+        "3": {
+          "score": 13,
+          "words": [
+            "POP",
+            "ELF"
+          ],
+          "states": 16,
+          "exact": true
+        },
+        "4": {
+          "score": 13,
+          "words": [
+            "FLOP"
+          ],
+          "states": 7,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43195,
+      "rackAtFinalAuctionOpen": "AHOT",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "OATH"
+      ],
+      "observedTerminalPoints": 10,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 10,
+          "words": [
+            "OATH"
+          ],
+          "states": 10,
+          "exact": true
+        },
+        "3": {
+          "score": 10,
+          "words": [
+            "OATH"
+          ],
+          "states": 6,
+          "exact": true
+        },
+        "4": {
+          "score": 10,
+          "words": [
+            "OATH"
+          ],
+          "states": 2,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43202,
+      "rackAtFinalAuctionOpen": "BCDHIRUY",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "HYDRIC"
+      ],
+      "observedTerminalPoints": 37,
+      "unplayedAfterEnd": "BU",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 37,
+          "words": [
+            "HYDRIC"
+          ],
+          "states": 103,
+          "exact": true
+        },
+        "3": {
+          "score": 37,
+          "words": [
+            "HYDRIC"
+          ],
+          "states": 62,
+          "exact": true
+        },
+        "4": {
+          "score": 37,
+          "words": [
+            "HYDRIC"
+          ],
+          "states": 22,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43209,
+      "rackAtFinalAuctionOpen": "ACEIPU",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "PUCE",
+        "AI"
+      ],
+      "observedTerminalPoints": 14,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 14,
+          "words": [
+            "PUCE",
+            "AI"
+          ],
+          "states": 33,
+          "exact": true
+        },
+        "3": {
+          "score": 12,
+          "words": [
+            "PUCE"
+          ],
+          "states": 18,
+          "exact": true
+        },
+        "4": {
+          "score": 12,
+          "words": [
+            "PUCE"
+          ],
+          "states": 5,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43216,
+      "rackAtFinalAuctionOpen": "EP",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "PE"
+      ],
+      "observedTerminalPoints": 4,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 4,
+          "words": [
+            "PE"
+          ],
+          "states": 2,
+          "exact": true
+        },
+        "3": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        },
+        "4": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43222,
+      "rackAtFinalAuctionOpen": "EGMO",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "EM",
+        "GO"
+      ],
+      "observedTerminalPoints": 7,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 7,
+          "words": [
+            "GO",
+            "EM"
+          ],
+          "states": 9,
+          "exact": true
+        },
+        "3": {
+          "score": 6,
+          "words": [
+            "MOG"
+          ],
+          "states": 4,
+          "exact": true
+        },
+        "4": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43229,
+      "rackAtFinalAuctionOpen": "AEGHHIMNO",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "HOGMANE",
+        "HI"
+      ],
+      "observedTerminalPoints": 44,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 44,
+          "words": [
+            "HI",
+            "HOGMANE"
+          ],
+          "states": 313,
+          "exact": true
+        },
+        "3": {
+          "score": 39,
+          "words": [
+            "HOGMANE"
+          ],
+          "states": 182,
+          "exact": true
+        },
+        "4": {
+          "score": 39,
+          "words": [
+            "HOGMANE"
+          ],
+          "states": 62,
+          "exact": true
+        },
+        "7": {
+          "score": 39,
+          "words": [
+            "HOGMANE"
+          ],
+          "states": 2,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43237,
+      "rackAtFinalAuctionOpen": "AIJOTW",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "WAIT",
+        "JO"
+      ],
+      "observedTerminalPoints": 19,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 19,
+          "words": [
+            "JO",
+            "WAIT"
+          ],
+          "states": 33,
+          "exact": true
+        },
+        "3": {
+          "score": 16,
+          "words": [
+            "JOW",
+            "AIT"
+          ],
+          "states": 15,
+          "exact": true
+        },
+        "4": {
+          "score": 16,
+          "words": [
+            "JATO"
+          ],
+          "states": 5,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43279,
+      "rackAtFinalAuctionOpen": "AFWY",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "WAY"
+      ],
+      "observedTerminalPoints": 9,
+      "unplayedAfterEnd": "F",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 9,
+          "words": [
+            "WAY"
+          ],
+          "states": 6,
+          "exact": true
+        },
+        "3": {
+          "score": 9,
+          "words": [
+            "WAY"
+          ],
+          "states": 3,
+          "exact": true
+        },
+        "4": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43286,
+      "rackAtFinalAuctionOpen": "ABSTT",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "BATTS"
+      ],
+      "observedTerminalPoints": 14,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 14,
+          "words": [
+            "BATTS"
+          ],
+          "states": 12,
+          "exact": true
+        },
+        "3": {
+          "score": 14,
+          "words": [
+            "BATTS"
+          ],
+          "states": 9,
+          "exact": true
+        },
+        "4": {
+          "score": 14,
+          "words": [
+            "BATTS"
+          ],
+          "states": 5,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43244,
+      "rackAtFinalAuctionOpen": "KY",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [],
+      "observedTerminalPoints": 0,
+      "unplayedAfterEnd": "KY",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        },
+        "3": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        },
+        "4": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43251,
+      "rackAtFinalAuctionOpen": "AEFIR",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "AFIRE"
+      ],
+      "observedTerminalPoints": 16,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 16,
+          "words": [
+            "AFIRE"
+          ],
+          "states": 21,
+          "exact": true
+        },
+        "3": {
+          "score": 16,
+          "words": [
+            "AFIRE"
+          ],
+          "states": 12,
+          "exact": true
+        },
+        "4": {
+          "score": 16,
+          "words": [
+            "AFIRE"
+          ],
+          "states": 5,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43258,
+      "rackAtFinalAuctionOpen": "EFHIIOSTW",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "WHITIES",
+        "OF"
+      ],
+      "observedTerminalPoints": 44,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 44,
+          "words": [
+            "OF",
+            "WHITIES"
+          ],
+          "states": 273,
+          "exact": true
+        },
+        "3": {
+          "score": 39,
+          "words": [
+            "WHITIES"
+          ],
+          "states": 153,
+          "exact": true
+        },
+        "4": {
+          "score": 39,
+          "words": [
+            "WHITIES"
+          ],
+          "states": 63,
+          "exact": true
+        },
+        "7": {
+          "score": 39,
+          "words": [
+            "WHITIES"
+          ],
+          "states": 2,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43265,
+      "rackAtFinalAuctionOpen": "NRUY",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "RUN"
+      ],
+      "observedTerminalPoints": 3,
+      "unplayedAfterEnd": "Y",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 3,
+          "words": [
+            "RUN"
+          ],
+          "states": 3,
+          "exact": true
+        },
+        "3": {
+          "score": 3,
+          "words": [
+            "RUN"
+          ],
+          "states": 2,
+          "exact": true
+        },
+        "4": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43272,
+      "rackAtFinalAuctionOpen": "",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [],
+      "observedTerminalPoints": 0,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        },
+        "3": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        },
+        "4": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    },
+    {
+      "matchId": 43300,
+      "rackAtFinalAuctionOpen": "FOOT",
+      "nonnegative": true,
+      "observedWordsFeasible": true,
+      "observedTerminalWords": [
+        "FOOT"
+      ],
+      "observedTerminalPoints": 10,
+      "unplayedAfterEnd": "",
+      "finalAwardRemoved": [],
+      "minimumLengthSolutions": {
+        "2": {
+          "score": 10,
+          "words": [
+            "FOOT"
+          ],
+          "states": 6,
+          "exact": true
+        },
+        "3": {
+          "score": 10,
+          "words": [
+            "FOOT"
+          ],
+          "states": 4,
+          "exact": true
+        },
+        "4": {
+          "score": 10,
+          "words": [
+            "FOOT"
+          ],
+          "states": 2,
+          "exact": true
+        },
+        "7": {
+          "score": 0,
+          "words": [],
+          "states": 1,
+          "exact": true
+        }
+      },
+      "missedTerminalPoints": 0
+    }
+  ],
+  "summary": {
+    "matches": 20,
+    "observedTerminalPoints": 294,
+    "bestTerminalPoints": {
+      "2": 294,
+      "3": 265,
+      "4": 235,
+      "7": 78
+    },
+    "missedTerminalPoints": 0,
+    "matchesWithMissedTerminalPoints": 0
+  },
+  "limitation": "Exact only for reconstructed inventory at final auction open; acquisitions and earlier plays fixed. It does not evaluate alternate midgame bidding, latency or larger-rack decisions."
+}

@@ -1,0 +1,87 @@
+{
+  "cohorts": {
+    "early-rise19": {
+      "matchIds": [
+        42697,
+        42698,
+        42699,
+        42700,
+        42702,
+        42703,
+        42704,
+        42705,
+        42706,
+        42707,
+        42709,
+        42710,
+        42711,
+        42713,
+        42714,
+        42715,
+        42716,
+        42717,
+        42718
+      ],
+      "n": 19,
+      "meanScore": 100.05263157894737,
+      "opponentMeanScore": 67.30526315789474,
+      "opponentScoreBelow30": 0.24210526315789474,
+      "tilesPerMatch": 13.157894736842104,
+      "rareTilesPerMatch": 0.3684210526315789,
+      "longWordsPerMatch": 2.0526315789473686,
+      "longPointsPerMatch": 89.21052631578948,
+      "pointsPerLongWord": 43.46153846153846,
+      "endCash": 39.578947368421055
+    },
+    "1970-six": {
+      "matchIds": [
+        42777,
+        42780,
+        42782,
+        42784,
+        42786,
+        42789
+      ],
+      "n": 6,
+      "meanScore": 97.16666666666667,
+      "opponentMeanScore": 67.93333333333334,
+      "opponentScoreBelow30": 0.2,
+      "tilesPerMatch": 13.5,
+      "rareTilesPerMatch": 0.8333333333333334,
+      "longWordsPerMatch": 1.8333333333333333,
+      "longPointsPerMatch": 78.5,
+      "pointsPerLongWord": 42.81818181818182,
+      "endCash": 35.666666666666664
+    },
+    "WIN30-first15": {
+      "matchIds": [
+        43169,
+        43175,
+        43181,
+        43188,
+        43195,
+        43202,
+        43209,
+        43216,
+        43222,
+        43229,
+        43237,
+        43244,
+        43251,
+        43258,
+        43265
+      ],
+      "n": 15,
+      "meanScore": 82.33333333333333,
+      "opponentMeanScore": 69.54666666666667,
+      "opponentScoreBelow30": 0.09333333333333334,
+      "tilesPerMatch": 11.733333333333333,
+      "rareTilesPerMatch": 0.2,
+      "longWordsPerMatch": 1.6666666666666667,
+      "longPointsPerMatch": 68.0,
+      "pointsPerLongWord": 40.8,
+      "endCash": 34.266666666666666
+    }
+  },
+  "limitation": "Retrospective selected rise periods and differing opponents; descriptive associations cannot isolate causal effect of policy changes. Earliest remote source not locally tagged."
+}

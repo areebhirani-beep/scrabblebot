@@ -1,0 +1,22 @@
+{
+  "N": 256,
+  "seed": 970618,
+  "prefix": "validation-refine",
+  "dataset": "data/market-clean-validation.json",
+  "base": {
+    "samples": 24
+  },
+  "arms": [
+    [
+      "BASE",
+      {}
+    ],
+    [
+      "REFINE",
+      {
+        "refineSmallRacks": true
+      }
+    ]
+  ],
+  "selection": "New pairedseed; 24MCsamples; separate12-tablehistoricalvalidationcohort; noautodeploy."
+}

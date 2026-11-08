@@ -1,0 +1,11 @@
+{
+  "id": "cash9-min4-fresh64-rejection",
+  "family": "four-letter-starvation-release",
+  "hypothesis": "Raising starvation threshold to9 and reducing its minimum word length to4 unlocks stalled cashflow and improves wins and points.",
+  "decision": "reject",
+  "evidence": "experiments/cash-recovery-win30-screen-reactive-summary.json",
+  "observed": "Exact EFLO/cash8 fixture now releases FLOE10. Across64 paired worlds BASE83.625points/21.875%wins versus CASH9LEN4 83.0/20.3125%. Score delta-0.625,95CI[-1.578,.094]; wins-1.5625pp,95CI[-4.688,0]; zero gained wins and one lost.",
+  "reason": "Keep disabled: a correct local cash-release change did not improve either full-match primary metric in this screen. Preserve the reproduced fix and losing outcomes separately.",
+  "uncertainty": "Synthetic64-world screen, rare changed games and CPU-timed behavior. Not proof every release harms or that a liquidity problem does not exist live.",
+  "revisitWhen": "Diagnose the changed-game loss and use a continuation model with remaining inventory, payments and future word opportunities; threshold-only re-screening is not a new mechanism."
+}
