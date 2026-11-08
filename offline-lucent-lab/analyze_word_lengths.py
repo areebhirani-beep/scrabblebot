@@ -56,6 +56,9 @@ def analyze(path, dictionary):
         'limitations':['Observational tables containing our bot only; selection bias and repeated bots.','Versions and opponents changed. Correlation does not establish a cashout or bidding policy improvement.','No private racks inferred; dictionary coverage does not guarantee timely search completion.'], 'playerMatches':rows}
     shared = {r['match'] for r in rows if r['botId']==172}
     result['matchedOursLucent'] = {str(bot):summary([r for r in rows if r['botId']==bot and r['match'] in shared]) for bot in [172,18]}
+    result['target'] = summary([r for r in rows if r['botId']==data['botId']])
+    result['targetWins'] = summary([r for r in rows if r['botId']==data['botId'] and r['win']])
+    result['status'] = 'complete'
     return result
 
 if __name__=='__main__':
