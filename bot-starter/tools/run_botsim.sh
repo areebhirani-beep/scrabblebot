@@ -4,5 +4,5 @@
 # Lines: {"bot":"adv","field":"mc|mcbig|mchu|gauntlet|live","p":{...},"label":"..."}
 cd "$(dirname "$0")/.."
 N="$2"
-tr '\n' '\0' < "$1" | xargs -0 -P "${JOBS:-12}" -n 1 sh -c 'ONE="$1" npx tsx src/sim.ts '"$N" _ > "$3" 2>&1
+tr '\n' '\0' < "$1" | xargs -0 -P "${JOBS:-1}" -n 1 sh -c 'ONE="$1" nice -n 15 node --max-old-space-size=512 --import tsx src/sim.ts '"$N" _ > "$3" 2>&1
 sort -n "$3"

@@ -1,0 +1,17 @@
+node:fs:440
+    return binding.readFileUtf8(path, stringToFlags(options.flag));
+                   ^
+
+Error: ENOENT: no such file or directory, open '/Users/siddarthakodithyala/the scrabble bot for utd hacks/odysseus-live/bot-starter/.runtime-odysseus/reactive-snapshots/c1d01c81eeb50e628231bd8c6057704cfc85551023abacf148afb5157c2be457/bot-starter/src/prices.json'
+    at Module.readFileSync (node:fs:440:20)
+    at <anonymous> (/Users/siddarthakodithyala/the scrabble bot for utd hacks/odysseus-live/bot-starter/.runtime-odysseus/reactive-snapshots/c1d01c81eeb50e628231bd8c6057704cfc85551023abacf148afb5157c2be457/bot-starter/src/prices.ts:8:28)
+    at ModuleJob.run (node:internal/modules/esm/module_job:430:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:661:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/siddarthakodithyala/the scrabble bot for utd hacks/odysseus-live/bot-starter/.runtime-odysseus/reactive-snapshots/c1d01c81eeb50e628231bd8c6057704cfc85551023abacf148afb5157c2be457/bot-starter/src/prices.json'
+}
+
+Node.js v24.14.1

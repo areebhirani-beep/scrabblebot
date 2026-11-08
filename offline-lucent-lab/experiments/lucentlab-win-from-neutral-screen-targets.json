@@ -1,0 +1,193 @@
+{
+  "source": "../bot-starter/docs/experiments/lucentlab-win-from-neutral-screen-reactive-summary.json",
+  "sourceSha256": "5f188a2d1fa4e5bd4b92e30fef61786529871f86c5d088854b42f0ad541748b5",
+  "target": {
+    "winPercentIncludingTiesGreaterThan": 42,
+    "meanScoreGreaterThan": 124.4
+  },
+  "warning": "Synthetic reactive matches, not a leaderboard estimate. Intervals omit model uncertainty; screening arms are selection data. Repeated executions are clustered by world, not independent games. A tied first is not counted as a strict win.",
+  "fields": {
+    "live": {
+      "BASE": {
+        "N": 96,
+        "strictWinPercent": 25.0,
+        "strictWins": 24,
+        "tiedFirst": 3,
+        "uniqueWorlds": 32,
+        "uncertaintyUnit": "world; repeats clustered",
+        "winPercentIncludingTies": 28.125,
+        "win95IncludingTies": [
+          15.625,
+          43.75
+        ],
+        "strictWin95": [
+          12.5,
+          40.625
+        ],
+        "winIntervalMethod": "cluster bootstrap",
+        "score": 94.46875,
+        "scoreBootstrap95": [
+          83.875,
+          105.71875
+        ],
+        "averagePlace": 2.78125,
+        "averageFinalCash": 56.0625,
+        "pointTargetsMet": false,
+        "strictPointTargetsMet": false,
+        "conditionalLowerBoundsMeetTargets": false
+      },
+      "WIN30": {
+        "N": 96,
+        "strictWinPercent": 34.375,
+        "strictWins": 33,
+        "tiedFirst": 0,
+        "uniqueWorlds": 32,
+        "uncertaintyUnit": "world; repeats clustered",
+        "winPercentIncludingTies": 34.375,
+        "win95IncludingTies": [
+          18.75,
+          53.125
+        ],
+        "strictWin95": [
+          18.75,
+          53.125
+        ],
+        "winIntervalMethod": "cluster bootstrap",
+        "score": 92.375,
+        "scoreBootstrap95": [
+          83.34375,
+          101.28125
+        ],
+        "averagePlace": 2.5520833333333335,
+        "averageFinalCash": 40.15625,
+        "pointTargetsMet": false,
+        "strictPointTargetsMet": false,
+        "conditionalLowerBoundsMeetTargets": false
+      },
+      "WIN60": {
+        "N": 96,
+        "strictWinPercent": 34.375,
+        "strictWins": 33,
+        "tiedFirst": 0,
+        "uniqueWorlds": 32,
+        "uncertaintyUnit": "world; repeats clustered",
+        "winPercentIncludingTies": 34.375,
+        "win95IncludingTies": [
+          18.75,
+          50.0
+        ],
+        "strictWin95": [
+          18.75,
+          50.0
+        ],
+        "winIntervalMethod": "cluster bootstrap",
+        "score": 93.9375,
+        "scoreBootstrap95": [
+          85.1875,
+          103.3125
+        ],
+        "averagePlace": 2.71875,
+        "averageFinalCash": 28.59375,
+        "pointTargetsMet": false,
+        "strictPointTargetsMet": false,
+        "conditionalLowerBoundsMeetTargets": false
+      },
+      "WIN120": {
+        "N": 96,
+        "strictWinPercent": 21.875,
+        "strictWins": 21,
+        "tiedFirst": 3,
+        "uniqueWorlds": 32,
+        "uncertaintyUnit": "world; repeats clustered",
+        "winPercentIncludingTies": 25.0,
+        "win95IncludingTies": [
+          9.375,
+          40.625
+        ],
+        "strictWin95": [
+          9.375,
+          37.5
+        ],
+        "winIntervalMethod": "cluster bootstrap",
+        "score": 89.36458333333333,
+        "scoreBootstrap95": [
+          82.35416666666666,
+          96.47916666666666
+        ],
+        "averagePlace": 2.7708333333333335,
+        "averageFinalCash": 23.645833333333332,
+        "pointTargetsMet": false,
+        "strictPointTargetsMet": false,
+        "conditionalLowerBoundsMeetTargets": false
+      },
+      "pairedComparisons": {
+        "WIN30": {
+          "N": 32,
+          "rawTrialsPerArm": 96,
+          "unit": "world; repetitions averaged before bootstrap",
+          "warning": "Conditional synthetic screen only; no independent-trial or live-win claim.",
+          "scoreDelta": -2.09375,
+          "scoreConditional95": [
+            -13.25,
+            8.375
+          ],
+          "placeDelta": -0.22916666666666669,
+          "placeConditional95": [
+            -0.8229166666666666,
+            0.34375
+          ],
+          "winPPDelta": 6.25,
+          "winPPConditional95": [
+            -15.625,
+            28.125
+          ],
+          "changedGames": 24
+        },
+        "WIN60": {
+          "N": 32,
+          "rawTrialsPerArm": 96,
+          "unit": "world; repetitions averaged before bootstrap",
+          "warning": "Conditional synthetic screen only; no independent-trial or live-win claim.",
+          "scoreDelta": -0.53125,
+          "scoreConditional95": [
+            -11.125,
+            8.9375
+          ],
+          "placeDelta": -0.0625,
+          "placeConditional95": [
+            -0.59375,
+            0.53125
+          ],
+          "winPPDelta": 6.25,
+          "winPPConditional95": [
+            -15.625,
+            28.125
+          ],
+          "changedGames": 30
+        },
+        "WIN120": {
+          "N": 32,
+          "rawTrialsPerArm": 96,
+          "unit": "world; repetitions averaged before bootstrap",
+          "warning": "Conditional synthetic screen only; no independent-trial or live-win claim.",
+          "scoreDelta": -5.104166666666667,
+          "scoreConditional95": [
+            -16.375,
+            5.260416666666666
+          ],
+          "placeDelta": -0.010416666666666671,
+          "placeConditional95": [
+            -0.5416666666666666,
+            0.5520833333333334
+          ],
+          "winPPDelta": -3.125,
+          "winPPConditional95": [
+            -18.75,
+            12.5
+          ],
+          "changedGames": 31
+        }
+      }
+    }
+  }
+}

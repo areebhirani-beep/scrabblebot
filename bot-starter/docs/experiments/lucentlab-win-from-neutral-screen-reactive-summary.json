@@ -1,0 +1,6940 @@
+{
+  "metric_type": "synthetic_reactive_simulation",
+  "status": "complete",
+  "warning": "Synthetic reactive simulation only, not live win probability, leaderboard rating or a calibrated forecast. Fixed deal/tie streams pair model worlds; rivals react to each policy. CPU-dependent search cutoffs, instant actions, missing transport latency and synthetic rival policies limit realism. Bootstrap intervals are conditional on this model and omit selection/model uncertainty. No automatic deployment. Repeats are clustered by world; raw trial count is not independent N.",
+  "config": {
+    "prefix": "lucentlab-win-from-neutral-screen",
+    "N": 96,
+    "seed": 11073783,
+    "fields": [
+      "live"
+    ],
+    "base": {
+      "samples": 24,
+      "bidGain": 1.1,
+      "facePremium": 2,
+      "cashLen": 7,
+      "paceEarly": 0.8,
+      "paceLate": 2.5,
+      "maxBidShare": 0.7,
+      "starveCoins": 8,
+      "huGain": 2,
+      "huPaceEarly": 1.1,
+      "huHorizon": 10,
+      "bigSeats": 8,
+      "bigPaceLate": 3.5,
+      "neutralSixHorizon": true
+    },
+    "rival": {
+      "samples": 24,
+      "bidGain": 1.3,
+      "facePremium": 2,
+      "cashLen": 7,
+      "paceEarly": 0.8,
+      "paceLate": 2.5,
+      "maxBidShare": 0.7,
+      "starveCoins": 8,
+      "huGain": 2,
+      "huPaceEarly": 1.1,
+      "huHorizon": 10,
+      "bigSeats": 8,
+      "bigPaceLate": 3.5
+    },
+    "arms": [
+      [
+        "BASE",
+        {}
+      ],
+      [
+        "WIN30",
+        {
+          "winBonus": 30
+        }
+      ],
+      [
+        "WIN60",
+        {
+          "winBonus": 60
+        }
+      ],
+      [
+        "WIN120",
+        {
+          "winBonus": 120
+        }
+      ]
+    ],
+    "timeoutSeconds": 900,
+    "bootstrapRepetitions": 2000,
+    "bot": "adv",
+    "auctionType": "Vickrey",
+    "uniqueWorlds": 32,
+    "repeatsPerWorld": 3
+  },
+  "configSha256": "9942a4fd1aff682a85520e764ebcb6ad5d857264979d877bda7ff86d95352fe7",
+  "sourceSha256": "5f188a2d1fa4e5bd4b92e30fef61786529871f86c5d088854b42f0ad541748b5",
+  "sourceManifest": {
+    "bot-starter/src/action-state.test.ts": "95b865f713a0b7b503d46a9a21f505cc7e9acf2dcb74cb58ec506dbe9a878fdf",
+    "bot-starter/src/action-state.ts": "9fcc299e109cf7430a2fa40ec6be076824b795d55a42a59a1192ce241067593a",
+    "bot-starter/src/advanced-regression.test.ts": "425d6d3f148f70a13c42fea775698cf594a686bdb30f9b91cdf288a30586c760",
+    "bot-starter/src/advanced.ts": "540a084169130a7c77cc111b8400966b5019eca541732aadfa242db8299a0d46",
+    "bot-starter/src/brain.ts": "7a283d4b8eb628cdaa8e925b6d3707cbee15e1c50811e92552a5995211183d53",
+    "bot-starter/src/cash-rollout.test.ts": "3c45f840627d8d9eb862752eede7acd475161bbeec1edfafbf5c8077e3489138",
+    "bot-starter/src/cash-rollout.ts": "fe8263b4c355aea05ad86b199d547006a0d1d31b0ae5dacaecdd5eac9140a6a8",
+    "bot-starter/src/cash-trap.test.ts": "c06e740dd8e78091cfdbc01c4803ab0c6126da07414c248914989be8f201e6d1",
+    "bot-starter/src/count-dp-eval.test.ts": "1545cc7e249f849eca4bd79cab95fb49fa894d67412bc23e76bdeedcfac1b918",
+    "bot-starter/src/count-dp-eval.ts": "8b845093dfb88402c0a5f10323ef74bf1f2c4feeb00f0338a3d8e3d98cf25d2f",
+    "bot-starter/src/count-dp.test.ts": "7f24bbf21fd50dacd6ffe114203bee3607fe1abaabf2c6e2dc1e8035415365d7",
+    "bot-starter/src/count-dp.ts": "fcddc1ace767e8a7fc295ef14c454099f60d03bd0843f2f17193006d22e7db1d",
+    "bot-starter/src/engine-regression.test.ts": "0c74f118ee074878e80d0dcf8879e8ca173b5d3eafc6b33e48aac349643c03ab",
+    "bot-starter/src/engine.ts": "7a730f16ff29b82cde90ee4680b11c9ef291cf2cd8cc618f0ff88346e54b33f1",
+    "bot-starter/src/exact-small-eval.test.ts": "4811261fdefc47b7a2926f3b00404ec7051405d90ddab19e094a9c3ef9c20f5a",
+    "bot-starter/src/exact-small-eval.ts": "969294c4739ca03b4c0b4f652f7e227275aa6b7e6232c28fddce26210d15bb83",
+    "bot-starter/src/experimental-policy.test.ts": "65c87957217581382f49f531e3fe138c63271eae69df45aab41a7a153a6e0d3a",
+    "bot-starter/src/fast-eval-index.test.ts": "305f466d329877507d41a85c936cf37337f04cd819b935dcf5e0e337915acdb2",
+    "bot-starter/src/horizon.test.ts": "5a640f09783aeeff75f3e61e8279ec677296405290cf69dc6895e7c5489b4414",
+    "bot-starter/src/horizon.ts": "30cf873698112307ab2ae77821a45e7575efb87037474fe90937746ce42dad44",
+    "bot-starter/src/market-random.test.ts": "ab573bbb8481b861d9389315525304506ffb3da8939bcf4d0864ba170d99b2c4",
+    "bot-starter/src/market-random.ts": "bb28c7a33091356c86411f69783ae093890c7d8244cd79e9714055cf4350c6a8",
+    "bot-starter/src/market.ts": "7a67da4b90e4675021ed8b77b0e70c7421dc9c9eec67b1d43c3b68499163866c",
+    "bot-starter/src/montecarlo-cache.test.ts": "b8ceb7bec6724ebf7d6ad2043066803311e790f242cfcca19ee2b5c97aaa8609",
+    "bot-starter/src/montecarlo.ts": "cece5e6727bb353d553af8a92e1a3192493dbde0053d84c18c201c3377cd95a8",
+    "bot-starter/src/prices.ts": "1588afc99146f1fd2f01f2e36c6dbc26f1a201760f57aa27590550cf7a286f98",
+    "bot-starter/src/sim-random.test.ts": "e4d605c3d95213de57b6641d0e6c245d428ae290df825a356b0d5db3532695e0",
+    "bot-starter/src/sim-random.ts": "3af75f1877030b5eabfcbfb3e6ecdbc072170287e02fa4930f296d375347d2b4",
+    "bot-starter/src/sim.test.ts": "a9bf3161d642b1aec39ff542196d12fba8e6511f8048337cdae41f07ff157584",
+    "bot-starter/src/sim.ts": "8d4a51b941ba20f10a31d657d95e39139b8f216d0dbd83bf9a93347882cdf969",
+    "bot-starter/src/strategy.test.ts": "1a55e7df728b3601b59c5e0ac942ecc641e2759dcaf802a539642bda64bff3fe",
+    "bot-starter/src/strategy.ts": "99595d5e163a860c9bc9f78a42ebf84a475f774be4e97c78fbbd1fe3eed4ceb1",
+    "bot-starter/src/terminal-policy.test.ts": "7e69b47a2328f1c3ee190d6ccf54486f851dabe43dbacaeaf9e1d8efecf3e0ff",
+    "bot-starter/src/terminal-proof.test.ts": "591a69079fe6742d8fa9e50136151d09731d821afb199d680c02a0d49c1b101a",
+    "bot-starter/src/terminal-proof.ts": "c7a1a110130e043c0ef073b29636df769574532a89e5b3894adf3a3aa174b455",
+    "bot-starter/src/tracker.ts": "0ea56f077021b7fd266000eaaf160651735fb05683d17cc40ac4b16b83a949aa",
+    "bot-starter/src/win-utility.test.ts": "2c1f59125bb3576401acd9b5cb5239768e134a548f14313012b5a8390ef9ce30",
+    "bot-starter/src/win-utility.ts": "7cb91a7e5bd9443759ac935b9aa87e6c93f72ed2824ba24059a14cf344c91fbd",
+    "bot-starter/src/word-packing.test.ts": "1b4363483f6ca42cbe8c7ea65afcafe3cac009bbe219856200b223da57bf5a3f",
+    "bot-starter/src/word-packing.ts": "b066972f7c29448d52d926c6f87aec17756c1be8b30a489eed25fc07478210ef",
+    "bot-starter/src/prices.json": "7d8cabd3c1b41262176e30351f80921c29bb3671361293f3333448bea7a70005",
+    "bot-starter/src/win-prior.json": "b6127f8f2a912d22aab650db81e69d4334bacdf918328b2d9727a9e26ac99c4c",
+    "bot-starter/package.json": "acb519bec59cc13cbadce0f24292a26e16155d402d42e60ecfb100184b102bad",
+    "bot-starter/package-lock.json": "22d75b63274467a2adfc1129a345ccdc99b7e93dcf015cc5f2308a1d37399de2",
+    "bot-starter/tsconfig.json": "6e3ea26fbba22b0fbd41466e50d3e53391385e839701923e535837bb1aec5147",
+    "spacetimedb/wordlist.txt": "b819e7b67f8f2c80640ae76f0edbe59a4a1befb6de0f348463642ad49bdd2ad3"
+  },
+  "snapshotRoot": "/Users/siddarthakodithyala/the scrabble bot for utd hacks/odysseus-live/bot-starter/.runtime-odysseus/reactive-snapshots/5f188a2d1fa4e5bd4b92e30fef61786529871f86c5d088854b42f0ad541748b5/bot-starter",
+  "startedAt": "2026-11-07T23:46:12.041305+00:00",
+  "fields": {
+    "live": {
+      "arms": {
+        "BASE": {
+          "elapsedSeconds": 98.74235354090342,
+          "uniqueWorlds": 32,
+          "repeatsPerWorld": 3,
+          "score": 94.46875,
+          "place": 2.78125,
+          "syntheticWinPercent": 28.125,
+          "fullOutcomes": [
+            {
+              "matchIndex": 0,
+              "score": 69,
+              "place": 4,
+              "win": false,
+              "balance": 76,
+              "fieldScores": [
+                69,
+                82,
+                48,
+                99,
+                44,
+                118
+              ],
+              "worldIndex": 0,
+              "trial": 1
+            },
+            {
+              "matchIndex": 1,
+              "score": 69,
+              "place": 4,
+              "win": false,
+              "balance": 76,
+              "fieldScores": [
+                69,
+                82,
+                48,
+                99,
+                44,
+                118
+              ],
+              "worldIndex": 0,
+              "trial": 2
+            },
+            {
+              "matchIndex": 2,
+              "score": 69,
+              "place": 4,
+              "win": false,
+              "balance": 76,
+              "fieldScores": [
+                69,
+                82,
+                48,
+                99,
+                44,
+                118
+              ],
+              "worldIndex": 0,
+              "trial": 3
+            },
+            {
+              "matchIndex": 3,
+              "score": 115,
+              "place": 1,
+              "win": true,
+              "balance": 34,
+              "fieldScores": [
+                115,
+                71,
+                69,
+                45,
+                76,
+                83
+              ],
+              "worldIndex": 1,
+              "trial": 1
+            },
+            {
+              "matchIndex": 4,
+              "score": 115,
+              "place": 1,
+              "win": true,
+              "balance": 34,
+              "fieldScores": [
+                115,
+                71,
+                69,
+                45,
+                76,
+                83
+              ],
+              "worldIndex": 1,
+              "trial": 2
+            },
+            {
+              "matchIndex": 5,
+              "score": 115,
+              "place": 1,
+              "win": true,
+              "balance": 34,
+              "fieldScores": [
+                115,
+                71,
+                69,
+                45,
+                76,
+                83
+              ],
+              "worldIndex": 1,
+              "trial": 3
+            },
+            {
+              "matchIndex": 6,
+              "score": 113,
+              "place": 3,
+              "win": false,
+              "balance": 81,
+              "fieldScores": [
+                113,
+                33,
+                142,
+                123,
+                33,
+                60
+              ],
+              "worldIndex": 2,
+              "trial": 1
+            },
+            {
+              "matchIndex": 7,
+              "score": 113,
+              "place": 3,
+              "win": false,
+              "balance": 81,
+              "fieldScores": [
+                113,
+                33,
+                142,
+                123,
+                33,
+                60
+              ],
+              "worldIndex": 2,
+              "trial": 2
+            },
+            {
+              "matchIndex": 8,
+              "score": 113,
+              "place": 3,
+              "win": false,
+              "balance": 81,
+              "fieldScores": [
+                113,
+                33,
+                142,
+                123,
+                33,
+                60
+              ],
+              "worldIndex": 2,
+              "trial": 3
+            },
+            {
+              "matchIndex": 9,
+              "score": 87,
+              "place": 2,
+              "win": false,
+              "balance": 59,
+              "fieldScores": [
+                87,
+                140,
+                78,
+                66,
+                30,
+                80
+              ],
+              "worldIndex": 3,
+              "trial": 1
+            },
+            {
+              "matchIndex": 10,
+              "score": 87,
+              "place": 2,
+              "win": false,
+              "balance": 59,
+              "fieldScores": [
+                87,
+                140,
+                78,
+                66,
+                30,
+                80
+              ],
+              "worldIndex": 3,
+              "trial": 2
+            },
+            {
+              "matchIndex": 11,
+              "score": 87,
+              "place": 2,
+              "win": false,
+              "balance": 59,
+              "fieldScores": [
+                87,
+                140,
+                78,
+                66,
+                30,
+                80
+              ],
+              "worldIndex": 3,
+              "trial": 3
+            },
+            {
+              "matchIndex": 12,
+              "score": 95,
+              "place": 3,
+              "win": false,
+              "balance": 32,
+              "fieldScores": [
+                95,
+                106,
+                53,
+                93,
+                36,
+                118
+              ],
+              "worldIndex": 4,
+              "trial": 1
+            },
+            {
+              "matchIndex": 13,
+              "score": 95,
+              "place": 3,
+              "win": false,
+              "balance": 32,
+              "fieldScores": [
+                95,
+                106,
+                53,
+                93,
+                36,
+                118
+              ],
+              "worldIndex": 4,
+              "trial": 2
+            },
+            {
+              "matchIndex": 14,
+              "score": 95,
+              "place": 3,
+              "win": false,
+              "balance": 32,
+              "fieldScores": [
+                95,
+                106,
+                53,
+                93,
+                36,
+                118
+              ],
+              "worldIndex": 4,
+              "trial": 3
+            },
+            {
+              "matchIndex": 15,
+              "score": 108,
+              "place": 2,
+              "win": false,
+              "balance": 62,
+              "fieldScores": [
+                108,
+                66,
+                72,
+                59,
+                73,
+                110
+              ],
+              "worldIndex": 5,
+              "trial": 1
+            },
+            {
+              "matchIndex": 16,
+              "score": 108,
+              "place": 2,
+              "win": false,
+              "balance": 62,
+              "fieldScores": [
+                108,
+                66,
+                72,
+                59,
+                73,
+                110
+              ],
+              "worldIndex": 5,
+              "trial": 2
+            },
+            {
+              "matchIndex": 17,
+              "score": 108,
+              "place": 2,
+              "win": false,
+              "balance": 62,
+              "fieldScores": [
+                108,
+                66,
+                72,
+                59,
+                73,
+                110
+              ],
+              "worldIndex": 5,
+              "trial": 3
+            },
+            {
+              "matchIndex": 18,
+              "score": 56,
+              "place": 6,
+              "win": false,
+              "balance": 40,
+              "fieldScores": [
+                56,
+                86,
+                103,
+                104,
+                90,
+                75
+              ],
+              "worldIndex": 6,
+              "trial": 1
+            },
+            {
+              "matchIndex": 19,
+              "score": 56,
+              "place": 6,
+              "win": false,
+              "balance": 40,
+              "fieldScores": [
+                56,
+                86,
+                103,
+                104,
+                90,
+                75
+              ],
+              "worldIndex": 6,
+              "trial": 2
+            },
+            {
+              "matchIndex": 20,
+              "score": 56,
+              "place": 6,
+              "win": false,
+              "balance": 40,
+              "fieldScores": [
+                56,
+                86,
+                103,
+                104,
+                90,
+                75
+              ],
+              "worldIndex": 6,
+              "trial": 3
+            },
+            {
+              "matchIndex": 21,
+              "score": 80,
+              "place": 4,
+              "win": false,
+              "balance": 47,
+              "fieldScores": [
+                80,
+                78,
+                90,
+                93,
+                110,
+                68
+              ],
+              "worldIndex": 7,
+              "trial": 1
+            },
+            {
+              "matchIndex": 22,
+              "score": 80,
+              "place": 4,
+              "win": false,
+              "balance": 47,
+              "fieldScores": [
+                80,
+                78,
+                90,
+                93,
+                110,
+                68
+              ],
+              "worldIndex": 7,
+              "trial": 2
+            },
+            {
+              "matchIndex": 23,
+              "score": 80,
+              "place": 4,
+              "win": false,
+              "balance": 47,
+              "fieldScores": [
+                80,
+                78,
+                90,
+                93,
+                110,
+                68
+              ],
+              "worldIndex": 7,
+              "trial": 3
+            },
+            {
+              "matchIndex": 24,
+              "score": 144,
+              "place": 1,
+              "win": true,
+              "balance": 69,
+              "fieldScores": [
+                144,
+                93,
+                144,
+                73,
+                27,
+                30
+              ],
+              "worldIndex": 8,
+              "trial": 1
+            },
+            {
+              "matchIndex": 25,
+              "score": 144,
+              "place": 1,
+              "win": true,
+              "balance": 69,
+              "fieldScores": [
+                144,
+                93,
+                144,
+                73,
+                27,
+                30
+              ],
+              "worldIndex": 8,
+              "trial": 2
+            },
+            {
+              "matchIndex": 26,
+              "score": 144,
+              "place": 1,
+              "win": true,
+              "balance": 69,
+              "fieldScores": [
+                144,
+                93,
+                144,
+                73,
+                27,
+                30
+              ],
+              "worldIndex": 8,
+              "trial": 3
+            },
+            {
+              "matchIndex": 27,
+              "score": 93,
+              "place": 3,
+              "win": false,
+              "balance": 72,
+              "fieldScores": [
+                93,
+                101,
+                78,
+                83,
+                123,
+                41
+              ],
+              "worldIndex": 9,
+              "trial": 1
+            },
+            {
+              "matchIndex": 28,
+              "score": 93,
+              "place": 3,
+              "win": false,
+              "balance": 72,
+              "fieldScores": [
+                93,
+                101,
+                78,
+                83,
+                123,
+                41
+              ],
+              "worldIndex": 9,
+              "trial": 2
+            },
+            {
+              "matchIndex": 29,
+              "score": 93,
+              "place": 3,
+              "win": false,
+              "balance": 72,
+              "fieldScores": [
+                93,
+                101,
+                78,
+                83,
+                123,
+                41
+              ],
+              "worldIndex": 9,
+              "trial": 3
+            },
+            {
+              "matchIndex": 30,
+              "score": 123,
+              "place": 2,
+              "win": false,
+              "balance": 61,
+              "fieldScores": [
+                123,
+                103,
+                60,
+                60,
+                33,
+                126
+              ],
+              "worldIndex": 10,
+              "trial": 1
+            },
+            {
+              "matchIndex": 31,
+              "score": 123,
+              "place": 2,
+              "win": false,
+              "balance": 61,
+              "fieldScores": [
+                123,
+                103,
+                60,
+                60,
+                33,
+                126
+              ],
+              "worldIndex": 10,
+              "trial": 2
+            },
+            {
+              "matchIndex": 32,
+              "score": 123,
+              "place": 2,
+              "win": false,
+              "balance": 61,
+              "fieldScores": [
+                123,
+                103,
+                60,
+                60,
+                33,
+                126
+              ],
+              "worldIndex": 10,
+              "trial": 3
+            },
+            {
+              "matchIndex": 33,
+              "score": 60,
+              "place": 5,
+              "win": false,
+              "balance": 69,
+              "fieldScores": [
+                60,
+                37,
+                69,
+                95,
+                76,
+                121
+              ],
+              "worldIndex": 11,
+              "trial": 1
+            },
+            {
+              "matchIndex": 34,
+              "score": 60,
+              "place": 5,
+              "win": false,
+              "balance": 69,
+              "fieldScores": [
+                60,
+                37,
+                69,
+                95,
+                76,
+                121
+              ],
+              "worldIndex": 11,
+              "trial": 2
+            },
+            {
+              "matchIndex": 35,
+              "score": 60,
+              "place": 5,
+              "win": false,
+              "balance": 69,
+              "fieldScores": [
+                60,
+                37,
+                69,
+                95,
+                76,
+                121
+              ],
+              "worldIndex": 11,
+              "trial": 3
+            },
+            {
+              "matchIndex": 36,
+              "score": 102,
+              "place": 3,
+              "win": false,
+              "balance": 79,
+              "fieldScores": [
+                102,
+                75,
+                84,
+                117,
+                36,
+                114
+              ],
+              "worldIndex": 12,
+              "trial": 1
+            },
+            {
+              "matchIndex": 37,
+              "score": 102,
+              "place": 3,
+              "win": false,
+              "balance": 79,
+              "fieldScores": [
+                102,
+                75,
+                84,
+                117,
+                36,
+                114
+              ],
+              "worldIndex": 12,
+              "trial": 2
+            },
+            {
+              "matchIndex": 38,
+              "score": 102,
+              "place": 3,
+              "win": false,
+              "balance": 79,
+              "fieldScores": [
+                102,
+                75,
+                84,
+                117,
+                36,
+                114
+              ],
+              "worldIndex": 12,
+              "trial": 3
+            },
+            {
+              "matchIndex": 39,
+              "score": 92,
+              "place": 2,
+              "win": false,
+              "balance": 45,
+              "fieldScores": [
+                92,
+                77,
+                73,
+                74,
+                89,
+                93
+              ],
+              "worldIndex": 13,
+              "trial": 1
+            },
+            {
+              "matchIndex": 40,
+              "score": 92,
+              "place": 2,
+              "win": false,
+              "balance": 45,
+              "fieldScores": [
+                92,
+                77,
+                73,
+                74,
+                89,
+                93
+              ],
+              "worldIndex": 13,
+              "trial": 2
+            },
+            {
+              "matchIndex": 41,
+              "score": 92,
+              "place": 2,
+              "win": false,
+              "balance": 45,
+              "fieldScores": [
+                92,
+                77,
+                73,
+                74,
+                89,
+                93
+              ],
+              "worldIndex": 13,
+              "trial": 3
+            },
+            {
+              "matchIndex": 42,
+              "score": 119,
+              "place": 1,
+              "win": true,
+              "balance": 99,
+              "fieldScores": [
+                119,
+                93,
+                33,
+                49,
+                90,
+                84
+              ],
+              "worldIndex": 14,
+              "trial": 1
+            },
+            {
+              "matchIndex": 43,
+              "score": 119,
+              "place": 1,
+              "win": true,
+              "balance": 99,
+              "fieldScores": [
+                119,
+                93,
+                33,
+                49,
+                90,
+                84
+              ],
+              "worldIndex": 14,
+              "trial": 2
+            },
+            {
+              "matchIndex": 44,
+              "score": 119,
+              "place": 1,
+              "win": true,
+              "balance": 99,
+              "fieldScores": [
+                119,
+                93,
+                33,
+                49,
+                90,
+                84
+              ],
+              "worldIndex": 14,
+              "trial": 3
+            },
+            {
+              "matchIndex": 45,
+              "score": 105,
+              "place": 1,
+              "win": true,
+              "balance": 26,
+              "fieldScores": [
+                105,
+                104,
+                87,
+                93,
+                27,
+                79
+              ],
+              "worldIndex": 15,
+              "trial": 1
+            },
+            {
+              "matchIndex": 46,
+              "score": 105,
+              "place": 1,
+              "win": true,
+              "balance": 26,
+              "fieldScores": [
+                105,
+                104,
+                87,
+                93,
+                27,
+                79
+              ],
+              "worldIndex": 15,
+              "trial": 2
+            },
+            {
+              "matchIndex": 47,
+              "score": 105,
+              "place": 1,
+              "win": true,
+              "balance": 26,
+              "fieldScores": [
+                105,
+                104,
+                87,
+                93,
+                27,
+                79
+              ],
+              "worldIndex": 15,
+              "trial": 3
+            },
+            {
+              "matchIndex": 48,
+              "score": 62,
+              "place": 5,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                62,
+                112,
+                39,
+                68,
+                78,
+                63
+              ],
+              "worldIndex": 16,
+              "trial": 1
+            },
+            {
+              "matchIndex": 49,
+              "score": 62,
+              "place": 5,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                62,
+                112,
+                39,
+                68,
+                78,
+                63
+              ],
+              "worldIndex": 16,
+              "trial": 2
+            },
+            {
+              "matchIndex": 50,
+              "score": 62,
+              "place": 5,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                62,
+                112,
+                39,
+                68,
+                78,
+                63
+              ],
+              "worldIndex": 16,
+              "trial": 3
+            },
+            {
+              "matchIndex": 51,
+              "score": 100,
+              "place": 2,
+              "win": false,
+              "balance": 39,
+              "fieldScores": [
+                100,
+                71,
+                82,
+                84,
+                36,
+                127
+              ],
+              "worldIndex": 17,
+              "trial": 1
+            },
+            {
+              "matchIndex": 52,
+              "score": 100,
+              "place": 2,
+              "win": false,
+              "balance": 39,
+              "fieldScores": [
+                100,
+                71,
+                82,
+                84,
+                36,
+                127
+              ],
+              "worldIndex": 17,
+              "trial": 2
+            },
+            {
+              "matchIndex": 53,
+              "score": 100,
+              "place": 2,
+              "win": false,
+              "balance": 39,
+              "fieldScores": [
+                100,
+                71,
+                82,
+                84,
+                36,
+                127
+              ],
+              "worldIndex": 17,
+              "trial": 3
+            },
+            {
+              "matchIndex": 54,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 60,
+              "fieldScores": [
+                84,
+                83,
+                66,
+                87,
+                111,
+                72
+              ],
+              "worldIndex": 18,
+              "trial": 1
+            },
+            {
+              "matchIndex": 55,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 60,
+              "fieldScores": [
+                84,
+                83,
+                66,
+                87,
+                111,
+                72
+              ],
+              "worldIndex": 18,
+              "trial": 2
+            },
+            {
+              "matchIndex": 56,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 60,
+              "fieldScores": [
+                84,
+                83,
+                66,
+                87,
+                111,
+                72
+              ],
+              "worldIndex": 18,
+              "trial": 3
+            },
+            {
+              "matchIndex": 57,
+              "score": 111,
+              "place": 2,
+              "win": false,
+              "balance": 52,
+              "fieldScores": [
+                111,
+                127,
+                84,
+                40,
+                81,
+                84
+              ],
+              "worldIndex": 19,
+              "trial": 1
+            },
+            {
+              "matchIndex": 58,
+              "score": 111,
+              "place": 2,
+              "win": false,
+              "balance": 52,
+              "fieldScores": [
+                111,
+                127,
+                84,
+                40,
+                81,
+                84
+              ],
+              "worldIndex": 19,
+              "trial": 2
+            },
+            {
+              "matchIndex": 59,
+              "score": 111,
+              "place": 2,
+              "win": false,
+              "balance": 52,
+              "fieldScores": [
+                111,
+                127,
+                84,
+                40,
+                81,
+                84
+              ],
+              "worldIndex": 19,
+              "trial": 3
+            },
+            {
+              "matchIndex": 60,
+              "score": 97,
+              "place": 2,
+              "win": false,
+              "balance": 28,
+              "fieldScores": [
+                97,
+                98,
+                59,
+                68,
+                66,
+                74
+              ],
+              "worldIndex": 20,
+              "trial": 1
+            },
+            {
+              "matchIndex": 61,
+              "score": 97,
+              "place": 2,
+              "win": false,
+              "balance": 28,
+              "fieldScores": [
+                97,
+                98,
+                59,
+                68,
+                66,
+                74
+              ],
+              "worldIndex": 20,
+              "trial": 2
+            },
+            {
+              "matchIndex": 62,
+              "score": 97,
+              "place": 2,
+              "win": false,
+              "balance": 28,
+              "fieldScores": [
+                97,
+                98,
+                59,
+                68,
+                66,
+                74
+              ],
+              "worldIndex": 20,
+              "trial": 3
+            },
+            {
+              "matchIndex": 63,
+              "score": 27,
+              "place": 6,
+              "win": false,
+              "balance": 104,
+              "fieldScores": [
+                27,
+                87,
+                57,
+                132,
+                108,
+                96
+              ],
+              "worldIndex": 21,
+              "trial": 1
+            },
+            {
+              "matchIndex": 64,
+              "score": 27,
+              "place": 6,
+              "win": false,
+              "balance": 104,
+              "fieldScores": [
+                27,
+                87,
+                57,
+                132,
+                108,
+                96
+              ],
+              "worldIndex": 21,
+              "trial": 2
+            },
+            {
+              "matchIndex": 65,
+              "score": 27,
+              "place": 6,
+              "win": false,
+              "balance": 104,
+              "fieldScores": [
+                27,
+                87,
+                57,
+                132,
+                108,
+                96
+              ],
+              "worldIndex": 21,
+              "trial": 3
+            },
+            {
+              "matchIndex": 66,
+              "score": 100,
+              "place": 2,
+              "win": false,
+              "balance": 32,
+              "fieldScores": [
+                100,
+                144,
+                76,
+                88,
+                21,
+                69
+              ],
+              "worldIndex": 22,
+              "trial": 1
+            },
+            {
+              "matchIndex": 67,
+              "score": 100,
+              "place": 2,
+              "win": false,
+              "balance": 32,
+              "fieldScores": [
+                100,
+                144,
+                76,
+                88,
+                21,
+                69
+              ],
+              "worldIndex": 22,
+              "trial": 2
+            },
+            {
+              "matchIndex": 68,
+              "score": 100,
+              "place": 2,
+              "win": false,
+              "balance": 32,
+              "fieldScores": [
+                100,
+                144,
+                76,
+                88,
+                21,
+                69
+              ],
+              "worldIndex": 22,
+              "trial": 3
+            },
+            {
+              "matchIndex": 69,
+              "score": 36,
+              "place": 6,
+              "win": false,
+              "balance": 115,
+              "fieldScores": [
+                36,
+                87,
+                58,
+                108,
+                75,
+                132
+              ],
+              "worldIndex": 23,
+              "trial": 1
+            },
+            {
+              "matchIndex": 70,
+              "score": 36,
+              "place": 6,
+              "win": false,
+              "balance": 115,
+              "fieldScores": [
+                36,
+                87,
+                58,
+                108,
+                75,
+                132
+              ],
+              "worldIndex": 23,
+              "trial": 2
+            },
+            {
+              "matchIndex": 71,
+              "score": 36,
+              "place": 6,
+              "win": false,
+              "balance": 115,
+              "fieldScores": [
+                36,
+                87,
+                58,
+                108,
+                75,
+                132
+              ],
+              "worldIndex": 23,
+              "trial": 3
+            },
+            {
+              "matchIndex": 72,
+              "score": 73,
+              "place": 5,
+              "win": false,
+              "balance": 48,
+              "fieldScores": [
+                73,
+                83,
+                90,
+                110,
+                63,
+                76
+              ],
+              "worldIndex": 24,
+              "trial": 1
+            },
+            {
+              "matchIndex": 73,
+              "score": 73,
+              "place": 5,
+              "win": false,
+              "balance": 48,
+              "fieldScores": [
+                73,
+                83,
+                90,
+                110,
+                63,
+                76
+              ],
+              "worldIndex": 24,
+              "trial": 2
+            },
+            {
+              "matchIndex": 74,
+              "score": 73,
+              "place": 5,
+              "win": false,
+              "balance": 48,
+              "fieldScores": [
+                73,
+                83,
+                90,
+                110,
+                63,
+                76
+              ],
+              "worldIndex": 24,
+              "trial": 3
+            },
+            {
+              "matchIndex": 75,
+              "score": 112,
+              "place": 1,
+              "win": true,
+              "balance": 41,
+              "fieldScores": [
+                112,
+                64,
+                96,
+                52,
+                61,
+                72
+              ],
+              "worldIndex": 25,
+              "trial": 1
+            },
+            {
+              "matchIndex": 76,
+              "score": 112,
+              "place": 1,
+              "win": true,
+              "balance": 41,
+              "fieldScores": [
+                112,
+                64,
+                96,
+                52,
+                61,
+                72
+              ],
+              "worldIndex": 25,
+              "trial": 2
+            },
+            {
+              "matchIndex": 77,
+              "score": 112,
+              "place": 1,
+              "win": true,
+              "balance": 41,
+              "fieldScores": [
+                112,
+                64,
+                96,
+                52,
+                61,
+                72
+              ],
+              "worldIndex": 25,
+              "trial": 3
+            },
+            {
+              "matchIndex": 78,
+              "score": 105,
+              "place": 1,
+              "win": true,
+              "balance": 39,
+              "fieldScores": [
+                105,
+                64,
+                90,
+                68,
+                98,
+                68
+              ],
+              "worldIndex": 26,
+              "trial": 1
+            },
+            {
+              "matchIndex": 79,
+              "score": 105,
+              "place": 1,
+              "win": true,
+              "balance": 39,
+              "fieldScores": [
+                105,
+                64,
+                90,
+                68,
+                98,
+                68
+              ],
+              "worldIndex": 26,
+              "trial": 2
+            },
+            {
+              "matchIndex": 80,
+              "score": 105,
+              "place": 1,
+              "win": true,
+              "balance": 39,
+              "fieldScores": [
+                105,
+                64,
+                90,
+                68,
+                98,
+                68
+              ],
+              "worldIndex": 26,
+              "trial": 3
+            },
+            {
+              "matchIndex": 81,
+              "score": 105,
+              "place": 1,
+              "win": true,
+              "balance": 22,
+              "fieldScores": [
+                105,
+                70,
+                100,
+                67,
+                56,
+                72
+              ],
+              "worldIndex": 27,
+              "trial": 1
+            },
+            {
+              "matchIndex": 82,
+              "score": 105,
+              "place": 1,
+              "win": true,
+              "balance": 22,
+              "fieldScores": [
+                105,
+                70,
+                100,
+                67,
+                56,
+                72
+              ],
+              "worldIndex": 27,
+              "trial": 2
+            },
+            {
+              "matchIndex": 83,
+              "score": 105,
+              "place": 1,
+              "win": true,
+              "balance": 22,
+              "fieldScores": [
+                105,
+                70,
+                100,
+                67,
+                56,
+                72
+              ],
+              "worldIndex": 27,
+              "trial": 3
+            },
+            {
+              "matchIndex": 84,
+              "score": 96,
+              "place": 2,
+              "win": false,
+              "balance": 30,
+              "fieldScores": [
+                96,
+                75,
+                54,
+                113,
+                60,
+                96
+              ],
+              "worldIndex": 28,
+              "trial": 1
+            },
+            {
+              "matchIndex": 85,
+              "score": 96,
+              "place": 2,
+              "win": false,
+              "balance": 30,
+              "fieldScores": [
+                96,
+                75,
+                54,
+                113,
+                60,
+                96
+              ],
+              "worldIndex": 28,
+              "trial": 2
+            },
+            {
+              "matchIndex": 86,
+              "score": 96,
+              "place": 2,
+              "win": false,
+              "balance": 30,
+              "fieldScores": [
+                96,
+                75,
+                54,
+                113,
+                60,
+                96
+              ],
+              "worldIndex": 28,
+              "trial": 3
+            },
+            {
+              "matchIndex": 87,
+              "score": 204,
+              "place": 1,
+              "win": true,
+              "balance": 69,
+              "fieldScores": [
+                204,
+                63,
+                36,
+                44,
+                78,
+                100
+              ],
+              "worldIndex": 29,
+              "trial": 1
+            },
+            {
+              "matchIndex": 88,
+              "score": 204,
+              "place": 1,
+              "win": true,
+              "balance": 69,
+              "fieldScores": [
+                204,
+                63,
+                36,
+                44,
+                78,
+                100
+              ],
+              "worldIndex": 29,
+              "trial": 2
+            },
+            {
+              "matchIndex": 89,
+              "score": 204,
+              "place": 1,
+              "win": true,
+              "balance": 69,
+              "fieldScores": [
+                204,
+                63,
+                36,
+                44,
+                78,
+                100
+              ],
+              "worldIndex": 29,
+              "trial": 3
+            },
+            {
+              "matchIndex": 90,
+              "score": 39,
+              "place": 6,
+              "win": false,
+              "balance": 98,
+              "fieldScores": [
+                39,
+                93,
+                100,
+                130,
+                60,
+                64
+              ],
+              "worldIndex": 30,
+              "trial": 1
+            },
+            {
+              "matchIndex": 91,
+              "score": 39,
+              "place": 6,
+              "win": false,
+              "balance": 98,
+              "fieldScores": [
+                39,
+                93,
+                100,
+                130,
+                60,
+                64
+              ],
+              "worldIndex": 30,
+              "trial": 2
+            },
+            {
+              "matchIndex": 92,
+              "score": 39,
+              "place": 6,
+              "win": false,
+              "balance": 98,
+              "fieldScores": [
+                39,
+                93,
+                100,
+                130,
+                60,
+                64
+              ],
+              "worldIndex": 30,
+              "trial": 3
+            },
+            {
+              "matchIndex": 93,
+              "score": 111,
+              "place": 1,
+              "win": true,
+              "balance": 54,
+              "fieldScores": [
+                111,
+                109,
+                93,
+                76,
+                36,
+                68
+              ],
+              "worldIndex": 31,
+              "trial": 1
+            },
+            {
+              "matchIndex": 94,
+              "score": 111,
+              "place": 1,
+              "win": true,
+              "balance": 54,
+              "fieldScores": [
+                111,
+                109,
+                93,
+                76,
+                36,
+                68
+              ],
+              "worldIndex": 31,
+              "trial": 2
+            },
+            {
+              "matchIndex": 95,
+              "score": 111,
+              "place": 1,
+              "win": true,
+              "balance": 54,
+              "fieldScores": [
+                111,
+                109,
+                93,
+                76,
+                36,
+                68
+              ],
+              "worldIndex": 31,
+              "trial": 3
+            }
+          ],
+          "effectivePolicy": {
+            "samples": 24,
+            "bidGain": 1.1,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 2,
+            "huPaceEarly": 1.1,
+            "huHorizon": 10,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 3.5,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2,
+            "neutralSixHorizon": true
+          },
+          "effectiveRival": {
+            "samples": 24,
+            "bidGain": 1.3,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 2,
+            "huPaceEarly": 1.1,
+            "huHorizon": 10,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 3.5,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2
+          },
+          "flakyWinWorlds": 0
+        },
+        "WIN30": {
+          "elapsedSeconds": 87.29336599993985,
+          "uniqueWorlds": 32,
+          "repeatsPerWorld": 3,
+          "score": 92.375,
+          "place": 2.5520833333333335,
+          "syntheticWinPercent": 34.375,
+          "fullOutcomes": [
+            {
+              "matchIndex": 0,
+              "score": 103,
+              "place": 1,
+              "win": true,
+              "balance": 43,
+              "fieldScores": [
+                103,
+                75,
+                48,
+                84,
+                44,
+                90
+              ],
+              "worldIndex": 0,
+              "trial": 1
+            },
+            {
+              "matchIndex": 1,
+              "score": 103,
+              "place": 1,
+              "win": true,
+              "balance": 43,
+              "fieldScores": [
+                103,
+                75,
+                48,
+                84,
+                44,
+                90
+              ],
+              "worldIndex": 0,
+              "trial": 2
+            },
+            {
+              "matchIndex": 2,
+              "score": 103,
+              "place": 1,
+              "win": true,
+              "balance": 43,
+              "fieldScores": [
+                103,
+                75,
+                48,
+                84,
+                44,
+                90
+              ],
+              "worldIndex": 0,
+              "trial": 3
+            },
+            {
+              "matchIndex": 3,
+              "score": 90,
+              "place": 1,
+              "win": true,
+              "balance": 53,
+              "fieldScores": [
+                90,
+                66,
+                64,
+                76,
+                66,
+                51
+              ],
+              "worldIndex": 1,
+              "trial": 1
+            },
+            {
+              "matchIndex": 4,
+              "score": 90,
+              "place": 1,
+              "win": true,
+              "balance": 53,
+              "fieldScores": [
+                90,
+                66,
+                64,
+                76,
+                66,
+                51
+              ],
+              "worldIndex": 1,
+              "trial": 2
+            },
+            {
+              "matchIndex": 5,
+              "score": 90,
+              "place": 1,
+              "win": true,
+              "balance": 53,
+              "fieldScores": [
+                90,
+                66,
+                64,
+                76,
+                66,
+                51
+              ],
+              "worldIndex": 1,
+              "trial": 3
+            },
+            {
+              "matchIndex": 6,
+              "score": 108,
+              "place": 1,
+              "win": true,
+              "balance": 53,
+              "fieldScores": [
+                108,
+                44,
+                100,
+                47,
+                81,
+                95
+              ],
+              "worldIndex": 2,
+              "trial": 1
+            },
+            {
+              "matchIndex": 7,
+              "score": 108,
+              "place": 1,
+              "win": true,
+              "balance": 53,
+              "fieldScores": [
+                108,
+                44,
+                100,
+                47,
+                81,
+                95
+              ],
+              "worldIndex": 2,
+              "trial": 2
+            },
+            {
+              "matchIndex": 8,
+              "score": 108,
+              "place": 1,
+              "win": true,
+              "balance": 53,
+              "fieldScores": [
+                108,
+                44,
+                100,
+                47,
+                81,
+                95
+              ],
+              "worldIndex": 2,
+              "trial": 3
+            },
+            {
+              "matchIndex": 9,
+              "score": 65,
+              "place": 5,
+              "win": false,
+              "balance": 7,
+              "fieldScores": [
+                65,
+                97,
+                77,
+                87,
+                30,
+                100
+              ],
+              "worldIndex": 3,
+              "trial": 1
+            },
+            {
+              "matchIndex": 10,
+              "score": 65,
+              "place": 5,
+              "win": false,
+              "balance": 7,
+              "fieldScores": [
+                65,
+                97,
+                77,
+                87,
+                30,
+                100
+              ],
+              "worldIndex": 3,
+              "trial": 2
+            },
+            {
+              "matchIndex": 11,
+              "score": 65,
+              "place": 5,
+              "win": false,
+              "balance": 7,
+              "fieldScores": [
+                65,
+                97,
+                77,
+                87,
+                30,
+                100
+              ],
+              "worldIndex": 3,
+              "trial": 3
+            },
+            {
+              "matchIndex": 12,
+              "score": 95,
+              "place": 3,
+              "win": false,
+              "balance": 34,
+              "fieldScores": [
+                95,
+                106,
+                53,
+                93,
+                36,
+                118
+              ],
+              "worldIndex": 4,
+              "trial": 1
+            },
+            {
+              "matchIndex": 13,
+              "score": 95,
+              "place": 3,
+              "win": false,
+              "balance": 34,
+              "fieldScores": [
+                95,
+                106,
+                53,
+                93,
+                36,
+                118
+              ],
+              "worldIndex": 4,
+              "trial": 2
+            },
+            {
+              "matchIndex": 14,
+              "score": 95,
+              "place": 3,
+              "win": false,
+              "balance": 34,
+              "fieldScores": [
+                95,
+                106,
+                53,
+                93,
+                36,
+                118
+              ],
+              "worldIndex": 4,
+              "trial": 3
+            },
+            {
+              "matchIndex": 15,
+              "score": 103,
+              "place": 1,
+              "win": true,
+              "balance": 15,
+              "fieldScores": [
+                103,
+                89,
+                56,
+                86,
+                78,
+                49
+              ],
+              "worldIndex": 5,
+              "trial": 1
+            },
+            {
+              "matchIndex": 16,
+              "score": 103,
+              "place": 1,
+              "win": true,
+              "balance": 15,
+              "fieldScores": [
+                103,
+                89,
+                56,
+                86,
+                78,
+                49
+              ],
+              "worldIndex": 5,
+              "trial": 2
+            },
+            {
+              "matchIndex": 17,
+              "score": 103,
+              "place": 1,
+              "win": true,
+              "balance": 15,
+              "fieldScores": [
+                103,
+                89,
+                56,
+                86,
+                78,
+                49
+              ],
+              "worldIndex": 5,
+              "trial": 3
+            },
+            {
+              "matchIndex": 18,
+              "score": 95,
+              "place": 1,
+              "win": true,
+              "balance": 21,
+              "fieldScores": [
+                95,
+                76,
+                90,
+                73,
+                86,
+                70
+              ],
+              "worldIndex": 6,
+              "trial": 1
+            },
+            {
+              "matchIndex": 19,
+              "score": 95,
+              "place": 1,
+              "win": true,
+              "balance": 21,
+              "fieldScores": [
+                95,
+                76,
+                90,
+                73,
+                86,
+                70
+              ],
+              "worldIndex": 6,
+              "trial": 2
+            },
+            {
+              "matchIndex": 20,
+              "score": 95,
+              "place": 1,
+              "win": true,
+              "balance": 21,
+              "fieldScores": [
+                95,
+                76,
+                90,
+                73,
+                86,
+                70
+              ],
+              "worldIndex": 6,
+              "trial": 3
+            },
+            {
+              "matchIndex": 21,
+              "score": 80,
+              "place": 4,
+              "win": false,
+              "balance": 43,
+              "fieldScores": [
+                80,
+                78,
+                90,
+                92,
+                110,
+                68
+              ],
+              "worldIndex": 7,
+              "trial": 1
+            },
+            {
+              "matchIndex": 22,
+              "score": 80,
+              "place": 4,
+              "win": false,
+              "balance": 43,
+              "fieldScores": [
+                80,
+                78,
+                90,
+                92,
+                110,
+                68
+              ],
+              "worldIndex": 7,
+              "trial": 2
+            },
+            {
+              "matchIndex": 23,
+              "score": 80,
+              "place": 4,
+              "win": false,
+              "balance": 43,
+              "fieldScores": [
+                80,
+                78,
+                90,
+                92,
+                110,
+                68
+              ],
+              "worldIndex": 7,
+              "trial": 3
+            },
+            {
+              "matchIndex": 24,
+              "score": 105,
+              "place": 2,
+              "win": false,
+              "balance": 23,
+              "fieldScores": [
+                105,
+                87,
+                83,
+                75,
+                27,
+                124
+              ],
+              "worldIndex": 8,
+              "trial": 1
+            },
+            {
+              "matchIndex": 25,
+              "score": 102,
+              "place": 3,
+              "win": false,
+              "balance": 29,
+              "fieldScores": [
+                102,
+                40,
+                117,
+                126,
+                27,
+                91
+              ],
+              "worldIndex": 8,
+              "trial": 2
+            },
+            {
+              "matchIndex": 26,
+              "score": 102,
+              "place": 3,
+              "win": false,
+              "balance": 29,
+              "fieldScores": [
+                102,
+                40,
+                117,
+                126,
+                27,
+                91
+              ],
+              "worldIndex": 8,
+              "trial": 3
+            },
+            {
+              "matchIndex": 27,
+              "score": 70,
+              "place": 4,
+              "win": false,
+              "balance": 42,
+              "fieldScores": [
+                70,
+                99,
+                82,
+                54,
+                123,
+                54
+              ],
+              "worldIndex": 9,
+              "trial": 1
+            },
+            {
+              "matchIndex": 28,
+              "score": 70,
+              "place": 4,
+              "win": false,
+              "balance": 42,
+              "fieldScores": [
+                70,
+                99,
+                82,
+                54,
+                123,
+                54
+              ],
+              "worldIndex": 9,
+              "trial": 2
+            },
+            {
+              "matchIndex": 29,
+              "score": 70,
+              "place": 4,
+              "win": false,
+              "balance": 42,
+              "fieldScores": [
+                70,
+                99,
+                82,
+                54,
+                123,
+                54
+              ],
+              "worldIndex": 9,
+              "trial": 3
+            },
+            {
+              "matchIndex": 30,
+              "score": 94,
+              "place": 2,
+              "win": false,
+              "balance": 26,
+              "fieldScores": [
+                94,
+                66,
+                72,
+                91,
+                33,
+                135
+              ],
+              "worldIndex": 10,
+              "trial": 1
+            },
+            {
+              "matchIndex": 31,
+              "score": 94,
+              "place": 2,
+              "win": false,
+              "balance": 26,
+              "fieldScores": [
+                94,
+                66,
+                72,
+                91,
+                33,
+                135
+              ],
+              "worldIndex": 10,
+              "trial": 2
+            },
+            {
+              "matchIndex": 32,
+              "score": 94,
+              "place": 2,
+              "win": false,
+              "balance": 26,
+              "fieldScores": [
+                94,
+                66,
+                72,
+                91,
+                33,
+                135
+              ],
+              "worldIndex": 10,
+              "trial": 3
+            },
+            {
+              "matchIndex": 33,
+              "score": 151,
+              "place": 1,
+              "win": true,
+              "balance": 59,
+              "fieldScores": [
+                151,
+                33,
+                70,
+                69,
+                93,
+                87
+              ],
+              "worldIndex": 11,
+              "trial": 1
+            },
+            {
+              "matchIndex": 34,
+              "score": 151,
+              "place": 1,
+              "win": true,
+              "balance": 59,
+              "fieldScores": [
+                151,
+                33,
+                70,
+                69,
+                93,
+                87
+              ],
+              "worldIndex": 11,
+              "trial": 2
+            },
+            {
+              "matchIndex": 35,
+              "score": 151,
+              "place": 1,
+              "win": true,
+              "balance": 59,
+              "fieldScores": [
+                151,
+                33,
+                70,
+                69,
+                93,
+                87
+              ],
+              "worldIndex": 11,
+              "trial": 3
+            },
+            {
+              "matchIndex": 36,
+              "score": 112,
+              "place": 2,
+              "win": false,
+              "balance": 41,
+              "fieldScores": [
+                112,
+                69,
+                81,
+                104,
+                36,
+                116
+              ],
+              "worldIndex": 12,
+              "trial": 1
+            },
+            {
+              "matchIndex": 37,
+              "score": 112,
+              "place": 2,
+              "win": false,
+              "balance": 41,
+              "fieldScores": [
+                112,
+                69,
+                81,
+                104,
+                36,
+                116
+              ],
+              "worldIndex": 12,
+              "trial": 2
+            },
+            {
+              "matchIndex": 38,
+              "score": 112,
+              "place": 2,
+              "win": false,
+              "balance": 41,
+              "fieldScores": [
+                112,
+                69,
+                81,
+                104,
+                36,
+                116
+              ],
+              "worldIndex": 12,
+              "trial": 3
+            },
+            {
+              "matchIndex": 39,
+              "score": 100,
+              "place": 1,
+              "win": true,
+              "balance": 19,
+              "fieldScores": [
+                100,
+                45,
+                99,
+                85,
+                97,
+                87
+              ],
+              "worldIndex": 13,
+              "trial": 1
+            },
+            {
+              "matchIndex": 40,
+              "score": 100,
+              "place": 1,
+              "win": true,
+              "balance": 19,
+              "fieldScores": [
+                100,
+                45,
+                99,
+                85,
+                97,
+                87
+              ],
+              "worldIndex": 13,
+              "trial": 2
+            },
+            {
+              "matchIndex": 41,
+              "score": 100,
+              "place": 1,
+              "win": true,
+              "balance": 19,
+              "fieldScores": [
+                100,
+                45,
+                99,
+                85,
+                97,
+                87
+              ],
+              "worldIndex": 13,
+              "trial": 3
+            },
+            {
+              "matchIndex": 42,
+              "score": 108,
+              "place": 1,
+              "win": true,
+              "balance": 20,
+              "fieldScores": [
+                108,
+                87,
+                33,
+                86,
+                83,
+                77
+              ],
+              "worldIndex": 14,
+              "trial": 1
+            },
+            {
+              "matchIndex": 43,
+              "score": 108,
+              "place": 1,
+              "win": true,
+              "balance": 20,
+              "fieldScores": [
+                108,
+                87,
+                33,
+                86,
+                83,
+                77
+              ],
+              "worldIndex": 14,
+              "trial": 2
+            },
+            {
+              "matchIndex": 44,
+              "score": 108,
+              "place": 1,
+              "win": true,
+              "balance": 20,
+              "fieldScores": [
+                108,
+                87,
+                33,
+                86,
+                83,
+                77
+              ],
+              "worldIndex": 14,
+              "trial": 3
+            },
+            {
+              "matchIndex": 45,
+              "score": 78,
+              "place": 3,
+              "win": false,
+              "balance": 58,
+              "fieldScores": [
+                78,
+                118,
+                139,
+                73,
+                27,
+                66
+              ],
+              "worldIndex": 15,
+              "trial": 1
+            },
+            {
+              "matchIndex": 46,
+              "score": 78,
+              "place": 3,
+              "win": false,
+              "balance": 58,
+              "fieldScores": [
+                78,
+                118,
+                139,
+                73,
+                27,
+                66
+              ],
+              "worldIndex": 15,
+              "trial": 2
+            },
+            {
+              "matchIndex": 47,
+              "score": 78,
+              "place": 3,
+              "win": false,
+              "balance": 58,
+              "fieldScores": [
+                78,
+                118,
+                139,
+                73,
+                27,
+                66
+              ],
+              "worldIndex": 15,
+              "trial": 3
+            },
+            {
+              "matchIndex": 48,
+              "score": 62,
+              "place": 5,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                62,
+                112,
+                39,
+                68,
+                78,
+                63
+              ],
+              "worldIndex": 16,
+              "trial": 1
+            },
+            {
+              "matchIndex": 49,
+              "score": 62,
+              "place": 5,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                62,
+                112,
+                39,
+                68,
+                78,
+                63
+              ],
+              "worldIndex": 16,
+              "trial": 2
+            },
+            {
+              "matchIndex": 50,
+              "score": 62,
+              "place": 5,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                62,
+                112,
+                39,
+                68,
+                78,
+                63
+              ],
+              "worldIndex": 16,
+              "trial": 3
+            },
+            {
+              "matchIndex": 51,
+              "score": 124,
+              "place": 2,
+              "win": false,
+              "balance": 20,
+              "fieldScores": [
+                124,
+                33,
+                90,
+                78,
+                36,
+                162
+              ],
+              "worldIndex": 17,
+              "trial": 1
+            },
+            {
+              "matchIndex": 52,
+              "score": 124,
+              "place": 2,
+              "win": false,
+              "balance": 20,
+              "fieldScores": [
+                124,
+                33,
+                90,
+                78,
+                36,
+                162
+              ],
+              "worldIndex": 17,
+              "trial": 2
+            },
+            {
+              "matchIndex": 53,
+              "score": 124,
+              "place": 2,
+              "win": false,
+              "balance": 20,
+              "fieldScores": [
+                124,
+                33,
+                90,
+                78,
+                36,
+                162
+              ],
+              "worldIndex": 17,
+              "trial": 3
+            },
+            {
+              "matchIndex": 54,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 60,
+              "fieldScores": [
+                84,
+                83,
+                66,
+                87,
+                111,
+                72
+              ],
+              "worldIndex": 18,
+              "trial": 1
+            },
+            {
+              "matchIndex": 55,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 60,
+              "fieldScores": [
+                84,
+                83,
+                66,
+                87,
+                111,
+                72
+              ],
+              "worldIndex": 18,
+              "trial": 2
+            },
+            {
+              "matchIndex": 56,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 60,
+              "fieldScores": [
+                84,
+                83,
+                66,
+                87,
+                111,
+                72
+              ],
+              "worldIndex": 18,
+              "trial": 3
+            },
+            {
+              "matchIndex": 57,
+              "score": 111,
+              "place": 2,
+              "win": false,
+              "balance": 52,
+              "fieldScores": [
+                111,
+                127,
+                84,
+                40,
+                81,
+                84
+              ],
+              "worldIndex": 19,
+              "trial": 1
+            },
+            {
+              "matchIndex": 58,
+              "score": 111,
+              "place": 2,
+              "win": false,
+              "balance": 52,
+              "fieldScores": [
+                111,
+                127,
+                84,
+                40,
+                81,
+                84
+              ],
+              "worldIndex": 19,
+              "trial": 2
+            },
+            {
+              "matchIndex": 59,
+              "score": 111,
+              "place": 2,
+              "win": false,
+              "balance": 52,
+              "fieldScores": [
+                111,
+                127,
+                84,
+                40,
+                81,
+                84
+              ],
+              "worldIndex": 19,
+              "trial": 3
+            },
+            {
+              "matchIndex": 60,
+              "score": 127,
+              "place": 1,
+              "win": true,
+              "balance": 21,
+              "fieldScores": [
+                127,
+                62,
+                60,
+                49,
+                68,
+                108
+              ],
+              "worldIndex": 20,
+              "trial": 1
+            },
+            {
+              "matchIndex": 61,
+              "score": 127,
+              "place": 1,
+              "win": true,
+              "balance": 21,
+              "fieldScores": [
+                127,
+                62,
+                60,
+                49,
+                68,
+                108
+              ],
+              "worldIndex": 20,
+              "trial": 2
+            },
+            {
+              "matchIndex": 62,
+              "score": 127,
+              "place": 1,
+              "win": true,
+              "balance": 21,
+              "fieldScores": [
+                127,
+                62,
+                60,
+                49,
+                68,
+                108
+              ],
+              "worldIndex": 20,
+              "trial": 3
+            },
+            {
+              "matchIndex": 63,
+              "score": 27,
+              "place": 6,
+              "win": false,
+              "balance": 104,
+              "fieldScores": [
+                27,
+                87,
+                57,
+                132,
+                108,
+                96
+              ],
+              "worldIndex": 21,
+              "trial": 1
+            },
+            {
+              "matchIndex": 64,
+              "score": 27,
+              "place": 6,
+              "win": false,
+              "balance": 104,
+              "fieldScores": [
+                27,
+                87,
+                57,
+                132,
+                108,
+                96
+              ],
+              "worldIndex": 21,
+              "trial": 2
+            },
+            {
+              "matchIndex": 65,
+              "score": 27,
+              "place": 6,
+              "win": false,
+              "balance": 104,
+              "fieldScores": [
+                27,
+                87,
+                57,
+                132,
+                108,
+                96
+              ],
+              "worldIndex": 21,
+              "trial": 3
+            },
+            {
+              "matchIndex": 66,
+              "score": 87,
+              "place": 3,
+              "win": false,
+              "balance": 36,
+              "fieldScores": [
+                87,
+                130,
+                102,
+                71,
+                21,
+                69
+              ],
+              "worldIndex": 22,
+              "trial": 1
+            },
+            {
+              "matchIndex": 67,
+              "score": 87,
+              "place": 3,
+              "win": false,
+              "balance": 36,
+              "fieldScores": [
+                87,
+                130,
+                102,
+                71,
+                21,
+                69
+              ],
+              "worldIndex": 22,
+              "trial": 2
+            },
+            {
+              "matchIndex": 68,
+              "score": 87,
+              "place": 3,
+              "win": false,
+              "balance": 36,
+              "fieldScores": [
+                87,
+                130,
+                102,
+                71,
+                21,
+                69
+              ],
+              "worldIndex": 22,
+              "trial": 3
+            },
+            {
+              "matchIndex": 69,
+              "score": 36,
+              "place": 6,
+              "win": false,
+              "balance": 115,
+              "fieldScores": [
+                36,
+                87,
+                58,
+                108,
+                75,
+                132
+              ],
+              "worldIndex": 23,
+              "trial": 1
+            },
+            {
+              "matchIndex": 70,
+              "score": 36,
+              "place": 6,
+              "win": false,
+              "balance": 115,
+              "fieldScores": [
+                36,
+                87,
+                58,
+                108,
+                75,
+                132
+              ],
+              "worldIndex": 23,
+              "trial": 2
+            },
+            {
+              "matchIndex": 71,
+              "score": 36,
+              "place": 6,
+              "win": false,
+              "balance": 115,
+              "fieldScores": [
+                36,
+                87,
+                58,
+                108,
+                75,
+                132
+              ],
+              "worldIndex": 23,
+              "trial": 3
+            },
+            {
+              "matchIndex": 72,
+              "score": 94,
+              "place": 2,
+              "win": false,
+              "balance": 22,
+              "fieldScores": [
+                94,
+                65,
+                94,
+                97,
+                63,
+                84
+              ],
+              "worldIndex": 24,
+              "trial": 1
+            },
+            {
+              "matchIndex": 73,
+              "score": 94,
+              "place": 2,
+              "win": false,
+              "balance": 22,
+              "fieldScores": [
+                94,
+                65,
+                94,
+                97,
+                63,
+                84
+              ],
+              "worldIndex": 24,
+              "trial": 2
+            },
+            {
+              "matchIndex": 74,
+              "score": 94,
+              "place": 2,
+              "win": false,
+              "balance": 22,
+              "fieldScores": [
+                94,
+                65,
+                94,
+                97,
+                63,
+                84
+              ],
+              "worldIndex": 24,
+              "trial": 3
+            },
+            {
+              "matchIndex": 75,
+              "score": 108,
+              "place": 1,
+              "win": true,
+              "balance": 30,
+              "fieldScores": [
+                108,
+                79,
+                84,
+                39,
+                61,
+                72
+              ],
+              "worldIndex": 25,
+              "trial": 1
+            },
+            {
+              "matchIndex": 76,
+              "score": 108,
+              "place": 1,
+              "win": true,
+              "balance": 30,
+              "fieldScores": [
+                108,
+                79,
+                84,
+                39,
+                61,
+                72
+              ],
+              "worldIndex": 25,
+              "trial": 2
+            },
+            {
+              "matchIndex": 77,
+              "score": 108,
+              "place": 1,
+              "win": true,
+              "balance": 30,
+              "fieldScores": [
+                108,
+                79,
+                84,
+                39,
+                61,
+                72
+              ],
+              "worldIndex": 25,
+              "trial": 3
+            },
+            {
+              "matchIndex": 78,
+              "score": 82,
+              "place": 3,
+              "win": false,
+              "balance": 22,
+              "fieldScores": [
+                82,
+                64,
+                88,
+                68,
+                98,
+                68
+              ],
+              "worldIndex": 26,
+              "trial": 1
+            },
+            {
+              "matchIndex": 79,
+              "score": 82,
+              "place": 3,
+              "win": false,
+              "balance": 22,
+              "fieldScores": [
+                82,
+                64,
+                88,
+                68,
+                98,
+                68
+              ],
+              "worldIndex": 26,
+              "trial": 2
+            },
+            {
+              "matchIndex": 80,
+              "score": 82,
+              "place": 3,
+              "win": false,
+              "balance": 22,
+              "fieldScores": [
+                82,
+                64,
+                88,
+                68,
+                98,
+                68
+              ],
+              "worldIndex": 26,
+              "trial": 3
+            },
+            {
+              "matchIndex": 81,
+              "score": 114,
+              "place": 1,
+              "win": true,
+              "balance": 62,
+              "fieldScores": [
+                114,
+                65,
+                87,
+                90,
+                53,
+                93
+              ],
+              "worldIndex": 27,
+              "trial": 1
+            },
+            {
+              "matchIndex": 82,
+              "score": 114,
+              "place": 1,
+              "win": true,
+              "balance": 62,
+              "fieldScores": [
+                114,
+                65,
+                87,
+                90,
+                53,
+                93
+              ],
+              "worldIndex": 27,
+              "trial": 2
+            },
+            {
+              "matchIndex": 83,
+              "score": 114,
+              "place": 1,
+              "win": true,
+              "balance": 62,
+              "fieldScores": [
+                114,
+                65,
+                87,
+                90,
+                53,
+                93
+              ],
+              "worldIndex": 27,
+              "trial": 3
+            },
+            {
+              "matchIndex": 84,
+              "score": 107,
+              "place": 2,
+              "win": false,
+              "balance": 30,
+              "fieldScores": [
+                107,
+                69,
+                74,
+                123,
+                66,
+                74
+              ],
+              "worldIndex": 28,
+              "trial": 1
+            },
+            {
+              "matchIndex": 85,
+              "score": 107,
+              "place": 2,
+              "win": false,
+              "balance": 30,
+              "fieldScores": [
+                107,
+                69,
+                74,
+                123,
+                66,
+                74
+              ],
+              "worldIndex": 28,
+              "trial": 2
+            },
+            {
+              "matchIndex": 86,
+              "score": 107,
+              "place": 2,
+              "win": false,
+              "balance": 30,
+              "fieldScores": [
+                107,
+                69,
+                74,
+                123,
+                66,
+                74
+              ],
+              "worldIndex": 28,
+              "trial": 3
+            },
+            {
+              "matchIndex": 87,
+              "score": 91,
+              "place": 3,
+              "win": false,
+              "balance": 20,
+              "fieldScores": [
+                91,
+                98,
+                51,
+                57,
+                96,
+                81
+              ],
+              "worldIndex": 29,
+              "trial": 1
+            },
+            {
+              "matchIndex": 88,
+              "score": 91,
+              "place": 3,
+              "win": false,
+              "balance": 20,
+              "fieldScores": [
+                91,
+                98,
+                51,
+                57,
+                96,
+                81
+              ],
+              "worldIndex": 29,
+              "trial": 2
+            },
+            {
+              "matchIndex": 89,
+              "score": 91,
+              "place": 3,
+              "win": false,
+              "balance": 20,
+              "fieldScores": [
+                91,
+                98,
+                51,
+                57,
+                96,
+                81
+              ],
+              "worldIndex": 29,
+              "trial": 3
+            },
+            {
+              "matchIndex": 90,
+              "score": 39,
+              "place": 6,
+              "win": false,
+              "balance": 98,
+              "fieldScores": [
+                39,
+                93,
+                100,
+                130,
+                60,
+                64
+              ],
+              "worldIndex": 30,
+              "trial": 1
+            },
+            {
+              "matchIndex": 91,
+              "score": 39,
+              "place": 6,
+              "win": false,
+              "balance": 98,
+              "fieldScores": [
+                39,
+                93,
+                100,
+                130,
+                60,
+                64
+              ],
+              "worldIndex": 30,
+              "trial": 2
+            },
+            {
+              "matchIndex": 92,
+              "score": 39,
+              "place": 6,
+              "win": false,
+              "balance": 98,
+              "fieldScores": [
+                39,
+                93,
+                100,
+                130,
+                60,
+                64
+              ],
+              "worldIndex": 30,
+              "trial": 3
+            },
+            {
+              "matchIndex": 93,
+              "score": 108,
+              "place": 2,
+              "win": false,
+              "balance": 20,
+              "fieldScores": [
+                108,
+                82,
+                112,
+                64,
+                36,
+                63
+              ],
+              "worldIndex": 31,
+              "trial": 1
+            },
+            {
+              "matchIndex": 94,
+              "score": 108,
+              "place": 2,
+              "win": false,
+              "balance": 20,
+              "fieldScores": [
+                108,
+                82,
+                112,
+                64,
+                36,
+                63
+              ],
+              "worldIndex": 31,
+              "trial": 2
+            },
+            {
+              "matchIndex": 95,
+              "score": 108,
+              "place": 2,
+              "win": false,
+              "balance": 20,
+              "fieldScores": [
+                108,
+                82,
+                112,
+                64,
+                36,
+                63
+              ],
+              "worldIndex": 31,
+              "trial": 3
+            }
+          ],
+          "effectivePolicy": {
+            "samples": 24,
+            "bidGain": 1.1,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 2,
+            "huPaceEarly": 1.1,
+            "huHorizon": 10,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 3.5,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2,
+            "neutralSixHorizon": true,
+            "winBonus": 30
+          },
+          "effectiveRival": {
+            "samples": 24,
+            "bidGain": 1.3,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 2,
+            "huPaceEarly": 1.1,
+            "huHorizon": 10,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 3.5,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2
+          },
+          "flakyWinWorlds": 0
+        },
+        "WIN60": {
+          "elapsedSeconds": 80.39315674902173,
+          "uniqueWorlds": 32,
+          "repeatsPerWorld": 3,
+          "score": 93.9375,
+          "place": 2.71875,
+          "syntheticWinPercent": 34.375,
+          "fullOutcomes": [
+            {
+              "matchIndex": 0,
+              "score": 86,
+              "place": 3,
+              "win": false,
+              "balance": 8,
+              "fieldScores": [
+                86,
+                75,
+                48,
+                91,
+                44,
+                97
+              ],
+              "worldIndex": 0,
+              "trial": 1
+            },
+            {
+              "matchIndex": 1,
+              "score": 86,
+              "place": 3,
+              "win": false,
+              "balance": 8,
+              "fieldScores": [
+                86,
+                75,
+                48,
+                91,
+                44,
+                97
+              ],
+              "worldIndex": 0,
+              "trial": 2
+            },
+            {
+              "matchIndex": 2,
+              "score": 86,
+              "place": 3,
+              "win": false,
+              "balance": 8,
+              "fieldScores": [
+                86,
+                75,
+                48,
+                91,
+                44,
+                97
+              ],
+              "worldIndex": 0,
+              "trial": 3
+            },
+            {
+              "matchIndex": 3,
+              "score": 104,
+              "place": 1,
+              "win": true,
+              "balance": 22,
+              "fieldScores": [
+                104,
+                50,
+                75,
+                54,
+                83,
+                96
+              ],
+              "worldIndex": 1,
+              "trial": 1
+            },
+            {
+              "matchIndex": 4,
+              "score": 104,
+              "place": 1,
+              "win": true,
+              "balance": 22,
+              "fieldScores": [
+                104,
+                50,
+                75,
+                54,
+                83,
+                96
+              ],
+              "worldIndex": 1,
+              "trial": 2
+            },
+            {
+              "matchIndex": 5,
+              "score": 104,
+              "place": 1,
+              "win": true,
+              "balance": 22,
+              "fieldScores": [
+                104,
+                50,
+                75,
+                54,
+                83,
+                96
+              ],
+              "worldIndex": 1,
+              "trial": 3
+            },
+            {
+              "matchIndex": 6,
+              "score": 106,
+              "place": 1,
+              "win": true,
+              "balance": 42,
+              "fieldScores": [
+                106,
+                45,
+                91,
+                73,
+                81,
+                95
+              ],
+              "worldIndex": 2,
+              "trial": 1
+            },
+            {
+              "matchIndex": 7,
+              "score": 106,
+              "place": 1,
+              "win": true,
+              "balance": 42,
+              "fieldScores": [
+                106,
+                45,
+                91,
+                73,
+                81,
+                95
+              ],
+              "worldIndex": 2,
+              "trial": 2
+            },
+            {
+              "matchIndex": 8,
+              "score": 106,
+              "place": 1,
+              "win": true,
+              "balance": 42,
+              "fieldScores": [
+                106,
+                45,
+                91,
+                73,
+                81,
+                95
+              ],
+              "worldIndex": 2,
+              "trial": 3
+            },
+            {
+              "matchIndex": 9,
+              "score": 90,
+              "place": 2,
+              "win": false,
+              "balance": 21,
+              "fieldScores": [
+                90,
+                128,
+                65,
+                88,
+                30,
+                68
+              ],
+              "worldIndex": 3,
+              "trial": 1
+            },
+            {
+              "matchIndex": 10,
+              "score": 90,
+              "place": 2,
+              "win": false,
+              "balance": 21,
+              "fieldScores": [
+                90,
+                128,
+                65,
+                88,
+                30,
+                68
+              ],
+              "worldIndex": 3,
+              "trial": 2
+            },
+            {
+              "matchIndex": 11,
+              "score": 90,
+              "place": 2,
+              "win": false,
+              "balance": 21,
+              "fieldScores": [
+                90,
+                128,
+                65,
+                88,
+                30,
+                68
+              ],
+              "worldIndex": 3,
+              "trial": 3
+            },
+            {
+              "matchIndex": 12,
+              "score": 100,
+              "place": 2,
+              "win": false,
+              "balance": 18,
+              "fieldScores": [
+                100,
+                151,
+                51,
+                81,
+                36,
+                72
+              ],
+              "worldIndex": 4,
+              "trial": 1
+            },
+            {
+              "matchIndex": 13,
+              "score": 100,
+              "place": 2,
+              "win": false,
+              "balance": 18,
+              "fieldScores": [
+                100,
+                151,
+                51,
+                81,
+                36,
+                72
+              ],
+              "worldIndex": 4,
+              "trial": 2
+            },
+            {
+              "matchIndex": 14,
+              "score": 100,
+              "place": 2,
+              "win": false,
+              "balance": 18,
+              "fieldScores": [
+                100,
+                151,
+                51,
+                81,
+                36,
+                72
+              ],
+              "worldIndex": 4,
+              "trial": 3
+            },
+            {
+              "matchIndex": 15,
+              "score": 100,
+              "place": 1,
+              "win": true,
+              "balance": 20,
+              "fieldScores": [
+                100,
+                87,
+                65,
+                93,
+                63,
+                89
+              ],
+              "worldIndex": 5,
+              "trial": 1
+            },
+            {
+              "matchIndex": 16,
+              "score": 100,
+              "place": 1,
+              "win": true,
+              "balance": 20,
+              "fieldScores": [
+                100,
+                87,
+                65,
+                93,
+                63,
+                89
+              ],
+              "worldIndex": 5,
+              "trial": 2
+            },
+            {
+              "matchIndex": 17,
+              "score": 100,
+              "place": 1,
+              "win": true,
+              "balance": 20,
+              "fieldScores": [
+                100,
+                87,
+                65,
+                93,
+                63,
+                89
+              ],
+              "worldIndex": 5,
+              "trial": 3
+            },
+            {
+              "matchIndex": 18,
+              "score": 107,
+              "place": 2,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                107,
+                77,
+                108,
+                43,
+                92,
+                46
+              ],
+              "worldIndex": 6,
+              "trial": 1
+            },
+            {
+              "matchIndex": 19,
+              "score": 107,
+              "place": 2,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                107,
+                77,
+                108,
+                43,
+                92,
+                46
+              ],
+              "worldIndex": 6,
+              "trial": 2
+            },
+            {
+              "matchIndex": 20,
+              "score": 107,
+              "place": 2,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                107,
+                77,
+                108,
+                43,
+                92,
+                46
+              ],
+              "worldIndex": 6,
+              "trial": 3
+            },
+            {
+              "matchIndex": 21,
+              "score": 81,
+              "place": 4,
+              "win": false,
+              "balance": 38,
+              "fieldScores": [
+                81,
+                78,
+                90,
+                92,
+                110,
+                68
+              ],
+              "worldIndex": 7,
+              "trial": 1
+            },
+            {
+              "matchIndex": 22,
+              "score": 81,
+              "place": 4,
+              "win": false,
+              "balance": 38,
+              "fieldScores": [
+                81,
+                78,
+                90,
+                92,
+                110,
+                68
+              ],
+              "worldIndex": 7,
+              "trial": 2
+            },
+            {
+              "matchIndex": 23,
+              "score": 81,
+              "place": 4,
+              "win": false,
+              "balance": 38,
+              "fieldScores": [
+                81,
+                78,
+                90,
+                92,
+                110,
+                68
+              ],
+              "worldIndex": 7,
+              "trial": 3
+            },
+            {
+              "matchIndex": 24,
+              "score": 132,
+              "place": 1,
+              "win": true,
+              "balance": 38,
+              "fieldScores": [
+                132,
+                79,
+                118,
+                93,
+                27,
+                39
+              ],
+              "worldIndex": 8,
+              "trial": 1
+            },
+            {
+              "matchIndex": 25,
+              "score": 132,
+              "place": 1,
+              "win": true,
+              "balance": 38,
+              "fieldScores": [
+                132,
+                79,
+                118,
+                93,
+                27,
+                39
+              ],
+              "worldIndex": 8,
+              "trial": 2
+            },
+            {
+              "matchIndex": 26,
+              "score": 132,
+              "place": 1,
+              "win": true,
+              "balance": 38,
+              "fieldScores": [
+                132,
+                79,
+                118,
+                93,
+                27,
+                39
+              ],
+              "worldIndex": 8,
+              "trial": 3
+            },
+            {
+              "matchIndex": 27,
+              "score": 95,
+              "place": 3,
+              "win": false,
+              "balance": 28,
+              "fieldScores": [
+                95,
+                78,
+                84,
+                98,
+                113,
+                39
+              ],
+              "worldIndex": 9,
+              "trial": 1
+            },
+            {
+              "matchIndex": 28,
+              "score": 95,
+              "place": 3,
+              "win": false,
+              "balance": 28,
+              "fieldScores": [
+                95,
+                78,
+                84,
+                98,
+                113,
+                39
+              ],
+              "worldIndex": 9,
+              "trial": 2
+            },
+            {
+              "matchIndex": 29,
+              "score": 95,
+              "place": 3,
+              "win": false,
+              "balance": 28,
+              "fieldScores": [
+                95,
+                78,
+                84,
+                98,
+                113,
+                39
+              ],
+              "worldIndex": 9,
+              "trial": 3
+            },
+            {
+              "matchIndex": 30,
+              "score": 156,
+              "place": 1,
+              "win": true,
+              "balance": 20,
+              "fieldScores": [
+                156,
+                48,
+                97,
+                78,
+                33,
+                77
+              ],
+              "worldIndex": 10,
+              "trial": 1
+            },
+            {
+              "matchIndex": 31,
+              "score": 156,
+              "place": 1,
+              "win": true,
+              "balance": 20,
+              "fieldScores": [
+                156,
+                48,
+                97,
+                78,
+                33,
+                77
+              ],
+              "worldIndex": 10,
+              "trial": 2
+            },
+            {
+              "matchIndex": 32,
+              "score": 156,
+              "place": 1,
+              "win": true,
+              "balance": 20,
+              "fieldScores": [
+                156,
+                48,
+                97,
+                78,
+                33,
+                77
+              ],
+              "worldIndex": 10,
+              "trial": 3
+            },
+            {
+              "matchIndex": 33,
+              "score": 63,
+              "place": 5,
+              "win": false,
+              "balance": 34,
+              "fieldScores": [
+                63,
+                33,
+                70,
+                93,
+                93,
+                117
+              ],
+              "worldIndex": 11,
+              "trial": 1
+            },
+            {
+              "matchIndex": 34,
+              "score": 63,
+              "place": 5,
+              "win": false,
+              "balance": 34,
+              "fieldScores": [
+                63,
+                33,
+                70,
+                93,
+                93,
+                117
+              ],
+              "worldIndex": 11,
+              "trial": 2
+            },
+            {
+              "matchIndex": 35,
+              "score": 63,
+              "place": 5,
+              "win": false,
+              "balance": 34,
+              "fieldScores": [
+                63,
+                33,
+                70,
+                93,
+                93,
+                117
+              ],
+              "worldIndex": 11,
+              "trial": 3
+            },
+            {
+              "matchIndex": 36,
+              "score": 125,
+              "place": 1,
+              "win": true,
+              "balance": 23,
+              "fieldScores": [
+                125,
+                69,
+                48,
+                104,
+                36,
+                116
+              ],
+              "worldIndex": 12,
+              "trial": 1
+            },
+            {
+              "matchIndex": 37,
+              "score": 125,
+              "place": 1,
+              "win": true,
+              "balance": 23,
+              "fieldScores": [
+                125,
+                69,
+                48,
+                104,
+                36,
+                116
+              ],
+              "worldIndex": 12,
+              "trial": 2
+            },
+            {
+              "matchIndex": 38,
+              "score": 125,
+              "place": 1,
+              "win": true,
+              "balance": 23,
+              "fieldScores": [
+                125,
+                69,
+                48,
+                104,
+                36,
+                116
+              ],
+              "worldIndex": 12,
+              "trial": 3
+            },
+            {
+              "matchIndex": 39,
+              "score": 86,
+              "place": 3,
+              "win": false,
+              "balance": 10,
+              "fieldScores": [
+                86,
+                75,
+                68,
+                80,
+                89,
+                90
+              ],
+              "worldIndex": 13,
+              "trial": 1
+            },
+            {
+              "matchIndex": 40,
+              "score": 86,
+              "place": 3,
+              "win": false,
+              "balance": 10,
+              "fieldScores": [
+                86,
+                75,
+                68,
+                80,
+                89,
+                90
+              ],
+              "worldIndex": 13,
+              "trial": 2
+            },
+            {
+              "matchIndex": 41,
+              "score": 86,
+              "place": 3,
+              "win": false,
+              "balance": 10,
+              "fieldScores": [
+                86,
+                75,
+                68,
+                80,
+                89,
+                90
+              ],
+              "worldIndex": 13,
+              "trial": 3
+            },
+            {
+              "matchIndex": 42,
+              "score": 151,
+              "place": 1,
+              "win": true,
+              "balance": 30,
+              "fieldScores": [
+                151,
+                84,
+                33,
+                63,
+                100,
+                52
+              ],
+              "worldIndex": 14,
+              "trial": 1
+            },
+            {
+              "matchIndex": 43,
+              "score": 151,
+              "place": 1,
+              "win": true,
+              "balance": 30,
+              "fieldScores": [
+                151,
+                84,
+                33,
+                63,
+                100,
+                52
+              ],
+              "worldIndex": 14,
+              "trial": 2
+            },
+            {
+              "matchIndex": 44,
+              "score": 151,
+              "place": 1,
+              "win": true,
+              "balance": 30,
+              "fieldScores": [
+                151,
+                84,
+                33,
+                63,
+                100,
+                52
+              ],
+              "worldIndex": 14,
+              "trial": 3
+            },
+            {
+              "matchIndex": 45,
+              "score": 81,
+              "place": 3,
+              "win": false,
+              "balance": 43,
+              "fieldScores": [
+                81,
+                126,
+                39,
+                68,
+                27,
+                135
+              ],
+              "worldIndex": 15,
+              "trial": 1
+            },
+            {
+              "matchIndex": 46,
+              "score": 81,
+              "place": 3,
+              "win": false,
+              "balance": 43,
+              "fieldScores": [
+                81,
+                126,
+                39,
+                68,
+                27,
+                135
+              ],
+              "worldIndex": 15,
+              "trial": 2
+            },
+            {
+              "matchIndex": 47,
+              "score": 81,
+              "place": 3,
+              "win": false,
+              "balance": 43,
+              "fieldScores": [
+                81,
+                126,
+                39,
+                68,
+                27,
+                135
+              ],
+              "worldIndex": 15,
+              "trial": 3
+            },
+            {
+              "matchIndex": 48,
+              "score": 62,
+              "place": 5,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                62,
+                112,
+                39,
+                68,
+                78,
+                63
+              ],
+              "worldIndex": 16,
+              "trial": 1
+            },
+            {
+              "matchIndex": 49,
+              "score": 62,
+              "place": 5,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                62,
+                112,
+                39,
+                68,
+                78,
+                63
+              ],
+              "worldIndex": 16,
+              "trial": 2
+            },
+            {
+              "matchIndex": 50,
+              "score": 62,
+              "place": 5,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                62,
+                112,
+                39,
+                68,
+                78,
+                63
+              ],
+              "worldIndex": 16,
+              "trial": 3
+            },
+            {
+              "matchIndex": 51,
+              "score": 86,
+              "place": 3,
+              "win": false,
+              "balance": 15,
+              "fieldScores": [
+                86,
+                38,
+                107,
+                84,
+                36,
+                117
+              ],
+              "worldIndex": 17,
+              "trial": 1
+            },
+            {
+              "matchIndex": 52,
+              "score": 86,
+              "place": 3,
+              "win": false,
+              "balance": 15,
+              "fieldScores": [
+                86,
+                38,
+                107,
+                84,
+                36,
+                117
+              ],
+              "worldIndex": 17,
+              "trial": 2
+            },
+            {
+              "matchIndex": 53,
+              "score": 86,
+              "place": 3,
+              "win": false,
+              "balance": 15,
+              "fieldScores": [
+                86,
+                38,
+                107,
+                84,
+                36,
+                117
+              ],
+              "worldIndex": 17,
+              "trial": 3
+            },
+            {
+              "matchIndex": 54,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 60,
+              "fieldScores": [
+                84,
+                83,
+                66,
+                87,
+                111,
+                72
+              ],
+              "worldIndex": 18,
+              "trial": 1
+            },
+            {
+              "matchIndex": 55,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 60,
+              "fieldScores": [
+                84,
+                83,
+                66,
+                87,
+                111,
+                72
+              ],
+              "worldIndex": 18,
+              "trial": 2
+            },
+            {
+              "matchIndex": 56,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 60,
+              "fieldScores": [
+                84,
+                83,
+                66,
+                87,
+                111,
+                72
+              ],
+              "worldIndex": 18,
+              "trial": 3
+            },
+            {
+              "matchIndex": 57,
+              "score": 130,
+              "place": 1,
+              "win": true,
+              "balance": 18,
+              "fieldScores": [
+                130,
+                111,
+                36,
+                40,
+                81,
+                91
+              ],
+              "worldIndex": 19,
+              "trial": 1
+            },
+            {
+              "matchIndex": 58,
+              "score": 130,
+              "place": 1,
+              "win": true,
+              "balance": 18,
+              "fieldScores": [
+                130,
+                111,
+                36,
+                40,
+                81,
+                91
+              ],
+              "worldIndex": 19,
+              "trial": 2
+            },
+            {
+              "matchIndex": 59,
+              "score": 130,
+              "place": 1,
+              "win": true,
+              "balance": 18,
+              "fieldScores": [
+                130,
+                111,
+                36,
+                40,
+                81,
+                91
+              ],
+              "worldIndex": 19,
+              "trial": 3
+            },
+            {
+              "matchIndex": 60,
+              "score": 97,
+              "place": 3,
+              "win": false,
+              "balance": 26,
+              "fieldScores": [
+                97,
+                123,
+                64,
+                52,
+                66,
+                100
+              ],
+              "worldIndex": 20,
+              "trial": 1
+            },
+            {
+              "matchIndex": 61,
+              "score": 97,
+              "place": 3,
+              "win": false,
+              "balance": 26,
+              "fieldScores": [
+                97,
+                123,
+                64,
+                52,
+                66,
+                100
+              ],
+              "worldIndex": 20,
+              "trial": 2
+            },
+            {
+              "matchIndex": 62,
+              "score": 97,
+              "place": 3,
+              "win": false,
+              "balance": 26,
+              "fieldScores": [
+                97,
+                123,
+                64,
+                52,
+                66,
+                100
+              ],
+              "worldIndex": 20,
+              "trial": 3
+            },
+            {
+              "matchIndex": 63,
+              "score": 52,
+              "place": 6,
+              "win": false,
+              "balance": 26,
+              "fieldScores": [
+                52,
+                81,
+                93,
+                90,
+                85,
+                87
+              ],
+              "worldIndex": 21,
+              "trial": 1
+            },
+            {
+              "matchIndex": 64,
+              "score": 52,
+              "place": 6,
+              "win": false,
+              "balance": 26,
+              "fieldScores": [
+                52,
+                81,
+                93,
+                90,
+                85,
+                87
+              ],
+              "worldIndex": 21,
+              "trial": 2
+            },
+            {
+              "matchIndex": 65,
+              "score": 52,
+              "place": 6,
+              "win": false,
+              "balance": 26,
+              "fieldScores": [
+                52,
+                81,
+                93,
+                90,
+                85,
+                87
+              ],
+              "worldIndex": 21,
+              "trial": 3
+            },
+            {
+              "matchIndex": 66,
+              "score": 125,
+              "place": 1,
+              "win": true,
+              "balance": 25,
+              "fieldScores": [
+                125,
+                123,
+                105,
+                36,
+                21,
+                102
+              ],
+              "worldIndex": 22,
+              "trial": 1
+            },
+            {
+              "matchIndex": 67,
+              "score": 125,
+              "place": 1,
+              "win": true,
+              "balance": 25,
+              "fieldScores": [
+                125,
+                123,
+                105,
+                36,
+                21,
+                102
+              ],
+              "worldIndex": 22,
+              "trial": 2
+            },
+            {
+              "matchIndex": 68,
+              "score": 125,
+              "place": 1,
+              "win": true,
+              "balance": 25,
+              "fieldScores": [
+                125,
+                123,
+                105,
+                36,
+                21,
+                102
+              ],
+              "worldIndex": 22,
+              "trial": 3
+            },
+            {
+              "matchIndex": 69,
+              "score": 49,
+              "place": 6,
+              "win": false,
+              "balance": 23,
+              "fieldScores": [
+                49,
+                66,
+                60,
+                93,
+                75,
+                131
+              ],
+              "worldIndex": 23,
+              "trial": 1
+            },
+            {
+              "matchIndex": 70,
+              "score": 49,
+              "place": 6,
+              "win": false,
+              "balance": 23,
+              "fieldScores": [
+                49,
+                66,
+                60,
+                93,
+                75,
+                131
+              ],
+              "worldIndex": 23,
+              "trial": 2
+            },
+            {
+              "matchIndex": 71,
+              "score": 49,
+              "place": 6,
+              "win": false,
+              "balance": 23,
+              "fieldScores": [
+                49,
+                66,
+                60,
+                93,
+                75,
+                131
+              ],
+              "worldIndex": 23,
+              "trial": 3
+            },
+            {
+              "matchIndex": 72,
+              "score": 82,
+              "place": 4,
+              "win": false,
+              "balance": 36,
+              "fieldScores": [
+                82,
+                88,
+                97,
+                97,
+                63,
+                66
+              ],
+              "worldIndex": 24,
+              "trial": 1
+            },
+            {
+              "matchIndex": 73,
+              "score": 82,
+              "place": 4,
+              "win": false,
+              "balance": 36,
+              "fieldScores": [
+                82,
+                88,
+                97,
+                97,
+                63,
+                66
+              ],
+              "worldIndex": 24,
+              "trial": 2
+            },
+            {
+              "matchIndex": 74,
+              "score": 82,
+              "place": 4,
+              "win": false,
+              "balance": 36,
+              "fieldScores": [
+                82,
+                88,
+                97,
+                97,
+                63,
+                66
+              ],
+              "worldIndex": 24,
+              "trial": 3
+            },
+            {
+              "matchIndex": 75,
+              "score": 104,
+              "place": 1,
+              "win": true,
+              "balance": 21,
+              "fieldScores": [
+                104,
+                78,
+                84,
+                39,
+                61,
+                72
+              ],
+              "worldIndex": 25,
+              "trial": 1
+            },
+            {
+              "matchIndex": 76,
+              "score": 104,
+              "place": 1,
+              "win": true,
+              "balance": 21,
+              "fieldScores": [
+                104,
+                78,
+                84,
+                39,
+                61,
+                72
+              ],
+              "worldIndex": 25,
+              "trial": 2
+            },
+            {
+              "matchIndex": 77,
+              "score": 104,
+              "place": 1,
+              "win": true,
+              "balance": 21,
+              "fieldScores": [
+                104,
+                78,
+                84,
+                39,
+                61,
+                72
+              ],
+              "worldIndex": 25,
+              "trial": 3
+            },
+            {
+              "matchIndex": 78,
+              "score": 40,
+              "place": 6,
+              "win": false,
+              "balance": 88,
+              "fieldScores": [
+                40,
+                64,
+                88,
+                94,
+                106,
+                96
+              ],
+              "worldIndex": 26,
+              "trial": 1
+            },
+            {
+              "matchIndex": 79,
+              "score": 40,
+              "place": 6,
+              "win": false,
+              "balance": 88,
+              "fieldScores": [
+                40,
+                64,
+                88,
+                94,
+                106,
+                96
+              ],
+              "worldIndex": 26,
+              "trial": 2
+            },
+            {
+              "matchIndex": 80,
+              "score": 40,
+              "place": 6,
+              "win": false,
+              "balance": 88,
+              "fieldScores": [
+                40,
+                64,
+                88,
+                94,
+                106,
+                96
+              ],
+              "worldIndex": 26,
+              "trial": 3
+            },
+            {
+              "matchIndex": 81,
+              "score": 80,
+              "place": 3,
+              "win": false,
+              "balance": 25,
+              "fieldScores": [
+                80,
+                101,
+                93,
+                73,
+                60,
+                60
+              ],
+              "worldIndex": 27,
+              "trial": 1
+            },
+            {
+              "matchIndex": 82,
+              "score": 80,
+              "place": 3,
+              "win": false,
+              "balance": 25,
+              "fieldScores": [
+                80,
+                101,
+                93,
+                73,
+                60,
+                60
+              ],
+              "worldIndex": 27,
+              "trial": 2
+            },
+            {
+              "matchIndex": 83,
+              "score": 80,
+              "place": 3,
+              "win": false,
+              "balance": 25,
+              "fieldScores": [
+                80,
+                101,
+                93,
+                73,
+                60,
+                60
+              ],
+              "worldIndex": 27,
+              "trial": 3
+            },
+            {
+              "matchIndex": 84,
+              "score": 78,
+              "place": 4,
+              "win": false,
+              "balance": 14,
+              "fieldScores": [
+                78,
+                67,
+                94,
+                129,
+                57,
+                84
+              ],
+              "worldIndex": 28,
+              "trial": 1
+            },
+            {
+              "matchIndex": 85,
+              "score": 78,
+              "place": 4,
+              "win": false,
+              "balance": 14,
+              "fieldScores": [
+                78,
+                67,
+                94,
+                129,
+                57,
+                84
+              ],
+              "worldIndex": 28,
+              "trial": 2
+            },
+            {
+              "matchIndex": 86,
+              "score": 78,
+              "place": 4,
+              "win": false,
+              "balance": 14,
+              "fieldScores": [
+                78,
+                67,
+                94,
+                129,
+                57,
+                84
+              ],
+              "worldIndex": 28,
+              "trial": 3
+            },
+            {
+              "matchIndex": 87,
+              "score": 96,
+              "place": 1,
+              "win": true,
+              "balance": 17,
+              "fieldScores": [
+                96,
+                63,
+                72,
+                63,
+                79,
+                87
+              ],
+              "worldIndex": 29,
+              "trial": 1
+            },
+            {
+              "matchIndex": 88,
+              "score": 96,
+              "place": 1,
+              "win": true,
+              "balance": 17,
+              "fieldScores": [
+                96,
+                63,
+                72,
+                63,
+                79,
+                87
+              ],
+              "worldIndex": 29,
+              "trial": 2
+            },
+            {
+              "matchIndex": 89,
+              "score": 96,
+              "place": 1,
+              "win": true,
+              "balance": 17,
+              "fieldScores": [
+                96,
+                63,
+                72,
+                63,
+                79,
+                87
+              ],
+              "worldIndex": 29,
+              "trial": 3
+            },
+            {
+              "matchIndex": 90,
+              "score": 69,
+              "place": 4,
+              "win": false,
+              "balance": 51,
+              "fieldScores": [
+                69,
+                105,
+                51,
+                112,
+                60,
+                124
+              ],
+              "worldIndex": 30,
+              "trial": 1
+            },
+            {
+              "matchIndex": 91,
+              "score": 69,
+              "place": 4,
+              "win": false,
+              "balance": 51,
+              "fieldScores": [
+                69,
+                105,
+                51,
+                112,
+                60,
+                124
+              ],
+              "worldIndex": 30,
+              "trial": 2
+            },
+            {
+              "matchIndex": 92,
+              "score": 69,
+              "place": 4,
+              "win": false,
+              "balance": 51,
+              "fieldScores": [
+                69,
+                105,
+                51,
+                112,
+                60,
+                124
+              ],
+              "worldIndex": 30,
+              "trial": 3
+            },
+            {
+              "matchIndex": 93,
+              "score": 109,
+              "place": 2,
+              "win": false,
+              "balance": 51,
+              "fieldScores": [
+                109,
+                67,
+                135,
+                84,
+                36,
+                55
+              ],
+              "worldIndex": 31,
+              "trial": 1
+            },
+            {
+              "matchIndex": 94,
+              "score": 109,
+              "place": 2,
+              "win": false,
+              "balance": 51,
+              "fieldScores": [
+                109,
+                67,
+                135,
+                84,
+                36,
+                55
+              ],
+              "worldIndex": 31,
+              "trial": 2
+            },
+            {
+              "matchIndex": 95,
+              "score": 109,
+              "place": 2,
+              "win": false,
+              "balance": 51,
+              "fieldScores": [
+                109,
+                67,
+                135,
+                84,
+                36,
+                55
+              ],
+              "worldIndex": 31,
+              "trial": 3
+            }
+          ],
+          "effectivePolicy": {
+            "samples": 24,
+            "bidGain": 1.1,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 2,
+            "huPaceEarly": 1.1,
+            "huHorizon": 10,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 3.5,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2,
+            "neutralSixHorizon": true,
+            "winBonus": 60
+          },
+          "effectiveRival": {
+            "samples": 24,
+            "bidGain": 1.3,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 2,
+            "huPaceEarly": 1.1,
+            "huHorizon": 10,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 3.5,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2
+          },
+          "flakyWinWorlds": 0
+        },
+        "WIN120": {
+          "elapsedSeconds": 86.55764662404545,
+          "uniqueWorlds": 32,
+          "repeatsPerWorld": 3,
+          "score": 89.36458333333333,
+          "place": 2.7708333333333335,
+          "syntheticWinPercent": 25.0,
+          "fullOutcomes": [
+            {
+              "matchIndex": 0,
+              "score": 93,
+              "place": 2,
+              "win": false,
+              "balance": 5,
+              "fieldScores": [
+                93,
+                106,
+                39,
+                54,
+                75,
+                87
+              ],
+              "worldIndex": 0,
+              "trial": 1
+            },
+            {
+              "matchIndex": 1,
+              "score": 93,
+              "place": 2,
+              "win": false,
+              "balance": 5,
+              "fieldScores": [
+                93,
+                106,
+                39,
+                54,
+                75,
+                87
+              ],
+              "worldIndex": 0,
+              "trial": 2
+            },
+            {
+              "matchIndex": 2,
+              "score": 93,
+              "place": 2,
+              "win": false,
+              "balance": 5,
+              "fieldScores": [
+                93,
+                106,
+                39,
+                54,
+                75,
+                87
+              ],
+              "worldIndex": 0,
+              "trial": 3
+            },
+            {
+              "matchIndex": 3,
+              "score": 112,
+              "place": 1,
+              "win": true,
+              "balance": 31,
+              "fieldScores": [
+                112,
+                58,
+                69,
+                88,
+                69,
+                88
+              ],
+              "worldIndex": 1,
+              "trial": 1
+            },
+            {
+              "matchIndex": 4,
+              "score": 112,
+              "place": 1,
+              "win": true,
+              "balance": 31,
+              "fieldScores": [
+                112,
+                58,
+                69,
+                88,
+                69,
+                88
+              ],
+              "worldIndex": 1,
+              "trial": 2
+            },
+            {
+              "matchIndex": 5,
+              "score": 112,
+              "place": 1,
+              "win": true,
+              "balance": 31,
+              "fieldScores": [
+                112,
+                58,
+                69,
+                88,
+                69,
+                88
+              ],
+              "worldIndex": 1,
+              "trial": 3
+            },
+            {
+              "matchIndex": 6,
+              "score": 89,
+              "place": 2,
+              "win": false,
+              "balance": 22,
+              "fieldScores": [
+                89,
+                42,
+                138,
+                67,
+                69,
+                87
+              ],
+              "worldIndex": 2,
+              "trial": 1
+            },
+            {
+              "matchIndex": 7,
+              "score": 89,
+              "place": 2,
+              "win": false,
+              "balance": 22,
+              "fieldScores": [
+                89,
+                42,
+                138,
+                67,
+                69,
+                87
+              ],
+              "worldIndex": 2,
+              "trial": 2
+            },
+            {
+              "matchIndex": 8,
+              "score": 89,
+              "place": 2,
+              "win": false,
+              "balance": 22,
+              "fieldScores": [
+                89,
+                42,
+                138,
+                67,
+                69,
+                87
+              ],
+              "worldIndex": 2,
+              "trial": 3
+            },
+            {
+              "matchIndex": 9,
+              "score": 88,
+              "place": 2,
+              "win": false,
+              "balance": 23,
+              "fieldScores": [
+                88,
+                106,
+                76,
+                86,
+                30,
+                79
+              ],
+              "worldIndex": 3,
+              "trial": 1
+            },
+            {
+              "matchIndex": 10,
+              "score": 88,
+              "place": 2,
+              "win": false,
+              "balance": 23,
+              "fieldScores": [
+                88,
+                106,
+                76,
+                86,
+                30,
+                79
+              ],
+              "worldIndex": 3,
+              "trial": 2
+            },
+            {
+              "matchIndex": 11,
+              "score": 88,
+              "place": 2,
+              "win": false,
+              "balance": 23,
+              "fieldScores": [
+                88,
+                106,
+                76,
+                86,
+                30,
+                79
+              ],
+              "worldIndex": 3,
+              "trial": 3
+            },
+            {
+              "matchIndex": 12,
+              "score": 97,
+              "place": 2,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                97,
+                108,
+                53,
+                96,
+                36,
+                78
+              ],
+              "worldIndex": 4,
+              "trial": 1
+            },
+            {
+              "matchIndex": 13,
+              "score": 97,
+              "place": 2,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                97,
+                108,
+                53,
+                96,
+                36,
+                78
+              ],
+              "worldIndex": 4,
+              "trial": 2
+            },
+            {
+              "matchIndex": 14,
+              "score": 97,
+              "place": 2,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                97,
+                108,
+                53,
+                96,
+                36,
+                78
+              ],
+              "worldIndex": 4,
+              "trial": 3
+            },
+            {
+              "matchIndex": 15,
+              "score": 110,
+              "place": 1,
+              "win": true,
+              "balance": 12,
+              "fieldScores": [
+                110,
+                82,
+                36,
+                107,
+                73,
+                87
+              ],
+              "worldIndex": 5,
+              "trial": 1
+            },
+            {
+              "matchIndex": 16,
+              "score": 110,
+              "place": 1,
+              "win": true,
+              "balance": 12,
+              "fieldScores": [
+                110,
+                82,
+                36,
+                107,
+                73,
+                87
+              ],
+              "worldIndex": 5,
+              "trial": 2
+            },
+            {
+              "matchIndex": 17,
+              "score": 110,
+              "place": 1,
+              "win": true,
+              "balance": 12,
+              "fieldScores": [
+                110,
+                82,
+                36,
+                107,
+                73,
+                87
+              ],
+              "worldIndex": 5,
+              "trial": 3
+            },
+            {
+              "matchIndex": 18,
+              "score": 100,
+              "place": 2,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                100,
+                75,
+                105,
+                88,
+                51,
+                55
+              ],
+              "worldIndex": 6,
+              "trial": 1
+            },
+            {
+              "matchIndex": 19,
+              "score": 100,
+              "place": 2,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                100,
+                75,
+                105,
+                88,
+                51,
+                55
+              ],
+              "worldIndex": 6,
+              "trial": 2
+            },
+            {
+              "matchIndex": 20,
+              "score": 100,
+              "place": 2,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                100,
+                75,
+                105,
+                88,
+                51,
+                55
+              ],
+              "worldIndex": 6,
+              "trial": 3
+            },
+            {
+              "matchIndex": 21,
+              "score": 91,
+              "place": 3,
+              "win": false,
+              "balance": 24,
+              "fieldScores": [
+                91,
+                78,
+                90,
+                99,
+                105,
+                65
+              ],
+              "worldIndex": 7,
+              "trial": 1
+            },
+            {
+              "matchIndex": 22,
+              "score": 91,
+              "place": 3,
+              "win": false,
+              "balance": 24,
+              "fieldScores": [
+                91,
+                78,
+                90,
+                99,
+                105,
+                65
+              ],
+              "worldIndex": 7,
+              "trial": 2
+            },
+            {
+              "matchIndex": 23,
+              "score": 91,
+              "place": 3,
+              "win": false,
+              "balance": 24,
+              "fieldScores": [
+                91,
+                78,
+                90,
+                99,
+                105,
+                65
+              ],
+              "worldIndex": 7,
+              "trial": 3
+            },
+            {
+              "matchIndex": 24,
+              "score": 63,
+              "place": 5,
+              "win": false,
+              "balance": 26,
+              "fieldScores": [
+                63,
+                120,
+                102,
+                64,
+                69,
+                48
+              ],
+              "worldIndex": 8,
+              "trial": 1
+            },
+            {
+              "matchIndex": 25,
+              "score": 63,
+              "place": 5,
+              "win": false,
+              "balance": 26,
+              "fieldScores": [
+                63,
+                120,
+                102,
+                64,
+                69,
+                48
+              ],
+              "worldIndex": 8,
+              "trial": 2
+            },
+            {
+              "matchIndex": 26,
+              "score": 63,
+              "place": 5,
+              "win": false,
+              "balance": 26,
+              "fieldScores": [
+                63,
+                120,
+                102,
+                64,
+                69,
+                48
+              ],
+              "worldIndex": 8,
+              "trial": 3
+            },
+            {
+              "matchIndex": 27,
+              "score": 110,
+              "place": 2,
+              "win": false,
+              "balance": 18,
+              "fieldScores": [
+                110,
+                78,
+                27,
+                93,
+                123,
+                84
+              ],
+              "worldIndex": 9,
+              "trial": 1
+            },
+            {
+              "matchIndex": 28,
+              "score": 110,
+              "place": 2,
+              "win": false,
+              "balance": 18,
+              "fieldScores": [
+                110,
+                78,
+                27,
+                93,
+                123,
+                84
+              ],
+              "worldIndex": 9,
+              "trial": 2
+            },
+            {
+              "matchIndex": 29,
+              "score": 110,
+              "place": 2,
+              "win": false,
+              "balance": 18,
+              "fieldScores": [
+                110,
+                78,
+                27,
+                93,
+                123,
+                84
+              ],
+              "worldIndex": 9,
+              "trial": 3
+            },
+            {
+              "matchIndex": 30,
+              "score": 76,
+              "place": 5,
+              "win": false,
+              "balance": 55,
+              "fieldScores": [
+                76,
+                103,
+                93,
+                93,
+                33,
+                80
+              ],
+              "worldIndex": 10,
+              "trial": 1
+            },
+            {
+              "matchIndex": 31,
+              "score": 76,
+              "place": 5,
+              "win": false,
+              "balance": 55,
+              "fieldScores": [
+                76,
+                103,
+                93,
+                93,
+                33,
+                80
+              ],
+              "worldIndex": 10,
+              "trial": 2
+            },
+            {
+              "matchIndex": 32,
+              "score": 76,
+              "place": 5,
+              "win": false,
+              "balance": 55,
+              "fieldScores": [
+                76,
+                103,
+                93,
+                93,
+                33,
+                80
+              ],
+              "worldIndex": 10,
+              "trial": 3
+            },
+            {
+              "matchIndex": 33,
+              "score": 76,
+              "place": 4,
+              "win": false,
+              "balance": 25,
+              "fieldScores": [
+                76,
+                96,
+                70,
+                45,
+                90,
+                81
+              ],
+              "worldIndex": 11,
+              "trial": 1
+            },
+            {
+              "matchIndex": 34,
+              "score": 76,
+              "place": 4,
+              "win": false,
+              "balance": 25,
+              "fieldScores": [
+                76,
+                96,
+                70,
+                45,
+                90,
+                81
+              ],
+              "worldIndex": 11,
+              "trial": 2
+            },
+            {
+              "matchIndex": 35,
+              "score": 76,
+              "place": 4,
+              "win": false,
+              "balance": 25,
+              "fieldScores": [
+                76,
+                96,
+                70,
+                45,
+                90,
+                81
+              ],
+              "worldIndex": 11,
+              "trial": 3
+            },
+            {
+              "matchIndex": 36,
+              "score": 57,
+              "place": 5,
+              "win": false,
+              "balance": 38,
+              "fieldScores": [
+                57,
+                66,
+                115,
+                86,
+                36,
+                85
+              ],
+              "worldIndex": 12,
+              "trial": 1
+            },
+            {
+              "matchIndex": 37,
+              "score": 57,
+              "place": 5,
+              "win": false,
+              "balance": 38,
+              "fieldScores": [
+                57,
+                66,
+                115,
+                86,
+                36,
+                85
+              ],
+              "worldIndex": 12,
+              "trial": 2
+            },
+            {
+              "matchIndex": 38,
+              "score": 57,
+              "place": 5,
+              "win": false,
+              "balance": 38,
+              "fieldScores": [
+                57,
+                66,
+                115,
+                86,
+                36,
+                85
+              ],
+              "worldIndex": 12,
+              "trial": 3
+            },
+            {
+              "matchIndex": 39,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 11,
+              "fieldScores": [
+                84,
+                78,
+                78,
+                74,
+                89,
+                90
+              ],
+              "worldIndex": 13,
+              "trial": 1
+            },
+            {
+              "matchIndex": 40,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 11,
+              "fieldScores": [
+                84,
+                78,
+                78,
+                74,
+                89,
+                90
+              ],
+              "worldIndex": 13,
+              "trial": 2
+            },
+            {
+              "matchIndex": 41,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 11,
+              "fieldScores": [
+                84,
+                78,
+                78,
+                74,
+                89,
+                90
+              ],
+              "worldIndex": 13,
+              "trial": 3
+            },
+            {
+              "matchIndex": 42,
+              "score": 131,
+              "place": 1,
+              "win": true,
+              "balance": 5,
+              "fieldScores": [
+                131,
+                71,
+                42,
+                93,
+                81,
+                51
+              ],
+              "worldIndex": 14,
+              "trial": 1
+            },
+            {
+              "matchIndex": 43,
+              "score": 131,
+              "place": 1,
+              "win": true,
+              "balance": 5,
+              "fieldScores": [
+                131,
+                71,
+                42,
+                93,
+                81,
+                51
+              ],
+              "worldIndex": 14,
+              "trial": 2
+            },
+            {
+              "matchIndex": 44,
+              "score": 131,
+              "place": 1,
+              "win": true,
+              "balance": 5,
+              "fieldScores": [
+                131,
+                71,
+                42,
+                93,
+                81,
+                51
+              ],
+              "worldIndex": 14,
+              "trial": 3
+            },
+            {
+              "matchIndex": 45,
+              "score": 83,
+              "place": 3,
+              "win": false,
+              "balance": 25,
+              "fieldScores": [
+                83,
+                108,
+                137,
+                48,
+                27,
+                69
+              ],
+              "worldIndex": 15,
+              "trial": 1
+            },
+            {
+              "matchIndex": 46,
+              "score": 83,
+              "place": 3,
+              "win": false,
+              "balance": 25,
+              "fieldScores": [
+                83,
+                108,
+                137,
+                48,
+                27,
+                69
+              ],
+              "worldIndex": 15,
+              "trial": 2
+            },
+            {
+              "matchIndex": 47,
+              "score": 83,
+              "place": 3,
+              "win": false,
+              "balance": 25,
+              "fieldScores": [
+                83,
+                108,
+                137,
+                48,
+                27,
+                69
+              ],
+              "worldIndex": 15,
+              "trial": 3
+            },
+            {
+              "matchIndex": 48,
+              "score": 55,
+              "place": 6,
+              "win": false,
+              "balance": 18,
+              "fieldScores": [
+                55,
+                97,
+                70,
+                96,
+                76,
+                64
+              ],
+              "worldIndex": 16,
+              "trial": 1
+            },
+            {
+              "matchIndex": 49,
+              "score": 55,
+              "place": 6,
+              "win": false,
+              "balance": 18,
+              "fieldScores": [
+                55,
+                97,
+                70,
+                96,
+                76,
+                64
+              ],
+              "worldIndex": 16,
+              "trial": 2
+            },
+            {
+              "matchIndex": 50,
+              "score": 55,
+              "place": 6,
+              "win": false,
+              "balance": 18,
+              "fieldScores": [
+                55,
+                97,
+                70,
+                96,
+                76,
+                64
+              ],
+              "worldIndex": 16,
+              "trial": 3
+            },
+            {
+              "matchIndex": 51,
+              "score": 115,
+              "place": 1,
+              "win": true,
+              "balance": 23,
+              "fieldScores": [
+                115,
+                43,
+                58,
+                113,
+                36,
+                114
+              ],
+              "worldIndex": 17,
+              "trial": 1
+            },
+            {
+              "matchIndex": 52,
+              "score": 115,
+              "place": 1,
+              "win": true,
+              "balance": 23,
+              "fieldScores": [
+                115,
+                43,
+                58,
+                113,
+                36,
+                114
+              ],
+              "worldIndex": 17,
+              "trial": 2
+            },
+            {
+              "matchIndex": 53,
+              "score": 115,
+              "place": 1,
+              "win": true,
+              "balance": 23,
+              "fieldScores": [
+                115,
+                43,
+                58,
+                113,
+                36,
+                114
+              ],
+              "worldIndex": 17,
+              "trial": 3
+            },
+            {
+              "matchIndex": 54,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 60,
+              "fieldScores": [
+                84,
+                83,
+                66,
+                87,
+                111,
+                72
+              ],
+              "worldIndex": 18,
+              "trial": 1
+            },
+            {
+              "matchIndex": 55,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 60,
+              "fieldScores": [
+                84,
+                83,
+                66,
+                87,
+                111,
+                72
+              ],
+              "worldIndex": 18,
+              "trial": 2
+            },
+            {
+              "matchIndex": 56,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 60,
+              "fieldScores": [
+                84,
+                83,
+                66,
+                87,
+                111,
+                72
+              ],
+              "worldIndex": 18,
+              "trial": 3
+            },
+            {
+              "matchIndex": 57,
+              "score": 93,
+              "place": 2,
+              "win": false,
+              "balance": 39,
+              "fieldScores": [
+                93,
+                131,
+                82,
+                61,
+                81,
+                84
+              ],
+              "worldIndex": 19,
+              "trial": 1
+            },
+            {
+              "matchIndex": 58,
+              "score": 93,
+              "place": 2,
+              "win": false,
+              "balance": 39,
+              "fieldScores": [
+                93,
+                131,
+                82,
+                61,
+                81,
+                84
+              ],
+              "worldIndex": 19,
+              "trial": 2
+            },
+            {
+              "matchIndex": 59,
+              "score": 93,
+              "place": 2,
+              "win": false,
+              "balance": 39,
+              "fieldScores": [
+                93,
+                131,
+                82,
+                61,
+                81,
+                84
+              ],
+              "worldIndex": 19,
+              "trial": 3
+            },
+            {
+              "matchIndex": 60,
+              "score": 112,
+              "place": 1,
+              "win": true,
+              "balance": 13,
+              "fieldScores": [
+                112,
+                95,
+                66,
+                80,
+                69,
+                51
+              ],
+              "worldIndex": 20,
+              "trial": 1
+            },
+            {
+              "matchIndex": 61,
+              "score": 112,
+              "place": 1,
+              "win": true,
+              "balance": 13,
+              "fieldScores": [
+                112,
+                95,
+                66,
+                80,
+                69,
+                51
+              ],
+              "worldIndex": 20,
+              "trial": 2
+            },
+            {
+              "matchIndex": 62,
+              "score": 112,
+              "place": 1,
+              "win": true,
+              "balance": 13,
+              "fieldScores": [
+                112,
+                95,
+                66,
+                80,
+                69,
+                51
+              ],
+              "worldIndex": 20,
+              "trial": 3
+            },
+            {
+              "matchIndex": 63,
+              "score": 51,
+              "place": 6,
+              "win": false,
+              "balance": 29,
+              "fieldScores": [
+                51,
+                81,
+                77,
+                90,
+                81,
+                93
+              ],
+              "worldIndex": 21,
+              "trial": 1
+            },
+            {
+              "matchIndex": 64,
+              "score": 51,
+              "place": 6,
+              "win": false,
+              "balance": 29,
+              "fieldScores": [
+                51,
+                81,
+                77,
+                90,
+                81,
+                93
+              ],
+              "worldIndex": 21,
+              "trial": 2
+            },
+            {
+              "matchIndex": 65,
+              "score": 51,
+              "place": 6,
+              "win": false,
+              "balance": 29,
+              "fieldScores": [
+                51,
+                81,
+                77,
+                90,
+                81,
+                93
+              ],
+              "worldIndex": 21,
+              "trial": 3
+            },
+            {
+              "matchIndex": 66,
+              "score": 75,
+              "place": 4,
+              "win": false,
+              "balance": 18,
+              "fieldScores": [
+                75,
+                132,
+                81,
+                56,
+                21,
+                100
+              ],
+              "worldIndex": 22,
+              "trial": 1
+            },
+            {
+              "matchIndex": 67,
+              "score": 75,
+              "place": 4,
+              "win": false,
+              "balance": 18,
+              "fieldScores": [
+                75,
+                132,
+                81,
+                56,
+                21,
+                100
+              ],
+              "worldIndex": 22,
+              "trial": 2
+            },
+            {
+              "matchIndex": 68,
+              "score": 73,
+              "place": 3,
+              "win": false,
+              "balance": 11,
+              "fieldScores": [
+                73,
+                132,
+                83,
+                66,
+                21,
+                58
+              ],
+              "worldIndex": 22,
+              "trial": 3
+            },
+            {
+              "matchIndex": 69,
+              "score": 63,
+              "place": 6,
+              "win": false,
+              "balance": 32,
+              "fieldScores": [
+                63,
+                72,
+                70,
+                104,
+                81,
+                96
+              ],
+              "worldIndex": 23,
+              "trial": 1
+            },
+            {
+              "matchIndex": 70,
+              "score": 63,
+              "place": 6,
+              "win": false,
+              "balance": 32,
+              "fieldScores": [
+                63,
+                72,
+                70,
+                104,
+                81,
+                96
+              ],
+              "worldIndex": 23,
+              "trial": 2
+            },
+            {
+              "matchIndex": 71,
+              "score": 63,
+              "place": 6,
+              "win": false,
+              "balance": 32,
+              "fieldScores": [
+                63,
+                72,
+                70,
+                104,
+                81,
+                96
+              ],
+              "worldIndex": 23,
+              "trial": 3
+            },
+            {
+              "matchIndex": 72,
+              "score": 89,
+              "place": 2,
+              "win": false,
+              "balance": 23,
+              "fieldScores": [
+                89,
+                88,
+                108,
+                88,
+                63,
+                66
+              ],
+              "worldIndex": 24,
+              "trial": 1
+            },
+            {
+              "matchIndex": 73,
+              "score": 96,
+              "place": 2,
+              "win": false,
+              "balance": 29,
+              "fieldScores": [
+                96,
+                75,
+                97,
+                88,
+                63,
+                64
+              ],
+              "worldIndex": 24,
+              "trial": 2
+            },
+            {
+              "matchIndex": 74,
+              "score": 89,
+              "place": 2,
+              "win": false,
+              "balance": 23,
+              "fieldScores": [
+                89,
+                88,
+                108,
+                88,
+                63,
+                66
+              ],
+              "worldIndex": 24,
+              "trial": 3
+            },
+            {
+              "matchIndex": 75,
+              "score": 106,
+              "place": 1,
+              "win": true,
+              "balance": 16,
+              "fieldScores": [
+                106,
+                70,
+                73,
+                60,
+                77,
+                76
+              ],
+              "worldIndex": 25,
+              "trial": 1
+            },
+            {
+              "matchIndex": 76,
+              "score": 106,
+              "place": 1,
+              "win": true,
+              "balance": 16,
+              "fieldScores": [
+                106,
+                70,
+                73,
+                60,
+                77,
+                76
+              ],
+              "worldIndex": 25,
+              "trial": 2
+            },
+            {
+              "matchIndex": 77,
+              "score": 106,
+              "place": 1,
+              "win": true,
+              "balance": 16,
+              "fieldScores": [
+                106,
+                70,
+                73,
+                60,
+                77,
+                76
+              ],
+              "worldIndex": 25,
+              "trial": 3
+            },
+            {
+              "matchIndex": 78,
+              "score": 90,
+              "place": 3,
+              "win": false,
+              "balance": 15,
+              "fieldScores": [
+                90,
+                72,
+                47,
+                103,
+                106,
+                81
+              ],
+              "worldIndex": 26,
+              "trial": 1
+            },
+            {
+              "matchIndex": 79,
+              "score": 90,
+              "place": 3,
+              "win": false,
+              "balance": 15,
+              "fieldScores": [
+                90,
+                72,
+                47,
+                103,
+                106,
+                81
+              ],
+              "worldIndex": 26,
+              "trial": 2
+            },
+            {
+              "matchIndex": 80,
+              "score": 90,
+              "place": 3,
+              "win": false,
+              "balance": 15,
+              "fieldScores": [
+                90,
+                72,
+                47,
+                103,
+                106,
+                81
+              ],
+              "worldIndex": 26,
+              "trial": 3
+            },
+            {
+              "matchIndex": 81,
+              "score": 93,
+              "place": 1,
+              "win": true,
+              "balance": 21,
+              "fieldScores": [
+                93,
+                70,
+                86,
+                93,
+                43,
+                87
+              ],
+              "worldIndex": 27,
+              "trial": 1
+            },
+            {
+              "matchIndex": 82,
+              "score": 93,
+              "place": 1,
+              "win": true,
+              "balance": 21,
+              "fieldScores": [
+                93,
+                70,
+                86,
+                93,
+                43,
+                87
+              ],
+              "worldIndex": 27,
+              "trial": 2
+            },
+            {
+              "matchIndex": 83,
+              "score": 93,
+              "place": 1,
+              "win": true,
+              "balance": 21,
+              "fieldScores": [
+                93,
+                70,
+                86,
+                93,
+                43,
+                87
+              ],
+              "worldIndex": 27,
+              "trial": 3
+            },
+            {
+              "matchIndex": 84,
+              "score": 98,
+              "place": 2,
+              "win": false,
+              "balance": 20,
+              "fieldScores": [
+                98,
+                69,
+                60,
+                115,
+                57,
+                96
+              ],
+              "worldIndex": 28,
+              "trial": 1
+            },
+            {
+              "matchIndex": 85,
+              "score": 98,
+              "place": 2,
+              "win": false,
+              "balance": 20,
+              "fieldScores": [
+                98,
+                69,
+                60,
+                115,
+                57,
+                96
+              ],
+              "worldIndex": 28,
+              "trial": 2
+            },
+            {
+              "matchIndex": 86,
+              "score": 98,
+              "place": 2,
+              "win": false,
+              "balance": 20,
+              "fieldScores": [
+                98,
+                69,
+                60,
+                115,
+                57,
+                96
+              ],
+              "worldIndex": 28,
+              "trial": 3
+            },
+            {
+              "matchIndex": 87,
+              "score": 92,
+              "place": 2,
+              "win": false,
+              "balance": 52,
+              "fieldScores": [
+                92,
+                108,
+                66,
+                51,
+                75,
+                89
+              ],
+              "worldIndex": 29,
+              "trial": 1
+            },
+            {
+              "matchIndex": 88,
+              "score": 92,
+              "place": 2,
+              "win": false,
+              "balance": 52,
+              "fieldScores": [
+                92,
+                108,
+                66,
+                51,
+                75,
+                89
+              ],
+              "worldIndex": 29,
+              "trial": 2
+            },
+            {
+              "matchIndex": 89,
+              "score": 92,
+              "place": 2,
+              "win": false,
+              "balance": 52,
+              "fieldScores": [
+                92,
+                108,
+                66,
+                51,
+                75,
+                89
+              ],
+              "worldIndex": 29,
+              "trial": 3
+            },
+            {
+              "matchIndex": 90,
+              "score": 54,
+              "place": 5,
+              "win": false,
+              "balance": 25,
+              "fieldScores": [
+                54,
+                128,
+                51,
+                77,
+                60,
+                117
+              ],
+              "worldIndex": 30,
+              "trial": 1
+            },
+            {
+              "matchIndex": 91,
+              "score": 54,
+              "place": 5,
+              "win": false,
+              "balance": 25,
+              "fieldScores": [
+                54,
+                128,
+                51,
+                77,
+                60,
+                117
+              ],
+              "worldIndex": 30,
+              "trial": 2
+            },
+            {
+              "matchIndex": 92,
+              "score": 54,
+              "place": 5,
+              "win": false,
+              "balance": 25,
+              "fieldScores": [
+                54,
+                128,
+                51,
+                77,
+                60,
+                117
+              ],
+              "worldIndex": 30,
+              "trial": 3
+            },
+            {
+              "matchIndex": 93,
+              "score": 128,
+              "place": 1,
+              "win": true,
+              "balance": 9,
+              "fieldScores": [
+                128,
+                84,
+                107,
+                75,
+                36,
+                74
+              ],
+              "worldIndex": 31,
+              "trial": 1
+            },
+            {
+              "matchIndex": 94,
+              "score": 128,
+              "place": 1,
+              "win": true,
+              "balance": 9,
+              "fieldScores": [
+                128,
+                84,
+                107,
+                75,
+                36,
+                74
+              ],
+              "worldIndex": 31,
+              "trial": 2
+            },
+            {
+              "matchIndex": 95,
+              "score": 128,
+              "place": 1,
+              "win": true,
+              "balance": 9,
+              "fieldScores": [
+                128,
+                84,
+                107,
+                75,
+                36,
+                74
+              ],
+              "worldIndex": 31,
+              "trial": 3
+            }
+          ],
+          "effectivePolicy": {
+            "samples": 24,
+            "bidGain": 1.1,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 2,
+            "huPaceEarly": 1.1,
+            "huHorizon": 10,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 3.5,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2,
+            "neutralSixHorizon": true,
+            "winBonus": 120
+          },
+          "effectiveRival": {
+            "samples": 24,
+            "bidGain": 1.3,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 2,
+            "huPaceEarly": 1.1,
+            "huHorizon": 10,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 3.5,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2
+          },
+          "flakyWinWorlds": 0
+        }
+      },
+      "comparisons": {
+        "WIN30": {
+          "N": 32,
+          "rawTrialsPerArm": 96,
+          "unit": "world; repetitions averaged before bootstrap",
+          "warning": "Conditional synthetic screen only; no independent-trial or live-win claim.",
+          "scoreDelta": -2.09375,
+          "scoreConditional95": [
+            -13.25,
+            8.375
+          ],
+          "placeDelta": -0.22916666666666669,
+          "placeConditional95": [
+            -0.8229166666666666,
+            0.34375
+          ],
+          "winPPDelta": 6.25,
+          "winPPConditional95": [
+            -15.625,
+            28.125
+          ],
+          "changedGames": 24
+        },
+        "WIN60": {
+          "N": 32,
+          "rawTrialsPerArm": 96,
+          "unit": "world; repetitions averaged before bootstrap",
+          "warning": "Conditional synthetic screen only; no independent-trial or live-win claim.",
+          "scoreDelta": -0.53125,
+          "scoreConditional95": [
+            -11.125,
+            8.9375
+          ],
+          "placeDelta": -0.0625,
+          "placeConditional95": [
+            -0.59375,
+            0.53125
+          ],
+          "winPPDelta": 6.25,
+          "winPPConditional95": [
+            -15.625,
+            28.125
+          ],
+          "changedGames": 30
+        },
+        "WIN120": {
+          "N": 32,
+          "rawTrialsPerArm": 96,
+          "unit": "world; repetitions averaged before bootstrap",
+          "warning": "Conditional synthetic screen only; no independent-trial or live-win claim.",
+          "scoreDelta": -5.104166666666667,
+          "scoreConditional95": [
+            -16.375,
+            5.260416666666666
+          ],
+          "placeDelta": -0.010416666666666671,
+          "placeConditional95": [
+            -0.5416666666666666,
+            0.5520833333333334
+          ],
+          "winPPDelta": -3.125,
+          "winPPConditional95": [
+            -18.75,
+            12.5
+          ],
+          "changedGames": 31
+        }
+      }
+    }
+  },
+  "finishedAt": "2026-11-07T23:52:05.290453+00:00"
+}

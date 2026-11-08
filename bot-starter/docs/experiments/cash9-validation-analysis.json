@@ -1,0 +1,393 @@
+{
+  "metric_type": "surrogate",
+  "N": 512,
+  "baseLabel": "BASE",
+  "candidateLabel": "CASH9",
+  "seed": 970821,
+  "cohort": "cash9-validation",
+  "calibrationDataset": "/Users/siddarthakodithyala/the scrabble bot for utd hacks/odysseus-live/bot-starter/data/market-clean-validation.json",
+  "baseParameters": {
+    "samples": 24,
+    "bidGain": 1.1,
+    "paceEarly": 0.8,
+    "paceLate": 2.5,
+    "maxBidShare": 0.7,
+    "starveCoins": 8,
+    "starveMinBagLeft": 10,
+    "cashLen": 7,
+    "futureHorizon": 6,
+    "huGain": 0,
+    "huPaceEarly": 0,
+    "huHorizon": 0,
+    "bigSeats": 8,
+    "bigGain": 0,
+    "bigPaceLate": 0,
+    "denyLast": 0,
+    "denyMult": 1,
+    "facePremium": 2
+  },
+  "candidateParameters": {
+    "samples": 24,
+    "bidGain": 1.1,
+    "paceEarly": 0.8,
+    "paceLate": 2.5,
+    "maxBidShare": 0.7,
+    "starveCoins": 9,
+    "starveMinBagLeft": 10,
+    "cashLen": 7,
+    "futureHorizon": 6,
+    "huGain": 0,
+    "huPaceEarly": 0,
+    "huHorizon": 0,
+    "bigSeats": 8,
+    "bigGain": 0,
+    "bigPaceLate": 0,
+    "denyLast": 0,
+    "denyMult": 1,
+    "facePremium": 2
+  },
+  "baseScore": 105.0546875,
+  "candidateScore": 105.212890625,
+  "baseSurrogatePercent": 25.78125,
+  "candidateSurrogatePercent": 26.5625,
+  "scoreDelta": 0.158203125,
+  "scoreConditional95": [
+    -0.183642578125,
+    0.46098632812499973
+  ],
+  "surrogateDeltaPP": 0.78125,
+  "surrogateConditional95": [
+    0.1953125,
+    1.5625
+  ],
+  "higherScoreGames": 18,
+  "lowerScoreGames": 11,
+  "equalScoreGames": 483,
+  "exceedanceGainedGames": 4,
+  "exceedanceLostGames": 0,
+  "discordantGames": 4,
+  "exactDiscordanceP": 0.125,
+  "exactDiscordanceMethod": "Two-sided conditional binomial test on discordant pairs; p=0.5 null",
+  "exactDiscordanceLimit": "Assumes independent paired games; unadjusted for selection/multiple tests and model uncertainty.",
+  "smallDiscordantWarning": "Fewer than 20 discordant games: percentile bootstrap may exclude zero with very few changed events. Do not interpret that interval alone as reliable evidence; inspect exactDiscordanceP and counts.",
+  "changedCases": [
+    {
+      "matchIndex": 3,
+      "historicalScore": 168,
+      "baseScore": 89,
+      "candidateScore": 99,
+      "scoreDelta": 10,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 16,
+      "historicalScore": 90,
+      "baseScore": 118,
+      "candidateScore": 135,
+      "scoreDelta": 17,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": true,
+      "candidateExceedance": true
+    },
+    {
+      "matchIndex": 27,
+      "historicalScore": 135,
+      "baseScore": 131,
+      "candidateScore": 121,
+      "scoreDelta": -10,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 46,
+      "historicalScore": 181,
+      "baseScore": 108,
+      "candidateScore": 123,
+      "scoreDelta": 15,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 49,
+      "historicalScore": 169,
+      "baseScore": 87,
+      "candidateScore": 63,
+      "scoreDelta": -24,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 68,
+      "historicalScore": 116,
+      "baseScore": 121,
+      "candidateScore": 123,
+      "scoreDelta": 2,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": true,
+      "candidateExceedance": true
+    },
+    {
+      "matchIndex": 110,
+      "historicalScore": 168,
+      "baseScore": 67,
+      "candidateScore": 82,
+      "scoreDelta": 15,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 131,
+      "historicalScore": 169,
+      "baseScore": 71,
+      "candidateScore": 89,
+      "scoreDelta": 18,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 140,
+      "historicalScore": 106,
+      "baseScore": 99,
+      "candidateScore": 107,
+      "scoreDelta": 8,
+      "surrogateDeltaPP": 100,
+      "baseExceedance": false,
+      "candidateExceedance": true
+    },
+    {
+      "matchIndex": 189,
+      "historicalScore": 169,
+      "baseScore": 82,
+      "candidateScore": 97,
+      "scoreDelta": 15,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 206,
+      "historicalScore": 135,
+      "baseScore": 96,
+      "candidateScore": 76,
+      "scoreDelta": -20,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 220,
+      "historicalScore": 181,
+      "baseScore": 125,
+      "candidateScore": 123,
+      "scoreDelta": -2,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 222,
+      "historicalScore": 153,
+      "baseScore": 82,
+      "candidateScore": 85,
+      "scoreDelta": 3,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 232,
+      "historicalScore": 95,
+      "baseScore": 71,
+      "candidateScore": 82,
+      "scoreDelta": 11,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 245,
+      "historicalScore": 110,
+      "baseScore": 107,
+      "candidateScore": 111,
+      "scoreDelta": 4,
+      "surrogateDeltaPP": 100,
+      "baseExceedance": false,
+      "candidateExceedance": true
+    },
+    {
+      "matchIndex": 246,
+      "historicalScore": 128,
+      "baseScore": 90,
+      "candidateScore": 102,
+      "scoreDelta": 12,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 270,
+      "historicalScore": 95,
+      "baseScore": 170,
+      "candidateScore": 184,
+      "scoreDelta": 14,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": true,
+      "candidateExceedance": true
+    },
+    {
+      "matchIndex": 278,
+      "historicalScore": 169,
+      "baseScore": 123,
+      "candidateScore": 138,
+      "scoreDelta": 15,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 301,
+      "historicalScore": 168,
+      "baseScore": 99,
+      "candidateScore": 94,
+      "scoreDelta": -5,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 304,
+      "historicalScore": 142,
+      "baseScore": 106,
+      "candidateScore": 124,
+      "scoreDelta": 18,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 352,
+      "historicalScore": 169,
+      "baseScore": 165,
+      "candidateScore": 134,
+      "scoreDelta": -31,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 368,
+      "historicalScore": 95,
+      "baseScore": 159,
+      "candidateScore": 140,
+      "scoreDelta": -19,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": true,
+      "candidateExceedance": true
+    },
+    {
+      "matchIndex": 380,
+      "historicalScore": 106,
+      "baseScore": 99,
+      "candidateScore": 115,
+      "scoreDelta": 16,
+      "surrogateDeltaPP": 100,
+      "baseExceedance": false,
+      "candidateExceedance": true
+    },
+    {
+      "matchIndex": 385,
+      "historicalScore": 153,
+      "baseScore": 118,
+      "candidateScore": 114,
+      "scoreDelta": -4,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 400,
+      "historicalScore": 106,
+      "baseScore": 93,
+      "candidateScore": 113,
+      "scoreDelta": 20,
+      "surrogateDeltaPP": 100,
+      "baseExceedance": false,
+      "candidateExceedance": true
+    },
+    {
+      "matchIndex": 405,
+      "historicalScore": 153,
+      "baseScore": 130,
+      "candidateScore": 123,
+      "scoreDelta": -7,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 431,
+      "historicalScore": 116,
+      "baseScore": 72,
+      "candidateScore": 92,
+      "scoreDelta": 20,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 481,
+      "historicalScore": 169,
+      "baseScore": 110,
+      "candidateScore": 103,
+      "scoreDelta": -7,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": false,
+      "candidateExceedance": false
+    },
+    {
+      "matchIndex": 495,
+      "historicalScore": 110,
+      "baseScore": 147,
+      "candidateScore": 124,
+      "scoreDelta": -23,
+      "surrogateDeltaPP": 0,
+      "baseExceedance": true,
+      "candidateExceedance": true
+    }
+  ],
+  "bootstrap": {
+    "method": "paired game-resampling percentile",
+    "repetitions": 2000,
+    "seed": 8441,
+    "confidenceLevel": 0.95,
+    "sameResampleForBothMetrics": true
+  },
+  "pairingChecks": [
+    "same order/index",
+    "unique indices",
+    "same seed",
+    "same historical score",
+    "same dataset/cohort metadata"
+  ],
+  "pairingLimit": "Metadata checks do not independently prove identical all-exogenous streams.",
+  "independentValidationEstablished": false,
+  "warning": "Conditional paired-bootstrap uncertainty only: fixed historical dataset and nonreactive market model. Surrogate exceedance is not live win probability or rating gain. Intervals do not cover input/model uncertainty, reused-cohort selection, multiple testing or optional stopping. No automatic deployment.",
+  "at": "2026-11-07T23:24:32.876732+00:00",
+  "inputFiles": {
+    "base": {
+      "path": "/Users/siddarthakodithyala/the scrabble bot for utd hacks/odysseus-live/bot-starter/.runtime-odysseus/cash9-validation-BASE.json",
+      "sha256": "df3d025b6a82b56d85c82b27eae34636572b33ab0aa4d66942d6fd455bd20dfa"
+    },
+    "candidate": {
+      "path": "/Users/siddarthakodithyala/the scrabble bot for utd hacks/odysseus-live/bot-starter/.runtime-odysseus/cash9-validation-CASH9.json",
+      "sha256": "720d8ecf79ad02412606bbc9f83dcda6490a5e11a8c2c94aed255180c4a2cbcd"
+    }
+  }
+}

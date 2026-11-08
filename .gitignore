@@ -1,4 +1,4 @@
-node_modules/
+node_modules
 dist/
 .DS_Store
 *.log
@@ -7,6 +7,10 @@ target/
 .token-*
 # bot-starter bindings still ignored (regenerated per checkout). Web app's
 # bindings are tracked so the production build doesn't need spacetime CLI.
-bot-starter/src/module_bindings/
+bot-starter/src/module_bindings
 .vercel
 .env*
+__pycache__/
+*.pyc
+bot-starter/.runtime*/
+offline-lucent-lab/STATE.json

@@ -6,5 +6,5 @@
 cd "$(dirname "$0")/.."
 export MARKET="${MARKET:-$PWD/data/market.json}"
 N="$2"
-tr '\n' '\0' < "$1" | xargs -0 -P "${JOBS:-12}" -n 1 sh -c 'ONE="$1" npx tsx src/market.ts '"$N" _ > "$3" 2>&1
+tr '\n' '\0' < "$1" | xargs -0 -P "${JOBS:-1}" -n 1 sh -c 'ONE="$1" nice -n 15 node --max-old-space-size=512 --import tsx src/market.ts '"$N" _ > "$3" 2>&1
 sort -t$'\t' -k1,1nr -k2,2nr "$3" | head -20

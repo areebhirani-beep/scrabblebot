@@ -1,0 +1,16 @@
+{
+  "kind": "screen",
+  "family": "training-prior-win-utility",
+  "hypothesis": "A monotone points-plus-win-boundary objective increases conversion of competitive positions into first places while retaining average points.",
+  "offlineOnly": true,
+  "objectives": [
+    "winRate",
+    "meanScore"
+  ],
+  "baseline": "Current comparable winner NEUTRAL6: gain1.1 + neutralSixHorizon; 128-world strong-field record24.21875%/89.609375",
+  "screenConfig": "experiments/win-screen.json",
+  "data": "src/win-prior.json: 34 training tables only; no validation data read",
+  "warning": "This is an objective prior, not a win forecast. No screen promotion.",
+  "repeatsPerWorld": 3,
+  "winnerEvidence": "../bot-starter/docs/experiments/reactive-validation-128-reactive-summary.json"
+}

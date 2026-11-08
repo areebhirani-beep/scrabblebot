@@ -1,0 +1,22 @@
+{
+  "N": 512,
+  "seed": 970517,
+  "prefix": "validation-gain",
+  "dataset": "data/market-clean-validation.json",
+  "base": {
+    "samples": 24
+  },
+  "arms": [
+    [
+      "BASE",
+      {}
+    ],
+    [
+      "GAIN11",
+      {
+        "bidGain": 1.1
+      }
+    ]
+  ],
+  "selection": "Fresh seed and separate historical cohort; retainbaselineunlessconsistent score/threshold improvement. Reports only."
+}

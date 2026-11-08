@@ -1,0 +1,8 @@
+{
+  "at": "2026-11-07T23:36:29.949463+00:00",
+  "workflowId": "workflow-1794093948214-gwy4dc",
+  "status": "failed",
+  "stepsCompleted": 0,
+  "error": "No LLM provider configured",
+  "effect": "Native agents and local offline workers continue; no Ruflo task execution claimed"
+}

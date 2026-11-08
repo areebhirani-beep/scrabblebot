@@ -1,0 +1,27 @@
+{
+  "source": "a26a6119c0a15cbe63f41de1569d1637008d81bf",
+  "samples": 24,
+  "seed": 970517,
+  "elapsedSeconds": 90.57600012497278,
+  "warning": "Screening surrogate only, not counterfactual live win rate; no automatic deployment",
+  "arms": {
+    "BASE": {
+      "score": 105.3046875,
+      "tiles": 15.083984375,
+      "surrogatePercent": 25.5859375,
+      "scoreDelta": 0,
+      "higher": 0,
+      "lower": 0,
+      "N": 512
+    },
+    "GAIN11": {
+      "score": 107.63671875,
+      "tiles": 14.462890625,
+      "surrogatePercent": 27.34375,
+      "scoreDelta": 2.33203125,
+      "higher": 264,
+      "lower": 234,
+      "N": 512
+    }
+  }
+}

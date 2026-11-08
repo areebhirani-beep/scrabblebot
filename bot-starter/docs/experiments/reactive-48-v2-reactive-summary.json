@@ -1,0 +1,3356 @@
+{
+  "metric_type": "synthetic_reactive_simulation",
+  "warning": "Synthetic reactive simulation only, not live win probability, leaderboard rating or a calibrated forecast. Fixed deal/tie streams pair model worlds; rivals react to each policy. CPU-dependent search cutoffs, instant actions, missing transport latency and synthetic rival policies limit realism. Bootstrap intervals are conditional on this model and omit selection/model uncertainty. No automatic deployment.",
+  "startedAt": "2026-11-07T23:29:57.845199+00:00",
+  "status": "complete",
+  "config": {
+    "prefix": "reactive-48-v2",
+    "N": 48,
+    "seed": 881101,
+    "fields": [
+      "live"
+    ],
+    "base": {
+      "samples": 8,
+      "bidGain": 1.1,
+      "facePremium": 2,
+      "cashLen": 7,
+      "paceEarly": 0.8,
+      "paceLate": 2.5,
+      "maxBidShare": 0.7,
+      "starveCoins": 8
+    },
+    "rival": {
+      "samples": 8,
+      "bidGain": 1.3,
+      "facePremium": 2,
+      "cashLen": 7,
+      "paceEarly": 0.8,
+      "paceLate": 2.5,
+      "maxBidShare": 0.7,
+      "starveCoins": 8
+    },
+    "arms": [
+      [
+        "BASE",
+        {}
+      ],
+      [
+        "GAIN13",
+        {
+          "bidGain": 1.3
+        }
+      ],
+      [
+        "GAIN16",
+        {
+          "bidGain": 1.6
+        }
+      ],
+      [
+        "NEUTRAL6",
+        {
+          "neutralSixHorizon": true
+        }
+      ]
+    ],
+    "timeoutSeconds": 900,
+    "bootstrapRepetitions": 2000,
+    "bot": "adv",
+    "auctionType": "Vickrey"
+  },
+  "configSha256": "a2236c04a3df0c4b30bd412c2ac70e342a703703bd173cea8ee6073dc01d5aef",
+  "sourceSha256": "b9b0e82299eb93699b1182642ef078af3c62612835c306ad109b1ce0641ebdc4",
+  "sourceManifest": {
+    "bot-starter/src/action-state.test.ts": "95b865f713a0b7b503d46a9a21f505cc7e9acf2dcb74cb58ec506dbe9a878fdf",
+    "bot-starter/src/action-state.ts": "9fcc299e109cf7430a2fa40ec6be076824b795d55a42a59a1192ce241067593a",
+    "bot-starter/src/advanced-regression.test.ts": "425d6d3f148f70a13c42fea775698cf594a686bdb30f9b91cdf288a30586c760",
+    "bot-starter/src/advanced.ts": "a2ceef41bb1f4c88bfd5528e0d661885d8fcf79af00b15cec7d952673d8d8dd2",
+    "bot-starter/src/brain.ts": "7a283d4b8eb628cdaa8e925b6d3707cbee15e1c50811e92552a5995211183d53",
+    "bot-starter/src/cash-trap.test.ts": "c06e740dd8e78091cfdbc01c4803ab0c6126da07414c248914989be8f201e6d1",
+    "bot-starter/src/count-dp-eval.test.ts": "1545cc7e249f849eca4bd79cab95fb49fa894d67412bc23e76bdeedcfac1b918",
+    "bot-starter/src/count-dp-eval.ts": "8b845093dfb88402c0a5f10323ef74bf1f2c4feeb00f0338a3d8e3d98cf25d2f",
+    "bot-starter/src/count-dp.test.ts": "7f24bbf21fd50dacd6ffe114203bee3607fe1abaabf2c6e2dc1e8035415365d7",
+    "bot-starter/src/count-dp.ts": "fcddc1ace767e8a7fc295ef14c454099f60d03bd0843f2f17193006d22e7db1d",
+    "bot-starter/src/engine-regression.test.ts": "0c74f118ee074878e80d0dcf8879e8ca173b5d3eafc6b33e48aac349643c03ab",
+    "bot-starter/src/engine.ts": "7a730f16ff29b82cde90ee4680b11c9ef291cf2cd8cc618f0ff88346e54b33f1",
+    "bot-starter/src/exact-small-eval.test.ts": "4811261fdefc47b7a2926f3b00404ec7051405d90ddab19e094a9c3ef9c20f5a",
+    "bot-starter/src/exact-small-eval.ts": "969294c4739ca03b4c0b4f652f7e227275aa6b7e6232c28fddce26210d15bb83",
+    "bot-starter/src/experimental-policy.test.ts": "65c87957217581382f49f531e3fe138c63271eae69df45aab41a7a153a6e0d3a",
+    "bot-starter/src/fast-eval-index.test.ts": "305f466d329877507d41a85c936cf37337f04cd819b935dcf5e0e337915acdb2",
+    "bot-starter/src/horizon.test.ts": "5a640f09783aeeff75f3e61e8279ec677296405290cf69dc6895e7c5489b4414",
+    "bot-starter/src/horizon.ts": "30cf873698112307ab2ae77821a45e7575efb87037474fe90937746ce42dad44",
+    "bot-starter/src/index.ts": "78a6128ae9440a90e495571e627ad8c18e78ad686dd171166842534bca1ab3bd",
+    "bot-starter/src/market-random.test.ts": "ab573bbb8481b861d9389315525304506ffb3da8939bcf4d0864ba170d99b2c4",
+    "bot-starter/src/market-random.ts": "bb28c7a33091356c86411f69783ae093890c7d8244cd79e9714055cf4350c6a8",
+    "bot-starter/src/market.ts": "7a67da4b90e4675021ed8b77b0e70c7421dc9c9eec67b1d43c3b68499163866c",
+    "bot-starter/src/module_bindings/add_admin_reducer.ts": "5c30fbe4baf6ca4c20d000c974bc365eed3cc79a024fe126998e235fa9c2b42d",
+    "bot-starter/src/module_bindings/admin_table.ts": "32ea9f319f3bc315d1baa9b4534118f14a6f8d35c00242d0a78dc731788182d5",
+    "bot-starter/src/module_bindings/auction_result_table.ts": "0380173a8f82da4e3a1b9aa85ebec48a4e9c661be4e75468b9413ea7a916044b",
+    "bot-starter/src/module_bindings/auction_table.ts": "fcfb4d7566349d1d7fc6b82dffaf357360059c95629a635360f0fe18b79a995d",
+    "bot-starter/src/module_bindings/auction_top_bid_archive_table.ts": "7f03cea31b36660eb81af834c1c5b199d7e482d8d0ef31874dbdc76f043d9414",
+    "bot-starter/src/module_bindings/backfill_elo_reducer.ts": "d03a53c3e6123d4b3a9a6e1ca930b65c8fdd34f0c216fb81fb9862120ca98ea6",
+    "bot-starter/src/module_bindings/backfill_top_bid_archive_reducer.ts": "7d648e2d8e81d2fa8a41904fc577b18fc005cf59d70eed4d645b7999f340b7d2",
+    "bot-starter/src/module_bindings/bootstrap_admin_reducer.ts": "d03a53c3e6123d4b3a9a6e1ca930b65c8fdd34f0c216fb81fb9862120ca98ea6",
+    "bot-starter/src/module_bindings/bot_credential_table.ts": "9a9bfbbb31af3549c01f5e1dc7f68820f201a0a65c2ece131ad19f66206ae8c7",
+    "bot-starter/src/module_bindings/bot_stats_table.ts": "6bebe94afa2d74e4af228fbd44a9e20c1fa27a5b9e42d827c8db2b2c75a25454",
+    "bot-starter/src/module_bindings/bot_table.ts": "67b0c688b5da4b10907094926aa96428da349492622c96f16c310c810abc87b7",
+    "bot-starter/src/module_bindings/bot_version_table.ts": "926113827f780d3d38a4e4fbbf2a64622594cee95dfee1afe12c68468b6a2576",
+    "bot-starter/src/module_bindings/cancel_tournament_reducer.ts": "6cb9ea95e7b5ec23535695c64f0f415b39b967d11014032a1d1d5f0ebffd3ffa",
+    "bot-starter/src/module_bindings/claim_credential_reducer.ts": "91d05c15767a84b8a41635dda1d52eff77c9591b3076d8271b81f9d7dca8ad6a",
+    "bot-starter/src/module_bindings/connect_id_reducer.ts": "c37db734ceef7ac4f989f3678200b826600f68a08271acee64dc38d36945eb55",
+    "bot-starter/src/module_bindings/create_team_reducer.ts": "047f2efea94236c9aa00dcc0d2bdfe3b4b1eca5807aa8640efb16d00df65a8c2",
+    "bot-starter/src/module_bindings/create_tournament_reducer.ts": "6640126d472e3fa18705177d67175e5cfb540e41cb595c0284e94fb47e69dbb1",
+    "bot-starter/src/module_bindings/force_end_tournament_reducer.ts": "6cb9ea95e7b5ec23535695c64f0f415b39b967d11014032a1d1d5f0ebffd3ffa",
+    "bot-starter/src/module_bindings/human_link_table.ts": "f1dafee7c4542ddf53230db5adf67ebf75514c0fd34c1ea95ab1d434c9d75506",
+    "bot-starter/src/module_bindings/index.ts": "250a1f08de21f62fab691313e13c32211e3755df6ff67abddb2fb22f0095f1b2",
+    "bot-starter/src/module_bindings/join_lobby_reducer.ts": "d03a53c3e6123d4b3a9a6e1ca930b65c8fdd34f0c216fb81fb9862120ca98ea6",
+    "bot-starter/src/module_bindings/join_team_reducer.ts": "91d05c15767a84b8a41635dda1d52eff77c9591b3076d8271b81f9d7dca8ad6a",
+    "bot-starter/src/module_bindings/leave_team_reducer.ts": "d03a53c3e6123d4b3a9a6e1ca930b65c8fdd34f0c216fb81fb9862120ca98ea6",
+    "bot-starter/src/module_bindings/lobby_member_table.ts": "604a07442319db75e8d46444ed4b8c1b7c02e025ecd56434323e30bd2211f323",
+    "bot-starter/src/module_bindings/lobby_table.ts": "c159f3602621eadb96420c670b65bc378e0c3f30d69c256b0e980d50da1a44df",
+    "bot-starter/src/module_bindings/match_participant_table.ts": "9b3fb31b19357ac904a4df55f3f2e99e33adc9f80699d94c20fd757266eca0f7",
+    "bot-starter/src/module_bindings/match_state_table.ts": "1e7a5896dc1da97cc678af6f866a68546cd6c12dd04269b3f8635f0912edcd8a",
+    "bot-starter/src/module_bindings/matchmaker_config_table.ts": "e18fb98ecf51955e25ea6c06fa674b34dc023cc4b74c99af8d3b3ed690489127",
+    "bot-starter/src/module_bindings/mint_credential_nonce_reducer.ts": "d03a53c3e6123d4b3a9a6e1ca930b65c8fdd34f0c216fb81fb9862120ca98ea6",
+    "bot-starter/src/module_bindings/mint_team_invite_reducer.ts": "d03a53c3e6123d4b3a9a6e1ca930b65c8fdd34f0c216fb81fb9862120ca98ea6",
+    "bot-starter/src/module_bindings/my_admin_table.ts": "32ea9f319f3bc315d1baa9b4534118f14a6f8d35c00242d0a78dc731788182d5",
+    "bot-starter/src/module_bindings/my_nonces_table.ts": "98dfe4acba496f76e7deed7e103c4c59efd00a9a5fd775848e79de5a4308a4a9",
+    "bot-starter/src/module_bindings/my_rack_table.ts": "3c08610ceee0cef2cee20dc8137c4b46c55ec9d53b54c92ef43c006922110837",
+    "bot-starter/src/module_bindings/my_team_invites_table.ts": "feefcf1486e6645642be99b6b06725e2670a291d3961d9f97cf8ab284ccb6915",
+    "bot-starter/src/module_bindings/my_team_table.ts": "80452f85314979f6c9995f0baba24a2f4a34e9f9239ade8ee6b3612ff25b5b9e",
+    "bot-starter/src/module_bindings/open_lobbies_table.ts": "c159f3602621eadb96420c670b65bc378e0c3f30d69c256b0e980d50da1a44df",
+    "bot-starter/src/module_bindings/open_lobby_members_table.ts": "604a07442319db75e8d46444ed4b8c1b7c02e025ecd56434323e30bd2211f323",
+    "bot-starter/src/module_bindings/promote_to_owner_reducer.ts": "25624ac3f5c140ba128f8ba6c21ca40e26f38d2d26ed81b6b47860f7cafd3ea4",
+    "bot-starter/src/module_bindings/rating_history_table.ts": "defb512917d17292d39b733b52d55ce411afa8bd6fd6946b2212b3a47807eb57",
+    "bot-starter/src/module_bindings/register_for_tournament_reducer.ts": "6cb9ea95e7b5ec23535695c64f0f415b39b967d11014032a1d1d5f0ebffd3ffa",
+    "bot-starter/src/module_bindings/register_sim_bots_reducer.ts": "6cb9ea95e7b5ec23535695c64f0f415b39b967d11014032a1d1d5f0ebffd3ffa",
+    "bot-starter/src/module_bindings/remove_admin_reducer.ts": "5c30fbe4baf6ca4c20d000c974bc365eed3cc79a024fe126998e235fa9c2b42d",
+    "bot-starter/src/module_bindings/retired_bot_stats_table.ts": "ffc3caabe267e921f354e1cc252ff53d02885a38fb66cd5331b037aa7ba3098e",
+    "bot-starter/src/module_bindings/set_matchmaker_config_reducer.ts": "c5656a07bee0e18904fb18bc16eb74031f447eb8b4c0983d5afbf9f611b6da1a",
+    "bot-starter/src/module_bindings/spawn_simulated_bot_reducer.ts": "b28d34c7c712bf956f540ffcb9b41e872f27afaf8424d5453c87349e7f20c384",
+    "bot-starter/src/module_bindings/start_new_bot_version_reducer.ts": "d03a53c3e6123d4b3a9a6e1ca930b65c8fdd34f0c216fb81fb9862120ca98ea6",
+    "bot-starter/src/module_bindings/start_next_finals_match_reducer.ts": "6cb9ea95e7b5ec23535695c64f0f415b39b967d11014032a1d1d5f0ebffd3ffa",
+    "bot-starter/src/module_bindings/start_tournament_reducer.ts": "6cb9ea95e7b5ec23535695c64f0f415b39b967d11014032a1d1d5f0ebffd3ffa",
+    "bot-starter/src/module_bindings/submit_bid_reducer.ts": "c4c5337cf7c1a9da9e1c2a426230d0091dd2d29b8830dcfc4f155dbfc92d1175",
+    "bot-starter/src/module_bindings/submit_word_reducer.ts": "d3788f118a0a72ab29d0ff976003bc5e5a15c1b2a6f4f9297756b8e422f8db7d",
+    "bot-starter/src/module_bindings/team_member_table.ts": "0f96f0f56265611619d5e135a6a6a069ef03c47ee19517a44ec6693114affaef",
+    "bot-starter/src/module_bindings/team_table.ts": "f5236d1fe7f85292ab3e707daf32021fa7431822a0d56d2e0cec572be90e1b12",
+    "bot-starter/src/module_bindings/tournament_entry_table.ts": "a447271643be4770463594ae5ee2b37ed66fa70be6aacf553a8179dab0495692",
+    "bot-starter/src/module_bindings/tournament_match_table.ts": "c0a388626838644480195083278118b80508bfaf40662fbc2c5f37bc34c042c7",
+    "bot-starter/src/module_bindings/tournament_table.ts": "8279e9c8405966a3b7840d0b4561a9b15461e0f7aa02f5f8c7ce04be9eafa3ad",
+    "bot-starter/src/module_bindings/types/procedures.ts": "e91691c4d61824f5a9e3ad46be93c1f741d29fdba976b6e11f43da0d8af52903",
+    "bot-starter/src/module_bindings/types/reducers.ts": "65fa496bd8521e4e67aa87648ee44416e1987dd38918fa376dce46d87d52e72d",
+    "bot-starter/src/module_bindings/types.ts": "36a414907e816ead4c82912be9812cb5389a16a0faf1518b21928b8f4fd3e578",
+    "bot-starter/src/module_bindings/unregister_from_tournament_reducer.ts": "6cb9ea95e7b5ec23535695c64f0f415b39b967d11014032a1d1d5f0ebffd3ffa",
+    "bot-starter/src/module_bindings/visible_auction_top_bids_table.ts": "2301539f57c212c39c6c8ab43c99608175a7f5fc188bb8c8d921a5584d6b8fe7",
+    "bot-starter/src/module_bindings/word_play_table.ts": "d7a8bec5c8ec338222b9c968c954087a54d40f01cf3c70276b3831ddcf3067c6",
+    "bot-starter/src/montecarlo-cache.test.ts": "b8ceb7bec6724ebf7d6ad2043066803311e790f242cfcca19ee2b5c97aaa8609",
+    "bot-starter/src/montecarlo.ts": "9473e55de9346064ce28be00e1aa754a04158e1d120dc6175126225b331cc459",
+    "bot-starter/src/prices.ts": "1588afc99146f1fd2f01f2e36c6dbc26f1a201760f57aa27590550cf7a286f98",
+    "bot-starter/src/sim-random.test.ts": "e4d605c3d95213de57b6641d0e6c245d428ae290df825a356b0d5db3532695e0",
+    "bot-starter/src/sim-random.ts": "3af75f1877030b5eabfcbfb3e6ecdbc072170287e02fa4930f296d375347d2b4",
+    "bot-starter/src/sim.test.ts": "d20d2025d59f4cebc7986d721ee1fe1bcd4c92ed4e6f37fbce1860e29e8eebdf",
+    "bot-starter/src/sim.ts": "4fe84697efff58cb7d0f3174d03a5f38a60b98164902044220b0651e495744ef",
+    "bot-starter/src/strategy.test.ts": "1a55e7df728b3601b59c5e0ac942ecc641e2759dcaf802a539642bda64bff3fe",
+    "bot-starter/src/strategy.ts": "99595d5e163a860c9bc9f78a42ebf84a475f774be4e97c78fbbd1fe3eed4ceb1",
+    "bot-starter/src/terminal-policy.test.ts": "7e69b47a2328f1c3ee190d6ccf54486f851dabe43dbacaeaf9e1d8efecf3e0ff",
+    "bot-starter/src/terminal-proof.test.ts": "591a69079fe6742d8fa9e50136151d09731d821afb199d680c02a0d49c1b101a",
+    "bot-starter/src/terminal-proof.ts": "c7a1a110130e043c0ef073b29636df769574532a89e5b3894adf3a3aa174b455",
+    "bot-starter/src/tracker.ts": "0ea56f077021b7fd266000eaaf160651735fb05683d17cc40ac4b16b83a949aa",
+    "bot-starter/src/word-packing.test.ts": "1b4363483f6ca42cbe8c7ea65afcafe3cac009bbe219856200b223da57bf5a3f",
+    "bot-starter/src/word-packing.ts": "b066972f7c29448d52d926c6f87aec17756c1be8b30a489eed25fc07478210ef",
+    "bot-starter/src/prices.json": "7d8cabd3c1b41262176e30351f80921c29bb3671361293f3333448bea7a70005",
+    "bot-starter/package.json": "6e98020bbe2a25abb68e5e2c62cb63459c00acaa629616e9a0e0ea133f64fad2",
+    "bot-starter/package-lock.json": "22d75b63274467a2adfc1129a345ccdc99b7e93dcf015cc5f2308a1d37399de2",
+    "bot-starter/tsconfig.json": "6e3ea26fbba22b0fbd41466e50d3e53391385e839701923e535837bb1aec5147",
+    "spacetimedb/wordlist.txt": "b819e7b67f8f2c80640ae76f0edbe59a4a1befb6de0f348463642ad49bdd2ad3"
+  },
+  "snapshotRoot": "/Users/siddarthakodithyala/the scrabble bot for utd hacks/odysseus-live/bot-starter/.runtime-odysseus/reactive-snapshots/b9b0e82299eb93699b1182642ef078af3c62612835c306ad109b1ce0641ebdc4/bot-starter",
+  "fields": {
+    "live": {
+      "arms": {
+        "BASE": {
+          "elapsedSeconds": 8.743021583009977,
+          "detailPath": "/Users/siddarthakodithyala/the scrabble bot for utd hacks/odysseus-live/bot-starter/.runtime-odysseus/reactive-48-v2-live-BASE-reactive.json",
+          "score": 73.79166666666667,
+          "place": 4.083333333333333,
+          "syntheticWinPercent": 6.25,
+          "fullOutcomes": [
+            {
+              "matchIndex": 0,
+              "score": 99,
+              "place": 2,
+              "win": false,
+              "balance": 91,
+              "fieldScores": [
+                99,
+                52,
+                75,
+                74,
+                63,
+                133
+              ]
+            },
+            {
+              "matchIndex": 1,
+              "score": 87,
+              "place": 3,
+              "win": false,
+              "balance": 25,
+              "fieldScores": [
+                87,
+                96,
+                76,
+                128,
+                77,
+                48
+              ]
+            },
+            {
+              "matchIndex": 2,
+              "score": 24,
+              "place": 6,
+              "win": false,
+              "balance": 100,
+              "fieldScores": [
+                24,
+                84,
+                92,
+                115,
+                85,
+                63
+              ]
+            },
+            {
+              "matchIndex": 3,
+              "score": 42,
+              "place": 6,
+              "win": false,
+              "balance": 103,
+              "fieldScores": [
+                42,
+                120,
+                108,
+                64,
+                54,
+                96
+              ]
+            },
+            {
+              "matchIndex": 4,
+              "score": 82,
+              "place": 2,
+              "win": false,
+              "balance": 70,
+              "fieldScores": [
+                82,
+                76,
+                87,
+                63,
+                75,
+                66
+              ]
+            },
+            {
+              "matchIndex": 5,
+              "score": 79,
+              "place": 4,
+              "win": false,
+              "balance": 34,
+              "fieldScores": [
+                79,
+                82,
+                65,
+                125,
+                30,
+                81
+              ]
+            },
+            {
+              "matchIndex": 6,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 50,
+              "fieldScores": [
+                84,
+                128,
+                83,
+                60,
+                24,
+                102
+              ]
+            },
+            {
+              "matchIndex": 7,
+              "score": 101,
+              "place": 2,
+              "win": false,
+              "balance": 47,
+              "fieldScores": [
+                101,
+                120,
+                90,
+                100,
+                30,
+                56
+              ]
+            },
+            {
+              "matchIndex": 8,
+              "score": 92,
+              "place": 2,
+              "win": false,
+              "balance": 69,
+              "fieldScores": [
+                92,
+                87,
+                132,
+                74,
+                45,
+                80
+              ]
+            },
+            {
+              "matchIndex": 9,
+              "score": 86,
+              "place": 4,
+              "win": false,
+              "balance": 56,
+              "fieldScores": [
+                86,
+                48,
+                72,
+                87,
+                91,
+                96
+              ]
+            },
+            {
+              "matchIndex": 10,
+              "score": 73,
+              "place": 4,
+              "win": false,
+              "balance": 72,
+              "fieldScores": [
+                73,
+                60,
+                81,
+                80,
+                48,
+                127
+              ]
+            },
+            {
+              "matchIndex": 11,
+              "score": 61,
+              "place": 6,
+              "win": false,
+              "balance": 81,
+              "fieldScores": [
+                61,
+                81,
+                87,
+                76,
+                66,
+                118
+              ]
+            },
+            {
+              "matchIndex": 12,
+              "score": 73,
+              "place": 4,
+              "win": false,
+              "balance": 45,
+              "fieldScores": [
+                73,
+                116,
+                126,
+                55,
+                33,
+                102
+              ]
+            },
+            {
+              "matchIndex": 13,
+              "score": 38,
+              "place": 6,
+              "win": false,
+              "balance": 82,
+              "fieldScores": [
+                38,
+                123,
+                98,
+                104,
+                60,
+                82
+              ]
+            },
+            {
+              "matchIndex": 14,
+              "score": 72,
+              "place": 5,
+              "win": false,
+              "balance": 51,
+              "fieldScores": [
+                72,
+                94,
+                80,
+                76,
+                66,
+                76
+              ]
+            },
+            {
+              "matchIndex": 15,
+              "score": 72,
+              "place": 5,
+              "win": false,
+              "balance": 89,
+              "fieldScores": [
+                72,
+                90,
+                61,
+                123,
+                87,
+                79
+              ]
+            },
+            {
+              "matchIndex": 16,
+              "score": 100,
+              "place": 2,
+              "win": false,
+              "balance": 26,
+              "fieldScores": [
+                100,
+                81,
+                100,
+                105,
+                33,
+                63
+              ]
+            },
+            {
+              "matchIndex": 17,
+              "score": 75,
+              "place": 5,
+              "win": false,
+              "balance": 61,
+              "fieldScores": [
+                75,
+                77,
+                99,
+                141,
+                21,
+                77
+              ]
+            },
+            {
+              "matchIndex": 18,
+              "score": 67,
+              "place": 4,
+              "win": false,
+              "balance": 27,
+              "fieldScores": [
+                67,
+                52,
+                64,
+                114,
+                69,
+                96
+              ]
+            },
+            {
+              "matchIndex": 19,
+              "score": 123,
+              "place": 1,
+              "win": true,
+              "balance": 60,
+              "fieldScores": [
+                123,
+                96,
+                74,
+                45,
+                81,
+                87
+              ]
+            },
+            {
+              "matchIndex": 20,
+              "score": 119,
+              "place": 1,
+              "win": true,
+              "balance": 76,
+              "fieldScores": [
+                119,
+                85,
+                95,
+                81,
+                39,
+                99
+              ]
+            },
+            {
+              "matchIndex": 21,
+              "score": 57,
+              "place": 6,
+              "win": false,
+              "balance": 67,
+              "fieldScores": [
+                57,
+                86,
+                83,
+                65,
+                93,
+                72
+              ]
+            },
+            {
+              "matchIndex": 22,
+              "score": 96,
+              "place": 3,
+              "win": false,
+              "balance": 74,
+              "fieldScores": [
+                96,
+                73,
+                110,
+                86,
+                30,
+                103
+              ]
+            },
+            {
+              "matchIndex": 23,
+              "score": 95,
+              "place": 3,
+              "win": false,
+              "balance": 51,
+              "fieldScores": [
+                95,
+                106,
+                96,
+                66,
+                51,
+                78
+              ]
+            },
+            {
+              "matchIndex": 24,
+              "score": 51,
+              "place": 6,
+              "win": false,
+              "balance": 128,
+              "fieldScores": [
+                51,
+                115,
+                72,
+                92,
+                63,
+                62
+              ]
+            },
+            {
+              "matchIndex": 25,
+              "score": 90,
+              "place": 2,
+              "win": false,
+              "balance": 34,
+              "fieldScores": [
+                90,
+                76,
+                35,
+                48,
+                42,
+                119
+              ]
+            },
+            {
+              "matchIndex": 26,
+              "score": 86,
+              "place": 4,
+              "win": false,
+              "balance": 44,
+              "fieldScores": [
+                86,
+                96,
+                88,
+                39,
+                93,
+                66
+              ]
+            },
+            {
+              "matchIndex": 27,
+              "score": 93,
+              "place": 2,
+              "win": false,
+              "balance": 32,
+              "fieldScores": [
+                93,
+                93,
+                120,
+                78,
+                30,
+                84
+              ]
+            },
+            {
+              "matchIndex": 28,
+              "score": 54,
+              "place": 6,
+              "win": false,
+              "balance": 26,
+              "fieldScores": [
+                54,
+                62,
+                82,
+                130,
+                68,
+                81
+              ]
+            },
+            {
+              "matchIndex": 29,
+              "score": 56,
+              "place": 5,
+              "win": false,
+              "balance": 62,
+              "fieldScores": [
+                56,
+                78,
+                86,
+                92,
+                38,
+                132
+              ]
+            },
+            {
+              "matchIndex": 30,
+              "score": 78,
+              "place": 5,
+              "win": false,
+              "balance": 33,
+              "fieldScores": [
+                78,
+                106,
+                87,
+                84,
+                36,
+                94
+              ]
+            },
+            {
+              "matchIndex": 31,
+              "score": 27,
+              "place": 6,
+              "win": false,
+              "balance": 109,
+              "fieldScores": [
+                27,
+                68,
+                89,
+                73,
+                120,
+                93
+              ]
+            },
+            {
+              "matchIndex": 32,
+              "score": 58,
+              "place": 5,
+              "win": false,
+              "balance": 90,
+              "fieldScores": [
+                58,
+                69,
+                100,
+                90,
+                57,
+                93
+              ]
+            },
+            {
+              "matchIndex": 33,
+              "score": 91,
+              "place": 3,
+              "win": false,
+              "balance": 29,
+              "fieldScores": [
+                91,
+                105,
+                110,
+                68,
+                30,
+                59
+              ]
+            },
+            {
+              "matchIndex": 34,
+              "score": 72,
+              "place": 5,
+              "win": false,
+              "balance": 87,
+              "fieldScores": [
+                72,
+                81,
+                72,
+                75,
+                92,
+                100
+              ]
+            },
+            {
+              "matchIndex": 35,
+              "score": 84,
+              "place": 1,
+              "win": true,
+              "balance": 27,
+              "fieldScores": [
+                84,
+                83,
+                80,
+                61,
+                72,
+                78
+              ]
+            },
+            {
+              "matchIndex": 36,
+              "score": 60,
+              "place": 5,
+              "win": false,
+              "balance": 66,
+              "fieldScores": [
+                60,
+                81,
+                45,
+                88,
+                153,
+                77
+              ]
+            },
+            {
+              "matchIndex": 37,
+              "score": 64,
+              "place": 4,
+              "win": false,
+              "balance": 22,
+              "fieldScores": [
+                64,
+                106,
+                95,
+                81,
+                39,
+                57
+              ]
+            },
+            {
+              "matchIndex": 38,
+              "score": 76,
+              "place": 4,
+              "win": false,
+              "balance": 62,
+              "fieldScores": [
+                76,
+                36,
+                85,
+                61,
+                81,
+                84
+              ]
+            },
+            {
+              "matchIndex": 39,
+              "score": 64,
+              "place": 6,
+              "win": false,
+              "balance": 34,
+              "fieldScores": [
+                64,
+                90,
+                80,
+                87,
+                66,
+                100
+              ]
+            },
+            {
+              "matchIndex": 40,
+              "score": 60,
+              "place": 5,
+              "win": false,
+              "balance": 30,
+              "fieldScores": [
+                60,
+                67,
+                110,
+                60,
+                63,
+                75
+              ]
+            },
+            {
+              "matchIndex": 41,
+              "score": 70,
+              "place": 4,
+              "win": false,
+              "balance": 80,
+              "fieldScores": [
+                70,
+                60,
+                102,
+                78,
+                103,
+                63
+              ]
+            },
+            {
+              "matchIndex": 42,
+              "score": 49,
+              "place": 6,
+              "win": false,
+              "balance": 87,
+              "fieldScores": [
+                49,
+                66,
+                82,
+                88,
+                96,
+                108
+              ]
+            },
+            {
+              "matchIndex": 43,
+              "score": 95,
+              "place": 2,
+              "win": false,
+              "balance": 65,
+              "fieldScores": [
+                95,
+                95,
+                68,
+                81,
+                63,
+                105
+              ]
+            },
+            {
+              "matchIndex": 44,
+              "score": 49,
+              "place": 6,
+              "win": false,
+              "balance": 96,
+              "fieldScores": [
+                49,
+                78,
+                74,
+                124,
+                57,
+                72
+              ]
+            },
+            {
+              "matchIndex": 45,
+              "score": 77,
+              "place": 5,
+              "win": false,
+              "balance": 17,
+              "fieldScores": [
+                77,
+                96,
+                99,
+                100,
+                42,
+                93
+              ]
+            },
+            {
+              "matchIndex": 46,
+              "score": 72,
+              "place": 5,
+              "win": false,
+              "balance": 21,
+              "fieldScores": [
+                72,
+                81,
+                84,
+                118,
+                48,
+                76
+              ]
+            },
+            {
+              "matchIndex": 47,
+              "score": 69,
+              "place": 5,
+              "win": false,
+              "balance": 62,
+              "fieldScores": [
+                69,
+                88,
+                84,
+                73,
+                90,
+                69
+              ]
+            }
+          ],
+          "effectivePolicy": {
+            "samples": 8,
+            "bidGain": 1.1,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 0,
+            "huPaceEarly": 0,
+            "huHorizon": 0,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 0,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2
+          },
+          "effectiveRival": {
+            "samples": 8,
+            "bidGain": 1.3,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 0,
+            "huPaceEarly": 0,
+            "huHorizon": 0,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 0,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2
+          },
+          "timingLimitation": "Policy search uses wall-clock budgets; fixed exogenous worlds do not guarantee identical decisions under different CPU load."
+        },
+        "GAIN13": {
+          "elapsedSeconds": 12.82093020802131,
+          "detailPath": "/Users/siddarthakodithyala/the scrabble bot for utd hacks/odysseus-live/bot-starter/.runtime-odysseus/reactive-48-v2-live-GAIN13-reactive.json",
+          "score": 83.77083333333333,
+          "place": 3.25,
+          "syntheticWinPercent": 14.583333333333334,
+          "fullOutcomes": [
+            {
+              "matchIndex": 0,
+              "score": 135,
+              "place": 1,
+              "win": true,
+              "balance": 48,
+              "fieldScores": [
+                135,
+                63,
+                70,
+                30,
+                83,
+                89
+              ]
+            },
+            {
+              "matchIndex": 1,
+              "score": 91,
+              "place": 3,
+              "win": false,
+              "balance": 37,
+              "fieldScores": [
+                91,
+                96,
+                69,
+                102,
+                81,
+                64
+              ]
+            },
+            {
+              "matchIndex": 2,
+              "score": 95,
+              "place": 3,
+              "win": false,
+              "balance": 17,
+              "fieldScores": [
+                95,
+                60,
+                98,
+                107,
+                72,
+                63
+              ]
+            },
+            {
+              "matchIndex": 3,
+              "score": 57,
+              "place": 4,
+              "win": false,
+              "balance": 31,
+              "fieldScores": [
+                57,
+                52,
+                141,
+                63,
+                57,
+                86
+              ]
+            },
+            {
+              "matchIndex": 4,
+              "score": 115,
+              "place": 1,
+              "win": true,
+              "balance": 55,
+              "fieldScores": [
+                115,
+                84,
+                66,
+                60,
+                93,
+                81
+              ]
+            },
+            {
+              "matchIndex": 5,
+              "score": 83,
+              "place": 4,
+              "win": false,
+              "balance": 24,
+              "fieldScores": [
+                83,
+                39,
+                87,
+                120,
+                30,
+                99
+              ]
+            },
+            {
+              "matchIndex": 6,
+              "score": 88,
+              "place": 3,
+              "win": false,
+              "balance": 22,
+              "fieldScores": [
+                88,
+                123,
+                77,
+                67,
+                24,
+                122
+              ]
+            },
+            {
+              "matchIndex": 7,
+              "score": 69,
+              "place": 5,
+              "win": false,
+              "balance": 51,
+              "fieldScores": [
+                69,
+                117,
+                106,
+                74,
+                30,
+                86
+              ]
+            },
+            {
+              "matchIndex": 8,
+              "score": 30,
+              "place": 6,
+              "win": false,
+              "balance": 109,
+              "fieldScores": [
+                30,
+                76,
+                143,
+                77,
+                45,
+                124
+              ]
+            },
+            {
+              "matchIndex": 9,
+              "score": 106,
+              "place": 1,
+              "win": true,
+              "balance": 49,
+              "fieldScores": [
+                106,
+                90,
+                41,
+                48,
+                88,
+                89
+              ]
+            },
+            {
+              "matchIndex": 10,
+              "score": 93,
+              "place": 2,
+              "win": false,
+              "balance": 47,
+              "fieldScores": [
+                93,
+                67,
+                83,
+                99,
+                87,
+                89
+              ]
+            },
+            {
+              "matchIndex": 11,
+              "score": 124,
+              "place": 1,
+              "win": true,
+              "balance": 57,
+              "fieldScores": [
+                124,
+                80,
+                63,
+                74,
+                32,
+                105
+              ]
+            },
+            {
+              "matchIndex": 12,
+              "score": 58,
+              "place": 4,
+              "win": false,
+              "balance": 30,
+              "fieldScores": [
+                58,
+                117,
+                135,
+                52,
+                33,
+                83
+              ]
+            },
+            {
+              "matchIndex": 13,
+              "score": 73,
+              "place": 4,
+              "win": false,
+              "balance": 21,
+              "fieldScores": [
+                73,
+                117,
+                115,
+                89,
+                60,
+                39
+              ]
+            },
+            {
+              "matchIndex": 14,
+              "score": 71,
+              "place": 3,
+              "win": false,
+              "balance": 17,
+              "fieldScores": [
+                71,
+                54,
+                67,
+                88,
+                66,
+                113
+              ]
+            },
+            {
+              "matchIndex": 15,
+              "score": 64,
+              "place": 6,
+              "win": false,
+              "balance": 17,
+              "fieldScores": [
+                64,
+                71,
+                78,
+                102,
+                84,
+                99
+              ]
+            },
+            {
+              "matchIndex": 16,
+              "score": 108,
+              "place": 2,
+              "win": false,
+              "balance": 21,
+              "fieldScores": [
+                108,
+                79,
+                90,
+                123,
+                33,
+                75
+              ]
+            },
+            {
+              "matchIndex": 17,
+              "score": 111,
+              "place": 3,
+              "win": false,
+              "balance": 41,
+              "fieldScores": [
+                111,
+                55,
+                128,
+                116,
+                21,
+                59
+              ]
+            },
+            {
+              "matchIndex": 18,
+              "score": 66,
+              "place": 4,
+              "win": false,
+              "balance": 30,
+              "fieldScores": [
+                66,
+                60,
+                66,
+                84,
+                69,
+                123
+              ]
+            },
+            {
+              "matchIndex": 19,
+              "score": 80,
+              "place": 3,
+              "win": false,
+              "balance": 28,
+              "fieldScores": [
+                80,
+                119,
+                100,
+                41,
+                78,
+                74
+              ]
+            },
+            {
+              "matchIndex": 20,
+              "score": 117,
+              "place": 1,
+              "win": true,
+              "balance": 17,
+              "fieldScores": [
+                117,
+                80,
+                82,
+                84,
+                39,
+                85
+              ]
+            },
+            {
+              "matchIndex": 21,
+              "score": 53,
+              "place": 6,
+              "win": false,
+              "balance": 105,
+              "fieldScores": [
+                53,
+                89,
+                70,
+                95,
+                93,
+                77
+              ]
+            },
+            {
+              "matchIndex": 22,
+              "score": 121,
+              "place": 1,
+              "win": true,
+              "balance": 90,
+              "fieldScores": [
+                121,
+                75,
+                112,
+                66,
+                30,
+                106
+              ]
+            },
+            {
+              "matchIndex": 23,
+              "score": 86,
+              "place": 2,
+              "win": false,
+              "balance": 49,
+              "fieldScores": [
+                86,
+                154,
+                80,
+                52,
+                51,
+                30
+              ]
+            },
+            {
+              "matchIndex": 24,
+              "score": 105,
+              "place": 1,
+              "win": true,
+              "balance": 43,
+              "fieldScores": [
+                105,
+                84,
+                90,
+                69,
+                63,
+                81
+              ]
+            },
+            {
+              "matchIndex": 25,
+              "score": 66,
+              "place": 4,
+              "win": false,
+              "balance": 37,
+              "fieldScores": [
+                66,
+                117,
+                39,
+                75,
+                35,
+                126
+              ]
+            },
+            {
+              "matchIndex": 26,
+              "score": 99,
+              "place": 3,
+              "win": false,
+              "balance": 27,
+              "fieldScores": [
+                99,
+                114,
+                104,
+                49,
+                84,
+                33
+              ]
+            },
+            {
+              "matchIndex": 27,
+              "score": 105,
+              "place": 2,
+              "win": false,
+              "balance": 33,
+              "fieldScores": [
+                105,
+                73,
+                57,
+                112,
+                30,
+                100
+              ]
+            },
+            {
+              "matchIndex": 28,
+              "score": 72,
+              "place": 4,
+              "win": false,
+              "balance": 30,
+              "fieldScores": [
+                72,
+                43,
+                76,
+                64,
+                114,
+                85
+              ]
+            },
+            {
+              "matchIndex": 29,
+              "score": 83,
+              "place": 3,
+              "win": false,
+              "balance": 41,
+              "fieldScores": [
+                83,
+                109,
+                69,
+                78,
+                38,
+                90
+              ]
+            },
+            {
+              "matchIndex": 30,
+              "score": 72,
+              "place": 4,
+              "win": false,
+              "balance": 33,
+              "fieldScores": [
+                72,
+                108,
+                33,
+                126,
+                36,
+                132
+              ]
+            },
+            {
+              "matchIndex": 31,
+              "score": 75,
+              "place": 4,
+              "win": false,
+              "balance": 36,
+              "fieldScores": [
+                75,
+                81,
+                72,
+                88,
+                114,
+                63
+              ]
+            },
+            {
+              "matchIndex": 32,
+              "score": 75,
+              "place": 4,
+              "win": false,
+              "balance": 50,
+              "fieldScores": [
+                75,
+                91,
+                123,
+                53,
+                57,
+                83
+              ]
+            },
+            {
+              "matchIndex": 33,
+              "score": 111,
+              "place": 2,
+              "win": false,
+              "balance": 35,
+              "fieldScores": [
+                111,
+                82,
+                131,
+                87,
+                30,
+                72
+              ]
+            },
+            {
+              "matchIndex": 34,
+              "score": 100,
+              "place": 2,
+              "win": false,
+              "balance": 29,
+              "fieldScores": [
+                100,
+                93,
+                102,
+                41,
+                89,
+                99
+              ]
+            },
+            {
+              "matchIndex": 35,
+              "score": 83,
+              "place": 2,
+              "win": false,
+              "balance": 20,
+              "fieldScores": [
+                83,
+                76,
+                58,
+                100,
+                75,
+                68
+              ]
+            },
+            {
+              "matchIndex": 36,
+              "score": 62,
+              "place": 5,
+              "win": false,
+              "balance": 42,
+              "fieldScores": [
+                62,
+                102,
+                71,
+                52,
+                105,
+                68
+              ]
+            },
+            {
+              "matchIndex": 37,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 24,
+              "fieldScores": [
+                84,
+                99,
+                60,
+                81,
+                39,
+                89
+              ]
+            },
+            {
+              "matchIndex": 38,
+              "score": 97,
+              "place": 2,
+              "win": false,
+              "balance": 65,
+              "fieldScores": [
+                97,
+                45,
+                66,
+                125,
+                75,
+                82
+              ]
+            },
+            {
+              "matchIndex": 39,
+              "score": 86,
+              "place": 3,
+              "win": false,
+              "balance": 20,
+              "fieldScores": [
+                86,
+                103,
+                81,
+                57,
+                73,
+                106
+              ]
+            },
+            {
+              "matchIndex": 40,
+              "score": 74,
+              "place": 4,
+              "win": false,
+              "balance": 18,
+              "fieldScores": [
+                74,
+                80,
+                78,
+                71,
+                63,
+                108
+              ]
+            },
+            {
+              "matchIndex": 41,
+              "score": 42,
+              "place": 6,
+              "win": false,
+              "balance": 99,
+              "fieldScores": [
+                42,
+                69,
+                106,
+                126,
+                95,
+                57
+              ]
+            },
+            {
+              "matchIndex": 42,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 86,
+              "fieldScores": [
+                84,
+                48,
+                78,
+                83,
+                99,
+                91
+              ]
+            },
+            {
+              "matchIndex": 43,
+              "score": 66,
+              "place": 4,
+              "win": false,
+              "balance": 9,
+              "fieldScores": [
+                66,
+                75,
+                70,
+                100,
+                63,
+                66
+              ]
+            },
+            {
+              "matchIndex": 44,
+              "score": 78,
+              "place": 3,
+              "win": false,
+              "balance": 50,
+              "fieldScores": [
+                78,
+                125,
+                73,
+                104,
+                51,
+                72
+              ]
+            },
+            {
+              "matchIndex": 45,
+              "score": 75,
+              "place": 5,
+              "win": false,
+              "balance": 23,
+              "fieldScores": [
+                75,
+                99,
+                111,
+                90,
+                42,
+                86
+              ]
+            },
+            {
+              "matchIndex": 46,
+              "score": 52,
+              "place": 6,
+              "win": false,
+              "balance": 28,
+              "fieldScores": [
+                52,
+                65,
+                70,
+                108,
+                83,
+                91
+              ]
+            },
+            {
+              "matchIndex": 47,
+              "score": 81,
+              "place": 4,
+              "win": false,
+              "balance": 16,
+              "fieldScores": [
+                81,
+                89,
+                138,
+                88,
+                66,
+                33
+              ]
+            }
+          ],
+          "effectivePolicy": {
+            "samples": 8,
+            "bidGain": 1.3,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 0,
+            "huPaceEarly": 0,
+            "huHorizon": 0,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 0,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2
+          },
+          "effectiveRival": {
+            "samples": 8,
+            "bidGain": 1.3,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 0,
+            "huPaceEarly": 0,
+            "huHorizon": 0,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 0,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2
+          },
+          "timingLimitation": "Policy search uses wall-clock budgets; fixed exogenous worlds do not guarantee identical decisions under different CPU load."
+        },
+        "GAIN16": {
+          "elapsedSeconds": 9.97685137501685,
+          "detailPath": "/Users/siddarthakodithyala/the scrabble bot for utd hacks/odysseus-live/bot-starter/.runtime-odysseus/reactive-48-v2-live-GAIN16-reactive.json",
+          "score": 89.375,
+          "place": 2.8125,
+          "syntheticWinPercent": 29.166666666666668,
+          "fullOutcomes": [
+            {
+              "matchIndex": 0,
+              "score": 130,
+              "place": 1,
+              "win": true,
+              "balance": 44,
+              "fieldScores": [
+                130,
+                35,
+                81,
+                58,
+                68,
+                97
+              ]
+            },
+            {
+              "matchIndex": 1,
+              "score": 105,
+              "place": 1,
+              "win": true,
+              "balance": 5,
+              "fieldScores": [
+                105,
+                105,
+                88,
+                78,
+                72,
+                48
+              ]
+            },
+            {
+              "matchIndex": 2,
+              "score": 63,
+              "place": 6,
+              "win": false,
+              "balance": 39,
+              "fieldScores": [
+                63,
+                66,
+                94,
+                102,
+                78,
+                103
+              ]
+            },
+            {
+              "matchIndex": 3,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 65,
+              "fieldScores": [
+                84,
+                81,
+                99,
+                58,
+                58,
+                87
+              ]
+            },
+            {
+              "matchIndex": 4,
+              "score": 97,
+              "place": 1,
+              "win": true,
+              "balance": 23,
+              "fieldScores": [
+                97,
+                89,
+                36,
+                81,
+                90,
+                84
+              ]
+            },
+            {
+              "matchIndex": 5,
+              "score": 96,
+              "place": 3,
+              "win": false,
+              "balance": 15,
+              "fieldScores": [
+                96,
+                41,
+                101,
+                117,
+                30,
+                81
+              ]
+            },
+            {
+              "matchIndex": 6,
+              "score": 105,
+              "place": 2,
+              "win": false,
+              "balance": 31,
+              "fieldScores": [
+                105,
+                60,
+                82,
+                84,
+                24,
+                135
+              ]
+            },
+            {
+              "matchIndex": 7,
+              "score": 109,
+              "place": 2,
+              "win": false,
+              "balance": 22,
+              "fieldScores": [
+                109,
+                138,
+                90,
+                70,
+                30,
+                73
+              ]
+            },
+            {
+              "matchIndex": 8,
+              "score": 72,
+              "place": 5,
+              "win": false,
+              "balance": 42,
+              "fieldScores": [
+                72,
+                117,
+                95,
+                109,
+                45,
+                81
+              ]
+            },
+            {
+              "matchIndex": 9,
+              "score": 121,
+              "place": 1,
+              "win": true,
+              "balance": 21,
+              "fieldScores": [
+                121,
+                42,
+                85,
+                76,
+                62,
+                77
+              ]
+            },
+            {
+              "matchIndex": 10,
+              "score": 99,
+              "place": 2,
+              "win": false,
+              "balance": 19,
+              "fieldScores": [
+                99,
+                41,
+                99,
+                92,
+                36,
+                123
+              ]
+            },
+            {
+              "matchIndex": 11,
+              "score": 81,
+              "place": 4,
+              "win": false,
+              "balance": 17,
+              "fieldScores": [
+                81,
+                78,
+                126,
+                87,
+                42,
+                98
+              ]
+            },
+            {
+              "matchIndex": 12,
+              "score": 66,
+              "place": 4,
+              "win": false,
+              "balance": 20,
+              "fieldScores": [
+                66,
+                108,
+                126,
+                60,
+                33,
+                93
+              ]
+            },
+            {
+              "matchIndex": 13,
+              "score": 95,
+              "place": 3,
+              "win": false,
+              "balance": 15,
+              "fieldScores": [
+                95,
+                53,
+                90,
+                96,
+                60,
+                102
+              ]
+            },
+            {
+              "matchIndex": 14,
+              "score": 75,
+              "place": 3,
+              "win": false,
+              "balance": 16,
+              "fieldScores": [
+                75,
+                72,
+                59,
+                81,
+                85,
+                53
+              ]
+            },
+            {
+              "matchIndex": 15,
+              "score": 71,
+              "place": 5,
+              "win": false,
+              "balance": 42,
+              "fieldScores": [
+                71,
+                78,
+                74,
+                93,
+                63,
+                99
+              ]
+            },
+            {
+              "matchIndex": 16,
+              "score": 127,
+              "place": 1,
+              "win": true,
+              "balance": 35,
+              "fieldScores": [
+                127,
+                73,
+                68,
+                80,
+                33,
+                126
+              ]
+            },
+            {
+              "matchIndex": 17,
+              "score": 89,
+              "place": 3,
+              "win": false,
+              "balance": 38,
+              "fieldScores": [
+                89,
+                69,
+                117,
+                147,
+                21,
+                72
+              ]
+            },
+            {
+              "matchIndex": 18,
+              "score": 79,
+              "place": 5,
+              "win": false,
+              "balance": 14,
+              "fieldScores": [
+                79,
+                85,
+                81,
+                96,
+                60,
+                87
+              ]
+            },
+            {
+              "matchIndex": 19,
+              "score": 67,
+              "place": 4,
+              "win": false,
+              "balance": 44,
+              "fieldScores": [
+                67,
+                131,
+                78,
+                65,
+                75,
+                61
+              ]
+            },
+            {
+              "matchIndex": 20,
+              "score": 104,
+              "place": 3,
+              "win": false,
+              "balance": 16,
+              "fieldScores": [
+                104,
+                54,
+                107,
+                113,
+                39,
+                72
+              ]
+            },
+            {
+              "matchIndex": 21,
+              "score": 97,
+              "place": 1,
+              "win": true,
+              "balance": 25,
+              "fieldScores": [
+                97,
+                85,
+                57,
+                93,
+                81,
+                67
+              ]
+            },
+            {
+              "matchIndex": 22,
+              "score": 116,
+              "place": 1,
+              "win": true,
+              "balance": 25,
+              "fieldScores": [
+                116,
+                96,
+                93,
+                72,
+                30,
+                109
+              ]
+            },
+            {
+              "matchIndex": 23,
+              "score": 83,
+              "place": 3,
+              "win": false,
+              "balance": 57,
+              "fieldScores": [
+                83,
+                128,
+                86,
+                55,
+                56,
+                70
+              ]
+            },
+            {
+              "matchIndex": 24,
+              "score": 83,
+              "place": 1,
+              "win": true,
+              "balance": 28,
+              "fieldScores": [
+                83,
+                56,
+                70,
+                69,
+                63,
+                83
+              ]
+            },
+            {
+              "matchIndex": 25,
+              "score": 111,
+              "place": 1,
+              "win": true,
+              "balance": 24,
+              "fieldScores": [
+                111,
+                78,
+                67,
+                72,
+                56,
+                94
+              ]
+            },
+            {
+              "matchIndex": 26,
+              "score": 88,
+              "place": 2,
+              "win": false,
+              "balance": 10,
+              "fieldScores": [
+                88,
+                76,
+                76,
+                57,
+                93,
+                64
+              ]
+            },
+            {
+              "matchIndex": 27,
+              "score": 121,
+              "place": 1,
+              "win": true,
+              "balance": 20,
+              "fieldScores": [
+                121,
+                70,
+                62,
+                81,
+                60,
+                78
+              ]
+            },
+            {
+              "matchIndex": 28,
+              "score": 56,
+              "place": 4,
+              "win": false,
+              "balance": 7,
+              "fieldScores": [
+                56,
+                52,
+                145,
+                96,
+                70,
+                39
+              ]
+            },
+            {
+              "matchIndex": 29,
+              "score": 78,
+              "place": 3,
+              "win": false,
+              "balance": 38,
+              "fieldScores": [
+                78,
+                75,
+                90,
+                84,
+                69,
+                77
+              ]
+            },
+            {
+              "matchIndex": 30,
+              "score": 93,
+              "place": 2,
+              "win": false,
+              "balance": 21,
+              "fieldScores": [
+                93,
+                74,
+                132,
+                67,
+                36,
+                90
+              ]
+            },
+            {
+              "matchIndex": 31,
+              "score": 111,
+              "place": 1,
+              "win": true,
+              "balance": 9,
+              "fieldScores": [
+                111,
+                24,
+                99,
+                66,
+                87,
+                103
+              ]
+            },
+            {
+              "matchIndex": 32,
+              "score": 73,
+              "place": 5,
+              "win": false,
+              "balance": 36,
+              "fieldScores": [
+                73,
+                83,
+                83,
+                87,
+                57,
+                76
+              ]
+            },
+            {
+              "matchIndex": 33,
+              "score": 96,
+              "place": 2,
+              "win": false,
+              "balance": 7,
+              "fieldScores": [
+                96,
+                102,
+                84,
+                89,
+                30,
+                59
+              ]
+            },
+            {
+              "matchIndex": 34,
+              "score": 100,
+              "place": 2,
+              "win": false,
+              "balance": 19,
+              "fieldScores": [
+                100,
+                132,
+                70,
+                38,
+                95,
+                54
+              ]
+            },
+            {
+              "matchIndex": 35,
+              "score": 48,
+              "place": 6,
+              "win": false,
+              "balance": 16,
+              "fieldScores": [
+                48,
+                70,
+                72,
+                108,
+                67,
+                54
+              ]
+            },
+            {
+              "matchIndex": 36,
+              "score": 74,
+              "place": 3,
+              "win": false,
+              "balance": 18,
+              "fieldScores": [
+                74,
+                60,
+                62,
+                75,
+                165,
+                60
+              ]
+            },
+            {
+              "matchIndex": 37,
+              "score": 63,
+              "place": 4,
+              "win": false,
+              "balance": 15,
+              "fieldScores": [
+                63,
+                59,
+                66,
+                80,
+                39,
+                142
+              ]
+            },
+            {
+              "matchIndex": 38,
+              "score": 71,
+              "place": 5,
+              "win": false,
+              "balance": 36,
+              "fieldScores": [
+                71,
+                93,
+                80,
+                81,
+                66,
+                91
+              ]
+            },
+            {
+              "matchIndex": 39,
+              "score": 114,
+              "place": 1,
+              "win": true,
+              "balance": 35,
+              "fieldScores": [
+                114,
+                42,
+                98,
+                36,
+                75,
+                109
+              ]
+            },
+            {
+              "matchIndex": 40,
+              "score": 92,
+              "place": 2,
+              "win": false,
+              "balance": 51,
+              "fieldScores": [
+                92,
+                120,
+                67,
+                70,
+                69,
+                64
+              ]
+            },
+            {
+              "matchIndex": 41,
+              "score": 102,
+              "place": 1,
+              "win": true,
+              "balance": 32,
+              "fieldScores": [
+                102,
+                69,
+                69,
+                86,
+                93,
+                51
+              ]
+            },
+            {
+              "matchIndex": 42,
+              "score": 82,
+              "place": 3,
+              "win": false,
+              "balance": 20,
+              "fieldScores": [
+                82,
+                71,
+                100,
+                56,
+                92,
+                81
+              ]
+            },
+            {
+              "matchIndex": 43,
+              "score": 69,
+              "place": 5,
+              "win": false,
+              "balance": 48,
+              "fieldScores": [
+                69,
+                81,
+                106,
+                82,
+                84,
+                68
+              ]
+            },
+            {
+              "matchIndex": 44,
+              "score": 72,
+              "place": 4,
+              "win": false,
+              "balance": 40,
+              "fieldScores": [
+                72,
+                125,
+                84,
+                98,
+                51,
+                62
+              ]
+            },
+            {
+              "matchIndex": 45,
+              "score": 123,
+              "place": 1,
+              "win": true,
+              "balance": 11,
+              "fieldScores": [
+                123,
+                75,
+                116,
+                93,
+                42,
+                82
+              ]
+            },
+            {
+              "matchIndex": 46,
+              "score": 63,
+              "place": 5,
+              "win": false,
+              "balance": 16,
+              "fieldScores": [
+                63,
+                68,
+                78,
+                66,
+                63,
+                91
+              ]
+            },
+            {
+              "matchIndex": 47,
+              "score": 76,
+              "place": 4,
+              "win": false,
+              "balance": 14,
+              "fieldScores": [
+                76,
+                105,
+                108,
+                90,
+                70,
+                27
+              ]
+            }
+          ],
+          "effectivePolicy": {
+            "samples": 8,
+            "bidGain": 1.6,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 0,
+            "huPaceEarly": 0,
+            "huHorizon": 0,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 0,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2
+          },
+          "effectiveRival": {
+            "samples": 8,
+            "bidGain": 1.3,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 0,
+            "huPaceEarly": 0,
+            "huHorizon": 0,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 0,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2
+          },
+          "timingLimitation": "Policy search uses wall-clock budgets; fixed exogenous worlds do not guarantee identical decisions under different CPU load."
+        },
+        "NEUTRAL6": {
+          "elapsedSeconds": 13.606981624965556,
+          "detailPath": "/Users/siddarthakodithyala/the scrabble bot for utd hacks/odysseus-live/bot-starter/.runtime-odysseus/reactive-48-v2-live-NEUTRAL6-reactive.json",
+          "score": 89.52083333333333,
+          "place": 3.0625,
+          "syntheticWinPercent": 29.166666666666668,
+          "fullOutcomes": [
+            {
+              "matchIndex": 0,
+              "score": 111,
+              "place": 1,
+              "win": true,
+              "balance": 29,
+              "fieldScores": [
+                111,
+                90,
+                54,
+                59,
+                65,
+                79
+              ]
+            },
+            {
+              "matchIndex": 1,
+              "score": 117,
+              "place": 2,
+              "win": false,
+              "balance": 38,
+              "fieldScores": [
+                117,
+                87,
+                77,
+                124,
+                75,
+                36
+              ]
+            },
+            {
+              "matchIndex": 2,
+              "score": 108,
+              "place": 1,
+              "win": true,
+              "balance": 58,
+              "fieldScores": [
+                108,
+                85,
+                78,
+                78,
+                61,
+                99
+              ]
+            },
+            {
+              "matchIndex": 3,
+              "score": 66,
+              "place": 5,
+              "win": false,
+              "balance": 33,
+              "fieldScores": [
+                66,
+                78,
+                132,
+                76,
+                54,
+                75
+              ]
+            },
+            {
+              "matchIndex": 4,
+              "score": 75,
+              "place": 4,
+              "win": false,
+              "balance": 67,
+              "fieldScores": [
+                75,
+                90,
+                58,
+                52,
+                93,
+                96
+              ]
+            },
+            {
+              "matchIndex": 5,
+              "score": 83,
+              "place": 3,
+              "win": false,
+              "balance": 59,
+              "fieldScores": [
+                83,
+                73,
+                79,
+                97,
+                30,
+                97
+              ]
+            },
+            {
+              "matchIndex": 6,
+              "score": 52,
+              "place": 4,
+              "win": false,
+              "balance": 25,
+              "fieldScores": [
+                52,
+                160,
+                30,
+                90,
+                24,
+                156
+              ]
+            },
+            {
+              "matchIndex": 7,
+              "score": 137,
+              "place": 1,
+              "win": true,
+              "balance": 53,
+              "fieldScores": [
+                137,
+                89,
+                102,
+                44,
+                30,
+                86
+              ]
+            },
+            {
+              "matchIndex": 8,
+              "score": 87,
+              "place": 3,
+              "win": false,
+              "balance": 13,
+              "fieldScores": [
+                87,
+                79,
+                76,
+                93,
+                45,
+                110
+              ]
+            },
+            {
+              "matchIndex": 9,
+              "score": 103,
+              "place": 1,
+              "win": true,
+              "balance": 44,
+              "fieldScores": [
+                103,
+                57,
+                78,
+                38,
+                79,
+                85
+              ]
+            },
+            {
+              "matchIndex": 10,
+              "score": 84,
+              "place": 3,
+              "win": false,
+              "balance": 75,
+              "fieldScores": [
+                84,
+                57,
+                117,
+                69,
+                58,
+                93
+              ]
+            },
+            {
+              "matchIndex": 11,
+              "score": 75,
+              "place": 3,
+              "win": false,
+              "balance": 45,
+              "fieldScores": [
+                75,
+                79,
+                126,
+                75,
+                59,
+                75
+              ]
+            },
+            {
+              "matchIndex": 12,
+              "score": 72,
+              "place": 4,
+              "win": false,
+              "balance": 32,
+              "fieldScores": [
+                72,
+                122,
+                118,
+                69,
+                33,
+                93
+              ]
+            },
+            {
+              "matchIndex": 13,
+              "score": 99,
+              "place": 2,
+              "win": false,
+              "balance": 54,
+              "fieldScores": [
+                99,
+                89,
+                104,
+                67,
+                60,
+                67
+              ]
+            },
+            {
+              "matchIndex": 14,
+              "score": 63,
+              "place": 5,
+              "win": false,
+              "balance": 37,
+              "fieldScores": [
+                63,
+                79,
+                54,
+                82,
+                93,
+                86
+              ]
+            },
+            {
+              "matchIndex": 15,
+              "score": 90,
+              "place": 2,
+              "win": false,
+              "balance": 47,
+              "fieldScores": [
+                90,
+                77,
+                70,
+                95,
+                61,
+                67
+              ]
+            },
+            {
+              "matchIndex": 16,
+              "score": 82,
+              "place": 4,
+              "win": false,
+              "balance": 45,
+              "fieldScores": [
+                82,
+                68,
+                106,
+                89,
+                33,
+                104
+              ]
+            },
+            {
+              "matchIndex": 17,
+              "score": 91,
+              "place": 2,
+              "win": false,
+              "balance": 15,
+              "fieldScores": [
+                91,
+                57,
+                69,
+                129,
+                21,
+                82
+              ]
+            },
+            {
+              "matchIndex": 18,
+              "score": 124,
+              "place": 1,
+              "win": true,
+              "balance": 59,
+              "fieldScores": [
+                124,
+                75,
+                96,
+                103,
+                69,
+                61
+              ]
+            },
+            {
+              "matchIndex": 19,
+              "score": 90,
+              "place": 3,
+              "win": false,
+              "balance": 55,
+              "fieldScores": [
+                90,
+                92,
+                101,
+                86,
+                81,
+                74
+              ]
+            },
+            {
+              "matchIndex": 20,
+              "score": 87,
+              "place": 4,
+              "win": false,
+              "balance": 40,
+              "fieldScores": [
+                87,
+                90,
+                83,
+                107,
+                39,
+                98
+              ]
+            },
+            {
+              "matchIndex": 21,
+              "score": 48,
+              "place": 6,
+              "win": false,
+              "balance": 33,
+              "fieldScores": [
+                48,
+                77,
+                77,
+                58,
+                94,
+                66
+              ]
+            },
+            {
+              "matchIndex": 22,
+              "score": 122,
+              "place": 1,
+              "win": true,
+              "balance": 34,
+              "fieldScores": [
+                122,
+                87,
+                101,
+                27,
+                30,
+                120
+              ]
+            },
+            {
+              "matchIndex": 23,
+              "score": 108,
+              "place": 3,
+              "win": false,
+              "balance": 58,
+              "fieldScores": [
+                108,
+                131,
+                111,
+                63,
+                62,
+                36
+              ]
+            },
+            {
+              "matchIndex": 24,
+              "score": 101,
+              "place": 1,
+              "win": true,
+              "balance": 54,
+              "fieldScores": [
+                101,
+                66,
+                80,
+                95,
+                63,
+                83
+              ]
+            },
+            {
+              "matchIndex": 25,
+              "score": 93,
+              "place": 2,
+              "win": false,
+              "balance": 36,
+              "fieldScores": [
+                93,
+                91,
+                42,
+                51,
+                56,
+                124
+              ]
+            },
+            {
+              "matchIndex": 26,
+              "score": 116,
+              "place": 1,
+              "win": true,
+              "balance": 24,
+              "fieldScores": [
+                116,
+                100,
+                63,
+                40,
+                93,
+                82
+              ]
+            },
+            {
+              "matchIndex": 27,
+              "score": 85,
+              "place": 3,
+              "win": false,
+              "balance": 18,
+              "fieldScores": [
+                85,
+                82,
+                93,
+                73,
+                30,
+                109
+              ]
+            },
+            {
+              "matchIndex": 28,
+              "score": 48,
+              "place": 6,
+              "win": false,
+              "balance": 24,
+              "fieldScores": [
+                48,
+                104,
+                75,
+                109,
+                81,
+                84
+              ]
+            },
+            {
+              "matchIndex": 29,
+              "score": 120,
+              "place": 1,
+              "win": true,
+              "balance": 59,
+              "fieldScores": [
+                120,
+                92,
+                84,
+                66,
+                39,
+                81
+              ]
+            },
+            {
+              "matchIndex": 30,
+              "score": 60,
+              "place": 5,
+              "win": false,
+              "balance": 23,
+              "fieldScores": [
+                60,
+                87,
+                111,
+                69,
+                36,
+                102
+              ]
+            },
+            {
+              "matchIndex": 31,
+              "score": 42,
+              "place": 5,
+              "win": false,
+              "balance": 70,
+              "fieldScores": [
+                42,
+                73,
+                82,
+                39,
+                126,
+                104
+              ]
+            },
+            {
+              "matchIndex": 32,
+              "score": 149,
+              "place": 1,
+              "win": true,
+              "balance": 54,
+              "fieldScores": [
+                149,
+                82,
+                84,
+                36,
+                57,
+                76
+              ]
+            },
+            {
+              "matchIndex": 33,
+              "score": 141,
+              "place": 1,
+              "win": true,
+              "balance": 52,
+              "fieldScores": [
+                141,
+                88,
+                104,
+                45,
+                30,
+                102
+              ]
+            },
+            {
+              "matchIndex": 34,
+              "score": 80,
+              "place": 3,
+              "win": false,
+              "balance": 12,
+              "fieldScores": [
+                80,
+                68,
+                68,
+                41,
+                104,
+                89
+              ]
+            },
+            {
+              "matchIndex": 35,
+              "score": 70,
+              "place": 5,
+              "win": false,
+              "balance": 38,
+              "fieldScores": [
+                70,
+                108,
+                75,
+                96,
+                69,
+                79
+              ]
+            },
+            {
+              "matchIndex": 36,
+              "score": 63,
+              "place": 4,
+              "win": false,
+              "balance": 67,
+              "fieldScores": [
+                63,
+                84,
+                60,
+                75,
+                153,
+                63
+              ]
+            },
+            {
+              "matchIndex": 37,
+              "score": 67,
+              "place": 5,
+              "win": false,
+              "balance": 61,
+              "fieldScores": [
+                67,
+                60,
+                82,
+                90,
+                82,
+                101
+              ]
+            },
+            {
+              "matchIndex": 38,
+              "score": 57,
+              "place": 6,
+              "win": false,
+              "balance": 113,
+              "fieldScores": [
+                57,
+                66,
+                85,
+                59,
+                92,
+                84
+              ]
+            },
+            {
+              "matchIndex": 39,
+              "score": 131,
+              "place": 1,
+              "win": true,
+              "balance": 42,
+              "fieldScores": [
+                131,
+                58,
+                60,
+                54,
+                72,
+                83
+              ]
+            },
+            {
+              "matchIndex": 40,
+              "score": 81,
+              "place": 4,
+              "win": false,
+              "balance": 45,
+              "fieldScores": [
+                81,
+                76,
+                105,
+                93,
+                63,
+                87
+              ]
+            },
+            {
+              "matchIndex": 41,
+              "score": 78,
+              "place": 4,
+              "win": false,
+              "balance": 39,
+              "fieldScores": [
+                78,
+                80,
+                54,
+                108,
+                86,
+                69
+              ]
+            },
+            {
+              "matchIndex": 42,
+              "score": 81,
+              "place": 4,
+              "win": false,
+              "balance": 50,
+              "fieldScores": [
+                81,
+                48,
+                94,
+                69,
+                102,
+                91
+              ]
+            },
+            {
+              "matchIndex": 43,
+              "score": 159,
+              "place": 1,
+              "win": true,
+              "balance": 25,
+              "fieldScores": [
+                159,
+                68,
+                33,
+                94,
+                63,
+                99
+              ]
+            },
+            {
+              "matchIndex": 44,
+              "score": 75,
+              "place": 4,
+              "win": false,
+              "balance": 60,
+              "fieldScores": [
+                75,
+                81,
+                69,
+                116,
+                57,
+                89
+              ]
+            },
+            {
+              "matchIndex": 45,
+              "score": 95,
+              "place": 1,
+              "win": true,
+              "balance": 29,
+              "fieldScores": [
+                95,
+                77,
+                82,
+                87,
+                42,
+                93
+              ]
+            },
+            {
+              "matchIndex": 46,
+              "score": 62,
+              "place": 6,
+              "win": false,
+              "balance": 37,
+              "fieldScores": [
+                62,
+                75,
+                72,
+                93,
+                96,
+                81
+              ]
+            },
+            {
+              "matchIndex": 47,
+              "score": 69,
+              "place": 5,
+              "win": false,
+              "balance": 63,
+              "fieldScores": [
+                69,
+                66,
+                111,
+                71,
+                86,
+                91
+              ]
+            }
+          ],
+          "effectivePolicy": {
+            "samples": 8,
+            "bidGain": 1.1,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 0,
+            "huPaceEarly": 0,
+            "huHorizon": 0,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 0,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2,
+            "neutralSixHorizon": true
+          },
+          "effectiveRival": {
+            "samples": 8,
+            "bidGain": 1.3,
+            "paceEarly": 0.8,
+            "paceLate": 2.5,
+            "maxBidShare": 0.7,
+            "starveCoins": 8,
+            "starveMinBagLeft": 10,
+            "cashLen": 7,
+            "futureHorizon": 6,
+            "huGain": 0,
+            "huPaceEarly": 0,
+            "huHorizon": 0,
+            "bigSeats": 8,
+            "bigGain": 0,
+            "bigPaceLate": 0,
+            "denyLast": 0,
+            "denyMult": 1,
+            "facePremium": 2
+          },
+          "timingLimitation": "Policy search uses wall-clock budgets; fixed exogenous worlds do not guarantee identical decisions under different CPU load."
+        }
+      },
+      "comparisons": {
+        "GAIN13": {
+          "metric_type": "synthetic_reactive_simulation",
+          "N": 48,
+          "placeDirection": "negative candidate-minus-BASE delta is better",
+          "warning": "Synthetic reactive simulation only, not live win probability, leaderboard rating or a calibrated forecast. Fixed deal/tie streams pair model worlds; rivals react to each policy. CPU-dependent search cutoffs, instant actions, missing transport latency and synthetic rival policies limit realism. Bootstrap intervals are conditional on this model and omit selection/model uncertainty. No automatic deployment.",
+          "bootstrapRepetitions": 2000,
+          "bootstrapSeed": 8441,
+          "scoreDelta": 9.979166666666666,
+          "scoreConditional95": [
+            2.790625,
+            17.4375
+          ],
+          "placeDelta": -0.8333333333333334,
+          "placeConditional95": [
+            -1.3546875,
+            -0.3125
+          ],
+          "winPPDelta": 8.333333333333334,
+          "winPPConditional95": [
+            -2.0833333333333335,
+            18.75
+          ],
+          "winGained": 6,
+          "winLost": 2,
+          "exactDiscordanceP": 0.28906250000000017,
+          "smallDiscordantWarning": true,
+          "changedGames": 48,
+          "higherScoreGames": 31,
+          "lowerScoreGames": 17,
+          "exactTestLimit": "Independent paired-world assumption; no multiplicity or selection adjustment."
+        },
+        "GAIN16": {
+          "metric_type": "synthetic_reactive_simulation",
+          "N": 48,
+          "placeDirection": "negative candidate-minus-BASE delta is better",
+          "warning": "Synthetic reactive simulation only, not live win probability, leaderboard rating or a calibrated forecast. Fixed deal/tie streams pair model worlds; rivals react to each policy. CPU-dependent search cutoffs, instant actions, missing transport latency and synthetic rival policies limit realism. Bootstrap intervals are conditional on this model and omit selection/model uncertainty. No automatic deployment.",
+          "bootstrapRepetitions": 2000,
+          "bootstrapSeed": 8441,
+          "scoreDelta": 15.583333333333334,
+          "scoreConditional95": [
+            8.916145833333333,
+            22.770833333333332
+          ],
+          "placeDelta": -1.2708333333333333,
+          "placeConditional95": [
+            -1.8958333333333333,
+            -0.6869791666666695
+          ],
+          "winPPDelta": 22.916666666666668,
+          "winPPConditional95": [
+            8.333333333333334,
+            39.583333333333336
+          ],
+          "winGained": 14,
+          "winLost": 3,
+          "exactDiscordanceP": 0.01272583007812501,
+          "smallDiscordantWarning": true,
+          "changedGames": 48,
+          "higherScoreGames": 37,
+          "lowerScoreGames": 11,
+          "exactTestLimit": "Independent paired-world assumption; no multiplicity or selection adjustment."
+        },
+        "NEUTRAL6": {
+          "metric_type": "synthetic_reactive_simulation",
+          "N": 48,
+          "placeDirection": "negative candidate-minus-BASE delta is better",
+          "warning": "Synthetic reactive simulation only, not live win probability, leaderboard rating or a calibrated forecast. Fixed deal/tie streams pair model worlds; rivals react to each policy. CPU-dependent search cutoffs, instant actions, missing transport latency and synthetic rival policies limit realism. Bootstrap intervals are conditional on this model and omit selection/model uncertainty. No automatic deployment.",
+          "bootstrapRepetitions": 2000,
+          "bootstrapSeed": 8441,
+          "scoreDelta": 15.729166666666666,
+          "scoreConditional95": [
+            7.728125,
+            24.167708333333326
+          ],
+          "placeDelta": -1.0208333333333333,
+          "placeConditional95": [
+            -1.625,
+            -0.4166666666666667
+          ],
+          "winPPDelta": 22.916666666666668,
+          "winPPConditional95": [
+            8.333333333333334,
+            39.583333333333336
+          ],
+          "winGained": 14,
+          "winLost": 3,
+          "exactDiscordanceP": 0.01272583007812501,
+          "smallDiscordantWarning": true,
+          "changedGames": 47,
+          "higherScoreGames": 32,
+          "lowerScoreGames": 15,
+          "exactTestLimit": "Independent paired-world assumption; no multiplicity or selection adjustment."
+        }
+      }
+    }
+  },
+  "dependencyLimit": "Shared installed node_modules; source and lockfile frozen.",
+  "lockLimit": "Advisory offlineworker.lock; cannot exclude legacy launchers that ignore it.",
+  "elapsedSeconds": 45.86024995800108,
+  "finishedAt": "2026-11-07T23:30:43.705300+00:00"
+}

@@ -17,7 +17,7 @@
 // whole balance gets spent across the auctions that remain, and it falls as
 // the bag empties, because unspent coins at match end are worth nothing.
 
-import { FastEval, type Rack, toCounts } from "./engine.js";
+import { FastEval, type Rack, type SearchBudget, toCounts } from "./engine.js";
 
 export interface Unseen {
   // letters still available to be drawn: count per letter
@@ -69,9 +69,12 @@ export class MonteCarlo {
   // tiles we expect to win before the match ends (`futureWins`) and the
   // unseen pool to sample them from.
   // Stops early once `budgetMs` is spent, so a busy CPU can't make us miss
-  // the 1-second auction window. Always runs at least 4 samples.
-  value(rack: Rack, letter: string, unseen: Unseen, futureWins: number, samples: number, seed: number, budgetMs = 300): number {
-    const t0 = performance.now();
+  // the auction window. Incomplete paired samples contribute nothing.
+  value(rack: Rack, letter: string, unseen: Unseen, futureWins: number, samples: number, seed: number, budgetMs = 300, now: () => number = () => performance.now(), utility?: (rackScore: number) => number): number {
+    const t0 = now();
+    const tracker = { operations: 0, exhausted: false };
+    const budget: SearchBudget = { deadlineMs: t0 + Math.max(0, budgetMs), now, tracker,
+      maxOperations: Math.max(1, samples) * 150_000 };
     const base = toCounts(rack);
     const li = letter.charCodeAt(0) - A;
     const rnd = rng(seed);
@@ -79,17 +82,36 @@ export class MonteCarlo {
     let sum = 0;
     let done = 0;
     const tmp = new Uint8Array(26);
-    for (let s = 0; s < samples; s++) {
-      if (s >= 4 && performance.now() - t0 > budgetMs) break;
+    // Repeated sampled racks have the same deterministic score. Keep only
+    // completed evaluations, scoped to this decision, under its same budget.
+    const scores = new Map<string, number>();
+    const evaluate = (): number => {
+      // evalCounts consumes tmp, so capture the incoming multiset first.
+      const key = Array.from(tmp).join(',');
+      const cached = scores.get(key);
+      if (cached !== undefined) return cached;
+      const score = this.evalr.evalCounts(tmp, 3, undefined, budget);
+      if (!tracker.exhausted && now() < budget.deadlineMs!) scores.set(key, score);
+      return score;
+    };
+    // With no future draw every pair is identical; one is the entire
+    // deterministic estimate, provided the caller requested a sample.
+    const trials = k === 0 ? Math.min(samples, 1) : samples;
+    for (let s = 0; s < trials; s++) {
+      if (tracker.exhausted || now() >= budget.deadlineMs!) break;
       const fut = sampleFuture(unseen.counts, unseen.total, k, rnd); // common random numbers
       // without the letter
       for (let i = 0; i < 26; i++) tmp[i] = base[i]! + fut[i]!;
-      const without = this.evalr.evalCounts(tmp, 3);
+      const without = evaluate();
+      if (tracker.exhausted) break;
       // with the letter
       for (let i = 0; i < 26; i++) tmp[i] = base[i]! + fut[i]!;
       tmp[li]!++;
-      const withL = this.evalr.evalCounts(tmp, 3);
-      sum += withL - without;
+      const withL = evaluate();
+      if (tracker.exhausted || now() >= budget.deadlineMs!) break;
+      // Greedy splitting can decrease when a tile enables a different first
+      // word. Keeping the old feasible plan is always an available choice.
+      sum += Math.max(0, utility ? utility(withL) - utility(without) : withL - without);
       done++;
     }
     return sum / Math.max(1, done);

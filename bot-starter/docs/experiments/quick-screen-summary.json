@@ -1,0 +1,36 @@
+{
+  "source": "6ed86a73c28779a96f0d21214aa97fa7e30fea8b",
+  "seed": 970117,
+  "samples": 4,
+  "elapsedSeconds": 107.36566533299629,
+  "arms": {
+    "BASE": {
+      "score": 77,
+      "tiles": 11.083333333333334,
+      "surrogatePercent": 8.333333333333334,
+      "pairedScoreDelta": 0,
+      "higherScoreGames": 0,
+      "lowerScoreGames": 0,
+      "N": 24
+    },
+    "EARLY11": {
+      "score": 76.625,
+      "tiles": 11.333333333333334,
+      "surrogatePercent": 0,
+      "pairedScoreDelta": -0.375,
+      "higherScoreGames": 11,
+      "lowerScoreGames": 9,
+      "N": 24
+    },
+    "EARLY14": {
+      "score": 72.625,
+      "tiles": 10.833333333333334,
+      "surrogatePercent": 0,
+      "pairedScoreDelta": -4.375,
+      "higherScoreGames": 9,
+      "lowerScoreGames": 13,
+      "N": 24
+    }
+  },
+  "warning": "Small screening cohort, exogenous opponent surrogate. Requires validation; never auto-deploys."
+}

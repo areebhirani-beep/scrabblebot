@@ -4,9 +4,7 @@
 // bid b that maximizes P(win at b) x (value - b).
 
 import * as fs from "node:fs";
-import * as path from "node:path";
-
-const file = path.join(path.dirname(new URL(import.meta.url).pathname), "prices.json");
+const file = new URL("./prices.json", import.meta.url);
 const data = JSON.parse(fs.readFileSync(file, "utf8")) as { q: number[]; t: Record<string, number[]> };
 
 // P(strongest rival bid < b), ties counted half.

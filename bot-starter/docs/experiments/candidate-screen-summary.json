@@ -1,0 +1,63 @@
+{
+  "source": "a26a6119c0a15cbe63f41de1569d1637008d81bf",
+  "samples": 8,
+  "seed": 970217,
+  "elapsedSeconds": 45.00133975001518,
+  "warning": "Screening surrogate only, not counterfactual live win rate; no automatic deployment",
+  "arms": {
+    "BASE": {
+      "score": 89.640625,
+      "tiles": 12.84375,
+      "surrogatePercent": 10.9375,
+      "scoreDelta": 0,
+      "higher": 0,
+      "lower": 0,
+      "N": 64
+    },
+    "LIQUID2": {
+      "score": 89.890625,
+      "tiles": 12.9375,
+      "surrogatePercent": 10.9375,
+      "scoreDelta": 0.25,
+      "higher": 3,
+      "lower": 5,
+      "N": 64
+    },
+    "PACK": {
+      "score": 89.640625,
+      "tiles": 12.84375,
+      "surrogatePercent": 10.9375,
+      "scoreDelta": 0,
+      "higher": 0,
+      "lower": 0,
+      "N": 64
+    },
+    "REFINE": {
+      "score": 91.28125,
+      "tiles": 13.265625,
+      "surrogatePercent": 15.625,
+      "scoreDelta": 1.640625,
+      "higher": 21,
+      "lower": 15,
+      "N": 64
+    },
+    "EARLY_PREM1": {
+      "score": 89.765625,
+      "tiles": 13.8125,
+      "surrogatePercent": 12.5,
+      "scoreDelta": 0.125,
+      "higher": 30,
+      "lower": 31,
+      "N": 64
+    },
+    "SIX40": {
+      "score": 90.84375,
+      "tiles": 12.9375,
+      "surrogatePercent": 9.375,
+      "scoreDelta": 1.203125,
+      "higher": 7,
+      "lower": 8,
+      "N": 64
+    }
+  }
+}

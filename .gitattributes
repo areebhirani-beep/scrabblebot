@@ -1,0 +1,4 @@
+bot-starter/docs/experiments/snapshots/** linguist-generated=true -diff
+bot-starter/data/*.json linguist-generated=true
+offline-lucent-lab/experiments/*.json linguist-generated=true
+offline-lucent-lab/lucent-comparison.json linguist-generated=true

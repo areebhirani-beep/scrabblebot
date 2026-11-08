@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-07T22:53:44.737070+00:00",
+  "N": 512,
+  "scoreDelta": 2.33203125,
+  "scoreConditional95": [
+    0.31640625,
+    4.404296875
+  ],
+  "surrogateDeltaPP": 1.7578125,
+  "surrogateConditional95": [
+    -1.953125,
+    5.2734375
+  ],
+  "warning": "Conditional on historical12-table calibration; modelnotreactive; multiplecandidate selection; notlivewinprob"
+}
