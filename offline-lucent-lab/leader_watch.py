@@ -75,5 +75,5 @@ def run(out,until,interval):
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--output',type=pathlib.Path,required=True);p.add_argument('--until',required=True);p.add_argument('--interval',type=int,default=90);a=p.parse_args()
     until=datetime.datetime.fromisoformat(a.until)
-    if until.tzinfo is None or not(60<=a.interval<=600) or not(0<(until-datetime.datetime.now(UTC)).total_seconds()<=7200):raise ValueError('Require bounded <=2h aware deadline and60–600s interval')
+    if until.tzinfo is None or not(60<=a.interval<=600) or not(0<(until-datetime.datetime.now(UTC)).total_seconds()<=14400):raise ValueError('Require bounded <=4h aware deadline and60–600s interval')
     run(a.output,until,a.interval)

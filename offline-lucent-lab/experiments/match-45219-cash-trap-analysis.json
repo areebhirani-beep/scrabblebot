@@ -1,0 +1,176 @@
+{
+  "status": "complete",
+  "matchId": 45219,
+  "source": "6e4c09a6ffc24cc771b10d2bae542173d94dcee3c440b0dcf88ec146ffc17a1d",
+  "oursEvents": [
+    {
+      "t": 1794099557461653,
+      "kind": "purchase",
+      "letter": "K",
+      "amount": -23,
+      "auctionId": 2873410,
+      "cashAfter": 77,
+      "seconds": 11.040386
+    },
+    {
+      "t": 1794099559465143,
+      "kind": "purchase",
+      "letter": "B",
+      "amount": -13,
+      "auctionId": 2873426,
+      "cashAfter": 64,
+      "seconds": 13.043876
+    },
+    {
+      "t": 1794099568491001,
+      "kind": "purchase",
+      "letter": "M",
+      "amount": -15,
+      "auctionId": 2873498,
+      "cashAfter": 49,
+      "seconds": 22.069734
+    },
+    {
+      "t": 1794099569492845,
+      "kind": "purchase",
+      "letter": "A",
+      "amount": -9,
+      "auctionId": 2873506,
+      "cashAfter": 40,
+      "seconds": 23.071578
+    },
+    {
+      "t": 1794099570495005,
+      "kind": "purchase",
+      "letter": "O",
+      "amount": -10,
+      "auctionId": 2873514,
+      "cashAfter": 30,
+      "seconds": 24.073738
+    },
+    {
+      "t": 1794099570717827,
+      "kind": "word",
+      "word": "BOWLIKE",
+      "amount": 48,
+      "cashAfter": 78,
+      "seconds": 24.29656
+    },
+    {
+      "t": 1794099573502439,
+      "kind": "purchase",
+      "letter": "F",
+      "amount": -17,
+      "auctionId": 2873538,
+      "cashAfter": 61,
+      "seconds": 27.081172
+    },
+    {
+      "t": 1794099575510159,
+      "kind": "purchase",
+      "letter": "D",
+      "amount": -12,
+      "auctionId": 2873552,
+      "cashAfter": 49,
+      "seconds": 29.088892
+    },
+    {
+      "t": 1794099576513694,
+      "kind": "purchase",
+      "letter": "E",
+      "amount": -13,
+      "auctionId": 2873560,
+      "cashAfter": 36,
+      "seconds": 30.092427
+    },
+    {
+      "t": 1794099578518272,
+      "kind": "purchase",
+      "letter": "E",
+      "amount": -11,
+      "auctionId": 2873576,
+      "cashAfter": 25,
+      "seconds": 32.097005
+    },
+    {
+      "t": 1794099579519545,
+      "kind": "purchase",
+      "letter": "N",
+      "amount": -10,
+      "auctionId": 2873584,
+      "cashAfter": 15,
+      "seconds": 33.098278
+    },
+    {
+      "t": 1794099583530588,
+      "kind": "purchase",
+      "letter": "T",
+      "amount": -9,
+      "auctionId": 2873616,
+      "cashAfter": 6,
+      "seconds": 37.109321
+    },
+    {
+      "t": 1794099583635493,
+      "kind": "word",
+      "word": "UNMATED",
+      "amount": 30,
+      "cashAfter": 36,
+      "seconds": 37.214226
+    },
+    {
+      "t": 1794099586535952,
+      "kind": "purchase",
+      "letter": "L",
+      "amount": -18,
+      "auctionId": 2873640,
+      "cashAfter": 18,
+      "seconds": 40.114685
+    },
+    {
+      "t": 1794099587541355,
+      "kind": "purchase",
+      "letter": "O",
+      "amount": -10,
+      "auctionId": 2873648,
+      "cashAfter": 8,
+      "seconds": 41.120088
+    },
+    {
+      "t": 1794099614490089,
+      "kind": "word",
+      "word": "FLOE",
+      "amount": 10,
+      "cashAfter": 18,
+      "seconds": 68.068822
+    }
+  ],
+  "finding": "After UNMATED, rack EF gains L and O; cash36 ->18 ->8. FLOE10 remains playable until final dump. BOTH balance<8 and starvation minLength5 block the four-letter cashout. Threshold9 alone does not fix it. Affordable bid cap5 limits later competition; earlier FLOE does not guarantee a win.",
+  "winnerWords": [
+    {
+      "word": "DEXTRAN",
+      "points": 45,
+      "seconds": 9.265576
+    },
+    {
+      "word": "QUARTO",
+      "points": 37,
+      "seconds": 54.482547
+    },
+    {
+      "word": "CRYPTO",
+      "points": 32,
+      "seconds": 58.95683
+    },
+    {
+      "word": "BLUSH",
+      "points": 20,
+      "seconds": 66.226084
+    },
+    {
+      "word": "EF",
+      "points": 5,
+      "seconds": 68.270319
+    }
+  ]
+}

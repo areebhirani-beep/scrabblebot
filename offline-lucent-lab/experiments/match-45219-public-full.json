@@ -1,0 +1,2526 @@
+{
+  "match": [
+    {
+      "id": 45219,
+      "status": [
+        2,
+        []
+      ],
+      "current_round": 68,
+      "current_auction_id": [
+        1,
+        []
+      ],
+      "bag_total": 0,
+      "auction_type": [
+        1,
+        []
+      ],
+      "created_at": [
+        1794099546421267
+      ],
+      "started_at": [
+        0,
+        [
+          1794099546421267
+        ]
+      ],
+      "ended_at": [
+        0,
+        [
+          1794099615412024
+        ]
+      ],
+      "auction_duration_ms": 1000,
+      "starting_rack_size": 5
+    }
+  ],
+  "participants": [
+    {
+      "id": 255543,
+      "match_id": 45219,
+      "bot_id": 175,
+      "balance": 10,
+      "score": 65
+    },
+    {
+      "id": 255545,
+      "match_id": 45219,
+      "bot_id": 171,
+      "balance": 10,
+      "score": 139
+    },
+    {
+      "id": 255544,
+      "match_id": 45219,
+      "bot_id": 226,
+      "balance": 62,
+      "score": 87
+    },
+    {
+      "id": 255542,
+      "match_id": 45219,
+      "bot_id": 172,
+      "balance": 18,
+      "score": 88
+    },
+    {
+      "id": 255547,
+      "match_id": 45219,
+      "bot_id": 145,
+      "balance": 100,
+      "score": 0
+    },
+    {
+      "id": 255546,
+      "match_id": 45219,
+      "bot_id": 185,
+      "balance": 14,
+      "score": 50
+    }
+  ],
+  "plays": [
+    {
+      "id": 697565,
+      "match_id": 45219,
+      "bot_id": 185,
+      "word": "AMEER",
+      "base_score": 7,
+      "bonus": 7,
+      "total_reward": 14,
+      "played_at": [
+        1794099548579887
+      ]
+    },
+    {
+      "id": 697581,
+      "match_id": 45219,
+      "bot_id": 171,
+      "word": "DEXTRAN",
+      "base_score": 15,
+      "bonus": 30,
+      "total_reward": 45,
+      "played_at": [
+        1794099555686843
+      ]
+    },
+    {
+      "id": 697586,
+      "match_id": 45219,
+      "bot_id": 185,
+      "word": "HOWES",
+      "base_score": 11,
+      "bonus": 11,
+      "total_reward": 22,
+      "played_at": [
+        1794099558656258
+      ]
+    },
+    {
+      "id": 697601,
+      "match_id": 45219,
+      "bot_id": 172,
+      "word": "BOWLIKE",
+      "base_score": 16,
+      "bonus": 32,
+      "total_reward": 48,
+      "played_at": [
+        1794099570717827
+      ]
+    },
+    {
+      "id": 697609,
+      "match_id": 45219,
+      "bot_id": 226,
+      "word": "AVERAGES",
+      "base_score": 12,
+      "bonus": 24,
+      "total_reward": 36,
+      "played_at": [
+        1794099574618060
+      ]
+    },
+    {
+      "id": 697614,
+      "match_id": 45219,
+      "bot_id": 185,
+      "word": "PIANO",
+      "base_score": 7,
+      "bonus": 7,
+      "total_reward": 14,
+      "played_at": [
+        1794099582734181
+      ]
+    },
+    {
+      "id": 697616,
+      "match_id": 45219,
+      "bot_id": 172,
+      "word": "UNMATED",
+      "base_score": 10,
+      "bonus": 20,
+      "total_reward": 30,
+      "played_at": [
+        1794099583635493
+      ]
+    },
+    {
+      "id": 697633,
+      "match_id": 45219,
+      "bot_id": 175,
+      "word": "DISJOIN",
+      "base_score": 15,
+      "bonus": 30,
+      "total_reward": 45,
+      "played_at": [
+        1794099590643325
+      ]
+    },
+    {
+      "id": 697654,
+      "match_id": 45219,
+      "bot_id": 171,
+      "word": "QUARTO",
+      "base_score": 15,
+      "bonus": 22,
+      "total_reward": 37,
+      "played_at": [
+        1794099600903814
+      ]
+    },
+    {
+      "id": 697663,
+      "match_id": 45219,
+      "bot_id": 171,
+      "word": "CRYPTO",
+      "base_score": 13,
+      "bonus": 19,
+      "total_reward": 32,
+      "played_at": [
+        1794099605378097
+      ]
+    },
+    {
+      "id": 697666,
+      "match_id": 45219,
+      "bot_id": 175,
+      "word": "CADGE",
+      "base_score": 9,
+      "bonus": 9,
+      "total_reward": 18,
+      "played_at": [
+        1794099608459621
+      ]
+    },
+    {
+      "id": 697668,
+      "match_id": 45219,
+      "bot_id": 175,
+      "word": "LI",
+      "base_score": 2,
+      "bonus": 0,
+      "total_reward": 2,
+      "played_at": [
+        1794099608502356
+      ]
+    },
+    {
+      "id": 697670,
+      "match_id": 45219,
+      "bot_id": 226,
+      "word": "ZEROING",
+      "base_score": 17,
+      "bonus": 34,
+      "total_reward": 51,
+      "played_at": [
+        1794099609454140
+      ]
+    },
+    {
+      "id": 697676,
+      "match_id": 45219,
+      "bot_id": 171,
+      "word": "BLUSH",
+      "base_score": 10,
+      "bonus": 10,
+      "total_reward": 20,
+      "played_at": [
+        1794099612647351
+      ]
+    },
+    {
+      "id": 697678,
+      "match_id": 45219,
+      "bot_id": 172,
+      "word": "FLOE",
+      "base_score": 7,
+      "bonus": 3,
+      "total_reward": 10,
+      "played_at": [
+        1794099614490089
+      ]
+    },
+    {
+      "id": 697679,
+      "match_id": 45219,
+      "bot_id": 171,
+      "word": "EF",
+      "base_score": 5,
+      "bonus": 0,
+      "total_reward": 5,
+      "played_at": [
+        1794099614691586
+      ]
+    }
+  ],
+  "results": [
+    {
+      "auction_id": 2873334,
+      "match_id": 45219,
+      "letter": "A",
+      "winner_bot_id": [
+        0,
+        185
+      ],
+      "paid": 7,
+      "closed_at": [
+        1794099547423084
+      ]
+    },
+    {
+      "auction_id": 2873341,
+      "match_id": 45219,
+      "letter": "E",
+      "winner_bot_id": [
+        0,
+        185
+      ],
+      "paid": 12,
+      "closed_at": [
+        1794099548425691
+      ]
+    },
+    {
+      "auction_id": 2873348,
+      "match_id": 45219,
+      "letter": "X",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 39,
+      "closed_at": [
+        1794099549427981
+      ]
+    },
+    {
+      "auction_id": 2873355,
+      "match_id": 45219,
+      "letter": "C",
+      "winner_bot_id": [
+        0,
+        175
+      ],
+      "paid": 20,
+      "closed_at": [
+        1794099550429484
+      ]
+    },
+    {
+      "auction_id": 2873363,
+      "match_id": 45219,
+      "letter": "V",
+      "winner_bot_id": [
+        0,
+        226
+      ],
+      "paid": 15,
+      "closed_at": [
+        1794099551430596
+      ]
+    },
+    {
+      "auction_id": 2873371,
+      "match_id": 45219,
+      "letter": "D",
+      "winner_bot_id": [
+        0,
+        175
+      ],
+      "paid": 18,
+      "closed_at": [
+        1794099552445974
+      ]
+    },
+    {
+      "auction_id": 2873379,
+      "match_id": 45219,
+      "letter": "H",
+      "winner_bot_id": [
+        0,
+        185
+      ],
+      "paid": 23,
+      "closed_at": [
+        1794099553454747
+      ]
+    },
+    {
+      "auction_id": 2873386,
+      "match_id": 45219,
+      "letter": "E",
+      "winner_bot_id": [
+        0,
+        185
+      ],
+      "paid": 16,
+      "closed_at": [
+        1794099554456706
+      ]
+    },
+    {
+      "auction_id": 2873394,
+      "match_id": 45219,
+      "letter": "E",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 24,
+      "closed_at": [
+        1794099555458504
+      ]
+    },
+    {
+      "auction_id": 2873402,
+      "match_id": 45219,
+      "letter": "O",
+      "winner_bot_id": [
+        0,
+        185
+      ],
+      "paid": 10,
+      "closed_at": [
+        1794099556459943
+      ]
+    },
+    {
+      "auction_id": 2873410,
+      "match_id": 45219,
+      "letter": "K",
+      "winner_bot_id": [
+        0,
+        172
+      ],
+      "paid": 23,
+      "closed_at": [
+        1794099557461653
+      ]
+    },
+    {
+      "auction_id": 2873418,
+      "match_id": 45219,
+      "letter": "S",
+      "winner_bot_id": [
+        0,
+        185
+      ],
+      "paid": 8,
+      "closed_at": [
+        1794099558463279
+      ]
+    },
+    {
+      "auction_id": 2873426,
+      "match_id": 45219,
+      "letter": "B",
+      "winner_bot_id": [
+        0,
+        172
+      ],
+      "paid": 13,
+      "closed_at": [
+        1794099559465143
+      ]
+    },
+    {
+      "auction_id": 2873434,
+      "match_id": 45219,
+      "letter": "A",
+      "winner_bot_id": [
+        0,
+        185
+      ],
+      "paid": 9,
+      "closed_at": [
+        1794099560466801
+      ]
+    },
+    {
+      "auction_id": 2873442,
+      "match_id": 45219,
+      "letter": "J",
+      "winner_bot_id": [
+        0,
+        175
+      ],
+      "paid": 26,
+      "closed_at": [
+        1794099561475350
+      ]
+    },
+    {
+      "auction_id": 2873450,
+      "match_id": 45219,
+      "letter": "I",
+      "winner_bot_id": [
+        0,
+        185
+      ],
+      "paid": 8,
+      "closed_at": [
+        1794099562477001
+      ]
+    },
+    {
+      "auction_id": 2873458,
+      "match_id": 45219,
+      "letter": "P",
+      "winner_bot_id": [
+        0,
+        185
+      ],
+      "paid": 17,
+      "closed_at": [
+        1794099563479429
+      ]
+    },
+    {
+      "auction_id": 2873466,
+      "match_id": 45219,
+      "letter": "N",
+      "winner_bot_id": [
+        0,
+        185
+      ],
+      "paid": 10,
+      "closed_at": [
+        1794099564481287
+      ]
+    },
+    {
+      "auction_id": 2873474,
+      "match_id": 45219,
+      "letter": "P",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 18,
+      "closed_at": [
+        1794099565484804
+      ]
+    },
+    {
+      "auction_id": 2873482,
+      "match_id": 45219,
+      "letter": "R",
+      "winner_bot_id": [
+        0,
+        226
+      ],
+      "paid": 10,
+      "closed_at": [
+        1794099566487299
+      ]
+    },
+    {
+      "auction_id": 2873490,
+      "match_id": 45219,
+      "letter": "E",
+      "winner_bot_id": [
+        0,
+        226
+      ],
+      "paid": 8,
+      "closed_at": [
+        1794099567488620
+      ]
+    },
+    {
+      "auction_id": 2873498,
+      "match_id": 45219,
+      "letter": "M",
+      "winner_bot_id": [
+        0,
+        172
+      ],
+      "paid": 15,
+      "closed_at": [
+        1794099568491001
+      ]
+    },
+    {
+      "auction_id": 2873506,
+      "match_id": 45219,
+      "letter": "A",
+      "winner_bot_id": [
+        0,
+        172
+      ],
+      "paid": 9,
+      "closed_at": [
+        1794099569492845
+      ]
+    },
+    {
+      "auction_id": 2873514,
+      "match_id": 45219,
+      "letter": "O",
+      "winner_bot_id": [
+        0,
+        172
+      ],
+      "paid": 10,
+      "closed_at": [
+        1794099570495005
+      ]
+    },
+    {
+      "auction_id": 2873522,
+      "match_id": 45219,
+      "letter": "O",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 7,
+      "closed_at": [
+        1794099571498475
+      ]
+    },
+    {
+      "auction_id": 2873530,
+      "match_id": 45219,
+      "letter": "O",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 7,
+      "closed_at": [
+        1794099572501467
+      ]
+    },
+    {
+      "auction_id": 2873538,
+      "match_id": 45219,
+      "letter": "F",
+      "winner_bot_id": [
+        0,
+        172
+      ],
+      "paid": 17,
+      "closed_at": [
+        1794099573502439
+      ]
+    },
+    {
+      "auction_id": 2873545,
+      "match_id": 45219,
+      "letter": "G",
+      "winner_bot_id": [
+        0,
+        226
+      ],
+      "paid": 10,
+      "closed_at": [
+        1794099574507609
+      ]
+    },
+    {
+      "auction_id": 2873552,
+      "match_id": 45219,
+      "letter": "D",
+      "winner_bot_id": [
+        0,
+        172
+      ],
+      "paid": 12,
+      "closed_at": [
+        1794099575510159
+      ]
+    },
+    {
+      "auction_id": 2873560,
+      "match_id": 45219,
+      "letter": "E",
+      "winner_bot_id": [
+        0,
+        172
+      ],
+      "paid": 13,
+      "closed_at": [
+        1794099576513694
+      ]
+    },
+    {
+      "auction_id": 2873568,
+      "match_id": 45219,
+      "letter": "T",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 10,
+      "closed_at": [
+        1794099577515688
+      ]
+    },
+    {
+      "auction_id": 2873576,
+      "match_id": 45219,
+      "letter": "E",
+      "winner_bot_id": [
+        0,
+        172
+      ],
+      "paid": 11,
+      "closed_at": [
+        1794099578518272
+      ]
+    },
+    {
+      "auction_id": 2873584,
+      "match_id": 45219,
+      "letter": "N",
+      "winner_bot_id": [
+        0,
+        172
+      ],
+      "paid": 10,
+      "closed_at": [
+        1794099579519545
+      ]
+    },
+    {
+      "auction_id": 2873592,
+      "match_id": 45219,
+      "letter": "Q",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 10,
+      "closed_at": [
+        1794099580521391
+      ]
+    },
+    {
+      "auction_id": 2873600,
+      "match_id": 45219,
+      "letter": "I",
+      "winner_bot_id": [
+        0,
+        226
+      ],
+      "paid": 9,
+      "closed_at": [
+        1794099581524875
+      ]
+    },
+    {
+      "auction_id": 2873608,
+      "match_id": 45219,
+      "letter": "O",
+      "winner_bot_id": [
+        0,
+        185
+      ],
+      "paid": 7,
+      "closed_at": [
+        1794099582529475
+      ]
+    },
+    {
+      "auction_id": 2873616,
+      "match_id": 45219,
+      "letter": "T",
+      "winner_bot_id": [
+        0,
+        172
+      ],
+      "paid": 9,
+      "closed_at": [
+        1794099583530588
+      ]
+    },
+    {
+      "auction_id": 2873624,
+      "match_id": 45219,
+      "letter": "G",
+      "winner_bot_id": [
+        0,
+        226
+      ],
+      "paid": 14,
+      "closed_at": [
+        1794099584533104
+      ]
+    },
+    {
+      "auction_id": 2873632,
+      "match_id": 45219,
+      "letter": "E",
+      "winner_bot_id": [
+        0,
+        175
+      ],
+      "paid": 12,
+      "closed_at": [
+        1794099585534515
+      ]
+    },
+    {
+      "auction_id": 2873640,
+      "match_id": 45219,
+      "letter": "L",
+      "winner_bot_id": [
+        0,
+        172
+      ],
+      "paid": 18,
+      "closed_at": [
+        1794099586535952
+      ]
+    },
+    {
+      "auction_id": 2873648,
+      "match_id": 45219,
+      "letter": "O",
+      "winner_bot_id": [
+        0,
+        172
+      ],
+      "paid": 10,
+      "closed_at": [
+        1794099587541355
+      ]
+    },
+    {
+      "auction_id": 2873656,
+      "match_id": 45219,
+      "letter": "R",
+      "winner_bot_id": [
+        0,
+        226
+      ],
+      "paid": 8,
+      "closed_at": [
+        1794099588544305
+      ]
+    },
+    {
+      "auction_id": 2873664,
+      "match_id": 45219,
+      "letter": "L",
+      "winner_bot_id": [
+        0,
+        175
+      ],
+      "paid": 6,
+      "closed_at": [
+        1794099589546373
+      ]
+    },
+    {
+      "auction_id": 2873672,
+      "match_id": 45219,
+      "letter": "I",
+      "winner_bot_id": [
+        0,
+        175
+      ],
+      "paid": 11,
+      "closed_at": [
+        1794099590552636
+      ]
+    },
+    {
+      "auction_id": 2873679,
+      "match_id": 45219,
+      "letter": "A",
+      "winner_bot_id": [
+        0,
+        175
+      ],
+      "paid": 22,
+      "closed_at": [
+        1794099591561631
+      ]
+    },
+    {
+      "auction_id": 2873686,
+      "match_id": 45219,
+      "letter": "G",
+      "winner_bot_id": [
+        0,
+        175
+      ],
+      "paid": 7,
+      "closed_at": [
+        1794099592562665
+      ]
+    },
+    {
+      "auction_id": 2873693,
+      "match_id": 45219,
+      "letter": "I",
+      "winner_bot_id": [
+        0,
+        175
+      ],
+      "paid": 12,
+      "closed_at": [
+        1794099593564857
+      ]
+    },
+    {
+      "auction_id": 2873700,
+      "match_id": 45219,
+      "letter": "R",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 6,
+      "closed_at": [
+        1794099594566712
+      ]
+    },
+    {
+      "auction_id": 2873707,
+      "match_id": 45219,
+      "letter": "T",
+      "winner_bot_id": [
+        0,
+        185
+      ],
+      "paid": 8,
+      "closed_at": [
+        1794099595569040
+      ]
+    },
+    {
+      "auction_id": 2873714,
+      "match_id": 45219,
+      "letter": "E",
+      "winner_bot_id": [
+        0,
+        226
+      ],
+      "paid": 8,
+      "closed_at": [
+        1794099596570965
+      ]
+    },
+    {
+      "auction_id": 2873721,
+      "match_id": 45219,
+      "letter": "A",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 8,
+      "closed_at": [
+        1794099597572733
+      ]
+    },
+    {
+      "auction_id": 2873728,
+      "match_id": 45219,
+      "letter": "Z",
+      "winner_bot_id": [
+        0,
+        226
+      ],
+      "paid": 16,
+      "closed_at": [
+        1794099598575428
+      ]
+    },
+    {
+      "auction_id": 2873735,
+      "match_id": 45219,
+      "letter": "U",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 7,
+      "closed_at": [
+        1794099599579242
+      ]
+    },
+    {
+      "auction_id": 2873742,
+      "match_id": 45219,
+      "letter": "Y",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 8,
+      "closed_at": [
+        1794099600584703
+      ]
+    },
+    {
+      "auction_id": 2873749,
+      "match_id": 45219,
+      "letter": "T",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 7,
+      "closed_at": [
+        1794099601783018
+      ]
+    },
+    {
+      "auction_id": 2873756,
+      "match_id": 45219,
+      "letter": "B",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 8,
+      "closed_at": [
+        1794099602785609
+      ]
+    },
+    {
+      "auction_id": 2873763,
+      "match_id": 45219,
+      "letter": "C",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 8,
+      "closed_at": [
+        1794099604136749
+      ]
+    },
+    {
+      "auction_id": 2873770,
+      "match_id": 45219,
+      "letter": "R",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 7,
+      "closed_at": [
+        1794099605144788
+      ]
+    },
+    {
+      "auction_id": 2873777,
+      "match_id": 45219,
+      "letter": "U",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 8,
+      "closed_at": [
+        1794099606359341
+      ]
+    },
+    {
+      "auction_id": 2873784,
+      "match_id": 45219,
+      "letter": "S",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 13,
+      "closed_at": [
+        1794099607385277
+      ]
+    },
+    {
+      "auction_id": 2873791,
+      "match_id": 45219,
+      "letter": "H",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 8,
+      "closed_at": [
+        1794099608394019
+      ]
+    },
+    {
+      "auction_id": 2873798,
+      "match_id": 45219,
+      "letter": "O",
+      "winner_bot_id": [
+        0,
+        226
+      ],
+      "paid": 27,
+      "closed_at": [
+        1794099609396852
+      ]
+    },
+    {
+      "auction_id": 2873805,
+      "match_id": 45219,
+      "letter": "N",
+      "winner_bot_id": [
+        0,
+        175
+      ],
+      "paid": 10,
+      "closed_at": [
+        1794099610403098
+      ]
+    },
+    {
+      "auction_id": 2873811,
+      "match_id": 45219,
+      "letter": "Y",
+      "winner_bot_id": [
+        0,
+        175
+      ],
+      "paid": 11,
+      "closed_at": [
+        1794099611404825
+      ]
+    },
+    {
+      "auction_id": 2873818,
+      "match_id": 45219,
+      "letter": "L",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 8,
+      "closed_at": [
+        1794099612406907
+      ]
+    },
+    {
+      "auction_id": 2873825,
+      "match_id": 45219,
+      "letter": "F",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 8,
+      "closed_at": [
+        1794099613408724
+      ]
+    },
+    {
+      "auction_id": 2873832,
+      "match_id": 45219,
+      "letter": "E",
+      "winner_bot_id": [
+        0,
+        171
+      ],
+      "paid": 10,
+      "closed_at": [
+        1794099614410605
+      ]
+    },
+    {
+      "auction_id": 2873839,
+      "match_id": 45219,
+      "letter": "I",
+      "winner_bot_id": [
+        0,
+        185
+      ],
+      "paid": 1,
+      "closed_at": [
+        1794099615412024
+      ]
+    }
+  ],
+  "auctions": [
+    {
+      "id": 2873334,
+      "match_id": 45219,
+      "letter": "A",
+      "opens_at": [
+        1794099546421267
+      ],
+      "closes_at": [
+        1794099547421267
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873341,
+      "match_id": 45219,
+      "letter": "E",
+      "opens_at": [
+        1794099547423084
+      ],
+      "closes_at": [
+        1794099548423084
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873348,
+      "match_id": 45219,
+      "letter": "X",
+      "opens_at": [
+        1794099548425691
+      ],
+      "closes_at": [
+        1794099549425691
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873355,
+      "match_id": 45219,
+      "letter": "C",
+      "opens_at": [
+        1794099549427981
+      ],
+      "closes_at": [
+        1794099550427981
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873363,
+      "match_id": 45219,
+      "letter": "V",
+      "opens_at": [
+        1794099550429484
+      ],
+      "closes_at": [
+        1794099551429484
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873371,
+      "match_id": 45219,
+      "letter": "D",
+      "opens_at": [
+        1794099551430596
+      ],
+      "closes_at": [
+        1794099552430596
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873379,
+      "match_id": 45219,
+      "letter": "H",
+      "opens_at": [
+        1794099552445974
+      ],
+      "closes_at": [
+        1794099553445974
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873386,
+      "match_id": 45219,
+      "letter": "E",
+      "opens_at": [
+        1794099553454747
+      ],
+      "closes_at": [
+        1794099554454747
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873394,
+      "match_id": 45219,
+      "letter": "E",
+      "opens_at": [
+        1794099554456706
+      ],
+      "closes_at": [
+        1794099555456706
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873402,
+      "match_id": 45219,
+      "letter": "O",
+      "opens_at": [
+        1794099555458504
+      ],
+      "closes_at": [
+        1794099556458504
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873410,
+      "match_id": 45219,
+      "letter": "K",
+      "opens_at": [
+        1794099556459943
+      ],
+      "closes_at": [
+        1794099557459943
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873418,
+      "match_id": 45219,
+      "letter": "S",
+      "opens_at": [
+        1794099557461653
+      ],
+      "closes_at": [
+        1794099558461653
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873426,
+      "match_id": 45219,
+      "letter": "B",
+      "opens_at": [
+        1794099558463279
+      ],
+      "closes_at": [
+        1794099559463279
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873434,
+      "match_id": 45219,
+      "letter": "A",
+      "opens_at": [
+        1794099559465143
+      ],
+      "closes_at": [
+        1794099560465143
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873442,
+      "match_id": 45219,
+      "letter": "J",
+      "opens_at": [
+        1794099560466801
+      ],
+      "closes_at": [
+        1794099561466801
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873450,
+      "match_id": 45219,
+      "letter": "I",
+      "opens_at": [
+        1794099561475350
+      ],
+      "closes_at": [
+        1794099562475350
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873458,
+      "match_id": 45219,
+      "letter": "P",
+      "opens_at": [
+        1794099562477001
+      ],
+      "closes_at": [
+        1794099563477001
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873466,
+      "match_id": 45219,
+      "letter": "N",
+      "opens_at": [
+        1794099563479429
+      ],
+      "closes_at": [
+        1794099564479429
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873474,
+      "match_id": 45219,
+      "letter": "P",
+      "opens_at": [
+        1794099564481287
+      ],
+      "closes_at": [
+        1794099565481287
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873482,
+      "match_id": 45219,
+      "letter": "R",
+      "opens_at": [
+        1794099565484804
+      ],
+      "closes_at": [
+        1794099566484804
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873490,
+      "match_id": 45219,
+      "letter": "E",
+      "opens_at": [
+        1794099566487299
+      ],
+      "closes_at": [
+        1794099567487299
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873498,
+      "match_id": 45219,
+      "letter": "M",
+      "opens_at": [
+        1794099567488620
+      ],
+      "closes_at": [
+        1794099568488620
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873506,
+      "match_id": 45219,
+      "letter": "A",
+      "opens_at": [
+        1794099568491001
+      ],
+      "closes_at": [
+        1794099569491001
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873514,
+      "match_id": 45219,
+      "letter": "O",
+      "opens_at": [
+        1794099569492845
+      ],
+      "closes_at": [
+        1794099570492845
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873522,
+      "match_id": 45219,
+      "letter": "O",
+      "opens_at": [
+        1794099570495005
+      ],
+      "closes_at": [
+        1794099571495005
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873530,
+      "match_id": 45219,
+      "letter": "O",
+      "opens_at": [
+        1794099571498475
+      ],
+      "closes_at": [
+        1794099572498475
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873538,
+      "match_id": 45219,
+      "letter": "F",
+      "opens_at": [
+        1794099572501467
+      ],
+      "closes_at": [
+        1794099573501467
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873545,
+      "match_id": 45219,
+      "letter": "G",
+      "opens_at": [
+        1794099573502439
+      ],
+      "closes_at": [
+        1794099574502439
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873552,
+      "match_id": 45219,
+      "letter": "D",
+      "opens_at": [
+        1794099574507609
+      ],
+      "closes_at": [
+        1794099575507609
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873560,
+      "match_id": 45219,
+      "letter": "E",
+      "opens_at": [
+        1794099575510159
+      ],
+      "closes_at": [
+        1794099576510159
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873568,
+      "match_id": 45219,
+      "letter": "T",
+      "opens_at": [
+        1794099576513694
+      ],
+      "closes_at": [
+        1794099577513694
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873576,
+      "match_id": 45219,
+      "letter": "E",
+      "opens_at": [
+        1794099577515688
+      ],
+      "closes_at": [
+        1794099578515688
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873584,
+      "match_id": 45219,
+      "letter": "N",
+      "opens_at": [
+        1794099578518272
+      ],
+      "closes_at": [
+        1794099579518272
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873592,
+      "match_id": 45219,
+      "letter": "Q",
+      "opens_at": [
+        1794099579519545
+      ],
+      "closes_at": [
+        1794099580519545
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873600,
+      "match_id": 45219,
+      "letter": "I",
+      "opens_at": [
+        1794099580521391
+      ],
+      "closes_at": [
+        1794099581521391
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873608,
+      "match_id": 45219,
+      "letter": "O",
+      "opens_at": [
+        1794099581524875
+      ],
+      "closes_at": [
+        1794099582524875
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873616,
+      "match_id": 45219,
+      "letter": "T",
+      "opens_at": [
+        1794099582529475
+      ],
+      "closes_at": [
+        1794099583529475
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873624,
+      "match_id": 45219,
+      "letter": "G",
+      "opens_at": [
+        1794099583530588
+      ],
+      "closes_at": [
+        1794099584530588
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873632,
+      "match_id": 45219,
+      "letter": "E",
+      "opens_at": [
+        1794099584533104
+      ],
+      "closes_at": [
+        1794099585533104
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873640,
+      "match_id": 45219,
+      "letter": "L",
+      "opens_at": [
+        1794099585534515
+      ],
+      "closes_at": [
+        1794099586534515
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873648,
+      "match_id": 45219,
+      "letter": "O",
+      "opens_at": [
+        1794099586535952
+      ],
+      "closes_at": [
+        1794099587535952
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873656,
+      "match_id": 45219,
+      "letter": "R",
+      "opens_at": [
+        1794099587541355
+      ],
+      "closes_at": [
+        1794099588541355
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873664,
+      "match_id": 45219,
+      "letter": "L",
+      "opens_at": [
+        1794099588544305
+      ],
+      "closes_at": [
+        1794099589544305
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873672,
+      "match_id": 45219,
+      "letter": "I",
+      "opens_at": [
+        1794099589546373
+      ],
+      "closes_at": [
+        1794099590546373
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873679,
+      "match_id": 45219,
+      "letter": "A",
+      "opens_at": [
+        1794099590552636
+      ],
+      "closes_at": [
+        1794099591552636
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873686,
+      "match_id": 45219,
+      "letter": "G",
+      "opens_at": [
+        1794099591561631
+      ],
+      "closes_at": [
+        1794099592561631
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873693,
+      "match_id": 45219,
+      "letter": "I",
+      "opens_at": [
+        1794099592562665
+      ],
+      "closes_at": [
+        1794099593562665
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873700,
+      "match_id": 45219,
+      "letter": "R",
+      "opens_at": [
+        1794099593564857
+      ],
+      "closes_at": [
+        1794099594564857
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873707,
+      "match_id": 45219,
+      "letter": "T",
+      "opens_at": [
+        1794099594566712
+      ],
+      "closes_at": [
+        1794099595566712
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873714,
+      "match_id": 45219,
+      "letter": "E",
+      "opens_at": [
+        1794099595569040
+      ],
+      "closes_at": [
+        1794099596569040
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873721,
+      "match_id": 45219,
+      "letter": "A",
+      "opens_at": [
+        1794099596570965
+      ],
+      "closes_at": [
+        1794099597570965
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873728,
+      "match_id": 45219,
+      "letter": "Z",
+      "opens_at": [
+        1794099597572733
+      ],
+      "closes_at": [
+        1794099598572733
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873735,
+      "match_id": 45219,
+      "letter": "U",
+      "opens_at": [
+        1794099598575428
+      ],
+      "closes_at": [
+        1794099599575428
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873742,
+      "match_id": 45219,
+      "letter": "Y",
+      "opens_at": [
+        1794099599579242
+      ],
+      "closes_at": [
+        1794099600579242
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873749,
+      "match_id": 45219,
+      "letter": "T",
+      "opens_at": [
+        1794099600584703
+      ],
+      "closes_at": [
+        1794099601584703
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873756,
+      "match_id": 45219,
+      "letter": "B",
+      "opens_at": [
+        1794099601783018
+      ],
+      "closes_at": [
+        1794099602783018
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873763,
+      "match_id": 45219,
+      "letter": "C",
+      "opens_at": [
+        1794099602785609
+      ],
+      "closes_at": [
+        1794099603785609
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873770,
+      "match_id": 45219,
+      "letter": "R",
+      "opens_at": [
+        1794099604136749
+      ],
+      "closes_at": [
+        1794099605136749
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873777,
+      "match_id": 45219,
+      "letter": "U",
+      "opens_at": [
+        1794099605144788
+      ],
+      "closes_at": [
+        1794099606144788
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873784,
+      "match_id": 45219,
+      "letter": "S",
+      "opens_at": [
+        1794099606359341
+      ],
+      "closes_at": [
+        1794099607359341
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873791,
+      "match_id": 45219,
+      "letter": "H",
+      "opens_at": [
+        1794099607385277
+      ],
+      "closes_at": [
+        1794099608385277
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873798,
+      "match_id": 45219,
+      "letter": "O",
+      "opens_at": [
+        1794099608394019
+      ],
+      "closes_at": [
+        1794099609394019
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873805,
+      "match_id": 45219,
+      "letter": "N",
+      "opens_at": [
+        1794099609396852
+      ],
+      "closes_at": [
+        1794099610396852
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873811,
+      "match_id": 45219,
+      "letter": "Y",
+      "opens_at": [
+        1794099610403098
+      ],
+      "closes_at": [
+        1794099611403098
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873818,
+      "match_id": 45219,
+      "letter": "L",
+      "opens_at": [
+        1794099611404825
+      ],
+      "closes_at": [
+        1794099612404825
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873825,
+      "match_id": 45219,
+      "letter": "F",
+      "opens_at": [
+        1794099612406907
+      ],
+      "closes_at": [
+        1794099613406907
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873832,
+      "match_id": 45219,
+      "letter": "E",
+      "opens_at": [
+        1794099613408724
+      ],
+      "closes_at": [
+        1794099614408724
+      ],
+      "status": [
+        1,
+        []
+      ]
+    },
+    {
+      "id": 2873839,
+      "match_id": 45219,
+      "letter": "I",
+      "opens_at": [
+        1794099614410605
+      ],
+      "closes_at": [
+        1794099615410605
+      ],
+      "status": [
+        1,
+        []
+      ]
+    }
+  ],
+  "archive": [
+    {
+      "auction_id": 2873839,
+      "match_id": 45219,
+      "top_bid": 7
+    },
+    {
+      "auction_id": 2873334,
+      "match_id": 45219,
+      "top_bid": 20
+    },
+    {
+      "auction_id": 2873341,
+      "match_id": 45219,
+      "top_bid": 19
+    },
+    {
+      "auction_id": 2873348,
+      "match_id": 45219,
+      "top_bid": 48
+    },
+    {
+      "auction_id": 2873355,
+      "match_id": 45219,
+      "top_bid": 32
+    },
+    {
+      "auction_id": 2873363,
+      "match_id": 45219,
+      "top_bid": 21
+    },
+    {
+      "auction_id": 2873371,
+      "match_id": 45219,
+      "top_bid": 18
+    },
+    {
+      "auction_id": 2873379,
+      "match_id": 45219,
+      "top_bid": 28
+    },
+    {
+      "auction_id": 2873386,
+      "match_id": 45219,
+      "top_bid": 24
+    },
+    {
+      "auction_id": 2873394,
+      "match_id": 45219,
+      "top_bid": 24
+    },
+    {
+      "auction_id": 2873402,
+      "match_id": 45219,
+      "top_bid": 15
+    },
+    {
+      "auction_id": 2873410,
+      "match_id": 45219,
+      "top_bid": 25
+    },
+    {
+      "auction_id": 2873418,
+      "match_id": 45219,
+      "top_bid": 20
+    },
+    {
+      "auction_id": 2873426,
+      "match_id": 45219,
+      "top_bid": 16
+    },
+    {
+      "auction_id": 2873434,
+      "match_id": 45219,
+      "top_bid": 18
+    },
+    {
+      "auction_id": 2873442,
+      "match_id": 45219,
+      "top_bid": 29
+    },
+    {
+      "auction_id": 2873450,
+      "match_id": 45219,
+      "top_bid": 17
+    },
+    {
+      "auction_id": 2873458,
+      "match_id": 45219,
+      "top_bid": 19
+    },
+    {
+      "auction_id": 2873466,
+      "match_id": 45219,
+      "top_bid": 12
+    },
+    {
+      "auction_id": 2873474,
+      "match_id": 45219,
+      "top_bid": 20
+    },
+    {
+      "auction_id": 2873482,
+      "match_id": 45219,
+      "top_bid": 11
+    },
+    {
+      "auction_id": 2873490,
+      "match_id": 45219,
+      "top_bid": 10
+    },
+    {
+      "auction_id": 2873498,
+      "match_id": 45219,
+      "top_bid": 16
+    },
+    {
+      "auction_id": 2873506,
+      "match_id": 45219,
+      "top_bid": 10
+    },
+    {
+      "auction_id": 2873514,
+      "match_id": 45219,
+      "top_bid": 13
+    },
+    {
+      "auction_id": 2873522,
+      "match_id": 45219,
+      "top_bid": 10
+    },
+    {
+      "auction_id": 2873530,
+      "match_id": 45219,
+      "top_bid": 7
+    },
+    {
+      "auction_id": 2873538,
+      "match_id": 45219,
+      "top_bid": 27
+    },
+    {
+      "auction_id": 2873545,
+      "match_id": 45219,
+      "top_bid": 12
+    },
+    {
+      "auction_id": 2873552,
+      "match_id": 45219,
+      "top_bid": 18
+    },
+    {
+      "auction_id": 2873560,
+      "match_id": 45219,
+      "top_bid": 15
+    },
+    {
+      "auction_id": 2873568,
+      "match_id": 45219,
+      "top_bid": 10
+    },
+    {
+      "auction_id": 2873576,
+      "match_id": 45219,
+      "top_bid": 13
+    },
+    {
+      "auction_id": 2873584,
+      "match_id": 45219,
+      "top_bid": 16
+    },
+    {
+      "auction_id": 2873592,
+      "match_id": 45219,
+      "top_bid": 12
+    },
+    {
+      "auction_id": 2873600,
+      "match_id": 45219,
+      "top_bid": 11
+    },
+    {
+      "auction_id": 2873608,
+      "match_id": 45219,
+      "top_bid": 7
+    },
+    {
+      "auction_id": 2873616,
+      "match_id": 45219,
+      "top_bid": 10
+    },
+    {
+      "auction_id": 2873624,
+      "match_id": 45219,
+      "top_bid": 17
+    },
+    {
+      "auction_id": 2873632,
+      "match_id": 45219,
+      "top_bid": 14
+    },
+    {
+      "auction_id": 2873640,
+      "match_id": 45219,
+      "top_bid": 18
+    },
+    {
+      "auction_id": 2873648,
+      "match_id": 45219,
+      "top_bid": 12
+    },
+    {
+      "auction_id": 2873656,
+      "match_id": 45219,
+      "top_bid": 11
+    },
+    {
+      "auction_id": 2873664,
+      "match_id": 45219,
+      "top_bid": 18
+    },
+    {
+      "auction_id": 2873672,
+      "match_id": 45219,
+      "top_bid": 13
+    },
+    {
+      "auction_id": 2873679,
+      "match_id": 45219,
+      "top_bid": 44
+    },
+    {
+      "auction_id": 2873686,
+      "match_id": 45219,
+      "top_bid": 22
+    },
+    {
+      "auction_id": 2873693,
+      "match_id": 45219,
+      "top_bid": 17
+    },
+    {
+      "auction_id": 2873700,
+      "match_id": 45219,
+      "top_bid": 9
+    },
+    {
+      "auction_id": 2873707,
+      "match_id": 45219,
+      "top_bid": 10
+    },
+    {
+      "auction_id": 2873714,
+      "match_id": 45219,
+      "top_bid": 12
+    },
+    {
+      "auction_id": 2873721,
+      "match_id": 45219,
+      "top_bid": 14
+    },
+    {
+      "auction_id": 2873728,
+      "match_id": 45219,
+      "top_bid": 33
+    },
+    {
+      "auction_id": 2873735,
+      "match_id": 45219,
+      "top_bid": 16
+    },
+    {
+      "auction_id": 2873742,
+      "match_id": 45219,
+      "top_bid": 9
+    },
+    {
+      "auction_id": 2873749,
+      "match_id": 45219,
+      "top_bid": 13
+    },
+    {
+      "auction_id": 2873756,
+      "match_id": 45219,
+      "top_bid": 8
+    },
+    {
+      "auction_id": 2873763,
+      "match_id": 45219,
+      "top_bid": 9
+    },
+    {
+      "auction_id": 2873770,
+      "match_id": 45219,
+      "top_bid": 15
+    },
+    {
+      "auction_id": 2873777,
+      "match_id": 45219,
+      "top_bid": 9
+    },
+    {
+      "auction_id": 2873784,
+      "match_id": 45219,
+      "top_bid": 15
+    },
+    {
+      "auction_id": 2873791,
+      "match_id": 45219,
+      "top_bid": 19
+    },
+    {
+      "auction_id": 2873798,
+      "match_id": 45219,
+      "top_bid": 33
+    },
+    {
+      "auction_id": 2873805,
+      "match_id": 45219,
+      "top_bid": 17
+    },
+    {
+      "auction_id": 2873811,
+      "match_id": 45219,
+      "top_bid": 18
+    },
+    {
+      "auction_id": 2873818,
+      "match_id": 45219,
+      "top_bid": 11
+    },
+    {
+      "auction_id": 2873825,
+      "match_id": 45219,
+      "top_bid": 23
+    },
+    {
+      "auction_id": 2873832,
+      "match_id": 45219,
+      "top_bid": 15
+    }
+  ]
+}

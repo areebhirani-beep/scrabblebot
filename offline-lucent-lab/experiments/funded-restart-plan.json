@@ -1,0 +1,16 @@
+{
+  "kind": "screen",
+  "family": "price-bounded-small-rack-restart",
+  "hypothesis": "After a scored word leaves0\u20132tiles, late acquisition lookahead bounded by observed paid prices and current cash recovers useful purchases and improves paired wins and score.",
+  "offlineOnly": true,
+  "objectives": [
+    "winRate",
+    "meanScore"
+  ],
+  "baseline": "Frozen1563a4e client/WIN30 policy, same source with fundedRestart omitted",
+  "screenConfig": "experiments/funded-restart-screen.json",
+  "newEvidence": "experiments/leader-cycle-audit-20261108/analysis.json",
+  "falsifier": "Reject if wins or score regress, default equivalence fails, legal-word errors occur, or more purchases do not produce useful word points.",
+  "repeatsPerWorld": 1,
+  "warning": "Median historical paid prices and1/3capture cap are modeling assumptions, not guaranteed affordability/win probabilities. Exact47cash/median11case cannot increase horizon without assuming future income."
+}

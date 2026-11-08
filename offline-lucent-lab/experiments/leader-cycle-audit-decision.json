@@ -1,0 +1,11 @@
+{
+  "id": "current-top5-continuation-20261108",
+  "family": "late-word-cycle-continuation",
+  "hypothesis": "Winning opponents sustain useful second and later conversions through continued acquisition, while our policy frequently stalls after its opening.",
+  "decision": "unproven",
+  "evidence": "experiments/leader-cycle-audit-20261108/analysis.json",
+  "observed": "Frozen01:13:50UTC top5 RackMaw,LUCENT,aipom,Bron,LexForge. Audited each last20 outcomes and10 selected wins, including each top2 game. Ours20:45.15first-wordpoints,30.4second,3.75third/later;Q4 purchases0.9 versus3.0\u20134.75 allleaders. Zero cash/score reconciliation failures. 45219 has strictcash8+minimum5 gates;45248 hasemptyrack/cash47 and continuing but losing bids.",
+  "reason": "Separate liquidity release, late acquisition valuation and word continuation; do not diagnose every pause as a frozen client. Current LUCENT20 score76.95 is below ours79.3 despite historicalrating, so compare changing leaders and all outcomes. Prepare measured default-off adaptations.",
+  "uncertainty": "Observational selected current leaders; winning10-game samples are conditioned on wins and cannot estimate win rate. Opponent private racks/versions unknown. Matched cohorts small. No causal uplift or championship guarantee.",
+  "revisitWhen": "Collect forward source-tagged game cohorts and evaluate a specific capacity/cashout/acquisition mechanism against the same-source baseline on both wins and score."
+}

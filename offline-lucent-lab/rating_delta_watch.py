@@ -64,9 +64,10 @@ def main():
             source_rows = json.loads((BOT_ROOT / '.runtime-odysseus/status.json').read_text())['completedLocalMatches']
             sources = {r['id']: r for r in source_rows}
             matches = {r['id']: r for r in data['matches']}
-            audit_path = BOT_ROOT / '.runtime-odysseus/current-policy-bid-audit.json'
-            audit = json.loads(audit_path.read_text()) if audit_path.exists() else {'matches': []}
-            attempts.update({r['matchId']: r for r in audit['matches']})
+            for audit_name in ['original-win30-bid-audit.json', 'client-only-bid-audit.json', 'current-policy-bid-audit.json']:
+                audit_path = BOT_ROOT / '.runtime-odysseus' / audit_name
+                audit = json.loads(audit_path.read_text()) if audit_path.exists() else {'matches': []}
+                attempts.update({r['matchId']: r for r in audit['matches']})
             audit_cache.write_text(json.dumps(attempts)+'\n')
             rows = []
             for previous, current in zip(history, history[1:]):
