@@ -2,7 +2,7 @@
 
 Read this before proposing an experiment. These are evidence-scoped decisions, not universal claims.
 
-Shared experiment provenance: `../odysseus-live/bot-starter/.runtime-odysseus/experiments.sqlite`.
+Shared experiment provenance: `../bot-starter/.runtime-odysseus/experiments.sqlite`.
 
 ## cash-rollout-screen-20261107-v1 — one-step-priced-cashout (reject)
 
@@ -45,3 +45,17 @@ Decision: Screen nominates possibilities only. Review paired intervals, opponent
 Uncertainty: Synthetic opponent policies, CPU deadlines and instant actions. A screen is selection data; no real leaderboard or independent validation claim.
 
 Revisit only when: Freeze a candidate and run fresh worlds, an unseen opponent field and repeated-world stability checks.
+
+## lucent-seven-letter-public-200 — long-word-completion-throughput (unproven)
+
+Hypothesis: Repeated high-value seven-letter completions are associated with strong live outcomes and can guide a tested acquisition policy.
+
+Evidence: experiments/lucent-word-length-pattern-200.json
+
+Observed: LUCENT200publicmatches:46.5%wins122.74points;exact7supplies68.38%score;7+86.66%;92of93winscontainexact7,all93contain7+. Matched53:1.717longwordsLUCENTvs1.660ours.
+
+Decision: Prioritize long-word frequency and value in new paired experiments. Existing cashLen7 and full lexicon already cover long words; no policy promotion from observational data.
+
+Uncertainty: Changing versions/opponent mix; selected recent matches; correlations and winner-conditioned summaries do not identify causal effects or predict130–140mean.
+
+Revisit only when: Test a concrete acquisition/completion mechanism against the current live policy on joint score and win outcomes; retain long-word diagnostics.
