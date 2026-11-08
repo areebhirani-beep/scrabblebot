@@ -87,3 +87,31 @@ Decision: Do not treat observed endgame two-letter plays as evidence of midgame 
 Uncertainty: Retrospective reconstruction of own20smallracks; earlier acquisitions fixed. Does not prove globaloptimalstrategy, allotherterminalracks, or transporttiming reliability.
 
 Revisit only when: A new reproducible case shows an invalid/nonoptimal terminal partition or a changed earlier acquisition policy; do not repeat blanket endgame short bans as an improvement claim.
+
+## price-future-fresh256-validation — price-weighted-future-tiles (reject)
+
+Hypothesis: Price-weighted future acquisition composition improves score and wins against WIN30 on independent worlds.
+
+Evidence: ../bot-starter/docs/experiments/win30-gain-price-validation-256-reactive-summary.json
+
+Observed: Fresh seed881701,256 unique worlds per arm,768 matches total: BASE89.7422points/25.3906%wins; PRICE2 87.1250/24.2188%. Long-word points70.7344 ->66.9023 and long words1.7539 ->1.5703. Score delta-2.6172; win delta-1.1719pp.
+
+Decision: Reject promotion of PRICE2: the screen improvement did not replicate, with both primary point estimates lower. Preserve the candidate and all failures; keep disabled.
+
+Uncertainty: Synthetic reactive field, one execution per world per arm, CPU-timed search. Conditional score95CI[-6.4965,1.0276],winpp95CI[-7.0313,4.6875]. Intervals include zero; this is rejection of deployment evidence, not proof the mechanism always harms performance.
+
+Revisit only when: Change the mechanism or supply new calibrated acquisition evidence explaining an identifiable failure; fresh seeds alone do not justify repeating this price exponent as a new improvement.
+
+## completion-floor-first32 — unfiltered-immediate-completion-floor (reject)
+
+Hypothesis: A bid floor for an immediately available seven-plus-letter completion improves long-word scoring and both match objectives.
+
+Evidence: ../bot-starter/docs/experiments/completion-floor-win30-screen-reactive-summary.json
+
+Observed: 32 paired worlds: BASE83.53125points/25%wins vs FLOOR82.65625/21.875%. Seven-plus points62.71875 ->58.875. Checks2112, opportunities145, raisedBids42. Nine changed scores:4higher5lower; no gainedwins,1lostwin. World6 score102first ->48sixth, same2longwords but longpoints78 ->48.
+
+Decision: Implementation triggers, but this unfiltered floor does not improve either primary point estimate or long-word points. Keep disabled and preserve both winning and losing worlds. Diagnose completion quality and subsequent acquisitions before another candidate.
+
+Uncertainty: Small synthetic screen; score95CI[-6.90625,5.75078],winpp95CI[-9.375,0]. No proof of universal harm or causal identification of the world6 sequence.
+
+Revisit only when: Trace a retained failure and change acquisition quality or timing based on the actual missed opportunity. A longer-word count or a higher bid cap alone is not evidence of better total points or wins.

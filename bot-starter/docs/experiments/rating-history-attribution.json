@@ -1,0 +1,1986 @@
+{
+  "cohortSnapshot": "odysseus-public-forward-2325.json",
+  "ratingFormulaK": 29.48088702582601,
+  "history": [
+    {
+      "id": 222175,
+      "bot_id": 172,
+      "match_id": 42682,
+      "at": [
+        1794083245352485
+      ],
+      "openskill_mu": 26.44743420466137,
+      "openskill_sigma": 8.1658994574028,
+      "rating": 1543,
+      "timeUTC": "2026-11-07T20:27:25.352485+00:00",
+      "score": 84,
+      "place": 3,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222181,
+      "bot_id": 172,
+      "match_id": 42683,
+      "at": [
+        1794083313958267
+      ],
+      "openskill_mu": 28.497840405221105,
+      "openskill_sigma": 8.025048454248193,
+      "rating": 1603,
+      "timeUTC": "2026-11-07T20:28:33.958267+00:00",
+      "score": 88,
+      "place": 3,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222185,
+      "bot_id": 172,
+      "match_id": 42684,
+      "at": [
+        1794083382653200
+      ],
+      "openskill_mu": 31.471734628372083,
+      "openskill_sigma": 7.9961846623011805,
+      "rating": 1691,
+      "timeUTC": "2026-11-07T20:29:42.653200+00:00",
+      "score": 105,
+      "place": 1,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222193,
+      "bot_id": 172,
+      "match_id": 42685,
+      "at": [
+        1794083451729614
+      ],
+      "openskill_mu": 33.80613343867017,
+      "openskill_sigma": 7.8924321562035615,
+      "rating": 1760,
+      "timeUTC": "2026-11-07T20:30:51.729614+00:00",
+      "score": 98,
+      "place": 3,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222200,
+      "bot_id": 172,
+      "match_id": 42686,
+      "at": [
+        1794083539234648
+      ],
+      "openskill_mu": 33.9181567307456,
+      "openskill_sigma": 7.715786534821699,
+      "rating": 1763,
+      "timeUTC": "2026-11-07T20:32:19.234648+00:00",
+      "score": 72,
+      "place": 4,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222207,
+      "bot_id": 172,
+      "match_id": 42687,
+      "at": [
+        1794083607469435
+      ],
+      "openskill_mu": 30.551127841581224,
+      "openskill_sigma": 7.466280418000439,
+      "rating": 1664,
+      "timeUTC": "2026-11-07T20:33:27.469435+00:00",
+      "score": 43,
+      "place": 5,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222212,
+      "bot_id": 172,
+      "match_id": 42688,
+      "at": [
+        1794083675694621
+      ],
+      "openskill_mu": 30.16521799401348,
+      "openskill_sigma": 7.294858492964996,
+      "rating": 1652,
+      "timeUTC": "2026-11-07T20:34:35.694621+00:00",
+      "score": 56,
+      "place": 4,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222218,
+      "bot_id": 172,
+      "match_id": 42689,
+      "at": [
+        1794083744467501
+      ],
+      "openskill_mu": 30.933809292625092,
+      "openskill_sigma": 7.200635567894312,
+      "rating": 1675,
+      "timeUTC": "2026-11-07T20:35:44.467501+00:00",
+      "score": 75,
+      "place": 4,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222222,
+      "bot_id": 172,
+      "match_id": 42690,
+      "at": [
+        1794083813005736
+      ],
+      "openskill_mu": 31.702197913714887,
+      "openskill_sigma": 7.159198405903753,
+      "rating": 1698,
+      "timeUTC": "2026-11-07T20:36:53.005736+00:00",
+      "score": 87,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222227,
+      "bot_id": 172,
+      "match_id": 42691,
+      "at": [
+        1794083881691831
+      ],
+      "openskill_mu": 34.17372475562366,
+      "openskill_sigma": 7.137541379331186,
+      "rating": 1770,
+      "timeUTC": "2026-11-07T20:38:01.691831+00:00",
+      "score": 132,
+      "place": 1,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222235,
+      "bot_id": 172,
+      "match_id": 42692,
+      "at": [
+        1794083950276498
+      ],
+      "openskill_mu": 35.707887023348725,
+      "openskill_sigma": 7.067798348947436,
+      "rating": 1816,
+      "timeUTC": "2026-11-07T20:39:10.276498+00:00",
+      "score": 75,
+      "place": 3,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222242,
+      "bot_id": 172,
+      "match_id": 42693,
+      "at": [
+        1794084019760973
+      ],
+      "openskill_mu": 36.307388435305384,
+      "openskill_sigma": 6.919604837000754,
+      "rating": 1833,
+      "timeUTC": "2026-11-07T20:40:19.760973+00:00",
+      "score": 54,
+      "place": 4,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222248,
+      "bot_id": 172,
+      "match_id": 42694,
+      "at": [
+        1794084088489950
+      ],
+      "openskill_mu": 34.88756645054783,
+      "openskill_sigma": 6.742649177671673,
+      "rating": 1791,
+      "timeUTC": "2026-11-07T20:41:28.489950+00:00",
+      "score": 63,
+      "place": 4,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222256,
+      "bot_id": 172,
+      "match_id": 42695,
+      "at": [
+        1794084185050875
+      ],
+      "openskill_mu": 30.836204919871644,
+      "openskill_sigma": 6.574223481359398,
+      "rating": 1672,
+      "timeUTC": "2026-11-07T20:43:05.050875+00:00",
+      "score": 36,
+      "place": 6,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222264,
+      "bot_id": 172,
+      "match_id": 42697,
+      "at": [
+        1794084254211874
+      ],
+      "openskill_mu": 33.10200106150017,
+      "openskill_sigma": 6.546782745165926,
+      "rating": 1739,
+      "timeUTC": "2026-11-07T20:44:14.211874+00:00",
+      "score": 90,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222270,
+      "bot_id": 172,
+      "match_id": 42698,
+      "at": [
+        1794084323214814
+      ],
+      "openskill_mu": 34.887442842289346,
+      "openskill_sigma": 6.511967157522938,
+      "rating": 1791,
+      "timeUTC": "2026-11-07T20:45:23.214814+00:00",
+      "score": 93,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222276,
+      "bot_id": 172,
+      "match_id": 42699,
+      "at": [
+        1794084392090110
+      ],
+      "openskill_mu": 36.998889214754406,
+      "openskill_sigma": 6.465687993771222,
+      "rating": 1854,
+      "timeUTC": "2026-11-07T20:46:32.090110+00:00",
+      "score": 127,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222284,
+      "bot_id": 172,
+      "match_id": 42700,
+      "at": [
+        1794084460797927
+      ],
+      "openskill_mu": 36.48584476171987,
+      "openskill_sigma": 6.354910287132514,
+      "rating": 1839,
+      "timeUTC": "2026-11-07T20:47:40.797927+00:00",
+      "score": 72,
+      "place": 4,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222294,
+      "bot_id": 172,
+      "match_id": 42702,
+      "at": [
+        1794084613456480
+      ],
+      "openskill_mu": 38.4208076442524,
+      "openskill_sigma": 6.326166240715509,
+      "rating": 1896,
+      "timeUTC": "2026-11-07T20:50:13.456480+00:00",
+      "score": 93,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222300,
+      "bot_id": 172,
+      "match_id": 42703,
+      "at": [
+        1794084681715597
+      ],
+      "openskill_mu": 39.496470711679805,
+      "openskill_sigma": 6.245834719511147,
+      "rating": 1927,
+      "timeUTC": "2026-11-07T20:51:21.715597+00:00",
+      "score": 81,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222308,
+      "bot_id": 172,
+      "match_id": 42704,
+      "at": [
+        1794084749959812
+      ],
+      "openskill_mu": 39.290146918004886,
+      "openskill_sigma": 6.154856026284353,
+      "rating": 1921,
+      "timeUTC": "2026-11-07T20:52:29.959812+00:00",
+      "score": 78,
+      "place": 4,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222312,
+      "bot_id": 172,
+      "match_id": 42705,
+      "at": [
+        1794084829728849
+      ],
+      "openskill_mu": 39.99847624487191,
+      "openskill_sigma": 6.08692296233336,
+      "rating": 1942,
+      "timeUTC": "2026-11-07T20:53:49.728849+00:00",
+      "score": 118,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222320,
+      "bot_id": 172,
+      "match_id": 42706,
+      "at": [
+        1794084898236652
+      ],
+      "openskill_mu": 40.23168698310411,
+      "openskill_sigma": 5.984176630658153,
+      "rating": 1949,
+      "timeUTC": "2026-11-07T20:54:58.236652+00:00",
+      "score": 81,
+      "place": 4,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222323,
+      "bot_id": 172,
+      "match_id": 42707,
+      "at": [
+        1794084966591089
+      ],
+      "openskill_mu": 42.02359165551313,
+      "openskill_sigma": 5.959040342067826,
+      "rating": 2002,
+      "timeUTC": "2026-11-07T20:56:06.591089+00:00",
+      "score": 126,
+      "place": 1,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222336,
+      "bot_id": 172,
+      "match_id": 42709,
+      "at": [
+        1794085104019424
+      ],
+      "openskill_mu": 42.771439236853865,
+      "openskill_sigma": 5.8852339907049265,
+      "rating": 2024,
+      "timeUTC": "2026-11-07T20:58:24.019424+00:00",
+      "score": 113,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222341,
+      "bot_id": 172,
+      "match_id": 42710,
+      "at": [
+        1794085172724726
+      ],
+      "openskill_mu": 44.7108857703354,
+      "openskill_sigma": 5.871790007700954,
+      "rating": 2081,
+      "timeUTC": "2026-11-07T20:59:32.724726+00:00",
+      "score": 138,
+      "place": 1,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222348,
+      "bot_id": 172,
+      "match_id": 42711,
+      "at": [
+        1794085241567988
+      ],
+      "openskill_mu": 45.267766684862416,
+      "openskill_sigma": 5.7974861189163285,
+      "rating": 2098,
+      "timeUTC": "2026-11-07T21:00:41.567988+00:00",
+      "score": 88,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222361,
+      "bot_id": 172,
+      "match_id": 42713,
+      "at": [
+        1794085394927556
+      ],
+      "openskill_mu": 44.31433209421045,
+      "openskill_sigma": 5.686134908300856,
+      "rating": 2069,
+      "timeUTC": "2026-11-07T21:03:14.927556+00:00",
+      "score": 84,
+      "place": 3,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222369,
+      "bot_id": 172,
+      "match_id": 42714,
+      "at": [
+        1794085469210696
+      ],
+      "openskill_mu": 42.63541812049554,
+      "openskill_sigma": 5.591811166537273,
+      "rating": 2020,
+      "timeUTC": "2026-11-07T21:04:29.210696+00:00",
+      "score": 45,
+      "place": 5,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222371,
+      "bot_id": 172,
+      "match_id": 42715,
+      "at": [
+        1794085537580748
+      ],
+      "openskill_mu": 43.789391010997484,
+      "openskill_sigma": 5.567363258230429,
+      "rating": 2054,
+      "timeUTC": "2026-11-07T21:05:37.580748+00:00",
+      "score": 132,
+      "place": 1,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222377,
+      "bot_id": 172,
+      "match_id": 42716,
+      "at": [
+        1794085606757518
+      ],
+      "openskill_mu": 45.45204059880183,
+      "openskill_sigma": 5.55329236106998,
+      "rating": 2103,
+      "timeUTC": "2026-11-07T21:06:46.757518+00:00",
+      "score": 102,
+      "place": 1,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222384,
+      "bot_id": 172,
+      "match_id": 42717,
+      "at": [
+        1794085676061550
+      ],
+      "openskill_mu": 46.04289336560812,
+      "openskill_sigma": 5.489574469888121,
+      "rating": 2120,
+      "timeUTC": "2026-11-07T21:07:56.061550+00:00",
+      "score": 138,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222389,
+      "bot_id": 172,
+      "match_id": 42718,
+      "at": [
+        1794085745833925
+      ],
+      "openskill_mu": 47.6189679169979,
+      "openskill_sigma": 5.473332353225472,
+      "rating": 2167,
+      "timeUTC": "2026-11-07T21:09:05.833925+00:00",
+      "score": 102,
+      "place": 1,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222398,
+      "bot_id": 172,
+      "match_id": 42719,
+      "at": [
+        1794085814691137
+      ],
+      "openskill_mu": 46.040693682676334,
+      "openskill_sigma": 5.356393929919308,
+      "rating": 2120,
+      "timeUTC": "2026-11-07T21:10:14.691137+00:00",
+      "score": 64,
+      "place": 4,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222405,
+      "bot_id": 172,
+      "match_id": 42720,
+      "at": [
+        1794085883105637
+      ],
+      "openskill_mu": 42.60869559124992,
+      "openskill_sigma": 5.259904158192584,
+      "rating": 2019,
+      "timeUTC": "2026-11-07T21:11:23.105637+00:00",
+      "score": 33,
+      "place": 5,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222409,
+      "bot_id": 172,
+      "match_id": 42721,
+      "at": [
+        1794085951329468
+      ],
+      "openskill_mu": 42.49356841975429,
+      "openskill_sigma": 5.218749051568599,
+      "rating": 2016,
+      "timeUTC": "2026-11-07T21:12:31.329468+00:00",
+      "score": 118,
+      "place": 3,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222416,
+      "bot_id": 172,
+      "match_id": 42722,
+      "at": [
+        1794086019710919
+      ],
+      "openskill_mu": 41.37366524760479,
+      "openskill_sigma": 5.148372900794996,
+      "rating": 1983,
+      "timeUTC": "2026-11-07T21:13:39.710919+00:00",
+      "score": 59,
+      "place": 4,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222426,
+      "bot_id": 172,
+      "match_id": 42724,
+      "at": [
+        1794086156263599
+      ],
+      "openskill_mu": 42.13002140030214,
+      "openskill_sigma": 5.114720488891004,
+      "rating": 2005,
+      "timeUTC": "2026-11-07T21:15:56.263599+00:00",
+      "score": 108,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222433,
+      "bot_id": 172,
+      "match_id": 42725,
+      "at": [
+        1794086224696139
+      ],
+      "openskill_mu": 42.01774382532475,
+      "openskill_sigma": 5.095880176052242,
+      "rating": 2002,
+      "timeUTC": "2026-11-07T21:17:04.696139+00:00",
+      "score": 99,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222438,
+      "bot_id": 172,
+      "match_id": 42726,
+      "at": [
+        1794086293676029
+      ],
+      "openskill_mu": 42.27524230716669,
+      "openskill_sigma": 5.069620262108159,
+      "rating": 2009,
+      "timeUTC": "2026-11-07T21:18:13.676029+00:00",
+      "score": 96,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222443,
+      "bot_id": 172,
+      "match_id": 42727,
+      "at": [
+        1794086362356305
+      ],
+      "openskill_mu": 43.22975748778545,
+      "openskill_sigma": 5.059478846019631,
+      "rating": 2037,
+      "timeUTC": "2026-11-07T21:19:22.356305+00:00",
+      "score": 127,
+      "place": 1,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222450,
+      "bot_id": 172,
+      "match_id": 42728,
+      "at": [
+        1794086441080013
+      ],
+      "openskill_mu": 44.573313300524326,
+      "openskill_sigma": 5.0371814207371095,
+      "rating": 2077,
+      "timeUTC": "2026-11-07T21:20:41.080013+00:00",
+      "score": 96,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222459,
+      "bot_id": 172,
+      "match_id": 42729,
+      "at": [
+        1794086510356173
+      ],
+      "openskill_mu": 43.78403245901217,
+      "openskill_sigma": 4.9825440216253485,
+      "rating": 2054,
+      "timeUTC": "2026-11-07T21:21:50.356173+00:00",
+      "score": 63,
+      "place": 5,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222463,
+      "bot_id": 172,
+      "match_id": 42730,
+      "at": [
+        1794086579605415
+      ],
+      "openskill_mu": 44.110108777493494,
+      "openskill_sigma": 4.934344175956762,
+      "rating": 2063,
+      "timeUTC": "2026-11-07T21:22:59.605415+00:00",
+      "score": 87,
+      "place": 3,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222470,
+      "bot_id": 172,
+      "match_id": 42731,
+      "at": [
+        1794086649107489
+      ],
+      "openskill_mu": 42.93179611360092,
+      "openskill_sigma": 4.871586078020967,
+      "rating": 2029,
+      "timeUTC": "2026-11-07T21:24:09.107489+00:00",
+      "score": 49,
+      "place": 4,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222478,
+      "bot_id": 172,
+      "match_id": 42732,
+      "at": [
+        1794086717791788
+      ],
+      "openskill_mu": 39.77824741815398,
+      "openskill_sigma": 4.809099759800024,
+      "rating": 1936,
+      "timeUTC": "2026-11-07T21:25:17.791788+00:00",
+      "score": 24,
+      "place": 6,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222479,
+      "bot_id": 172,
+      "match_id": 42733,
+      "at": [
+        1794086786609800
+      ],
+      "openskill_mu": 41.15263948673679,
+      "openskill_sigma": 4.802108385086386,
+      "rating": 1976,
+      "timeUTC": "2026-11-07T21:26:26.609800+00:00",
+      "score": 120,
+      "place": 1,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222487,
+      "bot_id": 172,
+      "match_id": 42734,
+      "at": [
+        1794086855488675
+      ],
+      "openskill_mu": 42.08243920832549,
+      "openskill_sigma": 4.777047334105471,
+      "rating": 2004,
+      "timeUTC": "2026-11-07T21:27:35.488675+00:00",
+      "score": 98,
+      "place": 3,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222494,
+      "bot_id": 172,
+      "match_id": 42735,
+      "at": [
+        1794086924224406
+      ],
+      "openskill_mu": 41.455254088730655,
+      "openskill_sigma": 4.73050149062694,
+      "rating": 1985,
+      "timeUTC": "2026-11-07T21:28:44.224406+00:00",
+      "score": 72,
+      "place": 4,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222500,
+      "bot_id": 172,
+      "match_id": 42736,
+      "at": [
+        1794086992430738
+      ],
+      "openskill_mu": 41.72670917851546,
+      "openskill_sigma": 4.69437481553013,
+      "rating": 1993,
+      "timeUTC": "2026-11-07T21:29:52.430738+00:00",
+      "score": 66,
+      "place": 4,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222505,
+      "bot_id": 172,
+      "match_id": 42737,
+      "at": [
+        1794087061010711
+      ],
+      "openskill_mu": 41.78052719711828,
+      "openskill_sigma": 4.654238293733718,
+      "rating": 1995,
+      "timeUTC": "2026-11-07T21:31:01.010711+00:00",
+      "score": 95,
+      "place": 3,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222514,
+      "bot_id": 172,
+      "match_id": 42738,
+      "at": [
+        1794087129752192
+      ],
+      "openskill_mu": 40.67866156825375,
+      "openskill_sigma": 4.602501744088057,
+      "rating": 1962,
+      "timeUTC": "2026-11-07T21:32:09.752192+00:00",
+      "score": 52,
+      "place": 6,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222517,
+      "bot_id": 172,
+      "match_id": 42739,
+      "at": [
+        1794087197950758
+      ],
+      "openskill_mu": 40.67826732621882,
+      "openskill_sigma": 4.576673111180116,
+      "rating": 1962,
+      "timeUTC": "2026-11-07T21:33:17.950758+00:00",
+      "score": 72,
+      "place": 3,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222525,
+      "bot_id": 172,
+      "match_id": 42740,
+      "at": [
+        1794087266666607
+      ],
+      "openskill_mu": 40.62645720866826,
+      "openskill_sigma": 4.520738666537658,
+      "rating": 1961,
+      "timeUTC": "2026-11-07T21:34:26.666607+00:00",
+      "score": 63,
+      "place": 5,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222537,
+      "bot_id": 172,
+      "match_id": 42742,
+      "at": [
+        1794087422956816
+      ],
+      "openskill_mu": 39.78722459987701,
+      "openskill_sigma": 4.484578071028051,
+      "rating": 1936,
+      "timeUTC": "2026-11-07T21:37:02.956816+00:00",
+      "score": 75,
+      "place": 5,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222547,
+      "bot_id": 172,
+      "match_id": 42744,
+      "at": [
+        1794087559366528
+      ],
+      "openskill_mu": 40.451635790685124,
+      "openskill_sigma": 4.4655370964586645,
+      "rating": 1956,
+      "timeUTC": "2026-11-07T21:39:19.366528+00:00",
+      "score": 81,
+      "place": 3,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222554,
+      "bot_id": 172,
+      "match_id": 42745,
+      "at": [
+        1794087627769244
+      ],
+      "openskill_mu": 39.923650698916404,
+      "openskill_sigma": 4.434077826660896,
+      "rating": 1940,
+      "timeUTC": "2026-11-07T21:40:27.769244+00:00",
+      "score": 70,
+      "place": 4,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222562,
+      "bot_id": 172,
+      "match_id": 42746,
+      "at": [
+        1794087717438647
+      ],
+      "openskill_mu": 38.518739268775704,
+      "openskill_sigma": 4.403164834208905,
+      "rating": 1899,
+      "timeUTC": "2026-11-07T21:41:57.438647+00:00",
+      "score": 67,
+      "place": 6,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222572,
+      "bot_id": 172,
+      "match_id": 42748,
+      "at": [
+        1794087942640979
+      ],
+      "openskill_mu": 38.99451009307561,
+      "openskill_sigma": 4.384638778568794,
+      "rating": 1913,
+      "timeUTC": "2026-11-07T21:45:42.640979+00:00",
+      "score": 67,
+      "place": 4,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 222607,
+      "bot_id": 172,
+      "match_id": 42754,
+      "at": [
+        1794088201410617
+      ],
+      "openskill_mu": 38.83812091212012,
+      "openskill_sigma": 4.362364904966579,
+      "rating": 1908,
+      "timeUTC": "2026-11-07T21:50:01.410617+00:00",
+      "score": 78,
+      "place": 3,
+      "source": "fcae4bb785c15a963b52501cf3f718a5ea7a2d1e"
+    },
+    {
+      "id": 222618,
+      "bot_id": 172,
+      "match_id": 42756,
+      "at": [
+        1794088270029339
+      ],
+      "openskill_mu": 39.65236649419416,
+      "openskill_sigma": 4.35138991987432,
+      "rating": 1932,
+      "timeUTC": "2026-11-07T21:51:10.029339+00:00",
+      "score": 93,
+      "place": 2,
+      "source": "fcae4bb785c15a963b52501cf3f718a5ea7a2d1e"
+    },
+    {
+      "id": 222629,
+      "bot_id": 172,
+      "match_id": 42758,
+      "at": [
+        1794088338489704
+      ],
+      "openskill_mu": 40.56346258699269,
+      "openskill_sigma": 4.3462258568990455,
+      "rating": 1959,
+      "timeUTC": "2026-11-07T21:52:18.489704+00:00",
+      "score": 82,
+      "place": 1,
+      "source": "fcae4bb785c15a963b52501cf3f718a5ea7a2d1e"
+    },
+    {
+      "id": 222644,
+      "bot_id": 172,
+      "match_id": 42760,
+      "at": [
+        1794088407691482
+      ],
+      "openskill_mu": 39.664007473813946,
+      "openskill_sigma": 4.3167370868332915,
+      "rating": 1932,
+      "timeUTC": "2026-11-07T21:53:27.691482+00:00",
+      "score": 57,
+      "place": 4,
+      "source": "fcae4bb785c15a963b52501cf3f718a5ea7a2d1e"
+    },
+    {
+      "id": 222654,
+      "bot_id": 172,
+      "match_id": 42762,
+      "at": [
+        1794088476978268
+      ],
+      "openskill_mu": 39.831114826657426,
+      "openskill_sigma": 4.299832266757077,
+      "rating": 1937,
+      "timeUTC": "2026-11-07T21:54:36.978268+00:00",
+      "score": 92,
+      "place": 2,
+      "source": "fcae4bb785c15a963b52501cf3f718a5ea7a2d1e"
+    },
+    {
+      "id": 222668,
+      "bot_id": 172,
+      "match_id": 42764,
+      "at": [
+        1794088545940300
+      ],
+      "openskill_mu": 39.38876722871219,
+      "openskill_sigma": 4.275673381179223,
+      "rating": 1924,
+      "timeUTC": "2026-11-07T21:55:45.940300+00:00",
+      "score": 78,
+      "place": 4,
+      "source": "fcae4bb785c15a963b52501cf3f718a5ea7a2d1e"
+    },
+    {
+      "id": 222681,
+      "bot_id": 172,
+      "match_id": 42766,
+      "at": [
+        1794088614364737
+      ],
+      "openskill_mu": 38.21975289623048,
+      "openskill_sigma": 4.244401198383097,
+      "rating": 1890,
+      "timeUTC": "2026-11-07T21:56:54.364737+00:00",
+      "score": 77,
+      "place": 5,
+      "source": "cb5f671c58f16c87701fb514c8a0fcb9ade7bf7d"
+    },
+    {
+      "id": 222697,
+      "bot_id": 172,
+      "match_id": 42769,
+      "at": [
+        1794088699982107
+      ],
+      "openskill_mu": 38.84957497912667,
+      "openskill_sigma": 4.226945453054892,
+      "rating": 1908,
+      "timeUTC": "2026-11-07T21:58:19.982107+00:00",
+      "score": 85,
+      "place": 3,
+      "source": "cb5f671c58f16c87701fb514c8a0fcb9ade7bf7d"
+    },
+    {
+      "id": 222709,
+      "bot_id": 172,
+      "match_id": 42771,
+      "at": [
+        1794088768589843
+      ],
+      "openskill_mu": 39.052476328014585,
+      "openskill_sigma": 4.213188747465304,
+      "rating": 1914,
+      "timeUTC": "2026-11-07T21:59:28.589843+00:00",
+      "score": 74,
+      "place": 3,
+      "source": "cb5f671c58f16c87701fb514c8a0fcb9ade7bf7d"
+    },
+    {
+      "id": 222728,
+      "bot_id": 172,
+      "match_id": 42774,
+      "at": [
+        1794088856924671
+      ],
+      "openskill_mu": 38.72163464820777,
+      "openskill_sigma": 4.194714458551311,
+      "rating": 1905,
+      "timeUTC": "2026-11-07T22:00:56.924671+00:00",
+      "score": 69,
+      "place": 4,
+      "source": "cb5f671c58f16c87701fb514c8a0fcb9ade7bf7d"
+    },
+    {
+      "id": 222745,
+      "bot_id": 172,
+      "match_id": 42777,
+      "at": [
+        1794088928040737
+      ],
+      "openskill_mu": 38.825607847844786,
+      "openskill_sigma": 4.181168437483569,
+      "rating": 1908,
+      "timeUTC": "2026-11-07T22:02:08.040737+00:00",
+      "score": 92,
+      "place": 3,
+      "source": "cb5f671c58f16c87701fb514c8a0fcb9ade7bf7d"
+    },
+    {
+      "id": 222763,
+      "bot_id": 172,
+      "match_id": 42780,
+      "at": [
+        1794088998308357
+      ],
+      "openskill_mu": 38.95730215581437,
+      "openskill_sigma": 4.16779266621586,
+      "rating": 1911,
+      "timeUTC": "2026-11-07T22:03:18.308357+00:00",
+      "score": 87,
+      "place": 3,
+      "source": "cb5f671c58f16c87701fb514c8a0fcb9ade7bf7d"
+    },
+    {
+      "id": 222773,
+      "bot_id": 172,
+      "match_id": 42782,
+      "at": [
+        1794089066639624
+      ],
+      "openskill_mu": 39.90249654503919,
+      "openskill_sigma": 4.1646799354888575,
+      "rating": 1939,
+      "timeUTC": "2026-11-07T22:04:26.639624+00:00",
+      "score": 105,
+      "place": 1,
+      "source": "cb5f671c58f16c87701fb514c8a0fcb9ade7bf7d"
+    },
+    {
+      "id": 222787,
+      "bot_id": 172,
+      "match_id": 42784,
+      "at": [
+        1794089135777569
+      ],
+      "openskill_mu": 40.148135170044476,
+      "openskill_sigma": 4.149318258111418,
+      "rating": 1947,
+      "timeUTC": "2026-11-07T22:05:35.777569+00:00",
+      "score": 97,
+      "place": 3,
+      "source": "cb5f671c58f16c87701fb514c8a0fcb9ade7bf7d"
+    },
+    {
+      "id": 222798,
+      "bot_id": 172,
+      "match_id": 42786,
+      "at": [
+        1794089204713453
+      ],
+      "openskill_mu": 40.15745715722625,
+      "openskill_sigma": 4.140444349732033,
+      "rating": 1947,
+      "timeUTC": "2026-11-07T22:06:44.713453+00:00",
+      "score": 87,
+      "place": 2,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 222815,
+      "bot_id": 172,
+      "match_id": 42789,
+      "at": [
+        1794089274528089
+      ],
+      "openskill_mu": 40.93104123478582,
+      "openskill_sigma": 4.136720014227691,
+      "rating": 1970,
+      "timeUTC": "2026-11-07T22:07:54.528089+00:00",
+      "score": 115,
+      "place": 1,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 222834,
+      "bot_id": 172,
+      "match_id": 42792,
+      "at": [
+        1794089343592663
+      ],
+      "openskill_mu": 41.4044250839805,
+      "openskill_sigma": 4.127327047512223,
+      "rating": 1984,
+      "timeUTC": "2026-11-07T22:09:03.592663+00:00",
+      "score": 85,
+      "place": 2,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 222849,
+      "bot_id": 172,
+      "match_id": 42794,
+      "at": [
+        1794089411972312
+      ],
+      "openskill_mu": 41.489774153893066,
+      "openskill_sigma": 4.100040287205787,
+      "rating": 1986,
+      "timeUTC": "2026-11-07T22:10:11.972312+00:00",
+      "score": 57,
+      "place": 5,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 222864,
+      "bot_id": 172,
+      "match_id": 42797,
+      "at": [
+        1794089539467078
+      ],
+      "openskill_mu": 42.18969063631956,
+      "openskill_sigma": 4.089784326436057,
+      "rating": 2007,
+      "timeUTC": "2026-11-07T22:12:19.467078+00:00",
+      "score": 86,
+      "place": 2,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 222884,
+      "bot_id": 172,
+      "match_id": 42800,
+      "at": [
+        1794089608026551
+      ],
+      "openskill_mu": 41.84493430828642,
+      "openskill_sigma": 4.070123006896384,
+      "rating": 1997,
+      "timeUTC": "2026-11-07T22:13:28.026551+00:00",
+      "score": 66,
+      "place": 3,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 222901,
+      "bot_id": 172,
+      "match_id": 42803,
+      "at": [
+        1794089689212444
+      ],
+      "openskill_mu": 41.71840266332032,
+      "openskill_sigma": 4.0455148872317475,
+      "rating": 1993,
+      "timeUTC": "2026-11-07T22:14:49.212444+00:00",
+      "score": 91,
+      "place": 3,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 222912,
+      "bot_id": 172,
+      "match_id": 42805,
+      "at": [
+        1794089758340770
+      ],
+      "openskill_mu": 42.39161178886777,
+      "openskill_sigma": 4.038572446163365,
+      "rating": 2013,
+      "timeUTC": "2026-11-07T22:15:58.340770+00:00",
+      "score": 99,
+      "place": 2,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 222930,
+      "bot_id": 172,
+      "match_id": 42808,
+      "at": [
+        1794089828117606
+      ],
+      "openskill_mu": 42.79938665198063,
+      "openskill_sigma": 4.028390740706077,
+      "rating": 2025,
+      "timeUTC": "2026-11-07T22:17:08.117606+00:00",
+      "score": 113,
+      "place": 2,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 222949,
+      "bot_id": 172,
+      "match_id": 42811,
+      "at": [
+        1794089898191061
+      ],
+      "openskill_mu": 42.51713127789219,
+      "openskill_sigma": 4.0068656869762584,
+      "rating": 2016,
+      "timeUTC": "2026-11-07T22:18:18.191061+00:00",
+      "score": 90,
+      "place": 3,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 222967,
+      "bot_id": 172,
+      "match_id": 42814,
+      "at": [
+        1794089967648796
+      ],
+      "openskill_mu": 42.569665323027515,
+      "openskill_sigma": 3.9909641163551886,
+      "rating": 2018,
+      "timeUTC": "2026-11-07T22:19:27.648796+00:00",
+      "score": 84,
+      "place": 3,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 222979,
+      "bot_id": 172,
+      "match_id": 42816,
+      "at": [
+        1794090036369576
+      ],
+      "openskill_mu": 42.51024498832735,
+      "openskill_sigma": 3.9818436684796747,
+      "rating": 2016,
+      "timeUTC": "2026-11-07T22:20:36.369576+00:00",
+      "score": 76,
+      "place": 2,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 222992,
+      "bot_id": 172,
+      "match_id": 42818,
+      "at": [
+        1794090104770294
+      ],
+      "openskill_mu": 41.915115469318906,
+      "openskill_sigma": 3.9651234901659778,
+      "rating": 1999,
+      "timeUTC": "2026-11-07T22:21:44.770294+00:00",
+      "score": 80,
+      "place": 4,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 223001,
+      "bot_id": 172,
+      "match_id": 42820,
+      "at": [
+        1794090172988963
+      ],
+      "openskill_mu": 42.756838074729366,
+      "openskill_sigma": 3.961983084463879,
+      "rating": 2023,
+      "timeUTC": "2026-11-07T22:22:52.988963+00:00",
+      "score": 111,
+      "place": 1,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 223013,
+      "bot_id": 172,
+      "match_id": 42822,
+      "at": [
+        1794090241710618
+      ],
+      "openskill_mu": 43.50722329678564,
+      "openskill_sigma": 3.956457713316517,
+      "rating": 2046,
+      "timeUTC": "2026-11-07T22:24:01.710618+00:00",
+      "score": 109,
+      "place": 1,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 223033,
+      "bot_id": 172,
+      "match_id": 42825,
+      "at": [
+        1794090328763482
+      ],
+      "openskill_mu": 43.14342012321386,
+      "openskill_sigma": 3.937807723776534,
+      "rating": 2035,
+      "timeUTC": "2026-11-07T22:25:28.763482+00:00",
+      "score": 67,
+      "place": 3,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 223052,
+      "bot_id": 172,
+      "match_id": 42828,
+      "at": [
+        1794090406366627
+      ],
+      "openskill_mu": 43.03988904005164,
+      "openskill_sigma": 3.921904033580387,
+      "rating": 2032,
+      "timeUTC": "2026-11-07T22:26:46.366627+00:00",
+      "score": 75,
+      "place": 3,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 223062,
+      "bot_id": 172,
+      "match_id": 42830,
+      "at": [
+        1794090475086466
+      ],
+      "openskill_mu": 42.98162026304649,
+      "openskill_sigma": 3.913475308376878,
+      "rating": 2030,
+      "timeUTC": "2026-11-07T22:27:55.086466+00:00",
+      "score": 66,
+      "place": 2,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 223082,
+      "bot_id": 172,
+      "match_id": 42833,
+      "at": [
+        1794090591488674
+      ],
+      "openskill_mu": 42.6646828195632,
+      "openskill_sigma": 3.8924909501676015,
+      "rating": 2021,
+      "timeUTC": "2026-11-07T22:29:51.488674+00:00",
+      "score": 78,
+      "place": 4,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 223100,
+      "bot_id": 172,
+      "match_id": 42836,
+      "at": [
+        1794090668758572
+      ],
+      "openskill_mu": 42.48449452739527,
+      "openskill_sigma": 3.8674221071376027,
+      "rating": 2015,
+      "timeUTC": "2026-11-07T22:31:08.758572+00:00",
+      "score": 82,
+      "place": 4,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 223120,
+      "bot_id": 172,
+      "match_id": 42839,
+      "at": [
+        1794090750317188
+      ],
+      "openskill_mu": 41.600170079633465,
+      "openskill_sigma": 3.848227179656916,
+      "rating": 1989,
+      "timeUTC": "2026-11-07T22:32:30.317188+00:00",
+      "score": 59,
+      "place": 6,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 223136,
+      "bot_id": 172,
+      "match_id": 42842,
+      "at": [
+        1794090819275889
+      ],
+      "openskill_mu": 41.40202272057276,
+      "openskill_sigma": 3.8293926582715834,
+      "rating": 1984,
+      "timeUTC": "2026-11-07T22:33:39.275889+00:00",
+      "score": 73,
+      "place": 4,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 223153,
+      "bot_id": 172,
+      "match_id": 42845,
+      "at": [
+        1794090888471706
+      ],
+      "openskill_mu": 41.689180333295035,
+      "openskill_sigma": 3.8167239296436284,
+      "rating": 1992,
+      "timeUTC": "2026-11-07T22:34:48.471706+00:00",
+      "score": 70,
+      "place": 3,
+      "source": "0890ce4e58f4fb094190b51ad319f06febd726c0"
+    },
+    {
+      "id": 223174,
+      "bot_id": 172,
+      "match_id": 42848,
+      "at": [
+        1794090957106243
+      ],
+      "openskill_mu": 40.473814736358,
+      "openskill_sigma": 3.793776682721261,
+      "rating": 1956,
+      "timeUTC": "2026-11-07T22:35:57.106243+00:00",
+      "score": 51,
+      "place": 6,
+      "source": "6ed86a73c28779a96f0d21214aa97fa7e30fea8b"
+    },
+    {
+      "id": 223192,
+      "bot_id": 172,
+      "match_id": 42851,
+      "at": [
+        1794091026523402
+      ],
+      "openskill_mu": 39.403504454333174,
+      "openskill_sigma": 3.7716723485767765,
+      "rating": 1925,
+      "timeUTC": "2026-11-07T22:37:06.523402+00:00",
+      "score": 42,
+      "place": 6,
+      "source": "6ed86a73c28779a96f0d21214aa97fa7e30fea8b"
+    },
+    {
+      "id": 223206,
+      "bot_id": 172,
+      "match_id": 42854,
+      "at": [
+        1794091095187368
+      ],
+      "openskill_mu": 39.7317232667226,
+      "openskill_sigma": 3.7661615808256954,
+      "rating": 1934,
+      "timeUTC": "2026-11-07T22:38:15.187368+00:00",
+      "score": 91,
+      "place": 2,
+      "source": "6ed86a73c28779a96f0d21214aa97fa7e30fea8b"
+    },
+    {
+      "id": 223225,
+      "bot_id": 172,
+      "match_id": 42857,
+      "at": [
+        1794091163625633
+      ],
+      "openskill_mu": 40.09983668599084,
+      "openskill_sigma": 3.755201554589968,
+      "rating": 1945,
+      "timeUTC": "2026-11-07T22:39:23.625633+00:00",
+      "score": 67,
+      "place": 3,
+      "source": "6ed86a73c28779a96f0d21214aa97fa7e30fea8b"
+    },
+    {
+      "id": 223242,
+      "bot_id": 172,
+      "match_id": 42860,
+      "at": [
+        1794091232554792
+      ],
+      "openskill_mu": 40.37310058632703,
+      "openskill_sigma": 3.7453166988524167,
+      "rating": 1953,
+      "timeUTC": "2026-11-07T22:40:32.554792+00:00",
+      "score": 87,
+      "place": 2,
+      "source": "6ed86a73c28779a96f0d21214aa97fa7e30fea8b"
+    },
+    {
+      "id": 223260,
+      "bot_id": 172,
+      "match_id": 42863,
+      "at": [
+        1794091301403467
+      ],
+      "openskill_mu": 40.735145886626476,
+      "openskill_sigma": 3.7340285622672567,
+      "rating": 1964,
+      "timeUTC": "2026-11-07T22:41:41.403467+00:00",
+      "score": 107,
+      "place": 2,
+      "source": "6ed86a73c28779a96f0d21214aa97fa7e30fea8b"
+    },
+    {
+      "id": 223286,
+      "bot_id": 172,
+      "match_id": 42867,
+      "at": [
+        1794091374846155
+      ],
+      "openskill_mu": 39.98092480453131,
+      "openskill_sigma": 3.712862518328157,
+      "rating": 1942,
+      "timeUTC": "2026-11-07T22:42:54.846155+00:00",
+      "score": 78,
+      "place": 4,
+      "source": "6ed86a73c28779a96f0d21214aa97fa7e30fea8b"
+    },
+    {
+      "id": 223304,
+      "bot_id": 172,
+      "match_id": 42870,
+      "at": [
+        1794091443804512
+      ],
+      "openskill_mu": 39.73145616878785,
+      "openskill_sigma": 3.699479135124922,
+      "rating": 1934,
+      "timeUTC": "2026-11-07T22:44:03.804512+00:00",
+      "score": 52,
+      "place": 4,
+      "source": "6ed86a73c28779a96f0d21214aa97fa7e30fea8b"
+    },
+    {
+      "id": 223321,
+      "bot_id": 172,
+      "match_id": 42873,
+      "at": [
+        1794091512557738
+      ],
+      "openskill_mu": 39.90974338778567,
+      "openskill_sigma": 3.685059789580397,
+      "rating": 1940,
+      "timeUTC": "2026-11-07T22:45:12.557738+00:00",
+      "score": 77,
+      "place": 3,
+      "source": "a86d8ca1c5284aa4260bbbfcdca312a9f19187f9"
+    },
+    {
+      "id": 223338,
+      "bot_id": 172,
+      "match_id": 42876,
+      "at": [
+        1794091581218017
+      ],
+      "openskill_mu": 40.478300038509964,
+      "openskill_sigma": 3.6786179601971867,
+      "rating": 1956,
+      "timeUTC": "2026-11-07T22:46:21.218017+00:00",
+      "score": 98,
+      "place": 2,
+      "source": "a86d8ca1c5284aa4260bbbfcdca312a9f19187f9"
+    },
+    {
+      "id": 223359,
+      "bot_id": 172,
+      "match_id": 42879,
+      "at": [
+        1794091649657906
+      ],
+      "openskill_mu": 39.21686733521087,
+      "openskill_sigma": 3.6558767404268866,
+      "rating": 1919,
+      "timeUTC": "2026-11-07T22:47:29.657906+00:00",
+      "score": 64,
+      "place": 5,
+      "source": "a86d8ca1c5284aa4260bbbfcdca312a9f19187f9"
+    },
+    {
+      "id": 223380,
+      "bot_id": 172,
+      "match_id": 42883,
+      "at": [
+        1794091718451569
+      ],
+      "openskill_mu": 39.797230436411944,
+      "openskill_sigma": 3.6499808911228535,
+      "rating": 1936,
+      "timeUTC": "2026-11-07T22:48:38.451569+00:00",
+      "score": 93,
+      "place": 2,
+      "source": "a86d8ca1c5284aa4260bbbfcdca312a9f19187f9"
+    },
+    {
+      "id": 223399,
+      "bot_id": 172,
+      "match_id": 42886,
+      "at": [
+        1794091787514874
+      ],
+      "openskill_mu": 39.77202947031565,
+      "openskill_sigma": 3.6378079250890965,
+      "rating": 1935,
+      "timeUTC": "2026-11-07T22:49:47.514874+00:00",
+      "score": 81,
+      "place": 3,
+      "source": "a86d8ca1c5284aa4260bbbfcdca312a9f19187f9"
+    },
+    {
+      "id": 223415,
+      "bot_id": 172,
+      "match_id": 42889,
+      "at": [
+        1794091860301076
+      ],
+      "openskill_mu": 40.5681420922456,
+      "openskill_sigma": 3.6348505500565347,
+      "rating": 1959,
+      "timeUTC": "2026-11-07T22:51:00.301076+00:00",
+      "score": 111,
+      "place": 1,
+      "source": "a86d8ca1c5284aa4260bbbfcdca312a9f19187f9"
+    },
+    {
+      "id": 223440,
+      "bot_id": 172,
+      "match_id": 42893,
+      "at": [
+        1794091950950747
+      ],
+      "openskill_mu": 28.1368747204706,
+      "openskill_sigma": 8.271851423376635,
+      "rating": 1592,
+      "timeUTC": "2026-11-07T22:52:30.950747+00:00",
+      "score": 114,
+      "place": 2,
+      "source": "a86d8ca1c5284aa4260bbbfcdca312a9f19187f9"
+    },
+    {
+      "id": 223459,
+      "bot_id": 172,
+      "match_id": 42896,
+      "at": [
+        1794092019770533
+      ],
+      "openskill_mu": 30.232638085333523,
+      "openskill_sigma": 8.098388302614456,
+      "rating": 1654,
+      "timeUTC": "2026-11-07T22:53:39.770533+00:00",
+      "score": 67,
+      "place": 3,
+      "source": "a86d8ca1c5284aa4260bbbfcdca312a9f19187f9"
+    },
+    {
+      "id": 223485,
+      "bot_id": 172,
+      "match_id": 42900,
+      "at": [
+        1794092089578213
+      ],
+      "openskill_mu": 26.64281035432688,
+      "openskill_sigma": 7.726054213975432,
+      "rating": 1548,
+      "timeUTC": "2026-11-07T22:54:49.578213+00:00",
+      "score": 44,
+      "place": 5,
+      "source": "a86d8ca1c5284aa4260bbbfcdca312a9f19187f9"
+    },
+    {
+      "id": 223503,
+      "bot_id": 172,
+      "match_id": 42903,
+      "at": [
+        1794092158373556
+      ],
+      "openskill_mu": 27.958799137818808,
+      "openskill_sigma": 7.58174426183907,
+      "rating": 1587,
+      "timeUTC": "2026-11-07T22:55:58.373556+00:00",
+      "score": 64,
+      "place": 5,
+      "source": "a86d8ca1c5284aa4260bbbfcdca312a9f19187f9"
+    },
+    {
+      "id": 223525,
+      "bot_id": 172,
+      "match_id": 42907,
+      "at": [
+        1794092227793463
+      ],
+      "openskill_mu": 28.9405962639628,
+      "openskill_sigma": 7.536201858291945,
+      "rating": 1616,
+      "timeUTC": "2026-11-07T22:57:07.793463+00:00",
+      "score": 87,
+      "place": 2,
+      "source": "a86d8ca1c5284aa4260bbbfcdca312a9f19187f9"
+    },
+    {
+      "id": 223549,
+      "bot_id": 172,
+      "match_id": 42911,
+      "at": [
+        1794092297113771
+      ],
+      "openskill_mu": 30.64974023187695,
+      "openskill_sigma": 7.4362927213496155,
+      "rating": 1667,
+      "timeUTC": "2026-11-07T22:58:17.113771+00:00",
+      "score": 84,
+      "place": 3,
+      "source": "a86d8ca1c5284aa4260bbbfcdca312a9f19187f9"
+    },
+    {
+      "id": 223573,
+      "bot_id": 172,
+      "match_id": 42915,
+      "at": [
+        1794092366058458
+      ],
+      "openskill_mu": 31.31497923485501,
+      "openskill_sigma": 7.261745941305606,
+      "rating": 1686,
+      "timeUTC": "2026-11-07T22:59:26.058458+00:00",
+      "score": 76,
+      "place": 3,
+      "source": "4516da7c40babda684fb189453f04f84db50a4bb"
+    },
+    {
+      "id": 223595,
+      "bot_id": 172,
+      "match_id": 42919,
+      "at": [
+        1794092435896413
+      ],
+      "openskill_mu": 33.737870183997146,
+      "openskill_sigma": 7.237163339614956,
+      "rating": 1758,
+      "timeUTC": "2026-11-07T23:00:35.896413+00:00",
+      "score": 110,
+      "place": 1,
+      "source": "4516da7c40babda684fb189453f04f84db50a4bb"
+    },
+    {
+      "id": 223620,
+      "bot_id": 172,
+      "match_id": 42923,
+      "at": [
+        1794092505832831
+      ],
+      "openskill_mu": 35.41322972976364,
+      "openskill_sigma": 7.176899885885114,
+      "rating": 1807,
+      "timeUTC": "2026-11-07T23:01:45.832831+00:00",
+      "score": 97,
+      "place": 2,
+      "source": "4516da7c40babda684fb189453f04f84db50a4bb"
+    },
+    {
+      "id": 223645,
+      "bot_id": 172,
+      "match_id": 42927,
+      "at": [
+        1794092574983150
+      ],
+      "openskill_mu": 37.12553072989442,
+      "openskill_sigma": 7.091070694132774,
+      "rating": 1857,
+      "timeUTC": "2026-11-07T23:02:54.983150+00:00",
+      "score": 71,
+      "place": 3,
+      "source": "4516da7c40babda684fb189453f04f84db50a4bb"
+    },
+    {
+      "id": 223668,
+      "bot_id": 172,
+      "match_id": 42931,
+      "at": [
+        1794092644758818
+      ],
+      "openskill_mu": 39.27085977561417,
+      "openskill_sigma": 7.037576653716312,
+      "rating": 1921,
+      "timeUTC": "2026-11-07T23:04:04.758818+00:00",
+      "score": 94,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 223710,
+      "bot_id": 172,
+      "match_id": 42938,
+      "at": [
+        1794092798107107
+      ],
+      "openskill_mu": 40.93687246084442,
+      "openskill_sigma": 6.940369612944406,
+      "rating": 1970,
+      "timeUTC": "2026-11-07T23:06:38.107107+00:00",
+      "score": 86,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 223736,
+      "bot_id": 172,
+      "match_id": 42942,
+      "at": [
+        1794092867705423
+      ],
+      "openskill_mu": 40.35808356627307,
+      "openskill_sigma": 6.779779542891516,
+      "rating": 1953,
+      "timeUTC": "2026-11-07T23:07:47.705423+00:00",
+      "score": 68,
+      "place": 4,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 223768,
+      "bot_id": 172,
+      "match_id": 42947,
+      "at": [
+        1794092966387204
+      ],
+      "openskill_mu": 36.28231353082385,
+      "openskill_sigma": 6.558659169656686,
+      "rating": 1833,
+      "timeUTC": "2026-11-07T23:09:26.387204+00:00",
+      "score": 33,
+      "place": 6,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 223834,
+      "bot_id": 172,
+      "match_id": 42958,
+      "at": [
+        1794093143375828
+      ],
+      "openskill_mu": 31.90476141688339,
+      "openskill_sigma": 6.397964952396538,
+      "rating": 1704,
+      "timeUTC": "2026-11-07T23:12:23.375828+00:00",
+      "score": 56,
+      "place": 6,
+      "source": "4516da7c40babda684fb189453f04f84db50a4bb"
+    },
+    {
+      "id": 223857,
+      "bot_id": 172,
+      "match_id": 42962,
+      "at": [
+        1794093212588204
+      ],
+      "openskill_mu": 30.884058851509703,
+      "openskill_sigma": 6.275952575655503,
+      "rating": 1673,
+      "timeUTC": "2026-11-07T23:13:32.588204+00:00",
+      "score": 36,
+      "place": 5,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 223956,
+      "bot_id": 172,
+      "match_id": 42979,
+      "at": [
+        1794093488215327
+      ],
+      "openskill_mu": 32.44344548925481,
+      "openskill_sigma": 6.240263984253608,
+      "rating": 1719,
+      "timeUTC": "2026-11-07T23:18:08.215327+00:00",
+      "score": 116,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 223985,
+      "bot_id": 172,
+      "match_id": 42984,
+      "at": [
+        1794093557488594
+      ],
+      "openskill_mu": 34.401967315556014,
+      "openskill_sigma": 6.231176780078464,
+      "rating": 1777,
+      "timeUTC": "2026-11-07T23:19:17.488594+00:00",
+      "score": 99,
+      "place": 1,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 224017,
+      "bot_id": 172,
+      "match_id": 42989,
+      "at": [
+        1794093626095482
+      ],
+      "openskill_mu": 34.451023402062674,
+      "openskill_sigma": 6.159391042757719,
+      "rating": 1779,
+      "timeUTC": "2026-11-07T23:20:26.095482+00:00",
+      "score": 104,
+      "place": 3,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 224048,
+      "bot_id": 172,
+      "match_id": 42994,
+      "at": [
+        1794093694936412
+      ],
+      "openskill_mu": 34.382292499374465,
+      "openskill_sigma": 6.065106426519879,
+      "rating": 1777,
+      "timeUTC": "2026-11-07T23:21:34.936412+00:00",
+      "score": 65,
+      "place": 4,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 224069,
+      "bot_id": 172,
+      "match_id": 42998,
+      "at": [
+        1794093763513782
+      ],
+      "openskill_mu": 36.030510484604434,
+      "openskill_sigma": 6.042552866028514,
+      "rating": 1825,
+      "timeUTC": "2026-11-07T23:22:43.513782+00:00",
+      "score": 110,
+      "place": 1,
+      "source": "not in local source-tagged logs"
+    },
+    {
+      "id": 224100,
+      "bot_id": 172,
+      "match_id": 43003,
+      "at": [
+        1794093832113725
+      ],
+      "openskill_mu": 36.98518657100754,
+      "openskill_sigma": 5.991884657471141,
+      "rating": 1853,
+      "timeUTC": "2026-11-07T23:23:52.113725+00:00",
+      "score": 115,
+      "place": 2,
+      "source": "not in local source-tagged logs"
+    }
+  ]
+}

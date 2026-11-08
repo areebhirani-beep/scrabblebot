@@ -124,6 +124,62 @@
     {
       "file": "lucentlab-win30-price-future-screen-reactive-summary.json",
       "sha256": "f65824cd522286342d7891c97af433a38b8b00a56998f7c0d96f3ddce697faa4"
+    },
+    {
+      "file": "win30-gain-price-validation-256-config.json",
+      "sha256": "96da3e481adfe2c8491b2a8c80216139ee07a9d469a7a44be1d2b67205ee0b4a"
+    },
+    {
+      "file": "win30-gain-price-validation-256-reactive-summary.json",
+      "sha256": "0127aaf2659b4e653b0bb1754a34340bc43a4548f59962bb649f137b3ee84ad3"
+    },
+    {
+      "file": "win30-gain-price-validation-256-reactive-summary-postprocess.json",
+      "sha256": "a73111d5da504035f8350cac0f5e1c5bc1debe8a4c6aab9a998bcc1109a4d6c9"
+    },
+    {
+      "file": "win30-gain-price-validation-256-live-BASE-reactive.json",
+      "sha256": "d9ac7b0beadb68b55b000794458e510ae6b9f9ab47486420dd12c21ec22fda09"
+    },
+    {
+      "file": "win30-gain-price-validation-256-live-GAIN13-reactive.json",
+      "sha256": "000b1900d369727d08617fcccb60e86e865fd42309910e7b4a4e540abb9e18a3"
+    },
+    {
+      "file": "win30-gain-price-validation-256-live-PRICE2-reactive.json",
+      "sha256": "81828b7822f5867b38c6e9f8b8aa2ea064b4535fe6a87803cdc6dace368fab63"
+    },
+    {
+      "file": "retired-version1-rating.json",
+      "sha256": "e7b7872f12bd32a4d70594c7aa6c27a0529109d3e35de7c68ad6db4614c3a379"
+    },
+    {
+      "file": "rating-history-attribution.json",
+      "sha256": "7b9c97348066383c1ffd59d7b0110071978b95add797facea90a4fd305b7515a"
+    },
+    {
+      "file": "1970-rise-cohort-comparison.json",
+      "sha256": "01a761b8f5b7b528d7f043d2c7d06ce7214e14b50af0bab9482c27276d14d866"
+    },
+    {
+      "file": "completion-floor-full-lexicon-probe.json",
+      "sha256": "918c4314c21195c2f53831cc998569e27ae417552fcb2f3bd579f8195a12e1ab"
+    },
+    {
+      "file": "win30-residual-audit.json",
+      "sha256": "747b8087dc9130120b0c1a2f01cd9f25149937d99f3832fcc88b94dd025ed122"
+    },
+    {
+      "file": "completion-floor-win30-screen-reactive-summary.json",
+      "sha256": "b921e63cd1129fcf4a3128fe3a55ab15ee94d15bc5e677f760939d36e5721860"
+    },
+    {
+      "file": "completion-floor-win30-screen-live-BASE-reactive.json",
+      "sha256": "335067546938d57315f8647ead20f2c97f19bc4be633e68e793ccc1902ac29dc"
+    },
+    {
+      "file": "completion-floor-win30-screen-live-FLOOR1-reactive.json",
+      "sha256": "1034e18e98fd8def385b5c59414ad6629367b18e80e27960537f87cd7f58cef7"
     }
   ]
 }

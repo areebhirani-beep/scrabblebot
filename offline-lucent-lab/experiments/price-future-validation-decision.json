@@ -1,0 +1,11 @@
+{
+  "id": "price-future-fresh256-validation",
+  "family": "price-weighted-future-tiles",
+  "hypothesis": "Price-weighted future acquisition composition improves score and wins against WIN30 on independent worlds.",
+  "decision": "reject",
+  "evidence": "../bot-starter/docs/experiments/win30-gain-price-validation-256-reactive-summary.json",
+  "observed": "Fresh seed881701,256 unique worlds per arm,768 matches total: BASE89.7422points/25.3906%wins; PRICE2 87.1250/24.2188%. Long-word points70.7344 ->66.9023 and long words1.7539 ->1.5703. Score delta-2.6172; win delta-1.1719pp.",
+  "reason": "Reject promotion of PRICE2: the screen improvement did not replicate, with both primary point estimates lower. Preserve the candidate and all failures; keep disabled.",
+  "uncertainty": "Synthetic reactive field, one execution per world per arm, CPU-timed search. Conditional score95CI[-6.4965,1.0276],winpp95CI[-7.0313,4.6875]. Intervals include zero; this is rejection of deployment evidence, not proof the mechanism always harms performance.",
+  "revisitWhen": "Change the mechanism or supply new calibrated acquisition evidence explaining an identifiable failure; fresh seeds alone do not justify repeating this price exponent as a new improvement."
+}
