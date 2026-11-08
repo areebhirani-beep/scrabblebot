@@ -26,6 +26,9 @@ export const TUNED_ADV: AdvParams = {
   cashLen: 7,
   paceEarly: 0.8,
   paceLate: 2.5,
+  maxBidShare: 1.0, // spend the whole balance: best in both market grids (old 28% vs 22%, fresh 80.8 vs 77.6 pts)
+  denyLast: 15, // last 15 auctions: bid at least 1.5 x balance/auctions left (fresh grid 84.4 vs 80.8 pts)
+  denyMult: 1.5,
   huGain: 2,
   huPaceEarly: 1.1,
   huHorizon: 10,
