@@ -1,0 +1,16 @@
+{
+  "kind": "screen",
+  "family": "price-weighted-future-tiles",
+  "hypothesis": "Discounting expensive letters in sampled future acquisitions values current opportunities more realistically and improves wins plus score against current WIN30. Keep horizon unchanged to isolate composition.",
+  "offlineOnly": true,
+  "objectives": [
+    "winRate",
+    "meanScore"
+  ],
+  "baseline": "WIN30 user-selected live policy: gain1.1 neutralSixHorizon winBonus30",
+  "screenConfig": "experiments/price-future-screen.json",
+  "data": "34 historical training matches only; per-letter median rival bid",
+  "warning": "A price-weight heuristic, not a complete auction rollout. Rejected cashout mechanism remains off. No deployment or screen promotion.",
+  "repeatsPerWorld": 3,
+  "falsifier": "Reject if score or wins fall against paired WIN30 or if repeated runs violate stability. Nominees require fresh-seed unseen-field validation."
+}

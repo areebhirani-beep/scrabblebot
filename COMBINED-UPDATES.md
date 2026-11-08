@@ -28,3 +28,7 @@ Priced cashout was rejected after a 192-game screen. Its saved failure world cha
 - [Offline improvement loop](offline-lucent-lab/SELF-IMPROVEMENT.md).
 
 Combined verification: 134 TypeScript tests, 62 Python evaluation tests, 8 lab workflow tests and TypeScript build passed. Tests use existing generated bindings; regenerate them on a fresh checkout as described by the bot starter documentation. No live match test was run by the integration session.
+
+## Follow-up acquisition screen
+
+An opt-in training-price prior changes the composition of sampled future tiles while keeping their count unchanged. Its strongest setting (`futurePricePower: 2`) scored88.81points with37.5%wins against WIN30's84.13points/21.88% in32pairedworlds repeated3times. Mean points per seven-plus word rose38.67→44.47. Conditional paired intervals still include zero: score delta4.69[-5.56,14.19], win delta15.63pp[-3.13,34.38]. This is a validation candidate, not a proven improvement or a live deployment. All arms, frozen source and the decision remain saved. Fifteen targeted acquisition/MC/utility tests and the TypeScript build passed on the exact pinned live source plus this optional change.

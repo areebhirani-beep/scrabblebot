@@ -449,7 +449,7 @@ if (ONE) {
   if (!fields[cfg.field]) throw new Error(`Unknown interactive field: ${cfg.field}`);
   let place = 0, score = 0, wins = 0;
   const details: { matchIndex: number; score: number; place: number; win: boolean; balance: number; fieldScores: number[];
-    telemetry: SimPlayerTelemetry; fieldTelemetry: SimPlayerTelemetry[]; opponentStyles: string[] }[] = [];
+    words7Plus: number; points7Plus: number; wordLengths: number[]; telemetry: SimPlayerTelemetry; fieldTelemetry: SimPlayerTelemetry[]; opponentStyles: string[] }[] = [];
   for (let m = 0; m < N; m++) {
     const ps = fields[cfg.field]!();
     const result = runMatch(ps, cfg.seed ?? 777, m, { auctionType: cfg.auctionType, telemetry: !!process.env.SIM_DETAILS });
@@ -459,6 +459,9 @@ if (ONE) {
     place += pl; score += ps[0]!.score; if (pl === 1) wins++;
     if (process.env.SIM_DETAILS) details.push({ matchIndex: m, score: ps[0]!.score, place: pl, win: pl === 1,
       balance: ps[0]!.balance, fieldScores: ps.map(player => player.score), telemetry: result.telemetry![0]!,
+      words7Plus: result.plays.filter(w => w.botId === 0n && w.word.length >= 7).length,
+      points7Plus: result.plays.filter(w => w.botId === 0n && w.word.length >= 7).reduce((s, w) => s + reward(w.word), 0),
+      wordLengths: result.plays.filter(w => w.botId === 0n).map(w => w.word.length),
       fieldTelemetry: result.telemetry!, opponentStyles: result.telemetry!.slice(1).map(player => player.style) });
     if (process.env.SIM_PROGRESS && ((m + 1) % 8 === 0 || m + 1 === N))
       console.error(`completed ${m + 1}/${N} reactive simulated matches`);

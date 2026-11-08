@@ -12,6 +12,7 @@ import { expectedFutureWins } from "./horizon.js";
 import { pricedCashout } from "./cash-rollout.js";
 import { mixedScoreUtility } from "./win-utility.js";
 import winPrior from './win-prior.json';
+import { acquisitionWeights } from './acquisition-prior.js';
 
 export interface AdvParams {
   samples: number; // Monte Carlo samples per letter (speed vs. accuracy)
@@ -56,6 +57,8 @@ export interface AdvParams {
   cashRolloutMinLength?: number;
   winBonus?: number;
   winBandwidth?: number;
+  /** Optional price-weighted future composition; absent/zero preserves sampling. */
+  futurePricePower?: number;
 }
 
 export const ADV_DEFAULTS: AdvParams = {
@@ -174,7 +177,7 @@ export class AdvancedBot {
     const value = this.mc.value(v.rack, letter, v.unseen, expWins, p.samples, (this.seed = (this.seed * 1103515245 + 12345) >>> 0), Math.max(0, deadline - performance.now()),
       () => performance.now(), (p.winBonus ?? 0) > 0
         ? score => mixedScoreUtility(v.score + score, p.winBonus!, winPrior.scores, p.winBandwidth ?? 12)
-        : undefined);
+        : undefined, acquisitionWeights(p.futurePricePower));
     const denyFloor =
       p.denyLast > 0 && v.bagLeft <= p.denyLast && v.seatCount > 2
         ? Math.floor((p.denyMult * v.balance) / (v.bagLeft + 1))

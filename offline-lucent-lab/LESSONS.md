@@ -59,3 +59,17 @@ Decision: Prioritize long-word frequency and value in new paired experiments. Ex
 Uncertainty: Changing versions/opponent mix; selected recent matches; correlations and winner-conditioned summaries do not identify causal effects or predict130–140mean.
 
 Revisit only when: Test a concrete acquisition/completion mechanism against the current live policy on joint score and win outcomes; retain long-word diagnostics.
+
+## lucentlab-win30-price-future-screen — price-weighted-future-tiles (unproven)
+
+Hypothesis: Discounting expensive letters in sampled future acquisitions values current opportunities more realistically and improves wins plus score against current WIN30. Keep horizon unchanged to isolate composition.
+
+Evidence: ../bot-starter/docs/experiments/lucentlab-win30-price-future-screen-reactive-summary.json
+
+Observed: live/BASE: trials=96, uniqueWorlds=32, score=84.1250, winsIncludingTies=21.8750%; live/PRICE05: trials=96, uniqueWorlds=32, score=85.3438, winsIncludingTies=21.8750%; live/PRICE1: trials=96, uniqueWorlds=32, score=85.1979, winsIncludingTies=31.2500%; live/PRICE2: trials=96, uniqueWorlds=32, score=88.8125, winsIncludingTies=37.5000%
+
+Decision: Screen nominates possibilities only. Review paired intervals, opponent robustness and three-repeat held-out checks before selecting an offline incumbent.
+
+Uncertainty: Synthetic opponent policies, CPU deadlines and instant actions. A screen is selection data; no real leaderboard or independent validation claim.
+
+Revisit only when: Freeze a candidate and run fresh worlds, an unseen opponent field and repeated-world stability checks.

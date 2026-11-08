@@ -40,7 +40,8 @@ const A = 65;
 
 // Draw `k` tiles from the unseen pool without replacement, into a 26-counts
 // array. Returns the drawn counts; does not mutate `pool`.
-function sampleFuture(pool: Record<string, number>, total: number, k: number, rnd: () => number): Uint8Array {
+export function sampleFuture(pool: Record<string, number>, total: number, k: number, rnd: () => number,
+  weights?: Readonly<Record<string, number>>): Uint8Array {
   const letters: string[] = [];
   const counts: number[] = [];
   for (const [l, n] of Object.entries(pool)) if (n > 0) { letters.push(l); counts.push(n); }
@@ -48,7 +49,18 @@ function sampleFuture(pool: Record<string, number>, total: number, k: number, rn
   let remaining = total;
   const draw = Math.min(k, remaining);
   const work = counts.slice();
+  const mass = weights && letters.map(l => weights[l] ?? 1);
+  if (mass?.some(w => !Number.isFinite(w) || w <= 0)) throw new Error('Invalid future acquisition weight');
   for (let d = 0; d < draw; d++) {
+    if (mass) {
+      const weightedTotal = work.reduce((sum, n, i) => sum + n * mass[i]!, 0);
+      let target = rnd() * weightedTotal;
+      for (let i = 0; i < work.length; i++) {
+        target -= work[i]! * mass[i]!;
+        if (target < 0) { out[letters[i]!.charCodeAt(0) - A]!++; work[i]!--; remaining--; break; }
+      }
+      continue;
+    }
     let idx = Math.floor(rnd() * remaining);
     for (let i = 0; i < work.length; i++) {
       if (idx < work[i]!) { out[letters[i]!.charCodeAt(0) - A]!++; work[i]!--; remaining--; break; }
@@ -70,7 +82,8 @@ export class MonteCarlo {
   // unseen pool to sample them from.
   // Stops early once `budgetMs` is spent, so a busy CPU can't make us miss
   // the auction window. Incomplete paired samples contribute nothing.
-  value(rack: Rack, letter: string, unseen: Unseen, futureWins: number, samples: number, seed: number, budgetMs = 300, now: () => number = () => performance.now(), utility?: (rackScore: number) => number): number {
+  value(rack: Rack, letter: string, unseen: Unseen, futureWins: number, samples: number, seed: number, budgetMs = 300, now: () => number = () => performance.now(), utility?: (rackScore: number) => number,
+    futureWeights?: Readonly<Record<string, number>>): number {
     const t0 = now();
     const tracker = { operations: 0, exhausted: false };
     const budget: SearchBudget = { deadlineMs: t0 + Math.max(0, budgetMs), now, tracker,
@@ -99,7 +112,7 @@ export class MonteCarlo {
     const trials = k === 0 ? Math.min(samples, 1) : samples;
     for (let s = 0; s < trials; s++) {
       if (tracker.exhausted || now() >= budget.deadlineMs!) break;
-      const fut = sampleFuture(unseen.counts, unseen.total, k, rnd); // common random numbers
+      const fut = sampleFuture(unseen.counts, unseen.total, k, rnd, futureWeights); // common random numbers
       // without the letter
       for (let i = 0; i < 26; i++) tmp[i] = base[i]! + fut[i]!;
       const without = evaluate();

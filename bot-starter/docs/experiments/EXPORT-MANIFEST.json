@@ -120,6 +120,10 @@
     {
       "file": "validation-refine-screen-summary.json",
       "sha256": "e22591922b67c2e311d2e200f694c0bfdde883f8467292d3305357517ac692bb"
+    },
+    {
+      "file": "lucentlab-win30-price-future-screen-reactive-summary.json",
+      "sha256": "f65824cd522286342d7891c97af433a38b8b00a56998f7c0d96f3ddce697faa4"
     }
   ]
 }
