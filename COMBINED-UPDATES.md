@@ -27,7 +27,7 @@ Priced cashout was rejected after a 192-game screen. Its saved failure world cha
 - [Experiment export manifest](bot-starter/docs/experiments/EXPORT-MANIFEST.json); reports and exact frozen sources preserve winners, losers and failed campaigns.
 - [Offline improvement loop](offline-lucent-lab/SELF-IMPROVEMENT.md).
 
-Combined verification after the completion-floor integration: 161 TypeScript tests, 70 Python evaluation tests, 8 lab workflow tests and TypeScript build passed. Tests use existing generated bindings; regenerate them on a fresh checkout as described by the bot starter documentation. No live match test was run by the integration session.
+Combined verification after the completion-floor integration: 170 TypeScript tests, 70 Python evaluation tests, 8 lab workflow tests and TypeScript build passed. Tests use existing generated bindings; regenerate them on a fresh checkout as described by the bot starter documentation. No live match test was run by the integration session.
 
 ## Follow-up acquisition screen
 
@@ -54,3 +54,13 @@ The fresh 256-world, three-arm validation completed 768 simulated matches. WIN30
 Public rating-history artifacts preserve the version transition separately from strategy effects. The retired first version had110matches,15wins and9174totalpoints. Attribution uses the game's version-at-match-creation rule; the identity of whoever initiated the version change is unknown. Do not describe the entire rating discontinuity as a strategy regression.
 
 The exact four-case completion-floor replay reproduces the cheap early ALUNITE21 versus later LIQUATE48 failure, and the beneficial midgame PLUMATE33 acquisition. See offline-lucent-lab/forensics/completion-floor for the patch and repeatable replay. The user-supplied Odysseus Test Brief is retained with provenance; its 209-match claims are distinct from independently audited cohorts. Read-only shared-worker health reporting and eight regression tests from the other session are also integrated.
+
+A new optional completion-opportunity guard retains the ordinary MC bid and only suppresses the extra completion floor. It requires sufficient cash/time plus a legal one-tile alternative with material availability-weighted score upside; unknown or exhausted searches retain the previous floor. The appearance calculation is a uniform-unseen-pool heuristic, not auction capture probability. Nine new tests cover the two opposing replay cases and operational bounds. The prepared 32-world screen is unexecuted; no live promotion or performance claim.
+
+The latest public extremes audit found Waupus highest at52.82%wins/248games, but its last200matches were onOctober25; there are no current WIN30 matched tables. Bron's lifetime135.63mean contrasts with99.33in the latest200games tonight (39.5%wins). Both strongly favor high-value long words, but differing periods/fields prevent transferring their aggregate win rates to our live strategy.
+
+The read-only rating observer refreshes every90seconds until the session deadline. It records every small positive and negative rating move with source/version, own/winner long words, quarterly purchases and spending, and available own bid-log attempts compared with archived maximum bids. Logged attempts are not reducer acknowledgments; missing/late/rejected actions remain distinct from valid bids below a rival. The saved checkpoint includes own local log correlation and is explicitly not marked public-only.
+
+The user-requested standing workflow is now linked from root and lab startup instructions: audit every small gain and loss, preserve source/version attribution, separate execution failures from legal lost bids, compare current WR/score leaders with matched cohorts, and retain all evidence across sessions.
+
+The rare-letter bid candidate improved fresh256-world mean score90.55→96.18 (paired95%CI for delta[2.70,8.81]) and placement2.957→2.648. Wins rose29.30%→31.64%, but their delta interval[-2.73,7.81]percentage points includes zero. Seven-plus-letter points fell69.67→66.19 as word count fell1.715→1.586; points per long word increased40.63→41.73. This is evidence of mean-score improvement in this simulator, not proof of a win-rate increase or a fix for the long-word points gap. Both the64-world screen and fresh256-world outcomes/sources are retained.

@@ -180,6 +180,54 @@
     {
       "file": "completion-floor-win30-screen-live-FLOOR1-reactive.json",
       "sha256": "1034e18e98fd8def385b5c59414ad6629367b18e80e27960537f87cd7f58cef7"
+    },
+    {
+      "file": "win30-rare-screen-64-config.json",
+      "sha256": "43907affc6db26b3b4f348dbe4cab008550a1c5a16fe58641f69082bfcd2a35c"
+    },
+    {
+      "file": "win30-rare-screen-64-live-BASE-reactive.json",
+      "sha256": "991a75c349c33e401a55ca09262c53bbeb16d6e0c7e74e7a529e46643ea5337b"
+    },
+    {
+      "file": "win30-rare-screen-64-live-RARE05-reactive.json",
+      "sha256": "1b3b784ce5f5cac65f0fd2c6cad503859b75c4762d62967584283cd90406bcc2"
+    },
+    {
+      "file": "win30-rare-screen-64-live-RARE1-reactive.json",
+      "sha256": "7b61c05766a8b6c15e9c951ea69751d019570f6e14c5a37d82e7382d005f5e5a"
+    },
+    {
+      "file": "win30-rare-screen-64-live-RARE2-reactive.json",
+      "sha256": "f6e0bd0d663eb885031131fface9b8956fbd47ddec722214812c8c0d39e5f077"
+    },
+    {
+      "file": "win30-rare-screen-64-reactive-summary-postprocess.json",
+      "sha256": "e1731f8600b1d8d07240f443f0b1a789eef8f7ca07f7ab3d48e39162ea6d5148"
+    },
+    {
+      "file": "win30-rare-screen-64-reactive-summary.json",
+      "sha256": "9224468d73c33c4e7befc6389920bded01676a011a809ba2519af0fdf7d7897e"
+    },
+    {
+      "file": "win30-rare2-validation-256-config.json",
+      "sha256": "c754ef06c5f074dc72a1fe690e056dcb4f9be16ade0e94da4d5f4cc1e47485f1"
+    },
+    {
+      "file": "win30-rare2-validation-256-live-BASE-reactive.json",
+      "sha256": "fbdc303802911649db2134203a6e484886282405f18303ea53b2c32d7b90d02b"
+    },
+    {
+      "file": "win30-rare2-validation-256-live-RARE2-reactive.json",
+      "sha256": "8b24b6dffe76e6a88d36b18689a9e537a892fdcae2d4cd2413927ac76f1358d6"
+    },
+    {
+      "file": "win30-rare2-validation-256-reactive-summary-postprocess.json",
+      "sha256": "f2472d5049bbe4c010eae131c1d052ee3cb8adb020ee00d4e173c1d0e4eb6152"
+    },
+    {
+      "file": "win30-rare2-validation-256-reactive-summary.json",
+      "sha256": "c4f7bf66098b4d0e5edd9622d9d7f32071df12b6637559ea72502223e892190c"
     }
   ]
 }

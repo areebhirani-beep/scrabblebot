@@ -8,3 +8,5 @@
 - Screening can reject or nominate a candidate, never promote one. For a final local candidate, use fresh seeds, an unseen opponent composition and >=3 repeated executions per world; aggregate within worlds before uncertainty estimates. Check both score and wins, word legality, deadline reliability, and disabled-default equivalence.
 - Skill used: `agent-regression-evals skill, version 1.0.0`. Do not claim a statistical pass from a small nonsignificant comparison.
 - Persist code or process improvements in reviewable files. Do not claim underlying model weights have learned or that background work continues without an actual process.
+
+- Read [ODYSSEUS-STANDING-WORKFLOW.md](../ODYSSEUS-STANDING-WORKFLOW.md) at startup and after compaction. Apply the user-requested loss/small-gain audits, win-rate priority, current-leader comparisons, source attribution and cross-session reporting in every recurring case.

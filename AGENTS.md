@@ -7,3 +7,5 @@
 - Use one heavy offline worker at a time with `bot-starter/.runtime-odysseus/offlineworker.lock`, bounded Node memory and the existing power guard. Never stage tokens, environment files, runtime logs, dependency directories or generated credentials.
 - Verify with `cd bot-starter && npm test && npm run build`; Python evaluation tests use `python3 -m unittest discover -s tools -p 'test_*.py'`. Lab workflow tests run from `offline-lucent-lab` with `python3 -m unittest test_learning.py test_repeated.py`.
 - Frozen experimental sources and reports in `bot-starter/docs/experiments` are historical evidence. Do not edit their source files to fix the current bot; change `bot-starter/src` and run a new experiment.
+
+- Read [ODYSSEUS-STANDING-WORKFLOW.md](ODYSSEUS-STANDING-WORKFLOW.md) at startup and after compaction. Apply the user-requested loss/small-gain audits, win-rate priority, current-leader comparisons, source attribution and cross-session reporting in every recurring case.

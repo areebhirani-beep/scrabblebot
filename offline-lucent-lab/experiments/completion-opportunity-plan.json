@@ -1,0 +1,16 @@
+{
+  "kind": "screen",
+  "family": "opportunity-aware-completion-floor",
+  "hypothesis": "A rack-specific availability and phase guard prevents cheap completion overrides that destroy better available long-word opportunities while preserving useful midgame completions, improving wins and mean score over WIN30.",
+  "offlineOnly": true,
+  "objectives": [
+    "winRate",
+    "meanScore"
+  ],
+  "baseline": "Frozen WIN30 parent f91ea7e6 baseline arm, no floor",
+  "screenConfig": "experiments/completion-opportunity-screen.json",
+  "newEvidence": "experiments/completion-floor-forensics/SUMMARY.json",
+  "falsifier": "Reject promotion if either primary metric or seven-plus scoring regresses; verify guard actually triggers and report conditional uncertainty.",
+  "warning": "Gate parameters chosen after two diagnostic cases; fresh outcomes required. Appearance probability assumes uniform unseen pool and is not the chance of winning an auction.",
+  "repeatsPerWorld": 1
+}

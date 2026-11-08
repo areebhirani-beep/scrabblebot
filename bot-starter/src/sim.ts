@@ -39,7 +39,7 @@ export interface Player {
   bid(letter: string, bagLeft: number): number;
   play(bagLeft: number, justWon: boolean): string[];
   /** Copy counters after the match without changing policy state. */
-  getCompletionFloorStats?(): { checks: number; opportunities: number; raisedBids: number };
+  getCompletionFloorStats?(): { checks: number; opportunities: number; raisedBids: number; opportunityVetoes?: number };
 }
 
 export function selectServerLongest(candidates: readonly { word: string; score: number }[]): string | undefined {
@@ -452,7 +452,7 @@ if (ONE) {
   if (!fields[cfg.field]) throw new Error(`Unknown interactive field: ${cfg.field}`);
   let place = 0, score = 0, wins = 0;
   const details: { matchIndex: number; score: number; place: number; win: boolean; balance: number; fieldScores: number[];
-    completionFloorStats: { checks: number; opportunities: number; raisedBids: number } | null;
+    completionFloorStats: { checks: number; opportunities: number; raisedBids: number; opportunityVetoes?: number } | null;
     words7Plus: number; points7Plus: number; wordLengths: number[]; telemetry: SimPlayerTelemetry; fieldTelemetry: SimPlayerTelemetry[]; opponentStyles: string[] }[] = [];
   for (let m = 0; m < N; m++) {
     const ps = fields[cfg.field]!();

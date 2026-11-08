@@ -14,6 +14,7 @@ import { mixedScoreUtility } from "./win-utility.js";
 import winPrior from './win-prior.json';
 import { acquisitionWeights } from './acquisition-prior.js';
 import { immediateCompletion } from './completion-floor.js';
+import { betterCompletionOpportunity } from './completion-opportunity.js';
 
 export interface AdvParams {
   samples: number; // Monte Carlo samples per letter (speed vs. accuracy)
@@ -63,6 +64,9 @@ export interface AdvParams {
   /** Explicit immediate 7+ completion bid floor, disabled unless selected. */
   completionFloorGain?: number;
   completionFloorMaxBid?: number;
+  /** Optional veto of the extra floor when a better rack-specific completion remains available. */
+  completionOpportunityGuard?: boolean;
+  completionOpportunityMinUpside?: number;
 }
 
 export const ADV_DEFAULTS: AdvParams = {
@@ -119,7 +123,7 @@ export interface AdvView {
 }
 
 export class AdvancedBot {
-  readonly completionFloorStats = { checks: 0, opportunities: 0, raisedBids: 0 };
+  readonly completionFloorStats = { checks: 0, opportunities: 0, raisedBids: 0, opportunityVetoes: 0 };
   private mc: MonteCarlo;
   private seed = 0x9e3779b9;
   private terminalPlan?: {
@@ -195,8 +199,15 @@ export class AdvancedBot {
       });
       if (completion) {
         this.completionFloorStats.opportunities++;
+        const alternative = p.completionOpportunityGuard ? betterCompletionOpportunity(
+          this.engine, v.rack, letter, completion.score,
+          { balance: v.balance, bagLeft: v.bagLeft, unseen: v.unseen,
+            minAvailableUpside: p.completionOpportunityMinUpside },
+          { deadlineMs: deadline, budgetMs: Math.max(0, Math.min(2, (deadline - performance.now()) / 10)),
+            maxOperations: 20_000 }) : undefined;
+        if (alternative) this.completionFloorStats.opportunityVetoes++;
         // Absolute ceiling also bounds the first-price optimizer's integer loop.
-        completionFloor = Math.floor(Math.min(40, floorCap, floorGain * completion.gain));
+        completionFloor = alternative ? 0 : Math.floor(Math.min(40, floorCap, floorGain * completion.gain));
         if (v.firstPrice) {
           const quarter = Math.min(3, Math.floor(((v.bagStart - 1 - v.bagLeft) * 4) / Math.max(1, v.bagStart)));
           completionFloor = firstPriceBid(letter, Math.max(0, quarter), completionFloor);

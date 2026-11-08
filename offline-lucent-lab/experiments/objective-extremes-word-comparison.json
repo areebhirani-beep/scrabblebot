@@ -1,0 +1,378 @@
+{
+  "status": "complete",
+  "cohorts": {
+    "waupus": {
+      "botId": 138,
+      "firstEnded": "2026-10-25T05:00:06.587843+00:00",
+      "lastEnded": "2026-10-25T09:09:13.795137+00:00",
+      "all200": {
+        "n": 200,
+        "wins": 106,
+        "winPercent": 53.0,
+        "meanScore": 102.78,
+        "points7PlusPerGame": 84.315,
+        "words7PlusPerGame": 1.785,
+        "pointsPerLongWord": 47.23529411764706,
+        "longWords45PlusFraction": 0.6162464985994398,
+        "fourPlusFaceLettersPerLongWord": 1.3865546218487395,
+        "opponentMeanScore": 71.92978936810431,
+        "opponentZeroScoreFraction": 0.03009027081243731,
+        "firstWord7PlusFraction": 0.985,
+        "wordLengthCounts": {
+          "7": 300,
+          "6": 57,
+          "4": 36,
+          "3": 39,
+          "5": 57,
+          "8": 47,
+          "2": 55,
+          "9": 9,
+          "10": 1
+        },
+        "bestLongExamples": [
+          {
+            "word": "QUIXOTRY",
+            "points": 81,
+            "matchId": 16525
+          },
+          {
+            "word": "EQUIVOCAL",
+            "points": 69,
+            "matchId": 15806
+          },
+          {
+            "word": "KYANIZE",
+            "points": 69,
+            "matchId": 16077
+          },
+          {
+            "word": "JONQUIL",
+            "points": 69,
+            "matchId": 16505
+          },
+          {
+            "word": "ENZYMIC",
+            "points": 69,
+            "matchId": 16793
+          },
+          {
+            "word": "QUOTABLY",
+            "points": 66,
+            "matchId": 16226
+          },
+          {
+            "word": "BAZOOKA",
+            "points": 66,
+            "matchId": 16333
+          },
+          {
+            "word": "NOVELIZED",
+            "points": 66,
+            "matchId": 16457
+          }
+        ]
+      },
+      "fiveOrMoreCurrentlyKnownRealBots": {
+        "n": 198,
+        "wins": 106,
+        "winPercent": 53.535353535353536,
+        "meanScore": 102.43939393939394,
+        "points7PlusPerGame": 83.86363636363636,
+        "words7PlusPerGame": 1.7727272727272727,
+        "pointsPerLongWord": 47.30769230769231,
+        "longWords45PlusFraction": 0.6153846153846154,
+        "fourPlusFaceLettersPerLongWord": 1.3874643874643875,
+        "opponentMeanScore": 71.53629032258064,
+        "opponentZeroScoreFraction": 0.03024193548387097,
+        "firstWord7PlusFraction": 0.9848484848484849,
+        "wordLengthCounts": {
+          "7": 297,
+          "6": 57,
+          "4": 35,
+          "3": 38,
+          "5": 57,
+          "8": 46,
+          "2": 55,
+          "9": 7,
+          "10": 1
+        },
+        "bestLongExamples": [
+          {
+            "word": "QUIXOTRY",
+            "points": 81,
+            "matchId": 16525
+          },
+          {
+            "word": "EQUIVOCAL",
+            "points": 69,
+            "matchId": 15806
+          },
+          {
+            "word": "KYANIZE",
+            "points": 69,
+            "matchId": 16077
+          },
+          {
+            "word": "JONQUIL",
+            "points": 69,
+            "matchId": 16505
+          },
+          {
+            "word": "ENZYMIC",
+            "points": 69,
+            "matchId": 16793
+          },
+          {
+            "word": "QUOTABLY",
+            "points": 66,
+            "matchId": 16226
+          },
+          {
+            "word": "BAZOOKA",
+            "points": 66,
+            "matchId": 16333
+          },
+          {
+            "word": "NOVELIZED",
+            "points": 66,
+            "matchId": 16457
+          }
+        ]
+      },
+      "matchedCurrentWIN30": {
+        "leader": {
+          "n": 0
+        },
+        "ours": {
+          "n": 0
+        }
+      },
+      "limitation": "Historical cohorts and current bot flags; unknown deleted bots are not assumed real. Current-version aggregate may differ from retained matches. Winner-conditioned examples and unmatched fields do not establish transferable causal policy."
+    },
+    "bron": {
+      "botId": 114,
+      "firstEnded": "2026-11-07T20:17:53.660579+00:00",
+      "lastEnded": "2026-11-08T00:52:24.036886+00:00",
+      "all200": {
+        "n": 200,
+        "wins": 79,
+        "winPercent": 39.5,
+        "meanScore": 99.33,
+        "points7PlusPerGame": 78.33,
+        "words7PlusPerGame": 1.855,
+        "pointsPerLongWord": 42.22641509433962,
+        "longWords45PlusFraction": 0.42587601078167114,
+        "fourPlusFaceLettersPerLongWord": 1.1725067385444743,
+        "opponentMeanScore": 68.316,
+        "opponentZeroScoreFraction": 0.072,
+        "firstWord7PlusFraction": 0.98,
+        "wordLengthCounts": {
+          "7": 296,
+          "2": 63,
+          "8": 68,
+          "3": 48,
+          "6": 61,
+          "4": 44,
+          "9": 5,
+          "5": 52,
+          "10": 2
+        },
+        "bestLongExamples": [
+          {
+            "word": "JAYWALKING",
+            "points": 84,
+            "matchId": 42730
+          },
+          {
+            "word": "BALKANIZED",
+            "points": 78,
+            "matchId": 42815
+          },
+          {
+            "word": "VOWELIZED",
+            "points": 75,
+            "matchId": 42773
+          },
+          {
+            "word": "JOYSTICK",
+            "points": 72,
+            "matchId": 42697
+          },
+          {
+            "word": "OXIDIZE",
+            "points": 72,
+            "matchId": 42705
+          },
+          {
+            "word": "OXAZINES",
+            "points": 72,
+            "matchId": 43229
+          },
+          {
+            "word": "QUIXOTE",
+            "points": 69,
+            "matchId": 42720
+          },
+          {
+            "word": "JONQUIL",
+            "points": 69,
+            "matchId": 42869
+          }
+        ]
+      },
+      "fiveOrMoreCurrentlyKnownRealBots": {
+        "n": 200,
+        "wins": 79,
+        "winPercent": 39.5,
+        "meanScore": 99.33,
+        "points7PlusPerGame": 78.33,
+        "words7PlusPerGame": 1.855,
+        "pointsPerLongWord": 42.22641509433962,
+        "longWords45PlusFraction": 0.42587601078167114,
+        "fourPlusFaceLettersPerLongWord": 1.1725067385444743,
+        "opponentMeanScore": 68.316,
+        "opponentZeroScoreFraction": 0.072,
+        "firstWord7PlusFraction": 0.98,
+        "wordLengthCounts": {
+          "7": 296,
+          "2": 63,
+          "8": 68,
+          "3": 48,
+          "6": 61,
+          "4": 44,
+          "9": 5,
+          "5": 52,
+          "10": 2
+        },
+        "bestLongExamples": [
+          {
+            "word": "JAYWALKING",
+            "points": 84,
+            "matchId": 42730
+          },
+          {
+            "word": "BALKANIZED",
+            "points": 78,
+            "matchId": 42815
+          },
+          {
+            "word": "VOWELIZED",
+            "points": 75,
+            "matchId": 42773
+          },
+          {
+            "word": "JOYSTICK",
+            "points": 72,
+            "matchId": 42697
+          },
+          {
+            "word": "OXIDIZE",
+            "points": 72,
+            "matchId": 42705
+          },
+          {
+            "word": "OXAZINES",
+            "points": 72,
+            "matchId": 43229
+          },
+          {
+            "word": "QUIXOTE",
+            "points": 69,
+            "matchId": 42720
+          },
+          {
+            "word": "JONQUIL",
+            "points": 69,
+            "matchId": 42869
+          }
+        ]
+      },
+      "matchedCurrentWIN30": {
+        "leader": {
+          "n": 2,
+          "wins": 2,
+          "winPercent": 100.0,
+          "meanScore": 120.5,
+          "points7PlusPerGame": 103.5,
+          "words7PlusPerGame": 2.0,
+          "pointsPerLongWord": 51.75,
+          "longWords45PlusFraction": 0.75,
+          "fourPlusFaceLettersPerLongWord": 1.25,
+          "opponentMeanScore": 64.8,
+          "opponentZeroScoreFraction": 0.0,
+          "firstWord7PlusFraction": 1.0,
+          "wordLengthCounts": {
+            "7": 3,
+            "5": 1,
+            "8": 1,
+            "4": 1
+          },
+          "bestLongExamples": [
+            {
+              "word": "OXAZINES",
+              "points": 72,
+              "matchId": 43229
+            },
+            {
+              "word": "OPAQUER",
+              "points": 54,
+              "matchId": 43222
+            },
+            {
+              "word": "AGATIZE",
+              "points": 51,
+              "matchId": 43222
+            },
+            {
+              "word": "AWAITER",
+              "points": 30,
+              "matchId": 43229
+            }
+          ]
+        },
+        "ours": {
+          "n": 2,
+          "wins": 0,
+          "winPercent": 0.0,
+          "meanScore": 96.0,
+          "points7PlusPerGame": 90.0,
+          "words7PlusPerGame": 2.0,
+          "pointsPerLongWord": 45.0,
+          "longWords45PlusFraction": 0.75,
+          "fourPlusFaceLettersPerLongWord": 1.75,
+          "opponentMeanScore": 69.7,
+          "opponentZeroScoreFraction": 0.0,
+          "firstWord7PlusFraction": 1.0,
+          "wordLengthCounts": {
+            "7": 3,
+            "2": 3,
+            "8": 1
+          },
+          "bestLongExamples": [
+            {
+              "word": "HEAVILY",
+              "points": 48,
+              "matchId": 43222
+            },
+            {
+              "word": "CADUCITY",
+              "points": 48,
+              "matchId": 43229
+            },
+            {
+              "word": "WEBFOOT",
+              "points": 45,
+              "matchId": 43222
+            },
+            {
+              "word": "HOGMANE",
+              "points": 39,
+              "matchId": 43229
+            }
+          ]
+        }
+      },
+      "limitation": "Historical cohorts and current bot flags; unknown deleted bots are not assumed real. Current-version aggregate may differ from retained matches. Winner-conditioned examples and unmatched fields do not establish transferable causal policy."
+    }
+  }
+}
